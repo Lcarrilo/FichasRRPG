@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmSR6e" formType="sheetTemplate" dataType="Lcarrilo.SR6e" title="Ficha SR6e" align="client" theme="dark">
+    <tabControl align="client">
+        <tab title="Frente">
+            <import file="1.lfm"/>
+        </tab>
+        <tab title="Verso">
+            <import file="2.lfm"/>
+        </tab>
+ 	<tab title="Anotações">
+            <import file="3.lfm"/>
+        </tab>
+    </tabControl>
+</form>

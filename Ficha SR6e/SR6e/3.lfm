@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmSR6e3_svg" align="client" theme="dark" margins="{top=1}">
+    <style>#frmSR6e3_svg path {color: white; strokeColor: white; mode: stretch;} &#xD;
+#frmSR6e1_svg label {fontColor: white; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+		<layout left="20" top="20" width="400" height="760">
+			<rectangle left="0" top="0" width="400" height="760" color="black" xradius="5" yradius="15" cornerType="round"/>
+	        <label left="0" top="0" width="400" height="20" text="NOTES" horzTextAlign="center"/>
+			<textEditor left="10" top="25" width="380" height="700" field="anotacoes1"/>
+        </layout>
+		
+		<layout left="440" top="20" width="400" height="760">
+			<rectangle left="0" top="0" width="400" height="760" color="black" xradius="5" yradius="15" cornerType="round"/>
+	        <label left="0" top="0" width="400" height="20" text="PLANS" horzTextAlign="center"/>
+			<textEditor left="10" top="25" width="380" height="700" field="anotacoes2"/>
+        </layout>
+		
+		<layout left="860" top="20" width="400" height="760">
+			<rectangle left="0" top="0" width="400" height="760" color="black" xradius="5" yradius="15" cornerType="round"/>
+	        <label left="0" top="0" width="400" height="20" text="OTHERS" horzTextAlign="center"/>
+			<textEditor left="10" top="25" width="380" height="700" field="anotacoes3"/>
+        </layout>
+
+		<layout left="1280" top="20" width="400" height="760">
+			<rectangle left="0" top="0" width="400" height="760" color="black" xradius="5" yradius="15" cornerType="round"/>
+	        <label left="0" top="0" width="400" height="20" text="OTHERS" horzTextAlign="center"/>
+			<textEditor left="10" top="25" width="380" height="700" field="anotacoes4"/>
+        </layout>
+	</scrollBox>
+</form>
