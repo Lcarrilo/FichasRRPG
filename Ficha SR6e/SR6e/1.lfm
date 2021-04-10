@@ -4,7 +4,7 @@
 #frmSR6e1_svg label {fontColor: white; textTrimming: none; wordWrap: false; autoSize: true;}</style>
     <scrollBox align="client">
         <rectangle width="1224" height="1584" color="black">&#xD;
-            <image left="0" top="0" width="1224" height="1584" src="images/3.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <image left="0" top="0" width="1224" height="1584" src="images/01.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
             <layout left="822" top="117" width="299" height="24" compilerOrder="1">
                 <edit transparent="true" fontSize="15.8" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="299" height="31" field="Character__0" compilerOrder="2"/>
             </layout>&#xD;
@@ -150,28 +150,28 @@
                 <edit transparent="true" fontSize="15" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="20" top="0" width="128" height="29" field="Movement" compilerOrder="126"/>
             </layout>&#xD;
             <layout left="211" top="659" width="15" height="15" compilerOrder="109">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge1" compilerOrder="110"/>
-            </layout>&#xD;
+		<imageCheckBox width="15" height="15" field="Edge1" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
+                </layout>&#xD;
             <layout left="227" top="659" width="15" height="15" compilerOrder="111">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge2" compilerOrder="112"/>
+                <imageCheckBox width="15" height="15" field="Edge2" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="242" top="659" width="15" height="15" compilerOrder="113">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge3" compilerOrder="114"/>
+                <imageCheckBox width="15" height="15" field="Edge3" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="257" top="659" width="15" height="15" compilerOrder="115">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge4" compilerOrder="116"/>
+                <imageCheckBox width="15" height="15" field="Edge4" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="273" top="659" width="15" height="15" compilerOrder="117">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge5" compilerOrder="118"/>
+                <imageCheckBox width="15" height="15" field="Edge5" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="289" top="659" width="16" height="15" compilerOrder="119">
-                <checkBox left="-1" top="0" width="15" height="15" field="Edge6" compilerOrder="120"/>
+              <imageCheckBox width="15" height="15" field="Edge6" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="304" top="659" width="15" height="15" compilerOrder="121">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge7" compilerOrder="122"/>
+                <imageCheckBox width="15" height="15" field="Edge7" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="320" top="659" width="15" height="15" compilerOrder="123">
-                <checkBox left="0" top="0" width="15" height="15" field="Edge8" compilerOrder="124"/>
+              <imageCheckBox width="15" height="15" field="Edge8" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="450" top="675" width="128" height="21" compilerOrder="137">
                 <edit transparent="true" fontSize="13.5" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="20" top="0" width="128" height="28" field="Defense_Rating" compilerOrder="138"/>
@@ -179,34 +179,7 @@
             <layout left="212" top="676" width="128" height="23" compilerOrder="135">
                 <edit transparent="true" fontSize="15" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="11" top="0" width="128" height="29" field="Unarmed" compilerOrder="136"/>
             </layout>&#xD;
-            <layout left="662" top="685" width="61" height="61" compilerOrder="139">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage10" compilerOrder="140"/>
-            </layout>&#xD;
-            <layout left="726" top="685" width="61" height="61" compilerOrder="141">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage11" compilerOrder="142"/>
-            </layout>&#xD;
-            <layout left="794" top="685" width="61" height="61" compilerOrder="143">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage12" compilerOrder="144"/>
-            </layout>&#xD;
-            <layout left="900" top="685" width="61" height="61" compilerOrder="151">
-                <checkBox left="20" top="0" width="61" height="62" field="SDamage10" compilerOrder="152"/>
-            </layout>&#xD;
-            <layout left="966" top="685" width="61" height="61" compilerOrder="159">
-                <checkBox left="20" top="0" width="61" height="62" field="SDamage11" compilerOrder="160"/>
-            </layout>&#xD;
-            <layout left="1032" top="685" width="61" height="61" compilerOrder="161">
-                <checkBox left="20" top="0" width="61" height="62" field="SDamage12" compilerOrder="162"/>
-            </layout>&#xD;
-            <layout left="662" top="750" width="61" height="61" compilerOrder="163">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage13" compilerOrder="164"/>
-            </layout>&#xD;
-            <layout left="726" top="750" width="61" height="61" compilerOrder="165">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage14" compilerOrder="166"/>
-            </layout>&#xD;
-            <layout left="794" top="750" width="61" height="61" compilerOrder="167">
-                <checkBox left="20" top="0" width="61" height="62" field="PDamage15" compilerOrder="168"/>
-            </layout>&#xD;
-            <layout left="127" top="792" width="92" height="22" compilerOrder="169">
+                <layout left="127" top="792" width="92" height="22" compilerOrder="169">
                 <edit transparent="true" fontSize="14.3" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="92" height="28" field="Skill_0_0_0" compilerOrder="170"/>
             </layout>&#xD;
             <layout left="220" top="792" width="42" height="22" compilerOrder="237">
@@ -254,16 +227,7 @@
             <layout left="541" top="815" width="40" height="22" compilerOrder="379">
                 <edit transparent="true" fontSize="14.3" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="40" height="28" field="Type_0_1_1" compilerOrder="380"/>
             </layout>&#xD;
-            <layout left="662" top="817" width="61" height="61" compilerOrder="445">
-                <checkBox left="20" top="0" width="61" height="62" field="_16" compilerOrder="446"/>
-            </layout>&#xD;
-            <layout left="726" top="817" width="61" height="61" compilerOrder="441">
-                <checkBox left="20" top="0" width="61" height="62" field="_17" compilerOrder="442"/>
-            </layout>&#xD;
-            <layout left="794" top="817" width="61" height="61" compilerOrder="443">
-                <checkBox left="20" top="0" width="61" height="62" field="_18" compilerOrder="444"/>
-            </layout>&#xD;
-            <layout left="127" top="839" width="92" height="22" compilerOrder="177">
+                     <layout left="127" top="839" width="92" height="22" compilerOrder="177">
                 <edit transparent="true" fontSize="14.3" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="92" height="28" field="Skill_0_0_2" compilerOrder="178"/>
             </layout>&#xD;
             <layout left="220" top="839" width="42" height="22" compilerOrder="253">

@@ -4,7 +4,7 @@
 #frmSR6e2_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
     <scrollBox align="client">
         <rectangle width="1224" height="1584" color="white">&#xD;
-            <image left="0" top="0" width="1224" height="1584" src="images/4.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <image left="0" top="0" width="1224" height="1584" src="images/02.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
             <layout left="808" top="117" width="299" height="28" compilerOrder="1">
                 <edit transparent="true" fontSize="15.8" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="299" height="31" field="Character__1" compilerOrder="2"/>
             </layout>&#xD;
@@ -228,40 +228,40 @@
                 <edit transparent="true" fontSize="14.3" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="103" height="28" field="ARMNotes_5" compilerOrder="144"/>
             </layout>&#xD;
             <layout left="805" top="619" width="20" height="26" compilerOrder="155">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond" compilerOrder="156"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond0" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="830" top="619" width="20" height="26" compilerOrder="157">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond1" compilerOrder="158"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond1" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="855" top="619" width="20" height="26" compilerOrder="159">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond2" compilerOrder="160"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond2" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="880" top="619" width="20" height="26" compilerOrder="161">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond3" compilerOrder="162"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond3" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="904" top="619" width="20" height="26" compilerOrder="163">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond4" compilerOrder="164"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond4" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="930" top="619" width="20" height="26" compilerOrder="165">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond5" compilerOrder="166"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond5" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="954" top="619" width="20" height="26" compilerOrder="167">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond6" compilerOrder="168"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond6" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="979" top="619" width="20" height="26" compilerOrder="169">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond7" compilerOrder="170"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond7" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="1003" top="619" width="20" height="26" compilerOrder="171">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond8" compilerOrder="172"/>
+              <imageCheckBox width="20" height="20" field="MatrixCond8" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="1029" top="619" width="20" height="26" compilerOrder="173">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond9" compilerOrder="174"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond9" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="1053" top="619" width="20" height="26" compilerOrder="175">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond10" compilerOrder="176"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond10" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="1078" top="619" width="20" height="26" compilerOrder="177">
-                <checkBox left="0" top="0" width="20" height="27" field="MatrixCond11" compilerOrder="178"/>
+                <imageCheckBox width="20" height="20" field="MatrixCond11" checkedImage="images/icon.png" uncheckedImage="images/null.png"/>
             </layout>&#xD;
             <layout left="106" top="636" width="202" height="27" compilerOrder="121">
                 <edit transparent="true" fontSize="14.3" fontColor="#bcc184" horzTextAlign="leading" vertTextAlign="leading" left="0" top="0" width="202" height="28" field="Armor_6" compilerOrder="122"/>

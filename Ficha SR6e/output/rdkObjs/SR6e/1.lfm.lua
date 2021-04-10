@@ -49,7 +49,7 @@ local function constructNew_frmSR6e1_svg()
     obj.image1:setTop(0);
     obj.image1:setWidth(1224);
     obj.image1:setHeight(1584);
-    obj.image1:setSRC("/SR6e/images/3.png");
+    obj.image1:setSRC("/SR6e/images/01.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");
@@ -1074,14 +1074,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout47:setHeight(15);
     obj.layout47:setName("layout47");
 
-    obj.checkBox1 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox1:setParent(obj.layout47);
-    obj.checkBox1:setLeft(0);
-    obj.checkBox1:setTop(0);
-    obj.checkBox1:setWidth(15);
-    obj.checkBox1:setHeight(15);
-    obj.checkBox1:setField("Edge1");
-    obj.checkBox1:setName("checkBox1");
+    obj.imageCheckBox1 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox1:setParent(obj.layout47);
+    obj.imageCheckBox1:setWidth(15);
+    obj.imageCheckBox1:setHeight(15);
+    obj.imageCheckBox1:setField("Edge1");
+    obj.imageCheckBox1:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox1:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox1:setName("imageCheckBox1");
 
     obj.layout48 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout48:setParent(obj.rectangle1);
@@ -1091,14 +1091,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout48:setHeight(15);
     obj.layout48:setName("layout48");
 
-    obj.checkBox2 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox2:setParent(obj.layout48);
-    obj.checkBox2:setLeft(0);
-    obj.checkBox2:setTop(0);
-    obj.checkBox2:setWidth(15);
-    obj.checkBox2:setHeight(15);
-    obj.checkBox2:setField("Edge2");
-    obj.checkBox2:setName("checkBox2");
+    obj.imageCheckBox2 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox2:setParent(obj.layout48);
+    obj.imageCheckBox2:setWidth(15);
+    obj.imageCheckBox2:setHeight(15);
+    obj.imageCheckBox2:setField("Edge2");
+    obj.imageCheckBox2:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox2:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox2:setName("imageCheckBox2");
 
     obj.layout49 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout49:setParent(obj.rectangle1);
@@ -1108,14 +1108,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout49:setHeight(15);
     obj.layout49:setName("layout49");
 
-    obj.checkBox3 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox3:setParent(obj.layout49);
-    obj.checkBox3:setLeft(0);
-    obj.checkBox3:setTop(0);
-    obj.checkBox3:setWidth(15);
-    obj.checkBox3:setHeight(15);
-    obj.checkBox3:setField("Edge3");
-    obj.checkBox3:setName("checkBox3");
+    obj.imageCheckBox3 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox3:setParent(obj.layout49);
+    obj.imageCheckBox3:setWidth(15);
+    obj.imageCheckBox3:setHeight(15);
+    obj.imageCheckBox3:setField("Edge3");
+    obj.imageCheckBox3:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox3:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox3:setName("imageCheckBox3");
 
     obj.layout50 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout50:setParent(obj.rectangle1);
@@ -1125,14 +1125,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout50:setHeight(15);
     obj.layout50:setName("layout50");
 
-    obj.checkBox4 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox4:setParent(obj.layout50);
-    obj.checkBox4:setLeft(0);
-    obj.checkBox4:setTop(0);
-    obj.checkBox4:setWidth(15);
-    obj.checkBox4:setHeight(15);
-    obj.checkBox4:setField("Edge4");
-    obj.checkBox4:setName("checkBox4");
+    obj.imageCheckBox4 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox4:setParent(obj.layout50);
+    obj.imageCheckBox4:setWidth(15);
+    obj.imageCheckBox4:setHeight(15);
+    obj.imageCheckBox4:setField("Edge4");
+    obj.imageCheckBox4:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox4:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox4:setName("imageCheckBox4");
 
     obj.layout51 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout51:setParent(obj.rectangle1);
@@ -1142,14 +1142,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout51:setHeight(15);
     obj.layout51:setName("layout51");
 
-    obj.checkBox5 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox5:setParent(obj.layout51);
-    obj.checkBox5:setLeft(0);
-    obj.checkBox5:setTop(0);
-    obj.checkBox5:setWidth(15);
-    obj.checkBox5:setHeight(15);
-    obj.checkBox5:setField("Edge5");
-    obj.checkBox5:setName("checkBox5");
+    obj.imageCheckBox5 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox5:setParent(obj.layout51);
+    obj.imageCheckBox5:setWidth(15);
+    obj.imageCheckBox5:setHeight(15);
+    obj.imageCheckBox5:setField("Edge5");
+    obj.imageCheckBox5:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox5:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox5:setName("imageCheckBox5");
 
     obj.layout52 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout52:setParent(obj.rectangle1);
@@ -1159,14 +1159,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout52:setHeight(15);
     obj.layout52:setName("layout52");
 
-    obj.checkBox6 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox6:setParent(obj.layout52);
-    obj.checkBox6:setLeft(-1);
-    obj.checkBox6:setTop(0);
-    obj.checkBox6:setWidth(15);
-    obj.checkBox6:setHeight(15);
-    obj.checkBox6:setField("Edge6");
-    obj.checkBox6:setName("checkBox6");
+    obj.imageCheckBox6 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox6:setParent(obj.layout52);
+    obj.imageCheckBox6:setWidth(15);
+    obj.imageCheckBox6:setHeight(15);
+    obj.imageCheckBox6:setField("Edge6");
+    obj.imageCheckBox6:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox6:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox6:setName("imageCheckBox6");
 
     obj.layout53 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout53:setParent(obj.rectangle1);
@@ -1176,14 +1176,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout53:setHeight(15);
     obj.layout53:setName("layout53");
 
-    obj.checkBox7 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox7:setParent(obj.layout53);
-    obj.checkBox7:setLeft(0);
-    obj.checkBox7:setTop(0);
-    obj.checkBox7:setWidth(15);
-    obj.checkBox7:setHeight(15);
-    obj.checkBox7:setField("Edge7");
-    obj.checkBox7:setName("checkBox7");
+    obj.imageCheckBox7 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox7:setParent(obj.layout53);
+    obj.imageCheckBox7:setWidth(15);
+    obj.imageCheckBox7:setHeight(15);
+    obj.imageCheckBox7:setField("Edge7");
+    obj.imageCheckBox7:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox7:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox7:setName("imageCheckBox7");
 
     obj.layout54 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout54:setParent(obj.rectangle1);
@@ -1193,14 +1193,14 @@ local function constructNew_frmSR6e1_svg()
     obj.layout54:setHeight(15);
     obj.layout54:setName("layout54");
 
-    obj.checkBox8 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox8:setParent(obj.layout54);
-    obj.checkBox8:setLeft(0);
-    obj.checkBox8:setTop(0);
-    obj.checkBox8:setWidth(15);
-    obj.checkBox8:setHeight(15);
-    obj.checkBox8:setField("Edge8");
-    obj.checkBox8:setName("checkBox8");
+    obj.imageCheckBox8 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox8:setParent(obj.layout54);
+    obj.imageCheckBox8:setWidth(15);
+    obj.imageCheckBox8:setHeight(15);
+    obj.imageCheckBox8:setField("Edge8");
+    obj.imageCheckBox8:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox8:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox8:setName("imageCheckBox8");
 
     obj.layout55 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout55:setParent(obj.rectangle1);
@@ -1270,167 +1270,14 @@ local function constructNew_frmSR6e1_svg()
 
     obj.layout58 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout58:setParent(obj.rectangle1);
-    obj.layout58:setLeft(662);
-    obj.layout58:setTop(685);
-    obj.layout58:setWidth(61);
-    obj.layout58:setHeight(61);
+    obj.layout58:setLeft(127);
+    obj.layout58:setTop(792);
+    obj.layout58:setWidth(92);
+    obj.layout58:setHeight(22);
     obj.layout58:setName("layout58");
 
-    obj.checkBox9 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox9:setParent(obj.layout58);
-    obj.checkBox9:setLeft(20);
-    obj.checkBox9:setTop(0);
-    obj.checkBox9:setWidth(61);
-    obj.checkBox9:setHeight(62);
-    obj.checkBox9:setField("PDamage10");
-    obj.checkBox9:setName("checkBox9");
-
-    obj.layout59 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout59:setParent(obj.rectangle1);
-    obj.layout59:setLeft(726);
-    obj.layout59:setTop(685);
-    obj.layout59:setWidth(61);
-    obj.layout59:setHeight(61);
-    obj.layout59:setName("layout59");
-
-    obj.checkBox10 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox10:setParent(obj.layout59);
-    obj.checkBox10:setLeft(20);
-    obj.checkBox10:setTop(0);
-    obj.checkBox10:setWidth(61);
-    obj.checkBox10:setHeight(62);
-    obj.checkBox10:setField("PDamage11");
-    obj.checkBox10:setName("checkBox10");
-
-    obj.layout60 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout60:setParent(obj.rectangle1);
-    obj.layout60:setLeft(794);
-    obj.layout60:setTop(685);
-    obj.layout60:setWidth(61);
-    obj.layout60:setHeight(61);
-    obj.layout60:setName("layout60");
-
-    obj.checkBox11 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox11:setParent(obj.layout60);
-    obj.checkBox11:setLeft(20);
-    obj.checkBox11:setTop(0);
-    obj.checkBox11:setWidth(61);
-    obj.checkBox11:setHeight(62);
-    obj.checkBox11:setField("PDamage12");
-    obj.checkBox11:setName("checkBox11");
-
-    obj.layout61 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout61:setParent(obj.rectangle1);
-    obj.layout61:setLeft(900);
-    obj.layout61:setTop(685);
-    obj.layout61:setWidth(61);
-    obj.layout61:setHeight(61);
-    obj.layout61:setName("layout61");
-
-    obj.checkBox12 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox12:setParent(obj.layout61);
-    obj.checkBox12:setLeft(20);
-    obj.checkBox12:setTop(0);
-    obj.checkBox12:setWidth(61);
-    obj.checkBox12:setHeight(62);
-    obj.checkBox12:setField("SDamage10");
-    obj.checkBox12:setName("checkBox12");
-
-    obj.layout62 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout62:setParent(obj.rectangle1);
-    obj.layout62:setLeft(966);
-    obj.layout62:setTop(685);
-    obj.layout62:setWidth(61);
-    obj.layout62:setHeight(61);
-    obj.layout62:setName("layout62");
-
-    obj.checkBox13 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox13:setParent(obj.layout62);
-    obj.checkBox13:setLeft(20);
-    obj.checkBox13:setTop(0);
-    obj.checkBox13:setWidth(61);
-    obj.checkBox13:setHeight(62);
-    obj.checkBox13:setField("SDamage11");
-    obj.checkBox13:setName("checkBox13");
-
-    obj.layout63 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout63:setParent(obj.rectangle1);
-    obj.layout63:setLeft(1032);
-    obj.layout63:setTop(685);
-    obj.layout63:setWidth(61);
-    obj.layout63:setHeight(61);
-    obj.layout63:setName("layout63");
-
-    obj.checkBox14 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox14:setParent(obj.layout63);
-    obj.checkBox14:setLeft(20);
-    obj.checkBox14:setTop(0);
-    obj.checkBox14:setWidth(61);
-    obj.checkBox14:setHeight(62);
-    obj.checkBox14:setField("SDamage12");
-    obj.checkBox14:setName("checkBox14");
-
-    obj.layout64 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout64:setParent(obj.rectangle1);
-    obj.layout64:setLeft(662);
-    obj.layout64:setTop(750);
-    obj.layout64:setWidth(61);
-    obj.layout64:setHeight(61);
-    obj.layout64:setName("layout64");
-
-    obj.checkBox15 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox15:setParent(obj.layout64);
-    obj.checkBox15:setLeft(20);
-    obj.checkBox15:setTop(0);
-    obj.checkBox15:setWidth(61);
-    obj.checkBox15:setHeight(62);
-    obj.checkBox15:setField("PDamage13");
-    obj.checkBox15:setName("checkBox15");
-
-    obj.layout65 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout65:setParent(obj.rectangle1);
-    obj.layout65:setLeft(726);
-    obj.layout65:setTop(750);
-    obj.layout65:setWidth(61);
-    obj.layout65:setHeight(61);
-    obj.layout65:setName("layout65");
-
-    obj.checkBox16 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox16:setParent(obj.layout65);
-    obj.checkBox16:setLeft(20);
-    obj.checkBox16:setTop(0);
-    obj.checkBox16:setWidth(61);
-    obj.checkBox16:setHeight(62);
-    obj.checkBox16:setField("PDamage14");
-    obj.checkBox16:setName("checkBox16");
-
-    obj.layout66 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout66:setParent(obj.rectangle1);
-    obj.layout66:setLeft(794);
-    obj.layout66:setTop(750);
-    obj.layout66:setWidth(61);
-    obj.layout66:setHeight(61);
-    obj.layout66:setName("layout66");
-
-    obj.checkBox17 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox17:setParent(obj.layout66);
-    obj.checkBox17:setLeft(20);
-    obj.checkBox17:setTop(0);
-    obj.checkBox17:setWidth(61);
-    obj.checkBox17:setHeight(62);
-    obj.checkBox17:setField("PDamage15");
-    obj.checkBox17:setName("checkBox17");
-
-    obj.layout67 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout67:setParent(obj.rectangle1);
-    obj.layout67:setLeft(127);
-    obj.layout67:setTop(792);
-    obj.layout67:setWidth(92);
-    obj.layout67:setHeight(22);
-    obj.layout67:setName("layout67");
-
     obj.edit50 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit50:setParent(obj.layout67);
+    obj.edit50:setParent(obj.layout58);
     obj.edit50:setTransparent(true);
     obj.edit50:setFontSize(14.3);
     obj.edit50:setFontColor("#bcc184");
@@ -1443,16 +1290,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit50:setField("Skill_0_0_0");
     obj.edit50:setName("edit50");
 
-    obj.layout68 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout68:setParent(obj.rectangle1);
-    obj.layout68:setLeft(363);
-    obj.layout68:setTop(792);
-    obj.layout68:setWidth(92);
-    obj.layout68:setHeight(22);
-    obj.layout68:setName("layout68");
+    obj.layout59 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout59:setParent(obj.rectangle1);
+    obj.layout59:setLeft(363);
+    obj.layout59:setTop(792);
+    obj.layout59:setWidth(92);
+    obj.layout59:setHeight(22);
+    obj.layout59:setName("layout59");
 
     obj.edit51 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit51:setParent(obj.layout68);
+    obj.edit51:setParent(obj.layout59);
     obj.edit51:setTransparent(true);
     obj.edit51:setFontSize(14.3);
     obj.edit51:setFontColor("#bcc184");
@@ -1465,16 +1312,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit51:setField("Skill_0_1_0");
     obj.edit51:setName("edit51");
 
-    obj.layout69 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout69:setParent(obj.rectangle1);
-    obj.layout69:setLeft(127);
-    obj.layout69:setTop(815);
-    obj.layout69:setWidth(92);
-    obj.layout69:setHeight(22);
-    obj.layout69:setName("layout69");
+    obj.layout60 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout60:setParent(obj.rectangle1);
+    obj.layout60:setLeft(127);
+    obj.layout60:setTop(815);
+    obj.layout60:setWidth(92);
+    obj.layout60:setHeight(22);
+    obj.layout60:setName("layout60");
 
     obj.edit52 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit52:setParent(obj.layout69);
+    obj.edit52:setParent(obj.layout60);
     obj.edit52:setTransparent(true);
     obj.edit52:setFontSize(14.3);
     obj.edit52:setFontColor("#bcc184");
@@ -1487,16 +1334,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit52:setField("Skill_0_0_1");
     obj.edit52:setName("edit52");
 
-    obj.layout70 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout70:setParent(obj.rectangle1);
-    obj.layout70:setLeft(363);
-    obj.layout70:setTop(815);
-    obj.layout70:setWidth(92);
-    obj.layout70:setHeight(22);
-    obj.layout70:setName("layout70");
+    obj.layout61 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout61:setParent(obj.rectangle1);
+    obj.layout61:setLeft(363);
+    obj.layout61:setTop(815);
+    obj.layout61:setWidth(92);
+    obj.layout61:setHeight(22);
+    obj.layout61:setName("layout61");
 
     obj.edit53 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit53:setParent(obj.layout70);
+    obj.edit53:setParent(obj.layout61);
     obj.edit53:setTransparent(true);
     obj.edit53:setFontSize(14.3);
     obj.edit53:setFontColor("#bcc184");
@@ -1509,16 +1356,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit53:setField("Skill_0_1_1");
     obj.edit53:setName("edit53");
 
-    obj.layout71 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout71:setParent(obj.rectangle1);
-    obj.layout71:setLeft(127);
-    obj.layout71:setTop(839);
-    obj.layout71:setWidth(92);
-    obj.layout71:setHeight(22);
-    obj.layout71:setName("layout71");
+    obj.layout62 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout62:setParent(obj.rectangle1);
+    obj.layout62:setLeft(127);
+    obj.layout62:setTop(839);
+    obj.layout62:setWidth(92);
+    obj.layout62:setHeight(22);
+    obj.layout62:setName("layout62");
 
     obj.edit54 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit54:setParent(obj.layout71);
+    obj.edit54:setParent(obj.layout62);
     obj.edit54:setTransparent(true);
     obj.edit54:setFontSize(14.3);
     obj.edit54:setFontColor("#bcc184");
@@ -1531,16 +1378,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit54:setField("Skill_0_0_2");
     obj.edit54:setName("edit54");
 
-    obj.layout72 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout72:setParent(obj.rectangle1);
-    obj.layout72:setLeft(363);
-    obj.layout72:setTop(839);
-    obj.layout72:setWidth(92);
-    obj.layout72:setHeight(22);
-    obj.layout72:setName("layout72");
+    obj.layout63 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout63:setParent(obj.rectangle1);
+    obj.layout63:setLeft(363);
+    obj.layout63:setTop(839);
+    obj.layout63:setWidth(92);
+    obj.layout63:setHeight(22);
+    obj.layout63:setName("layout63");
 
     obj.edit55 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit55:setParent(obj.layout72);
+    obj.edit55:setParent(obj.layout63);
     obj.edit55:setTransparent(true);
     obj.edit55:setFontSize(14.3);
     obj.edit55:setFontColor("#bcc184");
@@ -1553,16 +1400,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit55:setField("Skill_0_1_2");
     obj.edit55:setName("edit55");
 
-    obj.layout73 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout73:setParent(obj.rectangle1);
-    obj.layout73:setLeft(127);
-    obj.layout73:setTop(862);
-    obj.layout73:setWidth(92);
-    obj.layout73:setHeight(22);
-    obj.layout73:setName("layout73");
+    obj.layout64 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout64:setParent(obj.rectangle1);
+    obj.layout64:setLeft(127);
+    obj.layout64:setTop(862);
+    obj.layout64:setWidth(92);
+    obj.layout64:setHeight(22);
+    obj.layout64:setName("layout64");
 
     obj.edit56 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit56:setParent(obj.layout73);
+    obj.edit56:setParent(obj.layout64);
     obj.edit56:setTransparent(true);
     obj.edit56:setFontSize(14.3);
     obj.edit56:setFontColor("#bcc184");
@@ -1575,16 +1422,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit56:setField("Skill_0_0_3");
     obj.edit56:setName("edit56");
 
-    obj.layout74 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout74:setParent(obj.rectangle1);
-    obj.layout74:setLeft(363);
-    obj.layout74:setTop(862);
-    obj.layout74:setWidth(92);
-    obj.layout74:setHeight(22);
-    obj.layout74:setName("layout74");
+    obj.layout65 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout65:setParent(obj.rectangle1);
+    obj.layout65:setLeft(363);
+    obj.layout65:setTop(862);
+    obj.layout65:setWidth(92);
+    obj.layout65:setHeight(22);
+    obj.layout65:setName("layout65");
 
     obj.edit57 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit57:setParent(obj.layout74);
+    obj.edit57:setParent(obj.layout65);
     obj.edit57:setTransparent(true);
     obj.edit57:setFontSize(14.3);
     obj.edit57:setFontColor("#bcc184");
@@ -1597,16 +1444,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit57:setField("Skill_0_1_3");
     obj.edit57:setName("edit57");
 
-    obj.layout75 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout75:setParent(obj.rectangle1);
-    obj.layout75:setLeft(127);
-    obj.layout75:setTop(886);
-    obj.layout75:setWidth(92);
-    obj.layout75:setHeight(22);
-    obj.layout75:setName("layout75");
+    obj.layout66 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout66:setParent(obj.rectangle1);
+    obj.layout66:setLeft(127);
+    obj.layout66:setTop(886);
+    obj.layout66:setWidth(92);
+    obj.layout66:setHeight(22);
+    obj.layout66:setName("layout66");
 
     obj.edit58 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit58:setParent(obj.layout75);
+    obj.edit58:setParent(obj.layout66);
     obj.edit58:setTransparent(true);
     obj.edit58:setFontSize(14.3);
     obj.edit58:setFontColor("#bcc184");
@@ -1619,16 +1466,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit58:setField("Skill_0_0_4");
     obj.edit58:setName("edit58");
 
-    obj.layout76 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout76:setParent(obj.rectangle1);
-    obj.layout76:setLeft(363);
-    obj.layout76:setTop(886);
-    obj.layout76:setWidth(92);
-    obj.layout76:setHeight(22);
-    obj.layout76:setName("layout76");
+    obj.layout67 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout67:setParent(obj.rectangle1);
+    obj.layout67:setLeft(363);
+    obj.layout67:setTop(886);
+    obj.layout67:setWidth(92);
+    obj.layout67:setHeight(22);
+    obj.layout67:setName("layout67");
 
     obj.edit59 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit59:setParent(obj.layout76);
+    obj.edit59:setParent(obj.layout67);
     obj.edit59:setTransparent(true);
     obj.edit59:setFontSize(14.3);
     obj.edit59:setFontColor("#bcc184");
@@ -1641,16 +1488,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit59:setField("Skill_0_1_4");
     obj.edit59:setName("edit59");
 
-    obj.layout77 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout77:setParent(obj.rectangle1);
-    obj.layout77:setLeft(127);
-    obj.layout77:setTop(909);
-    obj.layout77:setWidth(92);
-    obj.layout77:setHeight(22);
-    obj.layout77:setName("layout77");
+    obj.layout68 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout68:setParent(obj.rectangle1);
+    obj.layout68:setLeft(127);
+    obj.layout68:setTop(909);
+    obj.layout68:setWidth(92);
+    obj.layout68:setHeight(22);
+    obj.layout68:setName("layout68");
 
     obj.edit60 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit60:setParent(obj.layout77);
+    obj.edit60:setParent(obj.layout68);
     obj.edit60:setTransparent(true);
     obj.edit60:setFontSize(14.3);
     obj.edit60:setFontColor("#bcc184");
@@ -1663,16 +1510,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit60:setField("Skill_0_0_5");
     obj.edit60:setName("edit60");
 
-    obj.layout78 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout78:setParent(obj.rectangle1);
-    obj.layout78:setLeft(363);
-    obj.layout78:setTop(909);
-    obj.layout78:setWidth(92);
-    obj.layout78:setHeight(22);
-    obj.layout78:setName("layout78");
+    obj.layout69 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout69:setParent(obj.rectangle1);
+    obj.layout69:setLeft(363);
+    obj.layout69:setTop(909);
+    obj.layout69:setWidth(92);
+    obj.layout69:setHeight(22);
+    obj.layout69:setName("layout69");
 
     obj.edit61 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit61:setParent(obj.layout78);
+    obj.edit61:setParent(obj.layout69);
     obj.edit61:setTransparent(true);
     obj.edit61:setFontSize(14.3);
     obj.edit61:setFontColor("#bcc184");
@@ -1685,16 +1532,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit61:setField("Skill_0_1_5");
     obj.edit61:setName("edit61");
 
-    obj.layout79 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout79:setParent(obj.rectangle1);
-    obj.layout79:setLeft(127);
-    obj.layout79:setTop(933);
-    obj.layout79:setWidth(92);
-    obj.layout79:setHeight(22);
-    obj.layout79:setName("layout79");
+    obj.layout70 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout70:setParent(obj.rectangle1);
+    obj.layout70:setLeft(127);
+    obj.layout70:setTop(933);
+    obj.layout70:setWidth(92);
+    obj.layout70:setHeight(22);
+    obj.layout70:setName("layout70");
 
     obj.edit62 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit62:setParent(obj.layout79);
+    obj.edit62:setParent(obj.layout70);
     obj.edit62:setTransparent(true);
     obj.edit62:setFontSize(14.3);
     obj.edit62:setFontColor("#bcc184");
@@ -1707,16 +1554,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit62:setField("Skill_0_0_6");
     obj.edit62:setName("edit62");
 
-    obj.layout80 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout80:setParent(obj.rectangle1);
-    obj.layout80:setLeft(363);
-    obj.layout80:setTop(933);
-    obj.layout80:setWidth(92);
-    obj.layout80:setHeight(22);
-    obj.layout80:setName("layout80");
+    obj.layout71 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout71:setParent(obj.rectangle1);
+    obj.layout71:setLeft(363);
+    obj.layout71:setTop(933);
+    obj.layout71:setWidth(92);
+    obj.layout71:setHeight(22);
+    obj.layout71:setName("layout71");
 
     obj.edit63 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit63:setParent(obj.layout80);
+    obj.edit63:setParent(obj.layout71);
     obj.edit63:setTransparent(true);
     obj.edit63:setFontSize(14.3);
     obj.edit63:setFontColor("#bcc184");
@@ -1729,16 +1576,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit63:setField("Skill_0_1_6");
     obj.edit63:setName("edit63");
 
-    obj.layout81 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout81:setParent(obj.rectangle1);
-    obj.layout81:setLeft(127);
-    obj.layout81:setTop(956);
-    obj.layout81:setWidth(92);
-    obj.layout81:setHeight(22);
-    obj.layout81:setName("layout81");
+    obj.layout72 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout72:setParent(obj.rectangle1);
+    obj.layout72:setLeft(127);
+    obj.layout72:setTop(956);
+    obj.layout72:setWidth(92);
+    obj.layout72:setHeight(22);
+    obj.layout72:setName("layout72");
 
     obj.edit64 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit64:setParent(obj.layout81);
+    obj.edit64:setParent(obj.layout72);
     obj.edit64:setTransparent(true);
     obj.edit64:setFontSize(14.3);
     obj.edit64:setFontColor("#bcc184");
@@ -1751,16 +1598,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit64:setField("Skill_0_0_7");
     obj.edit64:setName("edit64");
 
-    obj.layout82 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout82:setParent(obj.rectangle1);
-    obj.layout82:setLeft(363);
-    obj.layout82:setTop(956);
-    obj.layout82:setWidth(92);
-    obj.layout82:setHeight(22);
-    obj.layout82:setName("layout82");
+    obj.layout73 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout73:setParent(obj.rectangle1);
+    obj.layout73:setLeft(363);
+    obj.layout73:setTop(956);
+    obj.layout73:setWidth(92);
+    obj.layout73:setHeight(22);
+    obj.layout73:setName("layout73");
 
     obj.edit65 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit65:setParent(obj.layout82);
+    obj.edit65:setParent(obj.layout73);
     obj.edit65:setTransparent(true);
     obj.edit65:setFontSize(14.3);
     obj.edit65:setFontColor("#bcc184");
@@ -1773,16 +1620,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit65:setField("Skill_0_1_7");
     obj.edit65:setName("edit65");
 
-    obj.layout83 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout83:setParent(obj.rectangle1);
-    obj.layout83:setLeft(127);
-    obj.layout83:setTop(979);
-    obj.layout83:setWidth(92);
-    obj.layout83:setHeight(22);
-    obj.layout83:setName("layout83");
+    obj.layout74 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout74:setParent(obj.rectangle1);
+    obj.layout74:setLeft(127);
+    obj.layout74:setTop(979);
+    obj.layout74:setWidth(92);
+    obj.layout74:setHeight(22);
+    obj.layout74:setName("layout74");
 
     obj.edit66 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit66:setParent(obj.layout83);
+    obj.edit66:setParent(obj.layout74);
     obj.edit66:setTransparent(true);
     obj.edit66:setFontSize(14.3);
     obj.edit66:setFontColor("#bcc184");
@@ -1795,16 +1642,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit66:setField("Skill_0_0_8");
     obj.edit66:setName("edit66");
 
-    obj.layout84 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout84:setParent(obj.rectangle1);
-    obj.layout84:setLeft(363);
-    obj.layout84:setTop(979);
-    obj.layout84:setWidth(92);
-    obj.layout84:setHeight(22);
-    obj.layout84:setName("layout84");
+    obj.layout75 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout75:setParent(obj.rectangle1);
+    obj.layout75:setLeft(363);
+    obj.layout75:setTop(979);
+    obj.layout75:setWidth(92);
+    obj.layout75:setHeight(22);
+    obj.layout75:setName("layout75");
 
     obj.edit67 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit67:setParent(obj.layout84);
+    obj.edit67:setParent(obj.layout75);
     obj.edit67:setTransparent(true);
     obj.edit67:setFontSize(14.3);
     obj.edit67:setFontColor("#bcc184");
@@ -1817,16 +1664,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit67:setField("Skill_0_1_8");
     obj.edit67:setName("edit67");
 
-    obj.layout85 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout85:setParent(obj.rectangle1);
-    obj.layout85:setLeft(127);
-    obj.layout85:setTop(1003);
-    obj.layout85:setWidth(92);
-    obj.layout85:setHeight(22);
-    obj.layout85:setName("layout85");
+    obj.layout76 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout76:setParent(obj.rectangle1);
+    obj.layout76:setLeft(127);
+    obj.layout76:setTop(1003);
+    obj.layout76:setWidth(92);
+    obj.layout76:setHeight(22);
+    obj.layout76:setName("layout76");
 
     obj.edit68 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit68:setParent(obj.layout85);
+    obj.edit68:setParent(obj.layout76);
     obj.edit68:setTransparent(true);
     obj.edit68:setFontSize(14.3);
     obj.edit68:setFontColor("#bcc184");
@@ -1839,16 +1686,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit68:setField("Skill_0_0_9");
     obj.edit68:setName("edit68");
 
-    obj.layout86 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout86:setParent(obj.rectangle1);
-    obj.layout86:setLeft(363);
-    obj.layout86:setTop(1003);
-    obj.layout86:setWidth(92);
-    obj.layout86:setHeight(22);
-    obj.layout86:setName("layout86");
+    obj.layout77 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout77:setParent(obj.rectangle1);
+    obj.layout77:setLeft(363);
+    obj.layout77:setTop(1003);
+    obj.layout77:setWidth(92);
+    obj.layout77:setHeight(22);
+    obj.layout77:setName("layout77");
 
     obj.edit69 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit69:setParent(obj.layout86);
+    obj.edit69:setParent(obj.layout77);
     obj.edit69:setTransparent(true);
     obj.edit69:setFontSize(14.3);
     obj.edit69:setFontColor("#bcc184");
@@ -1861,16 +1708,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit69:setField("Skill_0_1_9");
     obj.edit69:setName("edit69");
 
-    obj.layout87 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout87:setParent(obj.rectangle1);
-    obj.layout87:setLeft(127);
-    obj.layout87:setTop(1026);
-    obj.layout87:setWidth(92);
-    obj.layout87:setHeight(22);
-    obj.layout87:setName("layout87");
+    obj.layout78 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout78:setParent(obj.rectangle1);
+    obj.layout78:setLeft(127);
+    obj.layout78:setTop(1026);
+    obj.layout78:setWidth(92);
+    obj.layout78:setHeight(22);
+    obj.layout78:setName("layout78");
 
     obj.edit70 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit70:setParent(obj.layout87);
+    obj.edit70:setParent(obj.layout78);
     obj.edit70:setTransparent(true);
     obj.edit70:setFontSize(14.3);
     obj.edit70:setFontColor("#bcc184");
@@ -1883,16 +1730,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit70:setField("Skill_0_0_10");
     obj.edit70:setName("edit70");
 
-    obj.layout88 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout88:setParent(obj.rectangle1);
-    obj.layout88:setLeft(363);
-    obj.layout88:setTop(1026);
-    obj.layout88:setWidth(92);
-    obj.layout88:setHeight(22);
-    obj.layout88:setName("layout88");
+    obj.layout79 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout79:setParent(obj.rectangle1);
+    obj.layout79:setLeft(363);
+    obj.layout79:setTop(1026);
+    obj.layout79:setWidth(92);
+    obj.layout79:setHeight(22);
+    obj.layout79:setName("layout79");
 
     obj.edit71 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit71:setParent(obj.layout88);
+    obj.edit71:setParent(obj.layout79);
     obj.edit71:setTransparent(true);
     obj.edit71:setFontSize(14.3);
     obj.edit71:setFontColor("#bcc184");
@@ -1905,16 +1752,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit71:setField("Skill_0_1_10");
     obj.edit71:setName("edit71");
 
-    obj.layout89 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout89:setParent(obj.rectangle1);
-    obj.layout89:setLeft(127);
-    obj.layout89:setTop(1050);
-    obj.layout89:setWidth(92);
-    obj.layout89:setHeight(22);
-    obj.layout89:setName("layout89");
+    obj.layout80 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout80:setParent(obj.rectangle1);
+    obj.layout80:setLeft(127);
+    obj.layout80:setTop(1050);
+    obj.layout80:setWidth(92);
+    obj.layout80:setHeight(22);
+    obj.layout80:setName("layout80");
 
     obj.edit72 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit72:setParent(obj.layout89);
+    obj.edit72:setParent(obj.layout80);
     obj.edit72:setTransparent(true);
     obj.edit72:setFontSize(14.3);
     obj.edit72:setFontColor("#bcc184");
@@ -1927,16 +1774,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit72:setField("Skill_0_0_11");
     obj.edit72:setName("edit72");
 
-    obj.layout90 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout90:setParent(obj.rectangle1);
-    obj.layout90:setLeft(363);
-    obj.layout90:setTop(1050);
-    obj.layout90:setWidth(92);
-    obj.layout90:setHeight(22);
-    obj.layout90:setName("layout90");
+    obj.layout81 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout81:setParent(obj.rectangle1);
+    obj.layout81:setLeft(363);
+    obj.layout81:setTop(1050);
+    obj.layout81:setWidth(92);
+    obj.layout81:setHeight(22);
+    obj.layout81:setName("layout81");
 
     obj.edit73 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit73:setParent(obj.layout90);
+    obj.edit73:setParent(obj.layout81);
     obj.edit73:setTransparent(true);
     obj.edit73:setFontSize(14.3);
     obj.edit73:setFontColor("#bcc184");
@@ -1949,16 +1796,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit73:setField("Skill_0_1_11");
     obj.edit73:setName("edit73");
 
-    obj.layout91 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout91:setParent(obj.rectangle1);
-    obj.layout91:setLeft(127);
-    obj.layout91:setTop(1073);
-    obj.layout91:setWidth(92);
-    obj.layout91:setHeight(22);
-    obj.layout91:setName("layout91");
+    obj.layout82 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout82:setParent(obj.rectangle1);
+    obj.layout82:setLeft(127);
+    obj.layout82:setTop(1073);
+    obj.layout82:setWidth(92);
+    obj.layout82:setHeight(22);
+    obj.layout82:setName("layout82");
 
     obj.edit74 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit74:setParent(obj.layout91);
+    obj.edit74:setParent(obj.layout82);
     obj.edit74:setTransparent(true);
     obj.edit74:setFontSize(14.3);
     obj.edit74:setFontColor("#bcc184");
@@ -1971,16 +1818,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit74:setField("Skill_0_0_12");
     obj.edit74:setName("edit74");
 
-    obj.layout92 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout92:setParent(obj.rectangle1);
-    obj.layout92:setLeft(363);
-    obj.layout92:setTop(1073);
-    obj.layout92:setWidth(92);
-    obj.layout92:setHeight(22);
-    obj.layout92:setName("layout92");
+    obj.layout83 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout83:setParent(obj.rectangle1);
+    obj.layout83:setLeft(363);
+    obj.layout83:setTop(1073);
+    obj.layout83:setWidth(92);
+    obj.layout83:setHeight(22);
+    obj.layout83:setName("layout83");
 
     obj.edit75 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit75:setParent(obj.layout92);
+    obj.edit75:setParent(obj.layout83);
     obj.edit75:setTransparent(true);
     obj.edit75:setFontSize(14.3);
     obj.edit75:setFontColor("#bcc184");
@@ -1993,16 +1840,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit75:setField("Skill_0_1_12");
     obj.edit75:setName("edit75");
 
-    obj.layout93 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout93:setParent(obj.rectangle1);
-    obj.layout93:setLeft(127);
-    obj.layout93:setTop(1097);
-    obj.layout93:setWidth(92);
-    obj.layout93:setHeight(22);
-    obj.layout93:setName("layout93");
+    obj.layout84 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout84:setParent(obj.rectangle1);
+    obj.layout84:setLeft(127);
+    obj.layout84:setTop(1097);
+    obj.layout84:setWidth(92);
+    obj.layout84:setHeight(22);
+    obj.layout84:setName("layout84");
 
     obj.edit76 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit76:setParent(obj.layout93);
+    obj.edit76:setParent(obj.layout84);
     obj.edit76:setTransparent(true);
     obj.edit76:setFontSize(14.3);
     obj.edit76:setFontColor("#bcc184");
@@ -2015,16 +1862,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit76:setField("Skill_0_0_13");
     obj.edit76:setName("edit76");
 
-    obj.layout94 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout94:setParent(obj.rectangle1);
-    obj.layout94:setLeft(363);
-    obj.layout94:setTop(1097);
-    obj.layout94:setWidth(92);
-    obj.layout94:setHeight(22);
-    obj.layout94:setName("layout94");
+    obj.layout85 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout85:setParent(obj.rectangle1);
+    obj.layout85:setLeft(363);
+    obj.layout85:setTop(1097);
+    obj.layout85:setWidth(92);
+    obj.layout85:setHeight(22);
+    obj.layout85:setName("layout85");
 
     obj.edit77 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit77:setParent(obj.layout94);
+    obj.edit77:setParent(obj.layout85);
     obj.edit77:setTransparent(true);
     obj.edit77:setFontSize(14.3);
     obj.edit77:setFontColor("#bcc184");
@@ -2037,16 +1884,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit77:setField("Skill_0_1_13");
     obj.edit77:setName("edit77");
 
-    obj.layout95 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout95:setParent(obj.rectangle1);
-    obj.layout95:setLeft(127);
-    obj.layout95:setTop(1120);
-    obj.layout95:setWidth(92);
-    obj.layout95:setHeight(22);
-    obj.layout95:setName("layout95");
+    obj.layout86 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout86:setParent(obj.rectangle1);
+    obj.layout86:setLeft(127);
+    obj.layout86:setTop(1120);
+    obj.layout86:setWidth(92);
+    obj.layout86:setHeight(22);
+    obj.layout86:setName("layout86");
 
     obj.edit78 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit78:setParent(obj.layout95);
+    obj.edit78:setParent(obj.layout86);
     obj.edit78:setTransparent(true);
     obj.edit78:setFontSize(14.3);
     obj.edit78:setFontColor("#bcc184");
@@ -2059,16 +1906,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit78:setField("Skill_0_0_14");
     obj.edit78:setName("edit78");
 
-    obj.layout96 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout96:setParent(obj.rectangle1);
-    obj.layout96:setLeft(363);
-    obj.layout96:setTop(1120);
-    obj.layout96:setWidth(92);
-    obj.layout96:setHeight(22);
-    obj.layout96:setName("layout96");
+    obj.layout87 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout87:setParent(obj.rectangle1);
+    obj.layout87:setLeft(363);
+    obj.layout87:setTop(1120);
+    obj.layout87:setWidth(92);
+    obj.layout87:setHeight(22);
+    obj.layout87:setName("layout87");
 
     obj.edit79 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit79:setParent(obj.layout96);
+    obj.edit79:setParent(obj.layout87);
     obj.edit79:setTransparent(true);
     obj.edit79:setFontSize(14.3);
     obj.edit79:setFontColor("#bcc184");
@@ -2081,16 +1928,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit79:setField("Skill_0_1_14");
     obj.edit79:setName("edit79");
 
-    obj.layout97 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout97:setParent(obj.rectangle1);
-    obj.layout97:setLeft(127);
-    obj.layout97:setTop(1144);
-    obj.layout97:setWidth(92);
-    obj.layout97:setHeight(22);
-    obj.layout97:setName("layout97");
+    obj.layout88 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout88:setParent(obj.rectangle1);
+    obj.layout88:setLeft(127);
+    obj.layout88:setTop(1144);
+    obj.layout88:setWidth(92);
+    obj.layout88:setHeight(22);
+    obj.layout88:setName("layout88");
 
     obj.edit80 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit80:setParent(obj.layout97);
+    obj.edit80:setParent(obj.layout88);
     obj.edit80:setTransparent(true);
     obj.edit80:setFontSize(14.3);
     obj.edit80:setFontColor("#bcc184");
@@ -2103,16 +1950,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit80:setField("Skill_0_0_15");
     obj.edit80:setName("edit80");
 
-    obj.layout98 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout98:setParent(obj.rectangle1);
-    obj.layout98:setLeft(363);
-    obj.layout98:setTop(1144);
-    obj.layout98:setWidth(92);
-    obj.layout98:setHeight(22);
-    obj.layout98:setName("layout98");
+    obj.layout89 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout89:setParent(obj.rectangle1);
+    obj.layout89:setLeft(363);
+    obj.layout89:setTop(1144);
+    obj.layout89:setWidth(92);
+    obj.layout89:setHeight(22);
+    obj.layout89:setName("layout89");
 
     obj.edit81 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit81:setParent(obj.layout98);
+    obj.edit81:setParent(obj.layout89);
     obj.edit81:setTransparent(true);
     obj.edit81:setFontSize(14.3);
     obj.edit81:setFontColor("#bcc184");
@@ -2125,16 +1972,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit81:setField("Skill_0_1_15");
     obj.edit81:setName("edit81");
 
-    obj.layout99 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout99:setParent(obj.rectangle1);
-    obj.layout99:setLeft(127);
-    obj.layout99:setTop(1167);
-    obj.layout99:setWidth(92);
-    obj.layout99:setHeight(22);
-    obj.layout99:setName("layout99");
+    obj.layout90 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout90:setParent(obj.rectangle1);
+    obj.layout90:setLeft(127);
+    obj.layout90:setTop(1167);
+    obj.layout90:setWidth(92);
+    obj.layout90:setHeight(22);
+    obj.layout90:setName("layout90");
 
     obj.edit82 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit82:setParent(obj.layout99);
+    obj.edit82:setParent(obj.layout90);
     obj.edit82:setTransparent(true);
     obj.edit82:setFontSize(14.3);
     obj.edit82:setFontColor("#bcc184");
@@ -2147,16 +1994,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit82:setField("Skill_0_0_16");
     obj.edit82:setName("edit82");
 
-    obj.layout100 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout100:setParent(obj.rectangle1);
-    obj.layout100:setLeft(363);
-    obj.layout100:setTop(1167);
-    obj.layout100:setWidth(92);
-    obj.layout100:setHeight(22);
-    obj.layout100:setName("layout100");
+    obj.layout91 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout91:setParent(obj.rectangle1);
+    obj.layout91:setLeft(363);
+    obj.layout91:setTop(1167);
+    obj.layout91:setWidth(92);
+    obj.layout91:setHeight(22);
+    obj.layout91:setName("layout91");
 
     obj.edit83 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit83:setParent(obj.layout100);
+    obj.edit83:setParent(obj.layout91);
     obj.edit83:setTransparent(true);
     obj.edit83:setFontSize(14.3);
     obj.edit83:setFontColor("#bcc184");
@@ -2169,16 +2016,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit83:setField("Skill_0_1_16");
     obj.edit83:setName("edit83");
 
-    obj.layout101 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout101:setParent(obj.rectangle1);
-    obj.layout101:setLeft(220);
-    obj.layout101:setTop(792);
-    obj.layout101:setWidth(42);
-    obj.layout101:setHeight(22);
-    obj.layout101:setName("layout101");
+    obj.layout92 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout92:setParent(obj.rectangle1);
+    obj.layout92:setLeft(220);
+    obj.layout92:setTop(792);
+    obj.layout92:setWidth(42);
+    obj.layout92:setHeight(22);
+    obj.layout92:setName("layout92");
 
     obj.edit84 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit84:setParent(obj.layout101);
+    obj.edit84:setParent(obj.layout92);
     obj.edit84:setTransparent(true);
     obj.edit84:setFontSize(14.3);
     obj.edit84:setFontColor("#bcc184");
@@ -2191,16 +2038,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit84:setField("Rank_0_0_0");
     obj.edit84:setName("edit84");
 
-    obj.layout102 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout102:setParent(obj.rectangle1);
-    obj.layout102:setLeft(264);
-    obj.layout102:setTop(792);
-    obj.layout102:setWidth(38);
-    obj.layout102:setHeight(22);
-    obj.layout102:setName("layout102");
+    obj.layout93 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout93:setParent(obj.rectangle1);
+    obj.layout93:setLeft(264);
+    obj.layout93:setTop(792);
+    obj.layout93:setWidth(38);
+    obj.layout93:setHeight(22);
+    obj.layout93:setName("layout93");
 
     obj.edit85 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit85:setParent(obj.layout102);
+    obj.edit85:setParent(obj.layout93);
     obj.edit85:setTransparent(true);
     obj.edit85:setFontSize(14.3);
     obj.edit85:setFontColor("#bcc184");
@@ -2213,16 +2060,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit85:setField("Att_0_0_0");
     obj.edit85:setName("edit85");
 
-    obj.layout103 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout103:setParent(obj.rectangle1);
-    obj.layout103:setLeft(305);
-    obj.layout103:setTop(792);
-    obj.layout103:setWidth(40);
-    obj.layout103:setHeight(22);
-    obj.layout103:setName("layout103");
+    obj.layout94 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout94:setParent(obj.rectangle1);
+    obj.layout94:setLeft(305);
+    obj.layout94:setTop(792);
+    obj.layout94:setWidth(40);
+    obj.layout94:setHeight(22);
+    obj.layout94:setName("layout94");
 
     obj.edit86 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit86:setParent(obj.layout103);
+    obj.edit86:setParent(obj.layout94);
     obj.edit86:setTransparent(true);
     obj.edit86:setFontSize(14.3);
     obj.edit86:setFontColor("#bcc184");
@@ -2235,16 +2082,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit86:setField("Type_0_0_0");
     obj.edit86:setName("edit86");
 
-    obj.layout104 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout104:setParent(obj.rectangle1);
-    obj.layout104:setLeft(457);
-    obj.layout104:setTop(792);
-    obj.layout104:setWidth(42);
-    obj.layout104:setHeight(22);
-    obj.layout104:setName("layout104");
+    obj.layout95 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout95:setParent(obj.rectangle1);
+    obj.layout95:setLeft(457);
+    obj.layout95:setTop(792);
+    obj.layout95:setWidth(42);
+    obj.layout95:setHeight(22);
+    obj.layout95:setName("layout95");
 
     obj.edit87 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit87:setParent(obj.layout104);
+    obj.edit87:setParent(obj.layout95);
     obj.edit87:setTransparent(true);
     obj.edit87:setFontSize(14.3);
     obj.edit87:setFontColor("#bcc184");
@@ -2257,16 +2104,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit87:setField("Rank_0_1_0");
     obj.edit87:setName("edit87");
 
-    obj.layout105 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout105:setParent(obj.rectangle1);
-    obj.layout105:setLeft(501);
-    obj.layout105:setTop(792);
-    obj.layout105:setWidth(38);
-    obj.layout105:setHeight(22);
-    obj.layout105:setName("layout105");
+    obj.layout96 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout96:setParent(obj.rectangle1);
+    obj.layout96:setLeft(501);
+    obj.layout96:setTop(792);
+    obj.layout96:setWidth(38);
+    obj.layout96:setHeight(22);
+    obj.layout96:setName("layout96");
 
     obj.edit88 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit88:setParent(obj.layout105);
+    obj.edit88:setParent(obj.layout96);
     obj.edit88:setTransparent(true);
     obj.edit88:setFontSize(14.3);
     obj.edit88:setFontColor("#bcc184");
@@ -2279,16 +2126,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit88:setField("Att_0_1_0");
     obj.edit88:setName("edit88");
 
-    obj.layout106 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout106:setParent(obj.rectangle1);
-    obj.layout106:setLeft(541);
-    obj.layout106:setTop(792);
-    obj.layout106:setWidth(40);
-    obj.layout106:setHeight(22);
-    obj.layout106:setName("layout106");
+    obj.layout97 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout97:setParent(obj.rectangle1);
+    obj.layout97:setLeft(541);
+    obj.layout97:setTop(792);
+    obj.layout97:setWidth(40);
+    obj.layout97:setHeight(22);
+    obj.layout97:setName("layout97");
 
     obj.edit89 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit89:setParent(obj.layout106);
+    obj.edit89:setParent(obj.layout97);
     obj.edit89:setTransparent(true);
     obj.edit89:setFontSize(14.3);
     obj.edit89:setFontColor("#bcc184");
@@ -2301,16 +2148,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit89:setField("Type_0_1_0");
     obj.edit89:setName("edit89");
 
-    obj.layout107 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout107:setParent(obj.rectangle1);
-    obj.layout107:setLeft(220);
-    obj.layout107:setTop(815);
-    obj.layout107:setWidth(42);
-    obj.layout107:setHeight(22);
-    obj.layout107:setName("layout107");
+    obj.layout98 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout98:setParent(obj.rectangle1);
+    obj.layout98:setLeft(220);
+    obj.layout98:setTop(815);
+    obj.layout98:setWidth(42);
+    obj.layout98:setHeight(22);
+    obj.layout98:setName("layout98");
 
     obj.edit90 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit90:setParent(obj.layout107);
+    obj.edit90:setParent(obj.layout98);
     obj.edit90:setTransparent(true);
     obj.edit90:setFontSize(14.3);
     obj.edit90:setFontColor("#bcc184");
@@ -2323,16 +2170,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit90:setField("Rank_0_0_1");
     obj.edit90:setName("edit90");
 
-    obj.layout108 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout108:setParent(obj.rectangle1);
-    obj.layout108:setLeft(457);
-    obj.layout108:setTop(815);
-    obj.layout108:setWidth(42);
-    obj.layout108:setHeight(22);
-    obj.layout108:setName("layout108");
+    obj.layout99 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout99:setParent(obj.rectangle1);
+    obj.layout99:setLeft(457);
+    obj.layout99:setTop(815);
+    obj.layout99:setWidth(42);
+    obj.layout99:setHeight(22);
+    obj.layout99:setName("layout99");
 
     obj.edit91 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit91:setParent(obj.layout108);
+    obj.edit91:setParent(obj.layout99);
     obj.edit91:setTransparent(true);
     obj.edit91:setFontSize(14.3);
     obj.edit91:setFontColor("#bcc184");
@@ -2345,16 +2192,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit91:setField("Rank_0_1_1");
     obj.edit91:setName("edit91");
 
-    obj.layout109 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout109:setParent(obj.rectangle1);
-    obj.layout109:setLeft(220);
-    obj.layout109:setTop(839);
-    obj.layout109:setWidth(42);
-    obj.layout109:setHeight(22);
-    obj.layout109:setName("layout109");
+    obj.layout100 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout100:setParent(obj.rectangle1);
+    obj.layout100:setLeft(220);
+    obj.layout100:setTop(839);
+    obj.layout100:setWidth(42);
+    obj.layout100:setHeight(22);
+    obj.layout100:setName("layout100");
 
     obj.edit92 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit92:setParent(obj.layout109);
+    obj.edit92:setParent(obj.layout100);
     obj.edit92:setTransparent(true);
     obj.edit92:setFontSize(14.3);
     obj.edit92:setFontColor("#bcc184");
@@ -2367,16 +2214,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit92:setField("Rank_0_0_2");
     obj.edit92:setName("edit92");
 
-    obj.layout110 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout110:setParent(obj.rectangle1);
-    obj.layout110:setLeft(457);
-    obj.layout110:setTop(839);
-    obj.layout110:setWidth(42);
-    obj.layout110:setHeight(22);
-    obj.layout110:setName("layout110");
+    obj.layout101 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout101:setParent(obj.rectangle1);
+    obj.layout101:setLeft(457);
+    obj.layout101:setTop(839);
+    obj.layout101:setWidth(42);
+    obj.layout101:setHeight(22);
+    obj.layout101:setName("layout101");
 
     obj.edit93 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit93:setParent(obj.layout110);
+    obj.edit93:setParent(obj.layout101);
     obj.edit93:setTransparent(true);
     obj.edit93:setFontSize(14.3);
     obj.edit93:setFontColor("#bcc184");
@@ -2389,16 +2236,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit93:setField("Rank_0_1_2");
     obj.edit93:setName("edit93");
 
-    obj.layout111 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout111:setParent(obj.rectangle1);
-    obj.layout111:setLeft(220);
-    obj.layout111:setTop(862);
-    obj.layout111:setWidth(42);
-    obj.layout111:setHeight(22);
-    obj.layout111:setName("layout111");
+    obj.layout102 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout102:setParent(obj.rectangle1);
+    obj.layout102:setLeft(220);
+    obj.layout102:setTop(862);
+    obj.layout102:setWidth(42);
+    obj.layout102:setHeight(22);
+    obj.layout102:setName("layout102");
 
     obj.edit94 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit94:setParent(obj.layout111);
+    obj.edit94:setParent(obj.layout102);
     obj.edit94:setTransparent(true);
     obj.edit94:setFontSize(14.3);
     obj.edit94:setFontColor("#bcc184");
@@ -2411,16 +2258,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit94:setField("Rank_0_0_3");
     obj.edit94:setName("edit94");
 
-    obj.layout112 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout112:setParent(obj.rectangle1);
-    obj.layout112:setLeft(457);
-    obj.layout112:setTop(862);
-    obj.layout112:setWidth(42);
-    obj.layout112:setHeight(22);
-    obj.layout112:setName("layout112");
+    obj.layout103 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout103:setParent(obj.rectangle1);
+    obj.layout103:setLeft(457);
+    obj.layout103:setTop(862);
+    obj.layout103:setWidth(42);
+    obj.layout103:setHeight(22);
+    obj.layout103:setName("layout103");
 
     obj.edit95 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit95:setParent(obj.layout112);
+    obj.edit95:setParent(obj.layout103);
     obj.edit95:setTransparent(true);
     obj.edit95:setFontSize(14.3);
     obj.edit95:setFontColor("#bcc184");
@@ -2433,16 +2280,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit95:setField("Rank_0_1_3");
     obj.edit95:setName("edit95");
 
-    obj.layout113 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout113:setParent(obj.rectangle1);
-    obj.layout113:setLeft(220);
-    obj.layout113:setTop(886);
-    obj.layout113:setWidth(42);
-    obj.layout113:setHeight(22);
-    obj.layout113:setName("layout113");
+    obj.layout104 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout104:setParent(obj.rectangle1);
+    obj.layout104:setLeft(220);
+    obj.layout104:setTop(886);
+    obj.layout104:setWidth(42);
+    obj.layout104:setHeight(22);
+    obj.layout104:setName("layout104");
 
     obj.edit96 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit96:setParent(obj.layout113);
+    obj.edit96:setParent(obj.layout104);
     obj.edit96:setTransparent(true);
     obj.edit96:setFontSize(14.3);
     obj.edit96:setFontColor("#bcc184");
@@ -2455,16 +2302,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit96:setField("Rank_0_0_4");
     obj.edit96:setName("edit96");
 
-    obj.layout114 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout114:setParent(obj.rectangle1);
-    obj.layout114:setLeft(457);
-    obj.layout114:setTop(886);
-    obj.layout114:setWidth(42);
-    obj.layout114:setHeight(22);
-    obj.layout114:setName("layout114");
+    obj.layout105 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout105:setParent(obj.rectangle1);
+    obj.layout105:setLeft(457);
+    obj.layout105:setTop(886);
+    obj.layout105:setWidth(42);
+    obj.layout105:setHeight(22);
+    obj.layout105:setName("layout105");
 
     obj.edit97 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit97:setParent(obj.layout114);
+    obj.edit97:setParent(obj.layout105);
     obj.edit97:setTransparent(true);
     obj.edit97:setFontSize(14.3);
     obj.edit97:setFontColor("#bcc184");
@@ -2477,16 +2324,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit97:setField("Rank_0_1_4");
     obj.edit97:setName("edit97");
 
-    obj.layout115 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout115:setParent(obj.rectangle1);
-    obj.layout115:setLeft(220);
-    obj.layout115:setTop(909);
-    obj.layout115:setWidth(42);
-    obj.layout115:setHeight(22);
-    obj.layout115:setName("layout115");
+    obj.layout106 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout106:setParent(obj.rectangle1);
+    obj.layout106:setLeft(220);
+    obj.layout106:setTop(909);
+    obj.layout106:setWidth(42);
+    obj.layout106:setHeight(22);
+    obj.layout106:setName("layout106");
 
     obj.edit98 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit98:setParent(obj.layout115);
+    obj.edit98:setParent(obj.layout106);
     obj.edit98:setTransparent(true);
     obj.edit98:setFontSize(14.3);
     obj.edit98:setFontColor("#bcc184");
@@ -2499,16 +2346,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit98:setField("Rank_0_0_5");
     obj.edit98:setName("edit98");
 
-    obj.layout116 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout116:setParent(obj.rectangle1);
-    obj.layout116:setLeft(457);
-    obj.layout116:setTop(909);
-    obj.layout116:setWidth(42);
-    obj.layout116:setHeight(22);
-    obj.layout116:setName("layout116");
+    obj.layout107 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout107:setParent(obj.rectangle1);
+    obj.layout107:setLeft(457);
+    obj.layout107:setTop(909);
+    obj.layout107:setWidth(42);
+    obj.layout107:setHeight(22);
+    obj.layout107:setName("layout107");
 
     obj.edit99 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit99:setParent(obj.layout116);
+    obj.edit99:setParent(obj.layout107);
     obj.edit99:setTransparent(true);
     obj.edit99:setFontSize(14.3);
     obj.edit99:setFontColor("#bcc184");
@@ -2521,16 +2368,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit99:setField("Rank_0_1_5");
     obj.edit99:setName("edit99");
 
-    obj.layout117 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout117:setParent(obj.rectangle1);
-    obj.layout117:setLeft(220);
-    obj.layout117:setTop(933);
-    obj.layout117:setWidth(42);
-    obj.layout117:setHeight(22);
-    obj.layout117:setName("layout117");
+    obj.layout108 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout108:setParent(obj.rectangle1);
+    obj.layout108:setLeft(220);
+    obj.layout108:setTop(933);
+    obj.layout108:setWidth(42);
+    obj.layout108:setHeight(22);
+    obj.layout108:setName("layout108");
 
     obj.edit100 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit100:setParent(obj.layout117);
+    obj.edit100:setParent(obj.layout108);
     obj.edit100:setTransparent(true);
     obj.edit100:setFontSize(14.3);
     obj.edit100:setFontColor("#bcc184");
@@ -2543,16 +2390,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit100:setField("Rank_0_0_6");
     obj.edit100:setName("edit100");
 
-    obj.layout118 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout118:setParent(obj.rectangle1);
-    obj.layout118:setLeft(457);
-    obj.layout118:setTop(933);
-    obj.layout118:setWidth(42);
-    obj.layout118:setHeight(22);
-    obj.layout118:setName("layout118");
+    obj.layout109 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout109:setParent(obj.rectangle1);
+    obj.layout109:setLeft(457);
+    obj.layout109:setTop(933);
+    obj.layout109:setWidth(42);
+    obj.layout109:setHeight(22);
+    obj.layout109:setName("layout109");
 
     obj.edit101 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit101:setParent(obj.layout118);
+    obj.edit101:setParent(obj.layout109);
     obj.edit101:setTransparent(true);
     obj.edit101:setFontSize(14.3);
     obj.edit101:setFontColor("#bcc184");
@@ -2565,16 +2412,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit101:setField("Rank_0_1_6");
     obj.edit101:setName("edit101");
 
-    obj.layout119 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout119:setParent(obj.rectangle1);
-    obj.layout119:setLeft(220);
-    obj.layout119:setTop(956);
-    obj.layout119:setWidth(42);
-    obj.layout119:setHeight(22);
-    obj.layout119:setName("layout119");
+    obj.layout110 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout110:setParent(obj.rectangle1);
+    obj.layout110:setLeft(220);
+    obj.layout110:setTop(956);
+    obj.layout110:setWidth(42);
+    obj.layout110:setHeight(22);
+    obj.layout110:setName("layout110");
 
     obj.edit102 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit102:setParent(obj.layout119);
+    obj.edit102:setParent(obj.layout110);
     obj.edit102:setTransparent(true);
     obj.edit102:setFontSize(14.3);
     obj.edit102:setFontColor("#bcc184");
@@ -2587,16 +2434,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit102:setField("Rank_0_0_7");
     obj.edit102:setName("edit102");
 
-    obj.layout120 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout120:setParent(obj.rectangle1);
-    obj.layout120:setLeft(457);
-    obj.layout120:setTop(956);
-    obj.layout120:setWidth(42);
-    obj.layout120:setHeight(22);
-    obj.layout120:setName("layout120");
+    obj.layout111 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout111:setParent(obj.rectangle1);
+    obj.layout111:setLeft(457);
+    obj.layout111:setTop(956);
+    obj.layout111:setWidth(42);
+    obj.layout111:setHeight(22);
+    obj.layout111:setName("layout111");
 
     obj.edit103 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit103:setParent(obj.layout120);
+    obj.edit103:setParent(obj.layout111);
     obj.edit103:setTransparent(true);
     obj.edit103:setFontSize(14.3);
     obj.edit103:setFontColor("#bcc184");
@@ -2609,16 +2456,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit103:setField("Rank_0_1_7");
     obj.edit103:setName("edit103");
 
-    obj.layout121 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout121:setParent(obj.rectangle1);
-    obj.layout121:setLeft(220);
-    obj.layout121:setTop(979);
-    obj.layout121:setWidth(42);
-    obj.layout121:setHeight(22);
-    obj.layout121:setName("layout121");
+    obj.layout112 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout112:setParent(obj.rectangle1);
+    obj.layout112:setLeft(220);
+    obj.layout112:setTop(979);
+    obj.layout112:setWidth(42);
+    obj.layout112:setHeight(22);
+    obj.layout112:setName("layout112");
 
     obj.edit104 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit104:setParent(obj.layout121);
+    obj.edit104:setParent(obj.layout112);
     obj.edit104:setTransparent(true);
     obj.edit104:setFontSize(14.3);
     obj.edit104:setFontColor("#bcc184");
@@ -2631,16 +2478,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit104:setField("Rank_0_0_8");
     obj.edit104:setName("edit104");
 
-    obj.layout122 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout122:setParent(obj.rectangle1);
-    obj.layout122:setLeft(457);
-    obj.layout122:setTop(979);
-    obj.layout122:setWidth(42);
-    obj.layout122:setHeight(22);
-    obj.layout122:setName("layout122");
+    obj.layout113 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout113:setParent(obj.rectangle1);
+    obj.layout113:setLeft(457);
+    obj.layout113:setTop(979);
+    obj.layout113:setWidth(42);
+    obj.layout113:setHeight(22);
+    obj.layout113:setName("layout113");
 
     obj.edit105 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit105:setParent(obj.layout122);
+    obj.edit105:setParent(obj.layout113);
     obj.edit105:setTransparent(true);
     obj.edit105:setFontSize(14.3);
     obj.edit105:setFontColor("#bcc184");
@@ -2653,16 +2500,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit105:setField("Rank_0_1_8");
     obj.edit105:setName("edit105");
 
-    obj.layout123 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout123:setParent(obj.rectangle1);
-    obj.layout123:setLeft(220);
-    obj.layout123:setTop(1003);
-    obj.layout123:setWidth(42);
-    obj.layout123:setHeight(22);
-    obj.layout123:setName("layout123");
+    obj.layout114 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout114:setParent(obj.rectangle1);
+    obj.layout114:setLeft(220);
+    obj.layout114:setTop(1003);
+    obj.layout114:setWidth(42);
+    obj.layout114:setHeight(22);
+    obj.layout114:setName("layout114");
 
     obj.edit106 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit106:setParent(obj.layout123);
+    obj.edit106:setParent(obj.layout114);
     obj.edit106:setTransparent(true);
     obj.edit106:setFontSize(14.3);
     obj.edit106:setFontColor("#bcc184");
@@ -2675,16 +2522,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit106:setField("Rank_0_0_9");
     obj.edit106:setName("edit106");
 
-    obj.layout124 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout124:setParent(obj.rectangle1);
-    obj.layout124:setLeft(457);
-    obj.layout124:setTop(1003);
-    obj.layout124:setWidth(42);
-    obj.layout124:setHeight(22);
-    obj.layout124:setName("layout124");
+    obj.layout115 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout115:setParent(obj.rectangle1);
+    obj.layout115:setLeft(457);
+    obj.layout115:setTop(1003);
+    obj.layout115:setWidth(42);
+    obj.layout115:setHeight(22);
+    obj.layout115:setName("layout115");
 
     obj.edit107 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit107:setParent(obj.layout124);
+    obj.edit107:setParent(obj.layout115);
     obj.edit107:setTransparent(true);
     obj.edit107:setFontSize(14.3);
     obj.edit107:setFontColor("#bcc184");
@@ -2697,16 +2544,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit107:setField("Rank_0_1_9");
     obj.edit107:setName("edit107");
 
-    obj.layout125 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout125:setParent(obj.rectangle1);
-    obj.layout125:setLeft(220);
-    obj.layout125:setTop(1026);
-    obj.layout125:setWidth(42);
-    obj.layout125:setHeight(22);
-    obj.layout125:setName("layout125");
+    obj.layout116 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout116:setParent(obj.rectangle1);
+    obj.layout116:setLeft(220);
+    obj.layout116:setTop(1026);
+    obj.layout116:setWidth(42);
+    obj.layout116:setHeight(22);
+    obj.layout116:setName("layout116");
 
     obj.edit108 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit108:setParent(obj.layout125);
+    obj.edit108:setParent(obj.layout116);
     obj.edit108:setTransparent(true);
     obj.edit108:setFontSize(14.3);
     obj.edit108:setFontColor("#bcc184");
@@ -2719,16 +2566,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit108:setField("Rank_0_0_10");
     obj.edit108:setName("edit108");
 
-    obj.layout126 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout126:setParent(obj.rectangle1);
-    obj.layout126:setLeft(457);
-    obj.layout126:setTop(1026);
-    obj.layout126:setWidth(42);
-    obj.layout126:setHeight(22);
-    obj.layout126:setName("layout126");
+    obj.layout117 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout117:setParent(obj.rectangle1);
+    obj.layout117:setLeft(457);
+    obj.layout117:setTop(1026);
+    obj.layout117:setWidth(42);
+    obj.layout117:setHeight(22);
+    obj.layout117:setName("layout117");
 
     obj.edit109 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit109:setParent(obj.layout126);
+    obj.edit109:setParent(obj.layout117);
     obj.edit109:setTransparent(true);
     obj.edit109:setFontSize(14.3);
     obj.edit109:setFontColor("#bcc184");
@@ -2741,16 +2588,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit109:setField("Rank_0_1_10");
     obj.edit109:setName("edit109");
 
-    obj.layout127 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout127:setParent(obj.rectangle1);
-    obj.layout127:setLeft(220);
-    obj.layout127:setTop(1050);
-    obj.layout127:setWidth(42);
-    obj.layout127:setHeight(22);
-    obj.layout127:setName("layout127");
+    obj.layout118 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout118:setParent(obj.rectangle1);
+    obj.layout118:setLeft(220);
+    obj.layout118:setTop(1050);
+    obj.layout118:setWidth(42);
+    obj.layout118:setHeight(22);
+    obj.layout118:setName("layout118");
 
     obj.edit110 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit110:setParent(obj.layout127);
+    obj.edit110:setParent(obj.layout118);
     obj.edit110:setTransparent(true);
     obj.edit110:setFontSize(14.3);
     obj.edit110:setFontColor("#bcc184");
@@ -2763,16 +2610,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit110:setField("Rank_0_0_11");
     obj.edit110:setName("edit110");
 
-    obj.layout128 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout128:setParent(obj.rectangle1);
-    obj.layout128:setLeft(457);
-    obj.layout128:setTop(1050);
-    obj.layout128:setWidth(42);
-    obj.layout128:setHeight(22);
-    obj.layout128:setName("layout128");
+    obj.layout119 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout119:setParent(obj.rectangle1);
+    obj.layout119:setLeft(457);
+    obj.layout119:setTop(1050);
+    obj.layout119:setWidth(42);
+    obj.layout119:setHeight(22);
+    obj.layout119:setName("layout119");
 
     obj.edit111 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit111:setParent(obj.layout128);
+    obj.edit111:setParent(obj.layout119);
     obj.edit111:setTransparent(true);
     obj.edit111:setFontSize(14.3);
     obj.edit111:setFontColor("#bcc184");
@@ -2785,16 +2632,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit111:setField("Rank_0_1_11");
     obj.edit111:setName("edit111");
 
-    obj.layout129 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout129:setParent(obj.rectangle1);
-    obj.layout129:setLeft(220);
-    obj.layout129:setTop(1073);
-    obj.layout129:setWidth(42);
-    obj.layout129:setHeight(22);
-    obj.layout129:setName("layout129");
+    obj.layout120 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout120:setParent(obj.rectangle1);
+    obj.layout120:setLeft(220);
+    obj.layout120:setTop(1073);
+    obj.layout120:setWidth(42);
+    obj.layout120:setHeight(22);
+    obj.layout120:setName("layout120");
 
     obj.edit112 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit112:setParent(obj.layout129);
+    obj.edit112:setParent(obj.layout120);
     obj.edit112:setTransparent(true);
     obj.edit112:setFontSize(14.3);
     obj.edit112:setFontColor("#bcc184");
@@ -2807,16 +2654,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit112:setField("Rank_0_0_12");
     obj.edit112:setName("edit112");
 
-    obj.layout130 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout130:setParent(obj.rectangle1);
-    obj.layout130:setLeft(457);
-    obj.layout130:setTop(1073);
-    obj.layout130:setWidth(42);
-    obj.layout130:setHeight(22);
-    obj.layout130:setName("layout130");
+    obj.layout121 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout121:setParent(obj.rectangle1);
+    obj.layout121:setLeft(457);
+    obj.layout121:setTop(1073);
+    obj.layout121:setWidth(42);
+    obj.layout121:setHeight(22);
+    obj.layout121:setName("layout121");
 
     obj.edit113 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit113:setParent(obj.layout130);
+    obj.edit113:setParent(obj.layout121);
     obj.edit113:setTransparent(true);
     obj.edit113:setFontSize(14.3);
     obj.edit113:setFontColor("#bcc184");
@@ -2829,16 +2676,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit113:setField("Rank_0_1_12");
     obj.edit113:setName("edit113");
 
-    obj.layout131 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout131:setParent(obj.rectangle1);
-    obj.layout131:setLeft(220);
-    obj.layout131:setTop(1097);
-    obj.layout131:setWidth(42);
-    obj.layout131:setHeight(22);
-    obj.layout131:setName("layout131");
+    obj.layout122 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout122:setParent(obj.rectangle1);
+    obj.layout122:setLeft(220);
+    obj.layout122:setTop(1097);
+    obj.layout122:setWidth(42);
+    obj.layout122:setHeight(22);
+    obj.layout122:setName("layout122");
 
     obj.edit114 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit114:setParent(obj.layout131);
+    obj.edit114:setParent(obj.layout122);
     obj.edit114:setTransparent(true);
     obj.edit114:setFontSize(14.3);
     obj.edit114:setFontColor("#bcc184");
@@ -2851,16 +2698,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit114:setField("Rank_0_0_13");
     obj.edit114:setName("edit114");
 
-    obj.layout132 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout132:setParent(obj.rectangle1);
-    obj.layout132:setLeft(457);
-    obj.layout132:setTop(1097);
-    obj.layout132:setWidth(42);
-    obj.layout132:setHeight(22);
-    obj.layout132:setName("layout132");
+    obj.layout123 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout123:setParent(obj.rectangle1);
+    obj.layout123:setLeft(457);
+    obj.layout123:setTop(1097);
+    obj.layout123:setWidth(42);
+    obj.layout123:setHeight(22);
+    obj.layout123:setName("layout123");
 
     obj.edit115 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit115:setParent(obj.layout132);
+    obj.edit115:setParent(obj.layout123);
     obj.edit115:setTransparent(true);
     obj.edit115:setFontSize(14.3);
     obj.edit115:setFontColor("#bcc184");
@@ -2873,16 +2720,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit115:setField("Rank_0_1_13");
     obj.edit115:setName("edit115");
 
-    obj.layout133 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout133:setParent(obj.rectangle1);
-    obj.layout133:setLeft(220);
-    obj.layout133:setTop(1120);
-    obj.layout133:setWidth(42);
-    obj.layout133:setHeight(22);
-    obj.layout133:setName("layout133");
+    obj.layout124 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout124:setParent(obj.rectangle1);
+    obj.layout124:setLeft(220);
+    obj.layout124:setTop(1120);
+    obj.layout124:setWidth(42);
+    obj.layout124:setHeight(22);
+    obj.layout124:setName("layout124");
 
     obj.edit116 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit116:setParent(obj.layout133);
+    obj.edit116:setParent(obj.layout124);
     obj.edit116:setTransparent(true);
     obj.edit116:setFontSize(14.3);
     obj.edit116:setFontColor("#bcc184");
@@ -2895,16 +2742,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit116:setField("Rank_0_0_14");
     obj.edit116:setName("edit116");
 
-    obj.layout134 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout134:setParent(obj.rectangle1);
-    obj.layout134:setLeft(457);
-    obj.layout134:setTop(1120);
-    obj.layout134:setWidth(42);
-    obj.layout134:setHeight(22);
-    obj.layout134:setName("layout134");
+    obj.layout125 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout125:setParent(obj.rectangle1);
+    obj.layout125:setLeft(457);
+    obj.layout125:setTop(1120);
+    obj.layout125:setWidth(42);
+    obj.layout125:setHeight(22);
+    obj.layout125:setName("layout125");
 
     obj.edit117 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit117:setParent(obj.layout134);
+    obj.edit117:setParent(obj.layout125);
     obj.edit117:setTransparent(true);
     obj.edit117:setFontSize(14.3);
     obj.edit117:setFontColor("#bcc184");
@@ -2917,16 +2764,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit117:setField("Rank_0_1_14");
     obj.edit117:setName("edit117");
 
-    obj.layout135 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout135:setParent(obj.rectangle1);
-    obj.layout135:setLeft(220);
-    obj.layout135:setTop(1144);
-    obj.layout135:setWidth(42);
-    obj.layout135:setHeight(22);
-    obj.layout135:setName("layout135");
+    obj.layout126 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout126:setParent(obj.rectangle1);
+    obj.layout126:setLeft(220);
+    obj.layout126:setTop(1144);
+    obj.layout126:setWidth(42);
+    obj.layout126:setHeight(22);
+    obj.layout126:setName("layout126");
 
     obj.edit118 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit118:setParent(obj.layout135);
+    obj.edit118:setParent(obj.layout126);
     obj.edit118:setTransparent(true);
     obj.edit118:setFontSize(14.3);
     obj.edit118:setFontColor("#bcc184");
@@ -2939,16 +2786,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit118:setField("Rank_0_0_15");
     obj.edit118:setName("edit118");
 
-    obj.layout136 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout136:setParent(obj.rectangle1);
-    obj.layout136:setLeft(457);
-    obj.layout136:setTop(1144);
-    obj.layout136:setWidth(42);
-    obj.layout136:setHeight(22);
-    obj.layout136:setName("layout136");
+    obj.layout127 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout127:setParent(obj.rectangle1);
+    obj.layout127:setLeft(457);
+    obj.layout127:setTop(1144);
+    obj.layout127:setWidth(42);
+    obj.layout127:setHeight(22);
+    obj.layout127:setName("layout127");
 
     obj.edit119 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit119:setParent(obj.layout136);
+    obj.edit119:setParent(obj.layout127);
     obj.edit119:setTransparent(true);
     obj.edit119:setFontSize(14.3);
     obj.edit119:setFontColor("#bcc184");
@@ -2961,16 +2808,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit119:setField("Rank_0_1_15");
     obj.edit119:setName("edit119");
 
-    obj.layout137 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout137:setParent(obj.rectangle1);
-    obj.layout137:setLeft(220);
-    obj.layout137:setTop(1167);
-    obj.layout137:setWidth(42);
-    obj.layout137:setHeight(22);
-    obj.layout137:setName("layout137");
+    obj.layout128 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout128:setParent(obj.rectangle1);
+    obj.layout128:setLeft(220);
+    obj.layout128:setTop(1167);
+    obj.layout128:setWidth(42);
+    obj.layout128:setHeight(22);
+    obj.layout128:setName("layout128");
 
     obj.edit120 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit120:setParent(obj.layout137);
+    obj.edit120:setParent(obj.layout128);
     obj.edit120:setTransparent(true);
     obj.edit120:setFontSize(14.3);
     obj.edit120:setFontColor("#bcc184");
@@ -2983,16 +2830,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit120:setField("Rank_0_0_16");
     obj.edit120:setName("edit120");
 
-    obj.layout138 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout138:setParent(obj.rectangle1);
-    obj.layout138:setLeft(457);
-    obj.layout138:setTop(1167);
-    obj.layout138:setWidth(42);
-    obj.layout138:setHeight(22);
-    obj.layout138:setName("layout138");
+    obj.layout129 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout129:setParent(obj.rectangle1);
+    obj.layout129:setLeft(457);
+    obj.layout129:setTop(1167);
+    obj.layout129:setWidth(42);
+    obj.layout129:setHeight(22);
+    obj.layout129:setName("layout129");
 
     obj.edit121 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit121:setParent(obj.layout138);
+    obj.edit121:setParent(obj.layout129);
     obj.edit121:setTransparent(true);
     obj.edit121:setFontSize(14.3);
     obj.edit121:setFontColor("#bcc184");
@@ -3005,16 +2852,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit121:setField("Rank_0_1_16");
     obj.edit121:setName("edit121");
 
-    obj.layout139 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout139:setParent(obj.rectangle1);
-    obj.layout139:setLeft(264);
-    obj.layout139:setTop(815);
-    obj.layout139:setWidth(38);
-    obj.layout139:setHeight(22);
-    obj.layout139:setName("layout139");
+    obj.layout130 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout130:setParent(obj.rectangle1);
+    obj.layout130:setLeft(264);
+    obj.layout130:setTop(815);
+    obj.layout130:setWidth(38);
+    obj.layout130:setHeight(22);
+    obj.layout130:setName("layout130");
 
     obj.edit122 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit122:setParent(obj.layout139);
+    obj.edit122:setParent(obj.layout130);
     obj.edit122:setTransparent(true);
     obj.edit122:setFontSize(14.3);
     obj.edit122:setFontColor("#bcc184");
@@ -3027,16 +2874,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit122:setField("Att_0_0_1");
     obj.edit122:setName("edit122");
 
-    obj.layout140 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout140:setParent(obj.rectangle1);
-    obj.layout140:setLeft(501);
-    obj.layout140:setTop(815);
-    obj.layout140:setWidth(38);
-    obj.layout140:setHeight(22);
-    obj.layout140:setName("layout140");
+    obj.layout131 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout131:setParent(obj.rectangle1);
+    obj.layout131:setLeft(501);
+    obj.layout131:setTop(815);
+    obj.layout131:setWidth(38);
+    obj.layout131:setHeight(22);
+    obj.layout131:setName("layout131");
 
     obj.edit123 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit123:setParent(obj.layout140);
+    obj.edit123:setParent(obj.layout131);
     obj.edit123:setTransparent(true);
     obj.edit123:setFontSize(14.3);
     obj.edit123:setFontColor("#bcc184");
@@ -3049,16 +2896,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit123:setField("Att_0_1_1");
     obj.edit123:setName("edit123");
 
-    obj.layout141 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout141:setParent(obj.rectangle1);
-    obj.layout141:setLeft(264);
-    obj.layout141:setTop(839);
-    obj.layout141:setWidth(38);
-    obj.layout141:setHeight(22);
-    obj.layout141:setName("layout141");
+    obj.layout132 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout132:setParent(obj.rectangle1);
+    obj.layout132:setLeft(264);
+    obj.layout132:setTop(839);
+    obj.layout132:setWidth(38);
+    obj.layout132:setHeight(22);
+    obj.layout132:setName("layout132");
 
     obj.edit124 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit124:setParent(obj.layout141);
+    obj.edit124:setParent(obj.layout132);
     obj.edit124:setTransparent(true);
     obj.edit124:setFontSize(14.3);
     obj.edit124:setFontColor("#bcc184");
@@ -3071,16 +2918,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit124:setField("Att_0_0_2");
     obj.edit124:setName("edit124");
 
-    obj.layout142 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout142:setParent(obj.rectangle1);
-    obj.layout142:setLeft(501);
-    obj.layout142:setTop(839);
-    obj.layout142:setWidth(38);
-    obj.layout142:setHeight(22);
-    obj.layout142:setName("layout142");
+    obj.layout133 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout133:setParent(obj.rectangle1);
+    obj.layout133:setLeft(501);
+    obj.layout133:setTop(839);
+    obj.layout133:setWidth(38);
+    obj.layout133:setHeight(22);
+    obj.layout133:setName("layout133");
 
     obj.edit125 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit125:setParent(obj.layout142);
+    obj.edit125:setParent(obj.layout133);
     obj.edit125:setTransparent(true);
     obj.edit125:setFontSize(14.3);
     obj.edit125:setFontColor("#bcc184");
@@ -3093,16 +2940,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit125:setField("Att_0_1_2");
     obj.edit125:setName("edit125");
 
-    obj.layout143 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout143:setParent(obj.rectangle1);
-    obj.layout143:setLeft(264);
-    obj.layout143:setTop(862);
-    obj.layout143:setWidth(38);
-    obj.layout143:setHeight(22);
-    obj.layout143:setName("layout143");
+    obj.layout134 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout134:setParent(obj.rectangle1);
+    obj.layout134:setLeft(264);
+    obj.layout134:setTop(862);
+    obj.layout134:setWidth(38);
+    obj.layout134:setHeight(22);
+    obj.layout134:setName("layout134");
 
     obj.edit126 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit126:setParent(obj.layout143);
+    obj.edit126:setParent(obj.layout134);
     obj.edit126:setTransparent(true);
     obj.edit126:setFontSize(14.3);
     obj.edit126:setFontColor("#bcc184");
@@ -3115,16 +2962,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit126:setField("Att_0_0_3");
     obj.edit126:setName("edit126");
 
-    obj.layout144 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout144:setParent(obj.rectangle1);
-    obj.layout144:setLeft(501);
-    obj.layout144:setTop(862);
-    obj.layout144:setWidth(38);
-    obj.layout144:setHeight(22);
-    obj.layout144:setName("layout144");
+    obj.layout135 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout135:setParent(obj.rectangle1);
+    obj.layout135:setLeft(501);
+    obj.layout135:setTop(862);
+    obj.layout135:setWidth(38);
+    obj.layout135:setHeight(22);
+    obj.layout135:setName("layout135");
 
     obj.edit127 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit127:setParent(obj.layout144);
+    obj.edit127:setParent(obj.layout135);
     obj.edit127:setTransparent(true);
     obj.edit127:setFontSize(14.3);
     obj.edit127:setFontColor("#bcc184");
@@ -3137,16 +2984,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit127:setField("Att_0_1_3");
     obj.edit127:setName("edit127");
 
-    obj.layout145 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout145:setParent(obj.rectangle1);
-    obj.layout145:setLeft(264);
-    obj.layout145:setTop(886);
-    obj.layout145:setWidth(38);
-    obj.layout145:setHeight(22);
-    obj.layout145:setName("layout145");
+    obj.layout136 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout136:setParent(obj.rectangle1);
+    obj.layout136:setLeft(264);
+    obj.layout136:setTop(886);
+    obj.layout136:setWidth(38);
+    obj.layout136:setHeight(22);
+    obj.layout136:setName("layout136");
 
     obj.edit128 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit128:setParent(obj.layout145);
+    obj.edit128:setParent(obj.layout136);
     obj.edit128:setTransparent(true);
     obj.edit128:setFontSize(14.3);
     obj.edit128:setFontColor("#bcc184");
@@ -3159,16 +3006,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit128:setField("Att_0_0_4");
     obj.edit128:setName("edit128");
 
-    obj.layout146 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout146:setParent(obj.rectangle1);
-    obj.layout146:setLeft(501);
-    obj.layout146:setTop(886);
-    obj.layout146:setWidth(38);
-    obj.layout146:setHeight(22);
-    obj.layout146:setName("layout146");
+    obj.layout137 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout137:setParent(obj.rectangle1);
+    obj.layout137:setLeft(501);
+    obj.layout137:setTop(886);
+    obj.layout137:setWidth(38);
+    obj.layout137:setHeight(22);
+    obj.layout137:setName("layout137");
 
     obj.edit129 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit129:setParent(obj.layout146);
+    obj.edit129:setParent(obj.layout137);
     obj.edit129:setTransparent(true);
     obj.edit129:setFontSize(14.3);
     obj.edit129:setFontColor("#bcc184");
@@ -3181,16 +3028,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit129:setField("Att_0_1_4");
     obj.edit129:setName("edit129");
 
-    obj.layout147 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout147:setParent(obj.rectangle1);
-    obj.layout147:setLeft(264);
-    obj.layout147:setTop(909);
-    obj.layout147:setWidth(38);
-    obj.layout147:setHeight(22);
-    obj.layout147:setName("layout147");
+    obj.layout138 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout138:setParent(obj.rectangle1);
+    obj.layout138:setLeft(264);
+    obj.layout138:setTop(909);
+    obj.layout138:setWidth(38);
+    obj.layout138:setHeight(22);
+    obj.layout138:setName("layout138");
 
     obj.edit130 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit130:setParent(obj.layout147);
+    obj.edit130:setParent(obj.layout138);
     obj.edit130:setTransparent(true);
     obj.edit130:setFontSize(14.3);
     obj.edit130:setFontColor("#bcc184");
@@ -3203,16 +3050,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit130:setField("Att_0_0_5");
     obj.edit130:setName("edit130");
 
-    obj.layout148 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout148:setParent(obj.rectangle1);
-    obj.layout148:setLeft(501);
-    obj.layout148:setTop(909);
-    obj.layout148:setWidth(38);
-    obj.layout148:setHeight(22);
-    obj.layout148:setName("layout148");
+    obj.layout139 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout139:setParent(obj.rectangle1);
+    obj.layout139:setLeft(501);
+    obj.layout139:setTop(909);
+    obj.layout139:setWidth(38);
+    obj.layout139:setHeight(22);
+    obj.layout139:setName("layout139");
 
     obj.edit131 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit131:setParent(obj.layout148);
+    obj.edit131:setParent(obj.layout139);
     obj.edit131:setTransparent(true);
     obj.edit131:setFontSize(14.3);
     obj.edit131:setFontColor("#bcc184");
@@ -3225,16 +3072,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit131:setField("Att_0_1_5");
     obj.edit131:setName("edit131");
 
-    obj.layout149 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout149:setParent(obj.rectangle1);
-    obj.layout149:setLeft(264);
-    obj.layout149:setTop(933);
-    obj.layout149:setWidth(38);
-    obj.layout149:setHeight(22);
-    obj.layout149:setName("layout149");
+    obj.layout140 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout140:setParent(obj.rectangle1);
+    obj.layout140:setLeft(264);
+    obj.layout140:setTop(933);
+    obj.layout140:setWidth(38);
+    obj.layout140:setHeight(22);
+    obj.layout140:setName("layout140");
 
     obj.edit132 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit132:setParent(obj.layout149);
+    obj.edit132:setParent(obj.layout140);
     obj.edit132:setTransparent(true);
     obj.edit132:setFontSize(14.3);
     obj.edit132:setFontColor("#bcc184");
@@ -3247,16 +3094,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit132:setField("Att_0_0_6");
     obj.edit132:setName("edit132");
 
-    obj.layout150 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout150:setParent(obj.rectangle1);
-    obj.layout150:setLeft(501);
-    obj.layout150:setTop(933);
-    obj.layout150:setWidth(38);
-    obj.layout150:setHeight(22);
-    obj.layout150:setName("layout150");
+    obj.layout141 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout141:setParent(obj.rectangle1);
+    obj.layout141:setLeft(501);
+    obj.layout141:setTop(933);
+    obj.layout141:setWidth(38);
+    obj.layout141:setHeight(22);
+    obj.layout141:setName("layout141");
 
     obj.edit133 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit133:setParent(obj.layout150);
+    obj.edit133:setParent(obj.layout141);
     obj.edit133:setTransparent(true);
     obj.edit133:setFontSize(14.3);
     obj.edit133:setFontColor("#bcc184");
@@ -3269,16 +3116,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit133:setField("Att_0_1_6");
     obj.edit133:setName("edit133");
 
-    obj.layout151 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout151:setParent(obj.rectangle1);
-    obj.layout151:setLeft(264);
-    obj.layout151:setTop(956);
-    obj.layout151:setWidth(38);
-    obj.layout151:setHeight(22);
-    obj.layout151:setName("layout151");
+    obj.layout142 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout142:setParent(obj.rectangle1);
+    obj.layout142:setLeft(264);
+    obj.layout142:setTop(956);
+    obj.layout142:setWidth(38);
+    obj.layout142:setHeight(22);
+    obj.layout142:setName("layout142");
 
     obj.edit134 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit134:setParent(obj.layout151);
+    obj.edit134:setParent(obj.layout142);
     obj.edit134:setTransparent(true);
     obj.edit134:setFontSize(14.3);
     obj.edit134:setFontColor("#bcc184");
@@ -3291,16 +3138,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit134:setField("Att_0_0_7");
     obj.edit134:setName("edit134");
 
-    obj.layout152 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout152:setParent(obj.rectangle1);
-    obj.layout152:setLeft(501);
-    obj.layout152:setTop(956);
-    obj.layout152:setWidth(38);
-    obj.layout152:setHeight(22);
-    obj.layout152:setName("layout152");
+    obj.layout143 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout143:setParent(obj.rectangle1);
+    obj.layout143:setLeft(501);
+    obj.layout143:setTop(956);
+    obj.layout143:setWidth(38);
+    obj.layout143:setHeight(22);
+    obj.layout143:setName("layout143");
 
     obj.edit135 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit135:setParent(obj.layout152);
+    obj.edit135:setParent(obj.layout143);
     obj.edit135:setTransparent(true);
     obj.edit135:setFontSize(14.3);
     obj.edit135:setFontColor("#bcc184");
@@ -3313,16 +3160,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit135:setField("Att_0_1_7");
     obj.edit135:setName("edit135");
 
-    obj.layout153 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout153:setParent(obj.rectangle1);
-    obj.layout153:setLeft(264);
-    obj.layout153:setTop(979);
-    obj.layout153:setWidth(38);
-    obj.layout153:setHeight(22);
-    obj.layout153:setName("layout153");
+    obj.layout144 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout144:setParent(obj.rectangle1);
+    obj.layout144:setLeft(264);
+    obj.layout144:setTop(979);
+    obj.layout144:setWidth(38);
+    obj.layout144:setHeight(22);
+    obj.layout144:setName("layout144");
 
     obj.edit136 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit136:setParent(obj.layout153);
+    obj.edit136:setParent(obj.layout144);
     obj.edit136:setTransparent(true);
     obj.edit136:setFontSize(14.3);
     obj.edit136:setFontColor("#bcc184");
@@ -3335,16 +3182,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit136:setField("Att_0_0_8");
     obj.edit136:setName("edit136");
 
-    obj.layout154 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout154:setParent(obj.rectangle1);
-    obj.layout154:setLeft(501);
-    obj.layout154:setTop(979);
-    obj.layout154:setWidth(38);
-    obj.layout154:setHeight(22);
-    obj.layout154:setName("layout154");
+    obj.layout145 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout145:setParent(obj.rectangle1);
+    obj.layout145:setLeft(501);
+    obj.layout145:setTop(979);
+    obj.layout145:setWidth(38);
+    obj.layout145:setHeight(22);
+    obj.layout145:setName("layout145");
 
     obj.edit137 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit137:setParent(obj.layout154);
+    obj.edit137:setParent(obj.layout145);
     obj.edit137:setTransparent(true);
     obj.edit137:setFontSize(14.3);
     obj.edit137:setFontColor("#bcc184");
@@ -3357,16 +3204,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit137:setField("Att_0_1_8");
     obj.edit137:setName("edit137");
 
-    obj.layout155 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout155:setParent(obj.rectangle1);
-    obj.layout155:setLeft(264);
-    obj.layout155:setTop(1003);
-    obj.layout155:setWidth(38);
-    obj.layout155:setHeight(22);
-    obj.layout155:setName("layout155");
+    obj.layout146 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout146:setParent(obj.rectangle1);
+    obj.layout146:setLeft(264);
+    obj.layout146:setTop(1003);
+    obj.layout146:setWidth(38);
+    obj.layout146:setHeight(22);
+    obj.layout146:setName("layout146");
 
     obj.edit138 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit138:setParent(obj.layout155);
+    obj.edit138:setParent(obj.layout146);
     obj.edit138:setTransparent(true);
     obj.edit138:setFontSize(14.3);
     obj.edit138:setFontColor("#bcc184");
@@ -3379,16 +3226,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit138:setField("Att_0_0_9");
     obj.edit138:setName("edit138");
 
-    obj.layout156 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout156:setParent(obj.rectangle1);
-    obj.layout156:setLeft(501);
-    obj.layout156:setTop(1003);
-    obj.layout156:setWidth(38);
-    obj.layout156:setHeight(22);
-    obj.layout156:setName("layout156");
+    obj.layout147 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout147:setParent(obj.rectangle1);
+    obj.layout147:setLeft(501);
+    obj.layout147:setTop(1003);
+    obj.layout147:setWidth(38);
+    obj.layout147:setHeight(22);
+    obj.layout147:setName("layout147");
 
     obj.edit139 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit139:setParent(obj.layout156);
+    obj.edit139:setParent(obj.layout147);
     obj.edit139:setTransparent(true);
     obj.edit139:setFontSize(14.3);
     obj.edit139:setFontColor("#bcc184");
@@ -3401,16 +3248,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit139:setField("Att_0_1_9");
     obj.edit139:setName("edit139");
 
-    obj.layout157 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout157:setParent(obj.rectangle1);
-    obj.layout157:setLeft(264);
-    obj.layout157:setTop(1026);
-    obj.layout157:setWidth(38);
-    obj.layout157:setHeight(22);
-    obj.layout157:setName("layout157");
+    obj.layout148 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout148:setParent(obj.rectangle1);
+    obj.layout148:setLeft(264);
+    obj.layout148:setTop(1026);
+    obj.layout148:setWidth(38);
+    obj.layout148:setHeight(22);
+    obj.layout148:setName("layout148");
 
     obj.edit140 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit140:setParent(obj.layout157);
+    obj.edit140:setParent(obj.layout148);
     obj.edit140:setTransparent(true);
     obj.edit140:setFontSize(14.3);
     obj.edit140:setFontColor("#bcc184");
@@ -3423,16 +3270,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit140:setField("Att_0_0_10");
     obj.edit140:setName("edit140");
 
-    obj.layout158 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout158:setParent(obj.rectangle1);
-    obj.layout158:setLeft(501);
-    obj.layout158:setTop(1026);
-    obj.layout158:setWidth(38);
-    obj.layout158:setHeight(22);
-    obj.layout158:setName("layout158");
+    obj.layout149 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout149:setParent(obj.rectangle1);
+    obj.layout149:setLeft(501);
+    obj.layout149:setTop(1026);
+    obj.layout149:setWidth(38);
+    obj.layout149:setHeight(22);
+    obj.layout149:setName("layout149");
 
     obj.edit141 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit141:setParent(obj.layout158);
+    obj.edit141:setParent(obj.layout149);
     obj.edit141:setTransparent(true);
     obj.edit141:setFontSize(14.3);
     obj.edit141:setFontColor("#bcc184");
@@ -3445,16 +3292,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit141:setField("Att_0_1_10");
     obj.edit141:setName("edit141");
 
-    obj.layout159 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout159:setParent(obj.rectangle1);
-    obj.layout159:setLeft(264);
-    obj.layout159:setTop(1050);
-    obj.layout159:setWidth(38);
-    obj.layout159:setHeight(22);
-    obj.layout159:setName("layout159");
+    obj.layout150 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout150:setParent(obj.rectangle1);
+    obj.layout150:setLeft(264);
+    obj.layout150:setTop(1050);
+    obj.layout150:setWidth(38);
+    obj.layout150:setHeight(22);
+    obj.layout150:setName("layout150");
 
     obj.edit142 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit142:setParent(obj.layout159);
+    obj.edit142:setParent(obj.layout150);
     obj.edit142:setTransparent(true);
     obj.edit142:setFontSize(14.3);
     obj.edit142:setFontColor("#bcc184");
@@ -3467,16 +3314,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit142:setField("Att_0_0_11");
     obj.edit142:setName("edit142");
 
-    obj.layout160 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout160:setParent(obj.rectangle1);
-    obj.layout160:setLeft(501);
-    obj.layout160:setTop(1050);
-    obj.layout160:setWidth(38);
-    obj.layout160:setHeight(22);
-    obj.layout160:setName("layout160");
+    obj.layout151 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout151:setParent(obj.rectangle1);
+    obj.layout151:setLeft(501);
+    obj.layout151:setTop(1050);
+    obj.layout151:setWidth(38);
+    obj.layout151:setHeight(22);
+    obj.layout151:setName("layout151");
 
     obj.edit143 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit143:setParent(obj.layout160);
+    obj.edit143:setParent(obj.layout151);
     obj.edit143:setTransparent(true);
     obj.edit143:setFontSize(14.3);
     obj.edit143:setFontColor("#bcc184");
@@ -3489,16 +3336,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit143:setField("Att_0_1_11");
     obj.edit143:setName("edit143");
 
-    obj.layout161 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout161:setParent(obj.rectangle1);
-    obj.layout161:setLeft(264);
-    obj.layout161:setTop(1073);
-    obj.layout161:setWidth(38);
-    obj.layout161:setHeight(22);
-    obj.layout161:setName("layout161");
+    obj.layout152 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout152:setParent(obj.rectangle1);
+    obj.layout152:setLeft(264);
+    obj.layout152:setTop(1073);
+    obj.layout152:setWidth(38);
+    obj.layout152:setHeight(22);
+    obj.layout152:setName("layout152");
 
     obj.edit144 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit144:setParent(obj.layout161);
+    obj.edit144:setParent(obj.layout152);
     obj.edit144:setTransparent(true);
     obj.edit144:setFontSize(14.3);
     obj.edit144:setFontColor("#bcc184");
@@ -3511,16 +3358,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit144:setField("Att_0_0_12");
     obj.edit144:setName("edit144");
 
-    obj.layout162 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout162:setParent(obj.rectangle1);
-    obj.layout162:setLeft(501);
-    obj.layout162:setTop(1073);
-    obj.layout162:setWidth(38);
-    obj.layout162:setHeight(22);
-    obj.layout162:setName("layout162");
+    obj.layout153 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout153:setParent(obj.rectangle1);
+    obj.layout153:setLeft(501);
+    obj.layout153:setTop(1073);
+    obj.layout153:setWidth(38);
+    obj.layout153:setHeight(22);
+    obj.layout153:setName("layout153");
 
     obj.edit145 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit145:setParent(obj.layout162);
+    obj.edit145:setParent(obj.layout153);
     obj.edit145:setTransparent(true);
     obj.edit145:setFontSize(14.3);
     obj.edit145:setFontColor("#bcc184");
@@ -3533,16 +3380,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit145:setField("Att_0_1_12");
     obj.edit145:setName("edit145");
 
-    obj.layout163 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout163:setParent(obj.rectangle1);
-    obj.layout163:setLeft(264);
-    obj.layout163:setTop(1097);
-    obj.layout163:setWidth(38);
-    obj.layout163:setHeight(22);
-    obj.layout163:setName("layout163");
+    obj.layout154 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout154:setParent(obj.rectangle1);
+    obj.layout154:setLeft(264);
+    obj.layout154:setTop(1097);
+    obj.layout154:setWidth(38);
+    obj.layout154:setHeight(22);
+    obj.layout154:setName("layout154");
 
     obj.edit146 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit146:setParent(obj.layout163);
+    obj.edit146:setParent(obj.layout154);
     obj.edit146:setTransparent(true);
     obj.edit146:setFontSize(14.3);
     obj.edit146:setFontColor("#bcc184");
@@ -3555,16 +3402,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit146:setField("Att_0_0_13");
     obj.edit146:setName("edit146");
 
-    obj.layout164 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout164:setParent(obj.rectangle1);
-    obj.layout164:setLeft(501);
-    obj.layout164:setTop(1097);
-    obj.layout164:setWidth(38);
-    obj.layout164:setHeight(22);
-    obj.layout164:setName("layout164");
+    obj.layout155 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout155:setParent(obj.rectangle1);
+    obj.layout155:setLeft(501);
+    obj.layout155:setTop(1097);
+    obj.layout155:setWidth(38);
+    obj.layout155:setHeight(22);
+    obj.layout155:setName("layout155");
 
     obj.edit147 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit147:setParent(obj.layout164);
+    obj.edit147:setParent(obj.layout155);
     obj.edit147:setTransparent(true);
     obj.edit147:setFontSize(14.3);
     obj.edit147:setFontColor("#bcc184");
@@ -3577,16 +3424,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit147:setField("Att_0_1_13");
     obj.edit147:setName("edit147");
 
-    obj.layout165 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout165:setParent(obj.rectangle1);
-    obj.layout165:setLeft(264);
-    obj.layout165:setTop(1120);
-    obj.layout165:setWidth(38);
-    obj.layout165:setHeight(22);
-    obj.layout165:setName("layout165");
+    obj.layout156 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout156:setParent(obj.rectangle1);
+    obj.layout156:setLeft(264);
+    obj.layout156:setTop(1120);
+    obj.layout156:setWidth(38);
+    obj.layout156:setHeight(22);
+    obj.layout156:setName("layout156");
 
     obj.edit148 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit148:setParent(obj.layout165);
+    obj.edit148:setParent(obj.layout156);
     obj.edit148:setTransparent(true);
     obj.edit148:setFontSize(14.3);
     obj.edit148:setFontColor("#bcc184");
@@ -3599,16 +3446,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit148:setField("Att_0_0_14");
     obj.edit148:setName("edit148");
 
-    obj.layout166 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout166:setParent(obj.rectangle1);
-    obj.layout166:setLeft(501);
-    obj.layout166:setTop(1120);
-    obj.layout166:setWidth(38);
-    obj.layout166:setHeight(22);
-    obj.layout166:setName("layout166");
+    obj.layout157 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout157:setParent(obj.rectangle1);
+    obj.layout157:setLeft(501);
+    obj.layout157:setTop(1120);
+    obj.layout157:setWidth(38);
+    obj.layout157:setHeight(22);
+    obj.layout157:setName("layout157");
 
     obj.edit149 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit149:setParent(obj.layout166);
+    obj.edit149:setParent(obj.layout157);
     obj.edit149:setTransparent(true);
     obj.edit149:setFontSize(14.3);
     obj.edit149:setFontColor("#bcc184");
@@ -3621,16 +3468,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit149:setField("Att_0_1_14");
     obj.edit149:setName("edit149");
 
-    obj.layout167 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout167:setParent(obj.rectangle1);
-    obj.layout167:setLeft(264);
-    obj.layout167:setTop(1144);
-    obj.layout167:setWidth(38);
-    obj.layout167:setHeight(22);
-    obj.layout167:setName("layout167");
+    obj.layout158 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout158:setParent(obj.rectangle1);
+    obj.layout158:setLeft(264);
+    obj.layout158:setTop(1144);
+    obj.layout158:setWidth(38);
+    obj.layout158:setHeight(22);
+    obj.layout158:setName("layout158");
 
     obj.edit150 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit150:setParent(obj.layout167);
+    obj.edit150:setParent(obj.layout158);
     obj.edit150:setTransparent(true);
     obj.edit150:setFontSize(14.3);
     obj.edit150:setFontColor("#bcc184");
@@ -3643,16 +3490,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit150:setField("Att_0_0_15");
     obj.edit150:setName("edit150");
 
-    obj.layout168 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout168:setParent(obj.rectangle1);
-    obj.layout168:setLeft(501);
-    obj.layout168:setTop(1144);
-    obj.layout168:setWidth(38);
-    obj.layout168:setHeight(22);
-    obj.layout168:setName("layout168");
+    obj.layout159 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout159:setParent(obj.rectangle1);
+    obj.layout159:setLeft(501);
+    obj.layout159:setTop(1144);
+    obj.layout159:setWidth(38);
+    obj.layout159:setHeight(22);
+    obj.layout159:setName("layout159");
 
     obj.edit151 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit151:setParent(obj.layout168);
+    obj.edit151:setParent(obj.layout159);
     obj.edit151:setTransparent(true);
     obj.edit151:setFontSize(14.3);
     obj.edit151:setFontColor("#bcc184");
@@ -3665,16 +3512,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit151:setField("Att_0_1_15");
     obj.edit151:setName("edit151");
 
-    obj.layout169 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout169:setParent(obj.rectangle1);
-    obj.layout169:setLeft(264);
-    obj.layout169:setTop(1167);
-    obj.layout169:setWidth(38);
-    obj.layout169:setHeight(22);
-    obj.layout169:setName("layout169");
+    obj.layout160 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout160:setParent(obj.rectangle1);
+    obj.layout160:setLeft(264);
+    obj.layout160:setTop(1167);
+    obj.layout160:setWidth(38);
+    obj.layout160:setHeight(22);
+    obj.layout160:setName("layout160");
 
     obj.edit152 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit152:setParent(obj.layout169);
+    obj.edit152:setParent(obj.layout160);
     obj.edit152:setTransparent(true);
     obj.edit152:setFontSize(14.3);
     obj.edit152:setFontColor("#bcc184");
@@ -3687,16 +3534,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit152:setField("Att_0_0_16");
     obj.edit152:setName("edit152");
 
-    obj.layout170 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout170:setParent(obj.rectangle1);
-    obj.layout170:setLeft(501);
-    obj.layout170:setTop(1167);
-    obj.layout170:setWidth(38);
-    obj.layout170:setHeight(22);
-    obj.layout170:setName("layout170");
+    obj.layout161 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout161:setParent(obj.rectangle1);
+    obj.layout161:setLeft(501);
+    obj.layout161:setTop(1167);
+    obj.layout161:setWidth(38);
+    obj.layout161:setHeight(22);
+    obj.layout161:setName("layout161");
 
     obj.edit153 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit153:setParent(obj.layout170);
+    obj.edit153:setParent(obj.layout161);
     obj.edit153:setTransparent(true);
     obj.edit153:setFontSize(14.3);
     obj.edit153:setFontColor("#bcc184");
@@ -3709,16 +3556,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit153:setField("Att_0_1_16");
     obj.edit153:setName("edit153");
 
-    obj.layout171 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout171:setParent(obj.rectangle1);
-    obj.layout171:setLeft(305);
-    obj.layout171:setTop(815);
-    obj.layout171:setWidth(40);
-    obj.layout171:setHeight(22);
-    obj.layout171:setName("layout171");
+    obj.layout162 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout162:setParent(obj.rectangle1);
+    obj.layout162:setLeft(305);
+    obj.layout162:setTop(815);
+    obj.layout162:setWidth(40);
+    obj.layout162:setHeight(22);
+    obj.layout162:setName("layout162");
 
     obj.edit154 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit154:setParent(obj.layout171);
+    obj.edit154:setParent(obj.layout162);
     obj.edit154:setTransparent(true);
     obj.edit154:setFontSize(14.3);
     obj.edit154:setFontColor("#bcc184");
@@ -3731,16 +3578,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit154:setField("Type_0_0_1");
     obj.edit154:setName("edit154");
 
-    obj.layout172 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout172:setParent(obj.rectangle1);
-    obj.layout172:setLeft(541);
-    obj.layout172:setTop(815);
-    obj.layout172:setWidth(40);
-    obj.layout172:setHeight(22);
-    obj.layout172:setName("layout172");
+    obj.layout163 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout163:setParent(obj.rectangle1);
+    obj.layout163:setLeft(541);
+    obj.layout163:setTop(815);
+    obj.layout163:setWidth(40);
+    obj.layout163:setHeight(22);
+    obj.layout163:setName("layout163");
 
     obj.edit155 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit155:setParent(obj.layout172);
+    obj.edit155:setParent(obj.layout163);
     obj.edit155:setTransparent(true);
     obj.edit155:setFontSize(14.3);
     obj.edit155:setFontColor("#bcc184");
@@ -3753,16 +3600,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit155:setField("Type_0_1_1");
     obj.edit155:setName("edit155");
 
-    obj.layout173 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout173:setParent(obj.rectangle1);
-    obj.layout173:setLeft(305);
-    obj.layout173:setTop(839);
-    obj.layout173:setWidth(40);
-    obj.layout173:setHeight(22);
-    obj.layout173:setName("layout173");
+    obj.layout164 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout164:setParent(obj.rectangle1);
+    obj.layout164:setLeft(305);
+    obj.layout164:setTop(839);
+    obj.layout164:setWidth(40);
+    obj.layout164:setHeight(22);
+    obj.layout164:setName("layout164");
 
     obj.edit156 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit156:setParent(obj.layout173);
+    obj.edit156:setParent(obj.layout164);
     obj.edit156:setTransparent(true);
     obj.edit156:setFontSize(14.3);
     obj.edit156:setFontColor("#bcc184");
@@ -3775,16 +3622,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit156:setField("Type_0_0_2");
     obj.edit156:setName("edit156");
 
-    obj.layout174 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout174:setParent(obj.rectangle1);
-    obj.layout174:setLeft(541);
-    obj.layout174:setTop(839);
-    obj.layout174:setWidth(40);
-    obj.layout174:setHeight(22);
-    obj.layout174:setName("layout174");
+    obj.layout165 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout165:setParent(obj.rectangle1);
+    obj.layout165:setLeft(541);
+    obj.layout165:setTop(839);
+    obj.layout165:setWidth(40);
+    obj.layout165:setHeight(22);
+    obj.layout165:setName("layout165");
 
     obj.edit157 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit157:setParent(obj.layout174);
+    obj.edit157:setParent(obj.layout165);
     obj.edit157:setTransparent(true);
     obj.edit157:setFontSize(14.3);
     obj.edit157:setFontColor("#bcc184");
@@ -3797,16 +3644,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit157:setField("Type_0_1_2");
     obj.edit157:setName("edit157");
 
-    obj.layout175 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout175:setParent(obj.rectangle1);
-    obj.layout175:setLeft(305);
-    obj.layout175:setTop(862);
-    obj.layout175:setWidth(40);
-    obj.layout175:setHeight(22);
-    obj.layout175:setName("layout175");
+    obj.layout166 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout166:setParent(obj.rectangle1);
+    obj.layout166:setLeft(305);
+    obj.layout166:setTop(862);
+    obj.layout166:setWidth(40);
+    obj.layout166:setHeight(22);
+    obj.layout166:setName("layout166");
 
     obj.edit158 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit158:setParent(obj.layout175);
+    obj.edit158:setParent(obj.layout166);
     obj.edit158:setTransparent(true);
     obj.edit158:setFontSize(14.3);
     obj.edit158:setFontColor("#bcc184");
@@ -3819,16 +3666,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit158:setField("Type_0_0_3");
     obj.edit158:setName("edit158");
 
-    obj.layout176 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout176:setParent(obj.rectangle1);
-    obj.layout176:setLeft(541);
-    obj.layout176:setTop(862);
-    obj.layout176:setWidth(40);
-    obj.layout176:setHeight(22);
-    obj.layout176:setName("layout176");
+    obj.layout167 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout167:setParent(obj.rectangle1);
+    obj.layout167:setLeft(541);
+    obj.layout167:setTop(862);
+    obj.layout167:setWidth(40);
+    obj.layout167:setHeight(22);
+    obj.layout167:setName("layout167");
 
     obj.edit159 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit159:setParent(obj.layout176);
+    obj.edit159:setParent(obj.layout167);
     obj.edit159:setTransparent(true);
     obj.edit159:setFontSize(14.3);
     obj.edit159:setFontColor("#bcc184");
@@ -3841,16 +3688,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit159:setField("Type_0_1_3");
     obj.edit159:setName("edit159");
 
-    obj.layout177 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout177:setParent(obj.rectangle1);
-    obj.layout177:setLeft(305);
-    obj.layout177:setTop(886);
-    obj.layout177:setWidth(40);
-    obj.layout177:setHeight(22);
-    obj.layout177:setName("layout177");
+    obj.layout168 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout168:setParent(obj.rectangle1);
+    obj.layout168:setLeft(305);
+    obj.layout168:setTop(886);
+    obj.layout168:setWidth(40);
+    obj.layout168:setHeight(22);
+    obj.layout168:setName("layout168");
 
     obj.edit160 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit160:setParent(obj.layout177);
+    obj.edit160:setParent(obj.layout168);
     obj.edit160:setTransparent(true);
     obj.edit160:setFontSize(14.3);
     obj.edit160:setFontColor("#bcc184");
@@ -3863,16 +3710,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit160:setField("Type_0_0_4");
     obj.edit160:setName("edit160");
 
-    obj.layout178 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout178:setParent(obj.rectangle1);
-    obj.layout178:setLeft(541);
-    obj.layout178:setTop(886);
-    obj.layout178:setWidth(40);
-    obj.layout178:setHeight(22);
-    obj.layout178:setName("layout178");
+    obj.layout169 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout169:setParent(obj.rectangle1);
+    obj.layout169:setLeft(541);
+    obj.layout169:setTop(886);
+    obj.layout169:setWidth(40);
+    obj.layout169:setHeight(22);
+    obj.layout169:setName("layout169");
 
     obj.edit161 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit161:setParent(obj.layout178);
+    obj.edit161:setParent(obj.layout169);
     obj.edit161:setTransparent(true);
     obj.edit161:setFontSize(14.3);
     obj.edit161:setFontColor("#bcc184");
@@ -3885,16 +3732,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit161:setField("Type_0_1_4");
     obj.edit161:setName("edit161");
 
-    obj.layout179 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout179:setParent(obj.rectangle1);
-    obj.layout179:setLeft(305);
-    obj.layout179:setTop(909);
-    obj.layout179:setWidth(40);
-    obj.layout179:setHeight(22);
-    obj.layout179:setName("layout179");
+    obj.layout170 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout170:setParent(obj.rectangle1);
+    obj.layout170:setLeft(305);
+    obj.layout170:setTop(909);
+    obj.layout170:setWidth(40);
+    obj.layout170:setHeight(22);
+    obj.layout170:setName("layout170");
 
     obj.edit162 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit162:setParent(obj.layout179);
+    obj.edit162:setParent(obj.layout170);
     obj.edit162:setTransparent(true);
     obj.edit162:setFontSize(14.3);
     obj.edit162:setFontColor("#bcc184");
@@ -3907,16 +3754,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit162:setField("Type_0_0_5");
     obj.edit162:setName("edit162");
 
-    obj.layout180 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout180:setParent(obj.rectangle1);
-    obj.layout180:setLeft(541);
-    obj.layout180:setTop(909);
-    obj.layout180:setWidth(40);
-    obj.layout180:setHeight(22);
-    obj.layout180:setName("layout180");
+    obj.layout171 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout171:setParent(obj.rectangle1);
+    obj.layout171:setLeft(541);
+    obj.layout171:setTop(909);
+    obj.layout171:setWidth(40);
+    obj.layout171:setHeight(22);
+    obj.layout171:setName("layout171");
 
     obj.edit163 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit163:setParent(obj.layout180);
+    obj.edit163:setParent(obj.layout171);
     obj.edit163:setTransparent(true);
     obj.edit163:setFontSize(14.3);
     obj.edit163:setFontColor("#bcc184");
@@ -3929,16 +3776,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit163:setField("Type_0_1_5");
     obj.edit163:setName("edit163");
 
-    obj.layout181 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout181:setParent(obj.rectangle1);
-    obj.layout181:setLeft(305);
-    obj.layout181:setTop(933);
-    obj.layout181:setWidth(40);
-    obj.layout181:setHeight(22);
-    obj.layout181:setName("layout181");
+    obj.layout172 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout172:setParent(obj.rectangle1);
+    obj.layout172:setLeft(305);
+    obj.layout172:setTop(933);
+    obj.layout172:setWidth(40);
+    obj.layout172:setHeight(22);
+    obj.layout172:setName("layout172");
 
     obj.edit164 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit164:setParent(obj.layout181);
+    obj.edit164:setParent(obj.layout172);
     obj.edit164:setTransparent(true);
     obj.edit164:setFontSize(14.3);
     obj.edit164:setFontColor("#bcc184");
@@ -3951,16 +3798,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit164:setField("Type_0_0_6");
     obj.edit164:setName("edit164");
 
-    obj.layout182 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout182:setParent(obj.rectangle1);
-    obj.layout182:setLeft(541);
-    obj.layout182:setTop(933);
-    obj.layout182:setWidth(40);
-    obj.layout182:setHeight(22);
-    obj.layout182:setName("layout182");
+    obj.layout173 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout173:setParent(obj.rectangle1);
+    obj.layout173:setLeft(541);
+    obj.layout173:setTop(933);
+    obj.layout173:setWidth(40);
+    obj.layout173:setHeight(22);
+    obj.layout173:setName("layout173");
 
     obj.edit165 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit165:setParent(obj.layout182);
+    obj.edit165:setParent(obj.layout173);
     obj.edit165:setTransparent(true);
     obj.edit165:setFontSize(14.3);
     obj.edit165:setFontColor("#bcc184");
@@ -3973,16 +3820,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit165:setField("Type_0_1_6");
     obj.edit165:setName("edit165");
 
-    obj.layout183 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout183:setParent(obj.rectangle1);
-    obj.layout183:setLeft(305);
-    obj.layout183:setTop(956);
-    obj.layout183:setWidth(40);
-    obj.layout183:setHeight(22);
-    obj.layout183:setName("layout183");
+    obj.layout174 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout174:setParent(obj.rectangle1);
+    obj.layout174:setLeft(305);
+    obj.layout174:setTop(956);
+    obj.layout174:setWidth(40);
+    obj.layout174:setHeight(22);
+    obj.layout174:setName("layout174");
 
     obj.edit166 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit166:setParent(obj.layout183);
+    obj.edit166:setParent(obj.layout174);
     obj.edit166:setTransparent(true);
     obj.edit166:setFontSize(14.3);
     obj.edit166:setFontColor("#bcc184");
@@ -3995,16 +3842,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit166:setField("Type_0_0_7");
     obj.edit166:setName("edit166");
 
-    obj.layout184 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout184:setParent(obj.rectangle1);
-    obj.layout184:setLeft(541);
-    obj.layout184:setTop(956);
-    obj.layout184:setWidth(40);
-    obj.layout184:setHeight(22);
-    obj.layout184:setName("layout184");
+    obj.layout175 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout175:setParent(obj.rectangle1);
+    obj.layout175:setLeft(541);
+    obj.layout175:setTop(956);
+    obj.layout175:setWidth(40);
+    obj.layout175:setHeight(22);
+    obj.layout175:setName("layout175");
 
     obj.edit167 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit167:setParent(obj.layout184);
+    obj.edit167:setParent(obj.layout175);
     obj.edit167:setTransparent(true);
     obj.edit167:setFontSize(14.3);
     obj.edit167:setFontColor("#bcc184");
@@ -4017,16 +3864,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit167:setField("Type_0_1_7");
     obj.edit167:setName("edit167");
 
-    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout185:setParent(obj.rectangle1);
-    obj.layout185:setLeft(305);
-    obj.layout185:setTop(979);
-    obj.layout185:setWidth(40);
-    obj.layout185:setHeight(22);
-    obj.layout185:setName("layout185");
+    obj.layout176 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout176:setParent(obj.rectangle1);
+    obj.layout176:setLeft(305);
+    obj.layout176:setTop(979);
+    obj.layout176:setWidth(40);
+    obj.layout176:setHeight(22);
+    obj.layout176:setName("layout176");
 
     obj.edit168 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit168:setParent(obj.layout185);
+    obj.edit168:setParent(obj.layout176);
     obj.edit168:setTransparent(true);
     obj.edit168:setFontSize(14.3);
     obj.edit168:setFontColor("#bcc184");
@@ -4039,16 +3886,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit168:setField("Type_0_0_8");
     obj.edit168:setName("edit168");
 
-    obj.layout186 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout186:setParent(obj.rectangle1);
-    obj.layout186:setLeft(541);
-    obj.layout186:setTop(979);
-    obj.layout186:setWidth(40);
-    obj.layout186:setHeight(22);
-    obj.layout186:setName("layout186");
+    obj.layout177 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout177:setParent(obj.rectangle1);
+    obj.layout177:setLeft(541);
+    obj.layout177:setTop(979);
+    obj.layout177:setWidth(40);
+    obj.layout177:setHeight(22);
+    obj.layout177:setName("layout177");
 
     obj.edit169 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit169:setParent(obj.layout186);
+    obj.edit169:setParent(obj.layout177);
     obj.edit169:setTransparent(true);
     obj.edit169:setFontSize(14.3);
     obj.edit169:setFontColor("#bcc184");
@@ -4061,16 +3908,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit169:setField("Type_0_1_8");
     obj.edit169:setName("edit169");
 
-    obj.layout187 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout187:setParent(obj.rectangle1);
-    obj.layout187:setLeft(305);
-    obj.layout187:setTop(1003);
-    obj.layout187:setWidth(40);
-    obj.layout187:setHeight(22);
-    obj.layout187:setName("layout187");
+    obj.layout178 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout178:setParent(obj.rectangle1);
+    obj.layout178:setLeft(305);
+    obj.layout178:setTop(1003);
+    obj.layout178:setWidth(40);
+    obj.layout178:setHeight(22);
+    obj.layout178:setName("layout178");
 
     obj.edit170 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit170:setParent(obj.layout187);
+    obj.edit170:setParent(obj.layout178);
     obj.edit170:setTransparent(true);
     obj.edit170:setFontSize(14.3);
     obj.edit170:setFontColor("#bcc184");
@@ -4083,16 +3930,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit170:setField("Type_0_0_9");
     obj.edit170:setName("edit170");
 
-    obj.layout188 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout188:setParent(obj.rectangle1);
-    obj.layout188:setLeft(541);
-    obj.layout188:setTop(1003);
-    obj.layout188:setWidth(40);
-    obj.layout188:setHeight(22);
-    obj.layout188:setName("layout188");
+    obj.layout179 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout179:setParent(obj.rectangle1);
+    obj.layout179:setLeft(541);
+    obj.layout179:setTop(1003);
+    obj.layout179:setWidth(40);
+    obj.layout179:setHeight(22);
+    obj.layout179:setName("layout179");
 
     obj.edit171 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit171:setParent(obj.layout188);
+    obj.edit171:setParent(obj.layout179);
     obj.edit171:setTransparent(true);
     obj.edit171:setFontSize(14.3);
     obj.edit171:setFontColor("#bcc184");
@@ -4105,16 +3952,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit171:setField("Type_0_1_9");
     obj.edit171:setName("edit171");
 
-    obj.layout189 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout189:setParent(obj.rectangle1);
-    obj.layout189:setLeft(305);
-    obj.layout189:setTop(1026);
-    obj.layout189:setWidth(40);
-    obj.layout189:setHeight(22);
-    obj.layout189:setName("layout189");
+    obj.layout180 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout180:setParent(obj.rectangle1);
+    obj.layout180:setLeft(305);
+    obj.layout180:setTop(1026);
+    obj.layout180:setWidth(40);
+    obj.layout180:setHeight(22);
+    obj.layout180:setName("layout180");
 
     obj.edit172 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit172:setParent(obj.layout189);
+    obj.edit172:setParent(obj.layout180);
     obj.edit172:setTransparent(true);
     obj.edit172:setFontSize(14.3);
     obj.edit172:setFontColor("#bcc184");
@@ -4127,16 +3974,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit172:setField("Type_0_0_10");
     obj.edit172:setName("edit172");
 
-    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout190:setParent(obj.rectangle1);
-    obj.layout190:setLeft(541);
-    obj.layout190:setTop(1026);
-    obj.layout190:setWidth(40);
-    obj.layout190:setHeight(22);
-    obj.layout190:setName("layout190");
+    obj.layout181 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout181:setParent(obj.rectangle1);
+    obj.layout181:setLeft(541);
+    obj.layout181:setTop(1026);
+    obj.layout181:setWidth(40);
+    obj.layout181:setHeight(22);
+    obj.layout181:setName("layout181");
 
     obj.edit173 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit173:setParent(obj.layout190);
+    obj.edit173:setParent(obj.layout181);
     obj.edit173:setTransparent(true);
     obj.edit173:setFontSize(14.3);
     obj.edit173:setFontColor("#bcc184");
@@ -4149,16 +3996,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit173:setField("Type_0_1_10");
     obj.edit173:setName("edit173");
 
-    obj.layout191 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout191:setParent(obj.rectangle1);
-    obj.layout191:setLeft(305);
-    obj.layout191:setTop(1050);
-    obj.layout191:setWidth(40);
-    obj.layout191:setHeight(22);
-    obj.layout191:setName("layout191");
+    obj.layout182 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout182:setParent(obj.rectangle1);
+    obj.layout182:setLeft(305);
+    obj.layout182:setTop(1050);
+    obj.layout182:setWidth(40);
+    obj.layout182:setHeight(22);
+    obj.layout182:setName("layout182");
 
     obj.edit174 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit174:setParent(obj.layout191);
+    obj.edit174:setParent(obj.layout182);
     obj.edit174:setTransparent(true);
     obj.edit174:setFontSize(14.3);
     obj.edit174:setFontColor("#bcc184");
@@ -4171,16 +4018,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit174:setField("Type_0_0_11");
     obj.edit174:setName("edit174");
 
-    obj.layout192 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout192:setParent(obj.rectangle1);
-    obj.layout192:setLeft(541);
-    obj.layout192:setTop(1050);
-    obj.layout192:setWidth(40);
-    obj.layout192:setHeight(22);
-    obj.layout192:setName("layout192");
+    obj.layout183 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout183:setParent(obj.rectangle1);
+    obj.layout183:setLeft(541);
+    obj.layout183:setTop(1050);
+    obj.layout183:setWidth(40);
+    obj.layout183:setHeight(22);
+    obj.layout183:setName("layout183");
 
     obj.edit175 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit175:setParent(obj.layout192);
+    obj.edit175:setParent(obj.layout183);
     obj.edit175:setTransparent(true);
     obj.edit175:setFontSize(14.3);
     obj.edit175:setFontColor("#bcc184");
@@ -4193,16 +4040,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit175:setField("Type_0_1_11");
     obj.edit175:setName("edit175");
 
-    obj.layout193 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout193:setParent(obj.rectangle1);
-    obj.layout193:setLeft(305);
-    obj.layout193:setTop(1073);
-    obj.layout193:setWidth(40);
-    obj.layout193:setHeight(22);
-    obj.layout193:setName("layout193");
+    obj.layout184 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout184:setParent(obj.rectangle1);
+    obj.layout184:setLeft(305);
+    obj.layout184:setTop(1073);
+    obj.layout184:setWidth(40);
+    obj.layout184:setHeight(22);
+    obj.layout184:setName("layout184");
 
     obj.edit176 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit176:setParent(obj.layout193);
+    obj.edit176:setParent(obj.layout184);
     obj.edit176:setTransparent(true);
     obj.edit176:setFontSize(14.3);
     obj.edit176:setFontColor("#bcc184");
@@ -4215,16 +4062,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit176:setField("Type_0_0_12");
     obj.edit176:setName("edit176");
 
-    obj.layout194 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout194:setParent(obj.rectangle1);
-    obj.layout194:setLeft(541);
-    obj.layout194:setTop(1073);
-    obj.layout194:setWidth(40);
-    obj.layout194:setHeight(22);
-    obj.layout194:setName("layout194");
+    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout185:setParent(obj.rectangle1);
+    obj.layout185:setLeft(541);
+    obj.layout185:setTop(1073);
+    obj.layout185:setWidth(40);
+    obj.layout185:setHeight(22);
+    obj.layout185:setName("layout185");
 
     obj.edit177 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit177:setParent(obj.layout194);
+    obj.edit177:setParent(obj.layout185);
     obj.edit177:setTransparent(true);
     obj.edit177:setFontSize(14.3);
     obj.edit177:setFontColor("#bcc184");
@@ -4237,16 +4084,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit177:setField("Type_0_1_12");
     obj.edit177:setName("edit177");
 
-    obj.layout195 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout195:setParent(obj.rectangle1);
-    obj.layout195:setLeft(305);
-    obj.layout195:setTop(1097);
-    obj.layout195:setWidth(40);
-    obj.layout195:setHeight(22);
-    obj.layout195:setName("layout195");
+    obj.layout186 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout186:setParent(obj.rectangle1);
+    obj.layout186:setLeft(305);
+    obj.layout186:setTop(1097);
+    obj.layout186:setWidth(40);
+    obj.layout186:setHeight(22);
+    obj.layout186:setName("layout186");
 
     obj.edit178 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit178:setParent(obj.layout195);
+    obj.edit178:setParent(obj.layout186);
     obj.edit178:setTransparent(true);
     obj.edit178:setFontSize(14.3);
     obj.edit178:setFontColor("#bcc184");
@@ -4259,16 +4106,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit178:setField("Type_0_0_13");
     obj.edit178:setName("edit178");
 
-    obj.layout196 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout196:setParent(obj.rectangle1);
-    obj.layout196:setLeft(541);
-    obj.layout196:setTop(1097);
-    obj.layout196:setWidth(40);
-    obj.layout196:setHeight(22);
-    obj.layout196:setName("layout196");
+    obj.layout187 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout187:setParent(obj.rectangle1);
+    obj.layout187:setLeft(541);
+    obj.layout187:setTop(1097);
+    obj.layout187:setWidth(40);
+    obj.layout187:setHeight(22);
+    obj.layout187:setName("layout187");
 
     obj.edit179 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit179:setParent(obj.layout196);
+    obj.edit179:setParent(obj.layout187);
     obj.edit179:setTransparent(true);
     obj.edit179:setFontSize(14.3);
     obj.edit179:setFontColor("#bcc184");
@@ -4281,16 +4128,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit179:setField("Type_0_1_13");
     obj.edit179:setName("edit179");
 
-    obj.layout197 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout197:setParent(obj.rectangle1);
-    obj.layout197:setLeft(305);
-    obj.layout197:setTop(1120);
-    obj.layout197:setWidth(40);
-    obj.layout197:setHeight(22);
-    obj.layout197:setName("layout197");
+    obj.layout188 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout188:setParent(obj.rectangle1);
+    obj.layout188:setLeft(305);
+    obj.layout188:setTop(1120);
+    obj.layout188:setWidth(40);
+    obj.layout188:setHeight(22);
+    obj.layout188:setName("layout188");
 
     obj.edit180 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit180:setParent(obj.layout197);
+    obj.edit180:setParent(obj.layout188);
     obj.edit180:setTransparent(true);
     obj.edit180:setFontSize(14.3);
     obj.edit180:setFontColor("#bcc184");
@@ -4303,16 +4150,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit180:setField("Type_0_0_14");
     obj.edit180:setName("edit180");
 
-    obj.layout198 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout198:setParent(obj.rectangle1);
-    obj.layout198:setLeft(541);
-    obj.layout198:setTop(1120);
-    obj.layout198:setWidth(40);
-    obj.layout198:setHeight(22);
-    obj.layout198:setName("layout198");
+    obj.layout189 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout189:setParent(obj.rectangle1);
+    obj.layout189:setLeft(541);
+    obj.layout189:setTop(1120);
+    obj.layout189:setWidth(40);
+    obj.layout189:setHeight(22);
+    obj.layout189:setName("layout189");
 
     obj.edit181 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit181:setParent(obj.layout198);
+    obj.edit181:setParent(obj.layout189);
     obj.edit181:setTransparent(true);
     obj.edit181:setFontSize(14.3);
     obj.edit181:setFontColor("#bcc184");
@@ -4325,16 +4172,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit181:setField("Type_0_1_14");
     obj.edit181:setName("edit181");
 
-    obj.layout199 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout199:setParent(obj.rectangle1);
-    obj.layout199:setLeft(305);
-    obj.layout199:setTop(1144);
-    obj.layout199:setWidth(40);
-    obj.layout199:setHeight(22);
-    obj.layout199:setName("layout199");
+    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout190:setParent(obj.rectangle1);
+    obj.layout190:setLeft(305);
+    obj.layout190:setTop(1144);
+    obj.layout190:setWidth(40);
+    obj.layout190:setHeight(22);
+    obj.layout190:setName("layout190");
 
     obj.edit182 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit182:setParent(obj.layout199);
+    obj.edit182:setParent(obj.layout190);
     obj.edit182:setTransparent(true);
     obj.edit182:setFontSize(14.3);
     obj.edit182:setFontColor("#bcc184");
@@ -4347,16 +4194,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit182:setField("Type_0_0_15");
     obj.edit182:setName("edit182");
 
-    obj.layout200 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout200:setParent(obj.rectangle1);
-    obj.layout200:setLeft(541);
-    obj.layout200:setTop(1144);
-    obj.layout200:setWidth(40);
-    obj.layout200:setHeight(22);
-    obj.layout200:setName("layout200");
+    obj.layout191 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout191:setParent(obj.rectangle1);
+    obj.layout191:setLeft(541);
+    obj.layout191:setTop(1144);
+    obj.layout191:setWidth(40);
+    obj.layout191:setHeight(22);
+    obj.layout191:setName("layout191");
 
     obj.edit183 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit183:setParent(obj.layout200);
+    obj.edit183:setParent(obj.layout191);
     obj.edit183:setTransparent(true);
     obj.edit183:setFontSize(14.3);
     obj.edit183:setFontColor("#bcc184");
@@ -4369,16 +4216,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit183:setField("Type_0_1_15");
     obj.edit183:setName("edit183");
 
-    obj.layout201 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout201:setParent(obj.rectangle1);
-    obj.layout201:setLeft(305);
-    obj.layout201:setTop(1167);
-    obj.layout201:setWidth(40);
-    obj.layout201:setHeight(22);
-    obj.layout201:setName("layout201");
+    obj.layout192 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout192:setParent(obj.rectangle1);
+    obj.layout192:setLeft(305);
+    obj.layout192:setTop(1167);
+    obj.layout192:setWidth(40);
+    obj.layout192:setHeight(22);
+    obj.layout192:setName("layout192");
 
     obj.edit184 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit184:setParent(obj.layout201);
+    obj.edit184:setParent(obj.layout192);
     obj.edit184:setTransparent(true);
     obj.edit184:setFontSize(14.3);
     obj.edit184:setFontColor("#bcc184");
@@ -4391,16 +4238,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit184:setField("Type_0_0_16");
     obj.edit184:setName("edit184");
 
-    obj.layout202 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout202:setParent(obj.rectangle1);
-    obj.layout202:setLeft(541);
-    obj.layout202:setTop(1167);
-    obj.layout202:setWidth(40);
-    obj.layout202:setHeight(22);
-    obj.layout202:setName("layout202");
+    obj.layout193 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout193:setParent(obj.rectangle1);
+    obj.layout193:setLeft(541);
+    obj.layout193:setTop(1167);
+    obj.layout193:setWidth(40);
+    obj.layout193:setHeight(22);
+    obj.layout193:setName("layout193");
 
     obj.edit185 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit185:setParent(obj.layout202);
+    obj.edit185:setParent(obj.layout193);
     obj.edit185:setTransparent(true);
     obj.edit185:setFontSize(14.3);
     obj.edit185:setFontColor("#bcc184");
@@ -4413,67 +4260,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit185:setField("Type_0_1_16");
     obj.edit185:setName("edit185");
 
-    obj.layout203 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout203:setParent(obj.rectangle1);
-    obj.layout203:setLeft(726);
-    obj.layout203:setTop(817);
-    obj.layout203:setWidth(61);
-    obj.layout203:setHeight(61);
-    obj.layout203:setName("layout203");
-
-    obj.checkBox18 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox18:setParent(obj.layout203);
-    obj.checkBox18:setLeft(20);
-    obj.checkBox18:setTop(0);
-    obj.checkBox18:setWidth(61);
-    obj.checkBox18:setHeight(62);
-    obj.checkBox18:setField("_17");
-    obj.checkBox18:setName("checkBox18");
-
-    obj.layout204 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout204:setParent(obj.rectangle1);
-    obj.layout204:setLeft(794);
-    obj.layout204:setTop(817);
-    obj.layout204:setWidth(61);
-    obj.layout204:setHeight(61);
-    obj.layout204:setName("layout204");
-
-    obj.checkBox19 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox19:setParent(obj.layout204);
-    obj.checkBox19:setLeft(20);
-    obj.checkBox19:setTop(0);
-    obj.checkBox19:setWidth(61);
-    obj.checkBox19:setHeight(62);
-    obj.checkBox19:setField("_18");
-    obj.checkBox19:setName("checkBox19");
-
-    obj.layout205 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout205:setParent(obj.rectangle1);
-    obj.layout205:setLeft(662);
-    obj.layout205:setTop(817);
-    obj.layout205:setWidth(61);
-    obj.layout205:setHeight(61);
-    obj.layout205:setName("layout205");
-
-    obj.checkBox20 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox20:setParent(obj.layout205);
-    obj.checkBox20:setLeft(20);
-    obj.checkBox20:setTop(0);
-    obj.checkBox20:setWidth(61);
-    obj.checkBox20:setHeight(62);
-    obj.checkBox20:setField("_16");
-    obj.checkBox20:setName("checkBox20");
-
-    obj.layout206 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout206:setParent(obj.rectangle1);
-    obj.layout206:setLeft(647);
-    obj.layout206:setTop(1001);
-    obj.layout206:setWidth(255);
-    obj.layout206:setHeight(21);
-    obj.layout206:setName("layout206");
+    obj.layout194 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout194:setParent(obj.rectangle1);
+    obj.layout194:setLeft(647);
+    obj.layout194:setTop(1001);
+    obj.layout194:setWidth(255);
+    obj.layout194:setHeight(21);
+    obj.layout194:setName("layout194");
 
     obj.edit186 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit186:setParent(obj.layout206);
+    obj.edit186:setParent(obj.layout194);
     obj.edit186:setTransparent(true);
     obj.edit186:setFontSize(13.5);
     obj.edit186:setFontColor("#bcc184");
@@ -4486,16 +4282,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit186:setField("Quality_0");
     obj.edit186:setName("edit186");
 
-    obj.layout207 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout207:setParent(obj.rectangle1);
-    obj.layout207:setLeft(905);
-    obj.layout207:setTop(1000);
-    obj.layout207:setWidth(174);
-    obj.layout207:setHeight(22);
-    obj.layout207:setName("layout207");
+    obj.layout195 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout195:setParent(obj.rectangle1);
+    obj.layout195:setLeft(905);
+    obj.layout195:setTop(1000);
+    obj.layout195:setWidth(174);
+    obj.layout195:setHeight(22);
+    obj.layout195:setName("layout195");
 
     obj.edit187 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit187:setParent(obj.layout207);
+    obj.edit187:setParent(obj.layout195);
     obj.edit187:setTransparent(true);
     obj.edit187:setFontSize(14.3);
     obj.edit187:setFontColor("#bcc184");
@@ -4508,16 +4304,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit187:setField("QNotes_0");
     obj.edit187:setName("edit187");
 
-    obj.layout208 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout208:setParent(obj.rectangle1);
-    obj.layout208:setLeft(1083);
-    obj.layout208:setTop(1000);
-    obj.layout208:setWidth(52);
-    obj.layout208:setHeight(22);
-    obj.layout208:setName("layout208");
+    obj.layout196 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout196:setParent(obj.rectangle1);
+    obj.layout196:setLeft(1083);
+    obj.layout196:setTop(1000);
+    obj.layout196:setWidth(52);
+    obj.layout196:setHeight(22);
+    obj.layout196:setName("layout196");
 
     obj.edit188 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit188:setParent(obj.layout208);
+    obj.edit188:setParent(obj.layout196);
     obj.edit188:setTransparent(true);
     obj.edit188:setFontSize(14.3);
     obj.edit188:setFontColor("#bcc184");
@@ -4530,16 +4326,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit188:setField("Qtype_0");
     obj.edit188:setName("edit188");
 
-    obj.layout209 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout209:setParent(obj.rectangle1);
-    obj.layout209:setLeft(647);
-    obj.layout209:setTop(1024);
-    obj.layout209:setWidth(255);
-    obj.layout209:setHeight(21);
-    obj.layout209:setName("layout209");
+    obj.layout197 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout197:setParent(obj.rectangle1);
+    obj.layout197:setLeft(647);
+    obj.layout197:setTop(1024);
+    obj.layout197:setWidth(255);
+    obj.layout197:setHeight(21);
+    obj.layout197:setName("layout197");
 
     obj.edit189 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit189:setParent(obj.layout209);
+    obj.edit189:setParent(obj.layout197);
     obj.edit189:setTransparent(true);
     obj.edit189:setFontSize(13.5);
     obj.edit189:setFontColor("#bcc184");
@@ -4552,16 +4348,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit189:setField("Quality_1");
     obj.edit189:setName("edit189");
 
-    obj.layout210 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout210:setParent(obj.rectangle1);
-    obj.layout210:setLeft(647);
-    obj.layout210:setTop(1047);
-    obj.layout210:setWidth(255);
-    obj.layout210:setHeight(21);
-    obj.layout210:setName("layout210");
+    obj.layout198 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout198:setParent(obj.rectangle1);
+    obj.layout198:setLeft(647);
+    obj.layout198:setTop(1047);
+    obj.layout198:setWidth(255);
+    obj.layout198:setHeight(21);
+    obj.layout198:setName("layout198");
 
     obj.edit190 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit190:setParent(obj.layout210);
+    obj.edit190:setParent(obj.layout198);
     obj.edit190:setTransparent(true);
     obj.edit190:setFontSize(13.5);
     obj.edit190:setFontColor("#bcc184");
@@ -4574,16 +4370,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit190:setField("Quality_2");
     obj.edit190:setName("edit190");
 
-    obj.layout211 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout211:setParent(obj.rectangle1);
-    obj.layout211:setLeft(647);
-    obj.layout211:setTop(1071);
-    obj.layout211:setWidth(255);
-    obj.layout211:setHeight(21);
-    obj.layout211:setName("layout211");
+    obj.layout199 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout199:setParent(obj.rectangle1);
+    obj.layout199:setLeft(647);
+    obj.layout199:setTop(1071);
+    obj.layout199:setWidth(255);
+    obj.layout199:setHeight(21);
+    obj.layout199:setName("layout199");
 
     obj.edit191 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit191:setParent(obj.layout211);
+    obj.edit191:setParent(obj.layout199);
     obj.edit191:setTransparent(true);
     obj.edit191:setFontSize(13.5);
     obj.edit191:setFontColor("#bcc184");
@@ -4596,16 +4392,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit191:setField("Quality_3");
     obj.edit191:setName("edit191");
 
-    obj.layout212 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout212:setParent(obj.rectangle1);
-    obj.layout212:setLeft(647);
-    obj.layout212:setTop(1094);
-    obj.layout212:setWidth(255);
-    obj.layout212:setHeight(21);
-    obj.layout212:setName("layout212");
+    obj.layout200 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout200:setParent(obj.rectangle1);
+    obj.layout200:setLeft(647);
+    obj.layout200:setTop(1094);
+    obj.layout200:setWidth(255);
+    obj.layout200:setHeight(21);
+    obj.layout200:setName("layout200");
 
     obj.edit192 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit192:setParent(obj.layout212);
+    obj.edit192:setParent(obj.layout200);
     obj.edit192:setTransparent(true);
     obj.edit192:setFontSize(13.5);
     obj.edit192:setFontColor("#bcc184");
@@ -4618,16 +4414,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit192:setField("Quality_4");
     obj.edit192:setName("edit192");
 
-    obj.layout213 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout213:setParent(obj.rectangle1);
-    obj.layout213:setLeft(647);
-    obj.layout213:setTop(1117);
-    obj.layout213:setWidth(255);
-    obj.layout213:setHeight(21);
-    obj.layout213:setName("layout213");
+    obj.layout201 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout201:setParent(obj.rectangle1);
+    obj.layout201:setLeft(647);
+    obj.layout201:setTop(1117);
+    obj.layout201:setWidth(255);
+    obj.layout201:setHeight(21);
+    obj.layout201:setName("layout201");
 
     obj.edit193 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit193:setParent(obj.layout213);
+    obj.edit193:setParent(obj.layout201);
     obj.edit193:setTransparent(true);
     obj.edit193:setFontSize(13.5);
     obj.edit193:setFontColor("#bcc184");
@@ -4640,16 +4436,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit193:setField("Quality_5");
     obj.edit193:setName("edit193");
 
-    obj.layout214 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout214:setParent(obj.rectangle1);
-    obj.layout214:setLeft(647);
-    obj.layout214:setTop(1141);
-    obj.layout214:setWidth(255);
-    obj.layout214:setHeight(21);
-    obj.layout214:setName("layout214");
+    obj.layout202 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout202:setParent(obj.rectangle1);
+    obj.layout202:setLeft(647);
+    obj.layout202:setTop(1141);
+    obj.layout202:setWidth(255);
+    obj.layout202:setHeight(21);
+    obj.layout202:setName("layout202");
 
     obj.edit194 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit194:setParent(obj.layout214);
+    obj.edit194:setParent(obj.layout202);
     obj.edit194:setTransparent(true);
     obj.edit194:setFontSize(13.5);
     obj.edit194:setFontColor("#bcc184");
@@ -4662,16 +4458,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit194:setField("Quality_6");
     obj.edit194:setName("edit194");
 
-    obj.layout215 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout215:setParent(obj.rectangle1);
-    obj.layout215:setLeft(647);
-    obj.layout215:setTop(1164);
-    obj.layout215:setWidth(255);
-    obj.layout215:setHeight(21);
-    obj.layout215:setName("layout215");
+    obj.layout203 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout203:setParent(obj.rectangle1);
+    obj.layout203:setLeft(647);
+    obj.layout203:setTop(1164);
+    obj.layout203:setWidth(255);
+    obj.layout203:setHeight(21);
+    obj.layout203:setName("layout203");
 
     obj.edit195 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit195:setParent(obj.layout215);
+    obj.edit195:setParent(obj.layout203);
     obj.edit195:setTransparent(true);
     obj.edit195:setFontSize(13.5);
     obj.edit195:setFontColor("#bcc184");
@@ -4684,16 +4480,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit195:setField("Quality_7");
     obj.edit195:setName("edit195");
 
-    obj.layout216 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout216:setParent(obj.rectangle1);
-    obj.layout216:setLeft(905);
-    obj.layout216:setTop(1024);
-    obj.layout216:setWidth(174);
-    obj.layout216:setHeight(22);
-    obj.layout216:setName("layout216");
+    obj.layout204 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout204:setParent(obj.rectangle1);
+    obj.layout204:setLeft(905);
+    obj.layout204:setTop(1024);
+    obj.layout204:setWidth(174);
+    obj.layout204:setHeight(22);
+    obj.layout204:setName("layout204");
 
     obj.edit196 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit196:setParent(obj.layout216);
+    obj.edit196:setParent(obj.layout204);
     obj.edit196:setTransparent(true);
     obj.edit196:setFontSize(14.3);
     obj.edit196:setFontColor("#bcc184");
@@ -4706,16 +4502,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit196:setField("QNotes_1");
     obj.edit196:setName("edit196");
 
-    obj.layout217 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout217:setParent(obj.rectangle1);
-    obj.layout217:setLeft(905);
-    obj.layout217:setTop(1047);
-    obj.layout217:setWidth(174);
-    obj.layout217:setHeight(22);
-    obj.layout217:setName("layout217");
+    obj.layout205 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout205:setParent(obj.rectangle1);
+    obj.layout205:setLeft(905);
+    obj.layout205:setTop(1047);
+    obj.layout205:setWidth(174);
+    obj.layout205:setHeight(22);
+    obj.layout205:setName("layout205");
 
     obj.edit197 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit197:setParent(obj.layout217);
+    obj.edit197:setParent(obj.layout205);
     obj.edit197:setTransparent(true);
     obj.edit197:setFontSize(14.3);
     obj.edit197:setFontColor("#bcc184");
@@ -4728,16 +4524,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit197:setField("QNotes_2");
     obj.edit197:setName("edit197");
 
-    obj.layout218 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout218:setParent(obj.rectangle1);
-    obj.layout218:setLeft(905);
-    obj.layout218:setTop(1070);
-    obj.layout218:setWidth(174);
-    obj.layout218:setHeight(22);
-    obj.layout218:setName("layout218");
+    obj.layout206 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout206:setParent(obj.rectangle1);
+    obj.layout206:setLeft(905);
+    obj.layout206:setTop(1070);
+    obj.layout206:setWidth(174);
+    obj.layout206:setHeight(22);
+    obj.layout206:setName("layout206");
 
     obj.edit198 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit198:setParent(obj.layout218);
+    obj.edit198:setParent(obj.layout206);
     obj.edit198:setTransparent(true);
     obj.edit198:setFontSize(14.3);
     obj.edit198:setFontColor("#bcc184");
@@ -4750,16 +4546,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit198:setField("QNotes_3");
     obj.edit198:setName("edit198");
 
-    obj.layout219 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout219:setParent(obj.rectangle1);
-    obj.layout219:setLeft(905);
-    obj.layout219:setTop(1094);
-    obj.layout219:setWidth(174);
-    obj.layout219:setHeight(22);
-    obj.layout219:setName("layout219");
+    obj.layout207 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout207:setParent(obj.rectangle1);
+    obj.layout207:setLeft(905);
+    obj.layout207:setTop(1094);
+    obj.layout207:setWidth(174);
+    obj.layout207:setHeight(22);
+    obj.layout207:setName("layout207");
 
     obj.edit199 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit199:setParent(obj.layout219);
+    obj.edit199:setParent(obj.layout207);
     obj.edit199:setTransparent(true);
     obj.edit199:setFontSize(14.3);
     obj.edit199:setFontColor("#bcc184");
@@ -4772,16 +4568,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit199:setField("QNotes_4");
     obj.edit199:setName("edit199");
 
-    obj.layout220 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout220:setParent(obj.rectangle1);
-    obj.layout220:setLeft(905);
-    obj.layout220:setTop(1117);
-    obj.layout220:setWidth(174);
-    obj.layout220:setHeight(22);
-    obj.layout220:setName("layout220");
+    obj.layout208 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout208:setParent(obj.rectangle1);
+    obj.layout208:setLeft(905);
+    obj.layout208:setTop(1117);
+    obj.layout208:setWidth(174);
+    obj.layout208:setHeight(22);
+    obj.layout208:setName("layout208");
 
     obj.edit200 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit200:setParent(obj.layout220);
+    obj.edit200:setParent(obj.layout208);
     obj.edit200:setTransparent(true);
     obj.edit200:setFontSize(14.3);
     obj.edit200:setFontColor("#bcc184");
@@ -4794,16 +4590,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit200:setField("QNotes_5");
     obj.edit200:setName("edit200");
 
-    obj.layout221 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout221:setParent(obj.rectangle1);
-    obj.layout221:setLeft(905);
-    obj.layout221:setTop(1141);
-    obj.layout221:setWidth(174);
-    obj.layout221:setHeight(22);
-    obj.layout221:setName("layout221");
+    obj.layout209 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout209:setParent(obj.rectangle1);
+    obj.layout209:setLeft(905);
+    obj.layout209:setTop(1141);
+    obj.layout209:setWidth(174);
+    obj.layout209:setHeight(22);
+    obj.layout209:setName("layout209");
 
     obj.edit201 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit201:setParent(obj.layout221);
+    obj.edit201:setParent(obj.layout209);
     obj.edit201:setTransparent(true);
     obj.edit201:setFontSize(14.3);
     obj.edit201:setFontColor("#bcc184");
@@ -4816,16 +4612,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit201:setField("QNotes_6");
     obj.edit201:setName("edit201");
 
-    obj.layout222 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout222:setParent(obj.rectangle1);
-    obj.layout222:setLeft(905);
-    obj.layout222:setTop(1164);
-    obj.layout222:setWidth(174);
-    obj.layout222:setHeight(22);
-    obj.layout222:setName("layout222");
+    obj.layout210 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout210:setParent(obj.rectangle1);
+    obj.layout210:setLeft(905);
+    obj.layout210:setTop(1164);
+    obj.layout210:setWidth(174);
+    obj.layout210:setHeight(22);
+    obj.layout210:setName("layout210");
 
     obj.edit202 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit202:setParent(obj.layout222);
+    obj.edit202:setParent(obj.layout210);
     obj.edit202:setTransparent(true);
     obj.edit202:setFontSize(14.3);
     obj.edit202:setFontColor("#bcc184");
@@ -4838,16 +4634,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit202:setField("QNotes_7");
     obj.edit202:setName("edit202");
 
-    obj.layout223 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout223:setParent(obj.rectangle1);
-    obj.layout223:setLeft(1083);
-    obj.layout223:setTop(1024);
-    obj.layout223:setWidth(52);
-    obj.layout223:setHeight(22);
-    obj.layout223:setName("layout223");
+    obj.layout211 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout211:setParent(obj.rectangle1);
+    obj.layout211:setLeft(1083);
+    obj.layout211:setTop(1024);
+    obj.layout211:setWidth(52);
+    obj.layout211:setHeight(22);
+    obj.layout211:setName("layout211");
 
     obj.edit203 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit203:setParent(obj.layout223);
+    obj.edit203:setParent(obj.layout211);
     obj.edit203:setTransparent(true);
     obj.edit203:setFontSize(14.3);
     obj.edit203:setFontColor("#bcc184");
@@ -4860,16 +4656,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit203:setField("Qtype_1");
     obj.edit203:setName("edit203");
 
-    obj.layout224 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout224:setParent(obj.rectangle1);
-    obj.layout224:setLeft(1083);
-    obj.layout224:setTop(1047);
-    obj.layout224:setWidth(52);
-    obj.layout224:setHeight(22);
-    obj.layout224:setName("layout224");
+    obj.layout212 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout212:setParent(obj.rectangle1);
+    obj.layout212:setLeft(1083);
+    obj.layout212:setTop(1047);
+    obj.layout212:setWidth(52);
+    obj.layout212:setHeight(22);
+    obj.layout212:setName("layout212");
 
     obj.edit204 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit204:setParent(obj.layout224);
+    obj.edit204:setParent(obj.layout212);
     obj.edit204:setTransparent(true);
     obj.edit204:setFontSize(14.3);
     obj.edit204:setFontColor("#bcc184");
@@ -4882,16 +4678,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit204:setField("Qtype_2");
     obj.edit204:setName("edit204");
 
-    obj.layout225 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout225:setParent(obj.rectangle1);
-    obj.layout225:setLeft(1083);
-    obj.layout225:setTop(1070);
-    obj.layout225:setWidth(52);
-    obj.layout225:setHeight(22);
-    obj.layout225:setName("layout225");
+    obj.layout213 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout213:setParent(obj.rectangle1);
+    obj.layout213:setLeft(1083);
+    obj.layout213:setTop(1070);
+    obj.layout213:setWidth(52);
+    obj.layout213:setHeight(22);
+    obj.layout213:setName("layout213");
 
     obj.edit205 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit205:setParent(obj.layout225);
+    obj.edit205:setParent(obj.layout213);
     obj.edit205:setTransparent(true);
     obj.edit205:setFontSize(14.3);
     obj.edit205:setFontColor("#bcc184");
@@ -4904,16 +4700,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit205:setField("Qtype_3");
     obj.edit205:setName("edit205");
 
-    obj.layout226 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout226:setParent(obj.rectangle1);
-    obj.layout226:setLeft(1083);
-    obj.layout226:setTop(1094);
-    obj.layout226:setWidth(52);
-    obj.layout226:setHeight(22);
-    obj.layout226:setName("layout226");
+    obj.layout214 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout214:setParent(obj.rectangle1);
+    obj.layout214:setLeft(1083);
+    obj.layout214:setTop(1094);
+    obj.layout214:setWidth(52);
+    obj.layout214:setHeight(22);
+    obj.layout214:setName("layout214");
 
     obj.edit206 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit206:setParent(obj.layout226);
+    obj.edit206:setParent(obj.layout214);
     obj.edit206:setTransparent(true);
     obj.edit206:setFontSize(14.3);
     obj.edit206:setFontColor("#bcc184");
@@ -4926,16 +4722,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit206:setField("Qtype_4");
     obj.edit206:setName("edit206");
 
-    obj.layout227 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout227:setParent(obj.rectangle1);
-    obj.layout227:setLeft(1083);
-    obj.layout227:setTop(1117);
-    obj.layout227:setWidth(52);
-    obj.layout227:setHeight(22);
-    obj.layout227:setName("layout227");
+    obj.layout215 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout215:setParent(obj.rectangle1);
+    obj.layout215:setLeft(1083);
+    obj.layout215:setTop(1117);
+    obj.layout215:setWidth(52);
+    obj.layout215:setHeight(22);
+    obj.layout215:setName("layout215");
 
     obj.edit207 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit207:setParent(obj.layout227);
+    obj.edit207:setParent(obj.layout215);
     obj.edit207:setTransparent(true);
     obj.edit207:setFontSize(14.3);
     obj.edit207:setFontColor("#bcc184");
@@ -4948,16 +4744,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit207:setField("Qtype_5");
     obj.edit207:setName("edit207");
 
-    obj.layout228 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout228:setParent(obj.rectangle1);
-    obj.layout228:setLeft(1083);
-    obj.layout228:setTop(1141);
-    obj.layout228:setWidth(52);
-    obj.layout228:setHeight(22);
-    obj.layout228:setName("layout228");
+    obj.layout216 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout216:setParent(obj.rectangle1);
+    obj.layout216:setLeft(1083);
+    obj.layout216:setTop(1141);
+    obj.layout216:setWidth(52);
+    obj.layout216:setHeight(22);
+    obj.layout216:setName("layout216");
 
     obj.edit208 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit208:setParent(obj.layout228);
+    obj.edit208:setParent(obj.layout216);
     obj.edit208:setTransparent(true);
     obj.edit208:setFontSize(14.3);
     obj.edit208:setFontColor("#bcc184");
@@ -4970,16 +4766,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit208:setField("Qtype_6");
     obj.edit208:setName("edit208");
 
-    obj.layout229 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout229:setParent(obj.rectangle1);
-    obj.layout229:setLeft(1083);
-    obj.layout229:setTop(1164);
-    obj.layout229:setWidth(52);
-    obj.layout229:setHeight(22);
-    obj.layout229:setName("layout229");
+    obj.layout217 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout217:setParent(obj.rectangle1);
+    obj.layout217:setLeft(1083);
+    obj.layout217:setTop(1164);
+    obj.layout217:setWidth(52);
+    obj.layout217:setHeight(22);
+    obj.layout217:setName("layout217");
 
     obj.edit209 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit209:setParent(obj.layout229);
+    obj.edit209:setParent(obj.layout217);
     obj.edit209:setTransparent(true);
     obj.edit209:setFontSize(14.3);
     obj.edit209:setFontColor("#bcc184");
@@ -4992,16 +4788,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit209:setField("Qtype_7");
     obj.edit209:setName("edit209");
 
-    obj.layout230 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout230:setParent(obj.rectangle1);
-    obj.layout230:setLeft(224);
-    obj.layout230:setTop(1254);
-    obj.layout230:setWidth(360);
-    obj.layout230:setHeight(23);
-    obj.layout230:setName("layout230");
+    obj.layout218 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout218:setParent(obj.rectangle1);
+    obj.layout218:setLeft(224);
+    obj.layout218:setTop(1254);
+    obj.layout218:setWidth(360);
+    obj.layout218:setHeight(23);
+    obj.layout218:setName("layout218");
 
     obj.edit210 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit210:setParent(obj.layout230);
+    obj.edit210:setParent(obj.layout218);
     obj.edit210:setTransparent(true);
     obj.edit210:setFontSize(15);
     obj.edit210:setFontColor("#bcc184");
@@ -5014,16 +4810,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit210:setField("Primary_Lifestyle");
     obj.edit210:setName("edit210");
 
-    obj.layout231 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout231:setParent(obj.rectangle1);
-    obj.layout231:setLeft(174);
-    obj.layout231:setTop(1280);
-    obj.layout231:setWidth(212);
-    obj.layout231:setHeight(20);
-    obj.layout231:setName("layout231");
+    obj.layout219 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout219:setParent(obj.rectangle1);
+    obj.layout219:setLeft(174);
+    obj.layout219:setTop(1280);
+    obj.layout219:setWidth(212);
+    obj.layout219:setHeight(20);
+    obj.layout219:setName("layout219");
 
     obj.edit211 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit211:setParent(obj.layout231);
+    obj.edit211:setParent(obj.layout219);
     obj.edit211:setTransparent(true);
     obj.edit211:setFontSize(12.8);
     obj.edit211:setFontColor("#bcc184");
@@ -5036,16 +4832,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit211:setField("Nuyen");
     obj.edit211:setName("edit211");
 
-    obj.layout232 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout232:setParent(obj.rectangle1);
-    obj.layout232:setLeft(426);
-    obj.layout232:setTop(1280);
-    obj.layout232:setWidth(158);
-    obj.layout232:setHeight(20);
-    obj.layout232:setName("layout232");
+    obj.layout220 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout220:setParent(obj.rectangle1);
+    obj.layout220:setLeft(426);
+    obj.layout220:setTop(1280);
+    obj.layout220:setWidth(158);
+    obj.layout220:setHeight(20);
+    obj.layout220:setName("layout220");
 
     obj.edit212 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit212:setParent(obj.layout232);
+    obj.edit212:setParent(obj.layout220);
     obj.edit212:setTransparent(true);
     obj.edit212:setFontSize(12.8);
     obj.edit212:setFontColor("#bcc184");
@@ -5058,16 +4854,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit212:setField("Licenses");
     obj.edit212:setName("edit212");
 
-    obj.layout233 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout233:setParent(obj.rectangle1);
-    obj.layout233:setLeft(665);
-    obj.layout233:setTop(1281);
-    obj.layout233:setWidth(190);
-    obj.layout233:setHeight(23);
-    obj.layout233:setName("layout233");
+    obj.layout221 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout221:setParent(obj.rectangle1);
+    obj.layout221:setLeft(665);
+    obj.layout221:setTop(1281);
+    obj.layout221:setWidth(190);
+    obj.layout221:setHeight(23);
+    obj.layout221:setName("layout221");
 
     obj.edit213 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit213:setParent(obj.layout233);
+    obj.edit213:setParent(obj.layout221);
     obj.edit213:setTransparent(true);
     obj.edit213:setFontSize(15);
     obj.edit213:setFontColor("#bcc184");
@@ -5080,16 +4876,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit213:setField("Contact_0");
     obj.edit213:setName("edit213");
 
-    obj.layout234 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout234:setParent(obj.rectangle1);
-    obj.layout234:setLeft(858);
-    obj.layout234:setTop(1281);
-    obj.layout234:setWidth(79);
-    obj.layout234:setHeight(23);
-    obj.layout234:setName("layout234");
+    obj.layout222 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout222:setParent(obj.rectangle1);
+    obj.layout222:setLeft(858);
+    obj.layout222:setTop(1281);
+    obj.layout222:setWidth(79);
+    obj.layout222:setHeight(23);
+    obj.layout222:setName("layout222");
 
     obj.edit214 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit214:setParent(obj.layout234);
+    obj.edit214:setParent(obj.layout222);
     obj.edit214:setTransparent(true);
     obj.edit214:setFontSize(15);
     obj.edit214:setFontColor("#bcc184");
@@ -5102,16 +4898,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit214:setField("Loyalty_0");
     obj.edit214:setName("edit214");
 
-    obj.layout235 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout235:setParent(obj.rectangle1);
-    obj.layout235:setLeft(941);
-    obj.layout235:setTop(1281);
-    obj.layout235:setWidth(162);
-    obj.layout235:setHeight(23);
-    obj.layout235:setName("layout235");
+    obj.layout223 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout223:setParent(obj.rectangle1);
+    obj.layout223:setLeft(941);
+    obj.layout223:setTop(1281);
+    obj.layout223:setWidth(162);
+    obj.layout223:setHeight(23);
+    obj.layout223:setName("layout223");
 
     obj.edit215 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit215:setParent(obj.layout235);
+    obj.edit215:setParent(obj.layout223);
     obj.edit215:setTransparent(true);
     obj.edit215:setFontSize(15);
     obj.edit215:setFontColor("#bcc184");
@@ -5124,16 +4920,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit215:setField("Connection_0");
     obj.edit215:setName("edit215");
 
-    obj.layout236 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout236:setParent(obj.rectangle1);
-    obj.layout236:setLeft(144);
-    obj.layout236:setTop(1322);
-    obj.layout236:setWidth(444);
-    obj.layout236:setHeight(23);
-    obj.layout236:setName("layout236");
+    obj.layout224 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout224:setParent(obj.rectangle1);
+    obj.layout224:setLeft(144);
+    obj.layout224:setTop(1322);
+    obj.layout224:setWidth(444);
+    obj.layout224:setHeight(23);
+    obj.layout224:setName("layout224");
 
     obj.edit216 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit216:setParent(obj.layout236);
+    obj.edit216:setParent(obj.layout224);
     obj.edit216:setTransparent(true);
     obj.edit216:setFontSize(15);
     obj.edit216:setFontColor("#bcc184");
@@ -5146,16 +4942,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit216:setField("Fake_IDs_Related_Lifestyles_Funds_Licenses_1");
     obj.edit216:setName("edit216");
 
-    obj.layout237 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout237:setParent(obj.rectangle1);
-    obj.layout237:setLeft(144);
-    obj.layout237:setTop(1346);
-    obj.layout237:setWidth(444);
-    obj.layout237:setHeight(23);
-    obj.layout237:setName("layout237");
+    obj.layout225 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout225:setParent(obj.rectangle1);
+    obj.layout225:setLeft(144);
+    obj.layout225:setTop(1346);
+    obj.layout225:setWidth(444);
+    obj.layout225:setHeight(23);
+    obj.layout225:setName("layout225");
 
     obj.edit217 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit217:setParent(obj.layout237);
+    obj.edit217:setParent(obj.layout225);
     obj.edit217:setTransparent(true);
     obj.edit217:setFontSize(15);
     obj.edit217:setFontColor("#bcc184");
@@ -5168,16 +4964,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit217:setField("Fake_IDs_Related_Lifestyles_Funds_Licenses_2");
     obj.edit217:setName("edit217");
 
-    obj.layout238 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout238:setParent(obj.rectangle1);
-    obj.layout238:setLeft(144);
-    obj.layout238:setTop(1370);
-    obj.layout238:setWidth(444);
-    obj.layout238:setHeight(23);
-    obj.layout238:setName("layout238");
+    obj.layout226 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout226:setParent(obj.rectangle1);
+    obj.layout226:setLeft(144);
+    obj.layout226:setTop(1370);
+    obj.layout226:setWidth(444);
+    obj.layout226:setHeight(23);
+    obj.layout226:setName("layout226");
 
     obj.edit218 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit218:setParent(obj.layout238);
+    obj.edit218:setParent(obj.layout226);
     obj.edit218:setTransparent(true);
     obj.edit218:setFontSize(15);
     obj.edit218:setFontColor("#bcc184");
@@ -5190,16 +4986,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit218:setField("Fake_IDs_Related_Lifestyles_Funds_Licenses_3");
     obj.edit218:setName("edit218");
 
-    obj.layout239 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout239:setParent(obj.rectangle1);
-    obj.layout239:setLeft(665);
-    obj.layout239:setTop(1305);
-    obj.layout239:setWidth(190);
-    obj.layout239:setHeight(23);
-    obj.layout239:setName("layout239");
+    obj.layout227 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout227:setParent(obj.rectangle1);
+    obj.layout227:setLeft(665);
+    obj.layout227:setTop(1305);
+    obj.layout227:setWidth(190);
+    obj.layout227:setHeight(23);
+    obj.layout227:setName("layout227");
 
     obj.edit219 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit219:setParent(obj.layout239);
+    obj.edit219:setParent(obj.layout227);
     obj.edit219:setTransparent(true);
     obj.edit219:setFontSize(15);
     obj.edit219:setFontColor("#bcc184");
@@ -5212,16 +5008,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit219:setField("Contact_1");
     obj.edit219:setName("edit219");
 
-    obj.layout240 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout240:setParent(obj.rectangle1);
-    obj.layout240:setLeft(665);
-    obj.layout240:setTop(1328);
-    obj.layout240:setWidth(190);
-    obj.layout240:setHeight(23);
-    obj.layout240:setName("layout240");
+    obj.layout228 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout228:setParent(obj.rectangle1);
+    obj.layout228:setLeft(665);
+    obj.layout228:setTop(1328);
+    obj.layout228:setWidth(190);
+    obj.layout228:setHeight(23);
+    obj.layout228:setName("layout228");
 
     obj.edit220 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit220:setParent(obj.layout240);
+    obj.edit220:setParent(obj.layout228);
     obj.edit220:setTransparent(true);
     obj.edit220:setFontSize(15);
     obj.edit220:setFontColor("#bcc184");
@@ -5234,16 +5030,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit220:setField("Contact_2");
     obj.edit220:setName("edit220");
 
-    obj.layout241 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout241:setParent(obj.rectangle1);
-    obj.layout241:setLeft(665);
-    obj.layout241:setTop(1352);
-    obj.layout241:setWidth(190);
-    obj.layout241:setHeight(23);
-    obj.layout241:setName("layout241");
+    obj.layout229 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout229:setParent(obj.rectangle1);
+    obj.layout229:setLeft(665);
+    obj.layout229:setTop(1352);
+    obj.layout229:setWidth(190);
+    obj.layout229:setHeight(23);
+    obj.layout229:setName("layout229");
 
     obj.edit221 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit221:setParent(obj.layout241);
+    obj.edit221:setParent(obj.layout229);
     obj.edit221:setTransparent(true);
     obj.edit221:setFontSize(15);
     obj.edit221:setFontColor("#bcc184");
@@ -5256,16 +5052,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit221:setField("Contact_3");
     obj.edit221:setName("edit221");
 
-    obj.layout242 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout242:setParent(obj.rectangle1);
-    obj.layout242:setLeft(665);
-    obj.layout242:setTop(1375);
-    obj.layout242:setWidth(190);
-    obj.layout242:setHeight(23);
-    obj.layout242:setName("layout242");
+    obj.layout230 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout230:setParent(obj.rectangle1);
+    obj.layout230:setLeft(665);
+    obj.layout230:setTop(1375);
+    obj.layout230:setWidth(190);
+    obj.layout230:setHeight(23);
+    obj.layout230:setName("layout230");
 
     obj.edit222 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit222:setParent(obj.layout242);
+    obj.edit222:setParent(obj.layout230);
     obj.edit222:setTransparent(true);
     obj.edit222:setFontSize(15);
     obj.edit222:setFontColor("#bcc184");
@@ -5278,16 +5074,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit222:setField("Contact_4");
     obj.edit222:setName("edit222");
 
-    obj.layout243 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout243:setParent(obj.rectangle1);
-    obj.layout243:setLeft(858);
-    obj.layout243:setTop(1305);
-    obj.layout243:setWidth(79);
-    obj.layout243:setHeight(23);
-    obj.layout243:setName("layout243");
+    obj.layout231 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout231:setParent(obj.rectangle1);
+    obj.layout231:setLeft(858);
+    obj.layout231:setTop(1305);
+    obj.layout231:setWidth(79);
+    obj.layout231:setHeight(23);
+    obj.layout231:setName("layout231");
 
     obj.edit223 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit223:setParent(obj.layout243);
+    obj.edit223:setParent(obj.layout231);
     obj.edit223:setTransparent(true);
     obj.edit223:setFontSize(15);
     obj.edit223:setFontColor("#bcc184");
@@ -5300,16 +5096,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit223:setField("Loyalty_1");
     obj.edit223:setName("edit223");
 
-    obj.layout244 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout244:setParent(obj.rectangle1);
-    obj.layout244:setLeft(858);
-    obj.layout244:setTop(1328);
-    obj.layout244:setWidth(79);
-    obj.layout244:setHeight(23);
-    obj.layout244:setName("layout244");
+    obj.layout232 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout232:setParent(obj.rectangle1);
+    obj.layout232:setLeft(858);
+    obj.layout232:setTop(1328);
+    obj.layout232:setWidth(79);
+    obj.layout232:setHeight(23);
+    obj.layout232:setName("layout232");
 
     obj.edit224 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit224:setParent(obj.layout244);
+    obj.edit224:setParent(obj.layout232);
     obj.edit224:setTransparent(true);
     obj.edit224:setFontSize(15);
     obj.edit224:setFontColor("#bcc184");
@@ -5322,16 +5118,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit224:setField("Loyalty_2");
     obj.edit224:setName("edit224");
 
-    obj.layout245 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout245:setParent(obj.rectangle1);
-    obj.layout245:setLeft(858);
-    obj.layout245:setTop(1352);
-    obj.layout245:setWidth(79);
-    obj.layout245:setHeight(23);
-    obj.layout245:setName("layout245");
+    obj.layout233 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout233:setParent(obj.rectangle1);
+    obj.layout233:setLeft(858);
+    obj.layout233:setTop(1352);
+    obj.layout233:setWidth(79);
+    obj.layout233:setHeight(23);
+    obj.layout233:setName("layout233");
 
     obj.edit225 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit225:setParent(obj.layout245);
+    obj.edit225:setParent(obj.layout233);
     obj.edit225:setTransparent(true);
     obj.edit225:setFontSize(15);
     obj.edit225:setFontColor("#bcc184");
@@ -5344,16 +5140,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit225:setField("Loyalty_3");
     obj.edit225:setName("edit225");
 
-    obj.layout246 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout246:setParent(obj.rectangle1);
-    obj.layout246:setLeft(858);
-    obj.layout246:setTop(1375);
-    obj.layout246:setWidth(79);
-    obj.layout246:setHeight(23);
-    obj.layout246:setName("layout246");
+    obj.layout234 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout234:setParent(obj.rectangle1);
+    obj.layout234:setLeft(858);
+    obj.layout234:setTop(1375);
+    obj.layout234:setWidth(79);
+    obj.layout234:setHeight(23);
+    obj.layout234:setName("layout234");
 
     obj.edit226 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit226:setParent(obj.layout246);
+    obj.edit226:setParent(obj.layout234);
     obj.edit226:setTransparent(true);
     obj.edit226:setFontSize(15);
     obj.edit226:setFontColor("#bcc184");
@@ -5366,16 +5162,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit226:setField("Loyalty_4");
     obj.edit226:setName("edit226");
 
-    obj.layout247 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout247:setParent(obj.rectangle1);
-    obj.layout247:setLeft(941);
-    obj.layout247:setTop(1305);
-    obj.layout247:setWidth(162);
-    obj.layout247:setHeight(23);
-    obj.layout247:setName("layout247");
+    obj.layout235 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout235:setParent(obj.rectangle1);
+    obj.layout235:setLeft(941);
+    obj.layout235:setTop(1305);
+    obj.layout235:setWidth(162);
+    obj.layout235:setHeight(23);
+    obj.layout235:setName("layout235");
 
     obj.edit227 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit227:setParent(obj.layout247);
+    obj.edit227:setParent(obj.layout235);
     obj.edit227:setTransparent(true);
     obj.edit227:setFontSize(15);
     obj.edit227:setFontColor("#bcc184");
@@ -5388,16 +5184,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit227:setField("Connection_1");
     obj.edit227:setName("edit227");
 
-    obj.layout248 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout248:setParent(obj.rectangle1);
-    obj.layout248:setLeft(941);
-    obj.layout248:setTop(1328);
-    obj.layout248:setWidth(162);
-    obj.layout248:setHeight(23);
-    obj.layout248:setName("layout248");
+    obj.layout236 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout236:setParent(obj.rectangle1);
+    obj.layout236:setLeft(941);
+    obj.layout236:setTop(1328);
+    obj.layout236:setWidth(162);
+    obj.layout236:setHeight(23);
+    obj.layout236:setName("layout236");
 
     obj.edit228 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit228:setParent(obj.layout248);
+    obj.edit228:setParent(obj.layout236);
     obj.edit228:setTransparent(true);
     obj.edit228:setFontSize(15);
     obj.edit228:setFontColor("#bcc184");
@@ -5410,16 +5206,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit228:setField("Connection_2");
     obj.edit228:setName("edit228");
 
-    obj.layout249 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout249:setParent(obj.rectangle1);
-    obj.layout249:setLeft(941);
-    obj.layout249:setTop(1352);
-    obj.layout249:setWidth(162);
-    obj.layout249:setHeight(23);
-    obj.layout249:setName("layout249");
+    obj.layout237 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout237:setParent(obj.rectangle1);
+    obj.layout237:setLeft(941);
+    obj.layout237:setTop(1352);
+    obj.layout237:setWidth(162);
+    obj.layout237:setHeight(23);
+    obj.layout237:setName("layout237");
 
     obj.edit229 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit229:setParent(obj.layout249);
+    obj.edit229:setParent(obj.layout237);
     obj.edit229:setTransparent(true);
     obj.edit229:setFontSize(15);
     obj.edit229:setFontColor("#bcc184");
@@ -5432,16 +5228,16 @@ local function constructNew_frmSR6e1_svg()
     obj.edit229:setField("Connection_3");
     obj.edit229:setName("edit229");
 
-    obj.layout250 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout250:setParent(obj.rectangle1);
-    obj.layout250:setLeft(941);
-    obj.layout250:setTop(1375);
-    obj.layout250:setWidth(162);
-    obj.layout250:setHeight(23);
-    obj.layout250:setName("layout250");
+    obj.layout238 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout238:setParent(obj.rectangle1);
+    obj.layout238:setLeft(941);
+    obj.layout238:setTop(1375);
+    obj.layout238:setWidth(162);
+    obj.layout238:setHeight(23);
+    obj.layout238:setName("layout238");
 
     obj.edit230 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit230:setParent(obj.layout250);
+    obj.edit230:setParent(obj.layout238);
     obj.edit230:setTransparent(true);
     obj.edit230:setFontSize(15);
     obj.edit230:setFontColor("#bcc184");
@@ -5454,59 +5250,59 @@ local function constructNew_frmSR6e1_svg()
     obj.edit230:setField("Connection_4");
     obj.edit230:setName("edit230");
 
-    obj.layout251 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout251:setParent(obj.rectangle1);
-    obj.layout251:setLeft(662);
-    obj.layout251:setTop(489);
-    obj.layout251:setWidth(61);
-    obj.layout251:setHeight(61);
-    obj.layout251:setName("layout251");
+    obj.layout239 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout239:setParent(obj.rectangle1);
+    obj.layout239:setLeft(662);
+    obj.layout239:setTop(489);
+    obj.layout239:setWidth(61);
+    obj.layout239:setHeight(61);
+    obj.layout239:setName("layout239");
 
-    obj.imageCheckBox1 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox1:setParent(obj.layout251);
-    obj.imageCheckBox1:setWidth(60);
-    obj.imageCheckBox1:setHeight(60);
-    obj.imageCheckBox1:setField("PDamage1");
-    obj.imageCheckBox1:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox1:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox1:setName("imageCheckBox1");
+    obj.imageCheckBox9 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox9:setParent(obj.layout239);
+    obj.imageCheckBox9:setWidth(60);
+    obj.imageCheckBox9:setHeight(60);
+    obj.imageCheckBox9:setField("PDamage1");
+    obj.imageCheckBox9:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox9:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox9:setName("imageCheckBox9");
 
-    obj.layout252 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout252:setParent(obj.rectangle1);
-    obj.layout252:setLeft(726);
-    obj.layout252:setTop(489);
-    obj.layout252:setWidth(61);
-    obj.layout252:setHeight(61);
-    obj.layout252:setName("layout252");
+    obj.layout240 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout240:setParent(obj.rectangle1);
+    obj.layout240:setLeft(726);
+    obj.layout240:setTop(489);
+    obj.layout240:setWidth(61);
+    obj.layout240:setHeight(61);
+    obj.layout240:setName("layout240");
 
-    obj.imageCheckBox2 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox2:setParent(obj.layout252);
-    obj.imageCheckBox2:setWidth(60);
-    obj.imageCheckBox2:setHeight(60);
-    obj.imageCheckBox2:setField("PDamage2");
-    obj.imageCheckBox2:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox2:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox2:setName("imageCheckBox2");
+    obj.imageCheckBox10 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox10:setParent(obj.layout240);
+    obj.imageCheckBox10:setWidth(60);
+    obj.imageCheckBox10:setHeight(60);
+    obj.imageCheckBox10:setField("PDamage2");
+    obj.imageCheckBox10:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox10:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox10:setName("imageCheckBox10");
 
-    obj.layout253 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout253:setParent(obj.rectangle1);
-    obj.layout253:setLeft(794);
-    obj.layout253:setTop(489);
-    obj.layout253:setWidth(91);
-    obj.layout253:setHeight(61);
-    obj.layout253:setName("layout253");
+    obj.layout241 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout241:setParent(obj.rectangle1);
+    obj.layout241:setLeft(794);
+    obj.layout241:setTop(489);
+    obj.layout241:setWidth(91);
+    obj.layout241:setHeight(61);
+    obj.layout241:setName("layout241");
 
-    obj.imageCheckBox3 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox3:setParent(obj.layout253);
-    obj.imageCheckBox3:setWidth(60);
-    obj.imageCheckBox3:setHeight(60);
-    obj.imageCheckBox3:setField("PDamage3");
-    obj.imageCheckBox3:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox3:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox3:setName("imageCheckBox3");
+    obj.imageCheckBox11 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox11:setParent(obj.layout241);
+    obj.imageCheckBox11:setWidth(60);
+    obj.imageCheckBox11:setHeight(60);
+    obj.imageCheckBox11:setField("PDamage3");
+    obj.imageCheckBox11:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox11:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox11:setName("imageCheckBox11");
 
     obj.label1 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label1:setParent(obj.layout253);
+    obj.label1:setParent(obj.layout241);
     obj.label1:setLeft(70);
     obj.label1:setTop(40);
     obj.label1:setWidth(20);
@@ -5519,59 +5315,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label1:setWordWrap(false);
     obj.label1:setAutoSize(true);
 
-    obj.layout254 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout254:setParent(obj.rectangle1);
-    obj.layout254:setLeft(900);
-    obj.layout254:setTop(489);
-    obj.layout254:setWidth(61);
-    obj.layout254:setHeight(61);
-    obj.layout254:setName("layout254");
+    obj.layout242 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout242:setParent(obj.rectangle1);
+    obj.layout242:setLeft(900);
+    obj.layout242:setTop(489);
+    obj.layout242:setWidth(61);
+    obj.layout242:setHeight(61);
+    obj.layout242:setName("layout242");
 
-    obj.imageCheckBox4 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox4:setParent(obj.layout254);
-    obj.imageCheckBox4:setWidth(60);
-    obj.imageCheckBox4:setHeight(60);
-    obj.imageCheckBox4:setField("SDamage1");
-    obj.imageCheckBox4:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox4:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox4:setName("imageCheckBox4");
+    obj.imageCheckBox12 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox12:setParent(obj.layout242);
+    obj.imageCheckBox12:setWidth(60);
+    obj.imageCheckBox12:setHeight(60);
+    obj.imageCheckBox12:setField("SDamage1");
+    obj.imageCheckBox12:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox12:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox12:setName("imageCheckBox12");
 
-    obj.layout255 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout255:setParent(obj.rectangle1);
-    obj.layout255:setLeft(966);
-    obj.layout255:setTop(489);
-    obj.layout255:setWidth(61);
-    obj.layout255:setHeight(61);
-    obj.layout255:setName("layout255");
+    obj.layout243 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout243:setParent(obj.rectangle1);
+    obj.layout243:setLeft(966);
+    obj.layout243:setTop(489);
+    obj.layout243:setWidth(61);
+    obj.layout243:setHeight(61);
+    obj.layout243:setName("layout243");
 
-    obj.imageCheckBox5 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox5:setParent(obj.layout255);
-    obj.imageCheckBox5:setWidth(60);
-    obj.imageCheckBox5:setHeight(60);
-    obj.imageCheckBox5:setField("SDamage2");
-    obj.imageCheckBox5:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox5:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox5:setName("imageCheckBox5");
+    obj.imageCheckBox13 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox13:setParent(obj.layout243);
+    obj.imageCheckBox13:setWidth(60);
+    obj.imageCheckBox13:setHeight(60);
+    obj.imageCheckBox13:setField("SDamage2");
+    obj.imageCheckBox13:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox13:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox13:setName("imageCheckBox13");
 
-    obj.layout256 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout256:setParent(obj.rectangle1);
-    obj.layout256:setLeft(1032);
-    obj.layout256:setTop(489);
-    obj.layout256:setWidth(91);
-    obj.layout256:setHeight(61);
-    obj.layout256:setName("layout256");
+    obj.layout244 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout244:setParent(obj.rectangle1);
+    obj.layout244:setLeft(1032);
+    obj.layout244:setTop(489);
+    obj.layout244:setWidth(91);
+    obj.layout244:setHeight(61);
+    obj.layout244:setName("layout244");
 
-    obj.imageCheckBox6 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox6:setParent(obj.layout256);
-    obj.imageCheckBox6:setWidth(60);
-    obj.imageCheckBox6:setHeight(60);
-    obj.imageCheckBox6:setField("SDamage3");
-    obj.imageCheckBox6:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox6:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox6:setName("imageCheckBox6");
+    obj.imageCheckBox14 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox14:setParent(obj.layout244);
+    obj.imageCheckBox14:setWidth(60);
+    obj.imageCheckBox14:setHeight(60);
+    obj.imageCheckBox14:setField("SDamage3");
+    obj.imageCheckBox14:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox14:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox14:setName("imageCheckBox14");
 
     obj.label2 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label2:setParent(obj.layout256);
+    obj.label2:setParent(obj.layout244);
     obj.label2:setLeft(70);
     obj.label2:setTop(40);
     obj.label2:setWidth(20);
@@ -5584,59 +5380,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label2:setWordWrap(false);
     obj.label2:setAutoSize(true);
 
-    obj.layout257 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout257:setParent(obj.rectangle1);
-    obj.layout257:setLeft(662);
-    obj.layout257:setTop(553);
-    obj.layout257:setWidth(61);
-    obj.layout257:setHeight(61);
-    obj.layout257:setName("layout257");
+    obj.layout245 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout245:setParent(obj.rectangle1);
+    obj.layout245:setLeft(662);
+    obj.layout245:setTop(553);
+    obj.layout245:setWidth(61);
+    obj.layout245:setHeight(61);
+    obj.layout245:setName("layout245");
 
-    obj.imageCheckBox7 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox7:setParent(obj.layout257);
-    obj.imageCheckBox7:setWidth(60);
-    obj.imageCheckBox7:setHeight(60);
-    obj.imageCheckBox7:setField("PDamage4");
-    obj.imageCheckBox7:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox7:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox7:setName("imageCheckBox7");
+    obj.imageCheckBox15 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox15:setParent(obj.layout245);
+    obj.imageCheckBox15:setWidth(60);
+    obj.imageCheckBox15:setHeight(60);
+    obj.imageCheckBox15:setField("PDamage4");
+    obj.imageCheckBox15:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox15:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox15:setName("imageCheckBox15");
 
-    obj.layout258 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout258:setParent(obj.rectangle1);
-    obj.layout258:setLeft(726);
-    obj.layout258:setTop(553);
-    obj.layout258:setWidth(61);
-    obj.layout258:setHeight(61);
-    obj.layout258:setName("layout258");
+    obj.layout246 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout246:setParent(obj.rectangle1);
+    obj.layout246:setLeft(726);
+    obj.layout246:setTop(553);
+    obj.layout246:setWidth(61);
+    obj.layout246:setHeight(61);
+    obj.layout246:setName("layout246");
 
-    obj.imageCheckBox8 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox8:setParent(obj.layout258);
-    obj.imageCheckBox8:setWidth(60);
-    obj.imageCheckBox8:setHeight(60);
-    obj.imageCheckBox8:setField("PDamage5");
-    obj.imageCheckBox8:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox8:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox8:setName("imageCheckBox8");
+    obj.imageCheckBox16 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox16:setParent(obj.layout246);
+    obj.imageCheckBox16:setWidth(60);
+    obj.imageCheckBox16:setHeight(60);
+    obj.imageCheckBox16:setField("PDamage5");
+    obj.imageCheckBox16:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox16:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox16:setName("imageCheckBox16");
 
-    obj.layout259 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout259:setParent(obj.rectangle1);
-    obj.layout259:setLeft(794);
-    obj.layout259:setTop(553);
-    obj.layout259:setWidth(91);
-    obj.layout259:setHeight(61);
-    obj.layout259:setName("layout259");
+    obj.layout247 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout247:setParent(obj.rectangle1);
+    obj.layout247:setLeft(794);
+    obj.layout247:setTop(553);
+    obj.layout247:setWidth(91);
+    obj.layout247:setHeight(61);
+    obj.layout247:setName("layout247");
 
-    obj.imageCheckBox9 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox9:setParent(obj.layout259);
-    obj.imageCheckBox9:setWidth(60);
-    obj.imageCheckBox9:setHeight(60);
-    obj.imageCheckBox9:setField("PDamage6");
-    obj.imageCheckBox9:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox9:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox9:setName("imageCheckBox9");
+    obj.imageCheckBox17 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox17:setParent(obj.layout247);
+    obj.imageCheckBox17:setWidth(60);
+    obj.imageCheckBox17:setHeight(60);
+    obj.imageCheckBox17:setField("PDamage6");
+    obj.imageCheckBox17:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox17:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox17:setName("imageCheckBox17");
 
     obj.label3 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label3:setParent(obj.layout259);
+    obj.label3:setParent(obj.layout247);
     obj.label3:setLeft(70);
     obj.label3:setTop(40);
     obj.label3:setWidth(20);
@@ -5649,59 +5445,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label3:setWordWrap(false);
     obj.label3:setAutoSize(true);
 
-    obj.layout260 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout260:setParent(obj.rectangle1);
-    obj.layout260:setLeft(900);
-    obj.layout260:setTop(553);
-    obj.layout260:setWidth(61);
-    obj.layout260:setHeight(61);
-    obj.layout260:setName("layout260");
+    obj.layout248 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout248:setParent(obj.rectangle1);
+    obj.layout248:setLeft(900);
+    obj.layout248:setTop(553);
+    obj.layout248:setWidth(61);
+    obj.layout248:setHeight(61);
+    obj.layout248:setName("layout248");
 
-    obj.imageCheckBox10 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox10:setParent(obj.layout260);
-    obj.imageCheckBox10:setWidth(60);
-    obj.imageCheckBox10:setHeight(60);
-    obj.imageCheckBox10:setField("SDamage4");
-    obj.imageCheckBox10:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox10:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox10:setName("imageCheckBox10");
+    obj.imageCheckBox18 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox18:setParent(obj.layout248);
+    obj.imageCheckBox18:setWidth(60);
+    obj.imageCheckBox18:setHeight(60);
+    obj.imageCheckBox18:setField("SDamage4");
+    obj.imageCheckBox18:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox18:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox18:setName("imageCheckBox18");
 
-    obj.layout261 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout261:setParent(obj.rectangle1);
-    obj.layout261:setLeft(966);
-    obj.layout261:setTop(553);
-    obj.layout261:setWidth(61);
-    obj.layout261:setHeight(61);
-    obj.layout261:setName("layout261");
+    obj.layout249 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout249:setParent(obj.rectangle1);
+    obj.layout249:setLeft(966);
+    obj.layout249:setTop(553);
+    obj.layout249:setWidth(61);
+    obj.layout249:setHeight(61);
+    obj.layout249:setName("layout249");
 
-    obj.imageCheckBox11 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox11:setParent(obj.layout261);
-    obj.imageCheckBox11:setWidth(60);
-    obj.imageCheckBox11:setHeight(60);
-    obj.imageCheckBox11:setField("SDamage5");
-    obj.imageCheckBox11:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox11:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox11:setName("imageCheckBox11");
+    obj.imageCheckBox19 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox19:setParent(obj.layout249);
+    obj.imageCheckBox19:setWidth(60);
+    obj.imageCheckBox19:setHeight(60);
+    obj.imageCheckBox19:setField("SDamage5");
+    obj.imageCheckBox19:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox19:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox19:setName("imageCheckBox19");
 
-    obj.layout262 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout262:setParent(obj.rectangle1);
-    obj.layout262:setLeft(1032);
-    obj.layout262:setTop(553);
-    obj.layout262:setWidth(91);
-    obj.layout262:setHeight(61);
-    obj.layout262:setName("layout262");
+    obj.layout250 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout250:setParent(obj.rectangle1);
+    obj.layout250:setLeft(1032);
+    obj.layout250:setTop(553);
+    obj.layout250:setWidth(91);
+    obj.layout250:setHeight(61);
+    obj.layout250:setName("layout250");
 
-    obj.imageCheckBox12 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox12:setParent(obj.layout262);
-    obj.imageCheckBox12:setWidth(60);
-    obj.imageCheckBox12:setHeight(60);
-    obj.imageCheckBox12:setField("SDamage6");
-    obj.imageCheckBox12:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox12:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox12:setName("imageCheckBox12");
+    obj.imageCheckBox20 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox20:setParent(obj.layout250);
+    obj.imageCheckBox20:setWidth(60);
+    obj.imageCheckBox20:setHeight(60);
+    obj.imageCheckBox20:setField("SDamage6");
+    obj.imageCheckBox20:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox20:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox20:setName("imageCheckBox20");
 
     obj.label4 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label4:setParent(obj.layout262);
+    obj.label4:setParent(obj.layout250);
     obj.label4:setLeft(70);
     obj.label4:setTop(40);
     obj.label4:setWidth(20);
@@ -5714,59 +5510,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label4:setWordWrap(false);
     obj.label4:setAutoSize(true);
 
-    obj.layout263 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout263:setParent(obj.rectangle1);
-    obj.layout263:setLeft(662);
-    obj.layout263:setTop(619);
-    obj.layout263:setWidth(61);
-    obj.layout263:setHeight(61);
-    obj.layout263:setName("layout263");
+    obj.layout251 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout251:setParent(obj.rectangle1);
+    obj.layout251:setLeft(662);
+    obj.layout251:setTop(619);
+    obj.layout251:setWidth(61);
+    obj.layout251:setHeight(61);
+    obj.layout251:setName("layout251");
 
-    obj.imageCheckBox13 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox13:setParent(obj.layout263);
-    obj.imageCheckBox13:setWidth(60);
-    obj.imageCheckBox13:setHeight(60);
-    obj.imageCheckBox13:setField("PDamage7");
-    obj.imageCheckBox13:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox13:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox13:setName("imageCheckBox13");
+    obj.imageCheckBox21 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox21:setParent(obj.layout251);
+    obj.imageCheckBox21:setWidth(60);
+    obj.imageCheckBox21:setHeight(60);
+    obj.imageCheckBox21:setField("PDamage7");
+    obj.imageCheckBox21:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox21:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox21:setName("imageCheckBox21");
 
-    obj.layout264 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout264:setParent(obj.rectangle1);
-    obj.layout264:setLeft(726);
-    obj.layout264:setTop(619);
-    obj.layout264:setWidth(61);
-    obj.layout264:setHeight(61);
-    obj.layout264:setName("layout264");
+    obj.layout252 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout252:setParent(obj.rectangle1);
+    obj.layout252:setLeft(726);
+    obj.layout252:setTop(619);
+    obj.layout252:setWidth(61);
+    obj.layout252:setHeight(61);
+    obj.layout252:setName("layout252");
 
-    obj.imageCheckBox14 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox14:setParent(obj.layout264);
-    obj.imageCheckBox14:setWidth(60);
-    obj.imageCheckBox14:setHeight(60);
-    obj.imageCheckBox14:setField("PDamage8");
-    obj.imageCheckBox14:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox14:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox14:setName("imageCheckBox14");
+    obj.imageCheckBox22 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox22:setParent(obj.layout252);
+    obj.imageCheckBox22:setWidth(60);
+    obj.imageCheckBox22:setHeight(60);
+    obj.imageCheckBox22:setField("PDamage8");
+    obj.imageCheckBox22:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox22:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox22:setName("imageCheckBox22");
 
-    obj.layout265 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout265:setParent(obj.rectangle1);
-    obj.layout265:setLeft(794);
-    obj.layout265:setTop(619);
-    obj.layout265:setWidth(91);
-    obj.layout265:setHeight(61);
-    obj.layout265:setName("layout265");
+    obj.layout253 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout253:setParent(obj.rectangle1);
+    obj.layout253:setLeft(794);
+    obj.layout253:setTop(619);
+    obj.layout253:setWidth(91);
+    obj.layout253:setHeight(61);
+    obj.layout253:setName("layout253");
 
-    obj.imageCheckBox15 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox15:setParent(obj.layout265);
-    obj.imageCheckBox15:setWidth(60);
-    obj.imageCheckBox15:setHeight(60);
-    obj.imageCheckBox15:setField("PDamage9");
-    obj.imageCheckBox15:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox15:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox15:setName("imageCheckBox15");
+    obj.imageCheckBox23 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox23:setParent(obj.layout253);
+    obj.imageCheckBox23:setWidth(60);
+    obj.imageCheckBox23:setHeight(60);
+    obj.imageCheckBox23:setField("PDamage9");
+    obj.imageCheckBox23:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox23:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox23:setName("imageCheckBox23");
 
     obj.label5 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label5:setParent(obj.layout265);
+    obj.label5:setParent(obj.layout253);
     obj.label5:setLeft(70);
     obj.label5:setTop(40);
     obj.label5:setWidth(20);
@@ -5779,59 +5575,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label5:setWordWrap(false);
     obj.label5:setAutoSize(true);
 
-    obj.layout266 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout266:setParent(obj.rectangle1);
-    obj.layout266:setLeft(900);
-    obj.layout266:setTop(619);
-    obj.layout266:setWidth(61);
-    obj.layout266:setHeight(61);
-    obj.layout266:setName("layout266");
+    obj.layout254 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout254:setParent(obj.rectangle1);
+    obj.layout254:setLeft(900);
+    obj.layout254:setTop(619);
+    obj.layout254:setWidth(61);
+    obj.layout254:setHeight(61);
+    obj.layout254:setName("layout254");
 
-    obj.imageCheckBox16 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox16:setParent(obj.layout266);
-    obj.imageCheckBox16:setWidth(60);
-    obj.imageCheckBox16:setHeight(60);
-    obj.imageCheckBox16:setField("SDamage7");
-    obj.imageCheckBox16:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox16:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox16:setName("imageCheckBox16");
+    obj.imageCheckBox24 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox24:setParent(obj.layout254);
+    obj.imageCheckBox24:setWidth(60);
+    obj.imageCheckBox24:setHeight(60);
+    obj.imageCheckBox24:setField("SDamage7");
+    obj.imageCheckBox24:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox24:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox24:setName("imageCheckBox24");
 
-    obj.layout267 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout267:setParent(obj.rectangle1);
-    obj.layout267:setLeft(966);
-    obj.layout267:setTop(619);
-    obj.layout267:setWidth(61);
-    obj.layout267:setHeight(61);
-    obj.layout267:setName("layout267");
+    obj.layout255 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout255:setParent(obj.rectangle1);
+    obj.layout255:setLeft(966);
+    obj.layout255:setTop(619);
+    obj.layout255:setWidth(61);
+    obj.layout255:setHeight(61);
+    obj.layout255:setName("layout255");
 
-    obj.imageCheckBox17 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox17:setParent(obj.layout267);
-    obj.imageCheckBox17:setWidth(60);
-    obj.imageCheckBox17:setHeight(60);
-    obj.imageCheckBox17:setField("SDamage8");
-    obj.imageCheckBox17:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox17:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox17:setName("imageCheckBox17");
+    obj.imageCheckBox25 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox25:setParent(obj.layout255);
+    obj.imageCheckBox25:setWidth(60);
+    obj.imageCheckBox25:setHeight(60);
+    obj.imageCheckBox25:setField("SDamage8");
+    obj.imageCheckBox25:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox25:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox25:setName("imageCheckBox25");
 
-    obj.layout268 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout268:setParent(obj.rectangle1);
-    obj.layout268:setLeft(1032);
-    obj.layout268:setTop(619);
-    obj.layout268:setWidth(91);
-    obj.layout268:setHeight(61);
-    obj.layout268:setName("layout268");
+    obj.layout256 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout256:setParent(obj.rectangle1);
+    obj.layout256:setLeft(1032);
+    obj.layout256:setTop(619);
+    obj.layout256:setWidth(91);
+    obj.layout256:setHeight(61);
+    obj.layout256:setName("layout256");
 
-    obj.imageCheckBox18 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox18:setParent(obj.layout268);
-    obj.imageCheckBox18:setWidth(60);
-    obj.imageCheckBox18:setHeight(60);
-    obj.imageCheckBox18:setField("SDamage9");
-    obj.imageCheckBox18:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox18:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox18:setName("imageCheckBox18");
+    obj.imageCheckBox26 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox26:setParent(obj.layout256);
+    obj.imageCheckBox26:setWidth(60);
+    obj.imageCheckBox26:setHeight(60);
+    obj.imageCheckBox26:setField("SDamage9");
+    obj.imageCheckBox26:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox26:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox26:setName("imageCheckBox26");
 
     obj.label6 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label6:setParent(obj.layout268);
+    obj.label6:setParent(obj.layout256);
     obj.label6:setLeft(70);
     obj.label6:setTop(40);
     obj.label6:setWidth(20);
@@ -5844,59 +5640,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label6:setWordWrap(false);
     obj.label6:setAutoSize(true);
 
-    obj.layout269 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout269:setParent(obj.rectangle1);
-    obj.layout269:setLeft(662);
-    obj.layout269:setTop(685);
-    obj.layout269:setWidth(61);
-    obj.layout269:setHeight(61);
-    obj.layout269:setName("layout269");
+    obj.layout257 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout257:setParent(obj.rectangle1);
+    obj.layout257:setLeft(662);
+    obj.layout257:setTop(685);
+    obj.layout257:setWidth(61);
+    obj.layout257:setHeight(61);
+    obj.layout257:setName("layout257");
 
-    obj.imageCheckBox19 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox19:setParent(obj.layout269);
-    obj.imageCheckBox19:setWidth(60);
-    obj.imageCheckBox19:setHeight(60);
-    obj.imageCheckBox19:setField("PDamage10");
-    obj.imageCheckBox19:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox19:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox19:setName("imageCheckBox19");
+    obj.imageCheckBox27 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox27:setParent(obj.layout257);
+    obj.imageCheckBox27:setWidth(60);
+    obj.imageCheckBox27:setHeight(60);
+    obj.imageCheckBox27:setField("PDamage10");
+    obj.imageCheckBox27:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox27:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox27:setName("imageCheckBox27");
 
-    obj.layout270 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout270:setParent(obj.rectangle1);
-    obj.layout270:setLeft(726);
-    obj.layout270:setTop(685);
-    obj.layout270:setWidth(61);
-    obj.layout270:setHeight(61);
-    obj.layout270:setName("layout270");
+    obj.layout258 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout258:setParent(obj.rectangle1);
+    obj.layout258:setLeft(726);
+    obj.layout258:setTop(685);
+    obj.layout258:setWidth(61);
+    obj.layout258:setHeight(61);
+    obj.layout258:setName("layout258");
 
-    obj.imageCheckBox20 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox20:setParent(obj.layout270);
-    obj.imageCheckBox20:setWidth(60);
-    obj.imageCheckBox20:setHeight(60);
-    obj.imageCheckBox20:setField("PDamage11");
-    obj.imageCheckBox20:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox20:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox20:setName("imageCheckBox20");
+    obj.imageCheckBox28 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox28:setParent(obj.layout258);
+    obj.imageCheckBox28:setWidth(60);
+    obj.imageCheckBox28:setHeight(60);
+    obj.imageCheckBox28:setField("PDamage11");
+    obj.imageCheckBox28:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox28:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox28:setName("imageCheckBox28");
 
-    obj.layout271 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout271:setParent(obj.rectangle1);
-    obj.layout271:setLeft(794);
-    obj.layout271:setTop(685);
-    obj.layout271:setWidth(91);
-    obj.layout271:setHeight(61);
-    obj.layout271:setName("layout271");
+    obj.layout259 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout259:setParent(obj.rectangle1);
+    obj.layout259:setLeft(794);
+    obj.layout259:setTop(685);
+    obj.layout259:setWidth(91);
+    obj.layout259:setHeight(61);
+    obj.layout259:setName("layout259");
 
-    obj.imageCheckBox21 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox21:setParent(obj.layout271);
-    obj.imageCheckBox21:setWidth(60);
-    obj.imageCheckBox21:setHeight(60);
-    obj.imageCheckBox21:setField("PDamage12");
-    obj.imageCheckBox21:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox21:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox21:setName("imageCheckBox21");
+    obj.imageCheckBox29 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox29:setParent(obj.layout259);
+    obj.imageCheckBox29:setWidth(60);
+    obj.imageCheckBox29:setHeight(60);
+    obj.imageCheckBox29:setField("PDamage12");
+    obj.imageCheckBox29:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox29:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox29:setName("imageCheckBox29");
 
     obj.label7 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label7:setParent(obj.layout271);
+    obj.label7:setParent(obj.layout259);
     obj.label7:setLeft(70);
     obj.label7:setTop(40);
     obj.label7:setWidth(20);
@@ -5909,59 +5705,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label7:setWordWrap(false);
     obj.label7:setAutoSize(true);
 
-    obj.layout272 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout272:setParent(obj.rectangle1);
-    obj.layout272:setLeft(900);
-    obj.layout272:setTop(685);
-    obj.layout272:setWidth(61);
-    obj.layout272:setHeight(61);
-    obj.layout272:setName("layout272");
+    obj.layout260 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout260:setParent(obj.rectangle1);
+    obj.layout260:setLeft(900);
+    obj.layout260:setTop(685);
+    obj.layout260:setWidth(61);
+    obj.layout260:setHeight(61);
+    obj.layout260:setName("layout260");
 
-    obj.imageCheckBox22 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox22:setParent(obj.layout272);
-    obj.imageCheckBox22:setWidth(60);
-    obj.imageCheckBox22:setHeight(60);
-    obj.imageCheckBox22:setField("SDamage10");
-    obj.imageCheckBox22:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox22:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox22:setName("imageCheckBox22");
+    obj.imageCheckBox30 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox30:setParent(obj.layout260);
+    obj.imageCheckBox30:setWidth(60);
+    obj.imageCheckBox30:setHeight(60);
+    obj.imageCheckBox30:setField("SDamage10");
+    obj.imageCheckBox30:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox30:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox30:setName("imageCheckBox30");
 
-    obj.layout273 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout273:setParent(obj.rectangle1);
-    obj.layout273:setLeft(966);
-    obj.layout273:setTop(685);
-    obj.layout273:setWidth(61);
-    obj.layout273:setHeight(61);
-    obj.layout273:setName("layout273");
+    obj.layout261 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout261:setParent(obj.rectangle1);
+    obj.layout261:setLeft(966);
+    obj.layout261:setTop(685);
+    obj.layout261:setWidth(61);
+    obj.layout261:setHeight(61);
+    obj.layout261:setName("layout261");
 
-    obj.imageCheckBox23 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox23:setParent(obj.layout273);
-    obj.imageCheckBox23:setWidth(60);
-    obj.imageCheckBox23:setHeight(60);
-    obj.imageCheckBox23:setField("SDamage11");
-    obj.imageCheckBox23:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox23:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox23:setName("imageCheckBox23");
+    obj.imageCheckBox31 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox31:setParent(obj.layout261);
+    obj.imageCheckBox31:setWidth(60);
+    obj.imageCheckBox31:setHeight(60);
+    obj.imageCheckBox31:setField("SDamage11");
+    obj.imageCheckBox31:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox31:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox31:setName("imageCheckBox31");
 
-    obj.layout274 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout274:setParent(obj.rectangle1);
-    obj.layout274:setLeft(1032);
-    obj.layout274:setTop(685);
-    obj.layout274:setWidth(91);
-    obj.layout274:setHeight(61);
-    obj.layout274:setName("layout274");
+    obj.layout262 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout262:setParent(obj.rectangle1);
+    obj.layout262:setLeft(1032);
+    obj.layout262:setTop(685);
+    obj.layout262:setWidth(91);
+    obj.layout262:setHeight(61);
+    obj.layout262:setName("layout262");
 
-    obj.imageCheckBox24 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox24:setParent(obj.layout274);
-    obj.imageCheckBox24:setWidth(60);
-    obj.imageCheckBox24:setHeight(60);
-    obj.imageCheckBox24:setField("SDamage12");
-    obj.imageCheckBox24:setImageChecked("/SR6e/images/stun.png");
-    obj.imageCheckBox24:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox24:setName("imageCheckBox24");
+    obj.imageCheckBox32 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox32:setParent(obj.layout262);
+    obj.imageCheckBox32:setWidth(60);
+    obj.imageCheckBox32:setHeight(60);
+    obj.imageCheckBox32:setField("SDamage12");
+    obj.imageCheckBox32:setImageChecked("/SR6e/images/stun.png");
+    obj.imageCheckBox32:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox32:setName("imageCheckBox32");
 
     obj.label8 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label8:setParent(obj.layout274);
+    obj.label8:setParent(obj.layout262);
     obj.label8:setLeft(70);
     obj.label8:setTop(40);
     obj.label8:setWidth(20);
@@ -5974,59 +5770,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label8:setWordWrap(false);
     obj.label8:setAutoSize(true);
 
-    obj.layout275 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout275:setParent(obj.rectangle1);
-    obj.layout275:setLeft(662);
-    obj.layout275:setTop(750);
-    obj.layout275:setWidth(61);
-    obj.layout275:setHeight(61);
-    obj.layout275:setName("layout275");
+    obj.layout263 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout263:setParent(obj.rectangle1);
+    obj.layout263:setLeft(662);
+    obj.layout263:setTop(750);
+    obj.layout263:setWidth(61);
+    obj.layout263:setHeight(61);
+    obj.layout263:setName("layout263");
 
-    obj.imageCheckBox25 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox25:setParent(obj.layout275);
-    obj.imageCheckBox25:setWidth(60);
-    obj.imageCheckBox25:setHeight(60);
-    obj.imageCheckBox25:setField("PDamage13");
-    obj.imageCheckBox25:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox25:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox25:setName("imageCheckBox25");
+    obj.imageCheckBox33 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox33:setParent(obj.layout263);
+    obj.imageCheckBox33:setWidth(60);
+    obj.imageCheckBox33:setHeight(60);
+    obj.imageCheckBox33:setField("PDamage13");
+    obj.imageCheckBox33:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox33:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox33:setName("imageCheckBox33");
 
-    obj.layout276 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout276:setParent(obj.rectangle1);
-    obj.layout276:setLeft(726);
-    obj.layout276:setTop(750);
-    obj.layout276:setWidth(61);
-    obj.layout276:setHeight(61);
-    obj.layout276:setName("layout276");
+    obj.layout264 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout264:setParent(obj.rectangle1);
+    obj.layout264:setLeft(726);
+    obj.layout264:setTop(750);
+    obj.layout264:setWidth(61);
+    obj.layout264:setHeight(61);
+    obj.layout264:setName("layout264");
 
-    obj.imageCheckBox26 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox26:setParent(obj.layout276);
-    obj.imageCheckBox26:setWidth(60);
-    obj.imageCheckBox26:setHeight(60);
-    obj.imageCheckBox26:setField("PDamage14");
-    obj.imageCheckBox26:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox26:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox26:setName("imageCheckBox26");
+    obj.imageCheckBox34 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox34:setParent(obj.layout264);
+    obj.imageCheckBox34:setWidth(60);
+    obj.imageCheckBox34:setHeight(60);
+    obj.imageCheckBox34:setField("PDamage14");
+    obj.imageCheckBox34:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox34:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox34:setName("imageCheckBox34");
 
-    obj.layout277 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout277:setParent(obj.rectangle1);
-    obj.layout277:setLeft(794);
-    obj.layout277:setTop(750);
-    obj.layout277:setWidth(91);
-    obj.layout277:setHeight(61);
-    obj.layout277:setName("layout277");
+    obj.layout265 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout265:setParent(obj.rectangle1);
+    obj.layout265:setLeft(794);
+    obj.layout265:setTop(750);
+    obj.layout265:setWidth(91);
+    obj.layout265:setHeight(61);
+    obj.layout265:setName("layout265");
 
-    obj.imageCheckBox27 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox27:setParent(obj.layout277);
-    obj.imageCheckBox27:setWidth(60);
-    obj.imageCheckBox27:setHeight(60);
-    obj.imageCheckBox27:setField("PDamage15");
-    obj.imageCheckBox27:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox27:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox27:setName("imageCheckBox27");
+    obj.imageCheckBox35 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox35:setParent(obj.layout265);
+    obj.imageCheckBox35:setWidth(60);
+    obj.imageCheckBox35:setHeight(60);
+    obj.imageCheckBox35:setField("PDamage15");
+    obj.imageCheckBox35:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox35:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox35:setName("imageCheckBox35");
 
     obj.label9 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label9:setParent(obj.layout277);
+    obj.label9:setParent(obj.layout265);
     obj.label9:setLeft(70);
     obj.label9:setTop(40);
     obj.label9:setWidth(20);
@@ -6039,59 +5835,59 @@ local function constructNew_frmSR6e1_svg()
     obj.label9:setWordWrap(false);
     obj.label9:setAutoSize(true);
 
-    obj.layout278 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout278:setParent(obj.rectangle1);
-    obj.layout278:setLeft(662);
-    obj.layout278:setTop(817);
-    obj.layout278:setWidth(61);
-    obj.layout278:setHeight(61);
-    obj.layout278:setName("layout278");
+    obj.layout266 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout266:setParent(obj.rectangle1);
+    obj.layout266:setLeft(662);
+    obj.layout266:setTop(817);
+    obj.layout266:setWidth(61);
+    obj.layout266:setHeight(61);
+    obj.layout266:setName("layout266");
 
-    obj.imageCheckBox28 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox28:setParent(obj.layout278);
-    obj.imageCheckBox28:setWidth(60);
-    obj.imageCheckBox28:setHeight(60);
-    obj.imageCheckBox28:setField("PDamage16");
-    obj.imageCheckBox28:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox28:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox28:setName("imageCheckBox28");
+    obj.imageCheckBox36 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox36:setParent(obj.layout266);
+    obj.imageCheckBox36:setWidth(60);
+    obj.imageCheckBox36:setHeight(60);
+    obj.imageCheckBox36:setField("PDamage16");
+    obj.imageCheckBox36:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox36:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox36:setName("imageCheckBox36");
 
-    obj.layout279 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout279:setParent(obj.rectangle1);
-    obj.layout279:setLeft(726);
-    obj.layout279:setTop(817);
-    obj.layout279:setWidth(61);
-    obj.layout279:setHeight(61);
-    obj.layout279:setName("layout279");
+    obj.layout267 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout267:setParent(obj.rectangle1);
+    obj.layout267:setLeft(726);
+    obj.layout267:setTop(817);
+    obj.layout267:setWidth(61);
+    obj.layout267:setHeight(61);
+    obj.layout267:setName("layout267");
 
-    obj.imageCheckBox29 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox29:setParent(obj.layout279);
-    obj.imageCheckBox29:setWidth(60);
-    obj.imageCheckBox29:setHeight(60);
-    obj.imageCheckBox29:setField("PDamage17");
-    obj.imageCheckBox29:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox29:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox29:setName("imageCheckBox29");
+    obj.imageCheckBox37 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox37:setParent(obj.layout267);
+    obj.imageCheckBox37:setWidth(60);
+    obj.imageCheckBox37:setHeight(60);
+    obj.imageCheckBox37:setField("PDamage17");
+    obj.imageCheckBox37:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox37:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox37:setName("imageCheckBox37");
 
-    obj.layout280 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout280:setParent(obj.rectangle1);
-    obj.layout280:setLeft(794);
-    obj.layout280:setTop(817);
-    obj.layout280:setWidth(91);
-    obj.layout280:setHeight(61);
-    obj.layout280:setName("layout280");
+    obj.layout268 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout268:setParent(obj.rectangle1);
+    obj.layout268:setLeft(794);
+    obj.layout268:setTop(817);
+    obj.layout268:setWidth(91);
+    obj.layout268:setHeight(61);
+    obj.layout268:setName("layout268");
 
-    obj.imageCheckBox30 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
-    obj.imageCheckBox30:setParent(obj.layout280);
-    obj.imageCheckBox30:setWidth(60);
-    obj.imageCheckBox30:setHeight(60);
-    obj.imageCheckBox30:setField("PDamage18");
-    obj.imageCheckBox30:setImageChecked("/SR6e/images/dmg2.png");
-    obj.imageCheckBox30:setImageUnchecked("/SR6e/images/dmg.png");
-    obj.imageCheckBox30:setName("imageCheckBox30");
+    obj.imageCheckBox38 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox38:setParent(obj.layout268);
+    obj.imageCheckBox38:setWidth(60);
+    obj.imageCheckBox38:setHeight(60);
+    obj.imageCheckBox38:setField("PDamage18");
+    obj.imageCheckBox38:setImageChecked("/SR6e/images/dmg2.png");
+    obj.imageCheckBox38:setImageUnchecked("/SR6e/images/dmg.png");
+    obj.imageCheckBox38:setName("imageCheckBox38");
 
     obj.label10 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label10:setParent(obj.layout280);
+    obj.label10:setParent(obj.layout268);
     obj.label10:setLeft(70);
     obj.label10:setTop(40);
     obj.label10:setWidth(20);
@@ -6131,7 +5927,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout64 ~= nil then self.layout64:destroy(); self.layout64 = nil; end;
         if self.edit33 ~= nil then self.edit33:destroy(); self.edit33 = nil; end;
         if self.layout266 ~= nil then self.layout266:destroy(); self.layout266 = nil; end;
-        if self.layout275 ~= nil then self.layout275:destroy(); self.layout275 = nil; end;
         if self.edit29 ~= nil then self.edit29:destroy(); self.edit29 = nil; end;
         if self.layout17 ~= nil then self.layout17:destroy(); self.layout17 = nil; end;
         if self.layout94 ~= nil then self.layout94:destroy(); self.layout94 = nil; end;
@@ -6166,7 +5961,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout251 ~= nil then self.layout251:destroy(); self.layout251 = nil; end;
         if self.layout37 ~= nil then self.layout37:destroy(); self.layout37 = nil; end;
         if self.layout194 ~= nil then self.layout194:destroy(); self.layout194 = nil; end;
-        if self.layout276 ~= nil then self.layout276:destroy(); self.layout276 = nil; end;
         if self.layout36 ~= nil then self.layout36:destroy(); self.layout36 = nil; end;
         if self.edit69 ~= nil then self.edit69:destroy(); self.edit69 = nil; end;
         if self.layout212 ~= nil then self.layout212:destroy(); self.layout212 = nil; end;
@@ -6192,13 +5986,13 @@ local function constructNew_frmSR6e1_svg()
         if self.label1 ~= nil then self.label1:destroy(); self.label1 = nil; end;
         if self.edit220 ~= nil then self.edit220:destroy(); self.edit220 = nil; end;
         if self.layout166 ~= nil then self.layout166:destroy(); self.layout166 = nil; end;
-        if self.checkBox3 ~= nil then self.checkBox3:destroy(); self.checkBox3 = nil; end;
         if self.layout42 ~= nil then self.layout42:destroy(); self.layout42 = nil; end;
         if self.edit58 ~= nil then self.edit58:destroy(); self.edit58 = nil; end;
         if self.layout61 ~= nil then self.layout61:destroy(); self.layout61 = nil; end;
         if self.layout205 ~= nil then self.layout205:destroy(); self.layout205 = nil; end;
         if self.layout232 ~= nil then self.layout232:destroy(); self.layout232 = nil; end;
         if self.edit66 ~= nil then self.edit66:destroy(); self.edit66 = nil; end;
+        if self.imageCheckBox37 ~= nil then self.imageCheckBox37:destroy(); self.imageCheckBox37 = nil; end;
         if self.layout126 ~= nil then self.layout126:destroy(); self.layout126 = nil; end;
         if self.layout5 ~= nil then self.layout5:destroy(); self.layout5 = nil; end;
         if self.layout203 ~= nil then self.layout203:destroy(); self.layout203 = nil; end;
@@ -6227,14 +6021,13 @@ local function constructNew_frmSR6e1_svg()
         if self.layout11 ~= nil then self.layout11:destroy(); self.layout11 = nil; end;
         if self.layout191 ~= nil then self.layout191:destroy(); self.layout191 = nil; end;
         if self.edit221 ~= nil then self.edit221:destroy(); self.edit221 = nil; end;
-        if self.layout273 ~= nil then self.layout273:destroy(); self.layout273 = nil; end;
         if self.layout108 ~= nil then self.layout108:destroy(); self.layout108 = nil; end;
         if self.layout183 ~= nil then self.layout183:destroy(); self.layout183 = nil; end;
         if self.layout186 ~= nil then self.layout186:destroy(); self.layout186 = nil; end;
         if self.layout229 ~= nil then self.layout229:destroy(); self.layout229 = nil; end;
         if self.imageCheckBox28 ~= nil then self.imageCheckBox28:destroy(); self.imageCheckBox28 = nil; end;
         if self.edit124 ~= nil then self.edit124:destroy(); self.edit124 = nil; end;
-        if self.layout277 ~= nil then self.layout277:destroy(); self.layout277 = nil; end;
+        if self.imageCheckBox33 ~= nil then self.imageCheckBox33:destroy(); self.imageCheckBox33 = nil; end;
         if self.edit157 ~= nil then self.edit157:destroy(); self.edit157 = nil; end;
         if self.label2 ~= nil then self.label2:destroy(); self.label2 = nil; end;
         if self.imageCheckBox15 ~= nil then self.imageCheckBox15:destroy(); self.imageCheckBox15 = nil; end;
@@ -6255,36 +6048,33 @@ local function constructNew_frmSR6e1_svg()
         if self.edit134 ~= nil then self.edit134:destroy(); self.edit134 = nil; end;
         if self.layout225 ~= nil then self.layout225:destroy(); self.layout225 = nil; end;
         if self.layout146 ~= nil then self.layout146:destroy(); self.layout146 = nil; end;
-        if self.layout278 ~= nil then self.layout278:destroy(); self.layout278 = nil; end;
         if self.layout39 ~= nil then self.layout39:destroy(); self.layout39 = nil; end;
         if self.layout136 ~= nil then self.layout136:destroy(); self.layout136 = nil; end;
         if self.layout154 ~= nil then self.layout154:destroy(); self.layout154 = nil; end;
-        if self.layout162 ~= nil then self.layout162:destroy(); self.layout162 = nil; end;
         if self.imageCheckBox8 ~= nil then self.imageCheckBox8:destroy(); self.imageCheckBox8 = nil; end;
+        if self.layout162 ~= nil then self.layout162:destroy(); self.layout162 = nil; end;
         if self.layout260 ~= nil then self.layout260:destroy(); self.layout260 = nil; end;
         if self.layout261 ~= nil then self.layout261:destroy(); self.layout261 = nil; end;
         if self.layout69 ~= nil then self.layout69:destroy(); self.layout69 = nil; end;
-        if self.layout270 ~= nil then self.layout270:destroy(); self.layout270 = nil; end;
         if self.edit121 ~= nil then self.edit121:destroy(); self.edit121 = nil; end;
         if self.edit163 ~= nil then self.edit163:destroy(); self.edit163 = nil; end;
         if self.edit199 ~= nil then self.edit199:destroy(); self.edit199 = nil; end;
         if self.layout241 ~= nil then self.layout241:destroy(); self.layout241 = nil; end;
         if self.layout30 ~= nil then self.layout30:destroy(); self.layout30 = nil; end;
-        if self.layout254 ~= nil then self.layout254:destroy(); self.layout254 = nil; end;
         if self.imageCheckBox20 ~= nil then self.imageCheckBox20:destroy(); self.imageCheckBox20 = nil; end;
+        if self.layout254 ~= nil then self.layout254:destroy(); self.layout254 = nil; end;
         if self.layout135 ~= nil then self.layout135:destroy(); self.layout135 = nil; end;
         if self.layout152 ~= nil then self.layout152:destroy(); self.layout152 = nil; end;
-        if self.layout60 ~= nil then self.layout60:destroy(); self.layout60 = nil; end;
-        if self.layout206 ~= nil then self.layout206:destroy(); self.layout206 = nil; end;
-        if self.layout59 ~= nil then self.layout59:destroy(); self.layout59 = nil; end;
-        if self.layout207 ~= nil then self.layout207:destroy(); self.layout207 = nil; end;
         if self.imageCheckBox4 ~= nil then self.imageCheckBox4:destroy(); self.imageCheckBox4 = nil; end;
+        if self.layout60 ~= nil then self.layout60:destroy(); self.layout60 = nil; end;
+        if self.layout59 ~= nil then self.layout59:destroy(); self.layout59 = nil; end;
+        if self.layout206 ~= nil then self.layout206:destroy(); self.layout206 = nil; end;
+        if self.layout207 ~= nil then self.layout207:destroy(); self.layout207 = nil; end;
         if self.imageCheckBox7 ~= nil then self.imageCheckBox7:destroy(); self.imageCheckBox7 = nil; end;
         if self.edit92 ~= nil then self.edit92:destroy(); self.edit92 = nil; end;
         if self.layout72 ~= nil then self.layout72:destroy(); self.layout72 = nil; end;
         if self.layout244 ~= nil then self.layout244:destroy(); self.layout244 = nil; end;
         if self.layout118 ~= nil then self.layout118:destroy(); self.layout118 = nil; end;
-        if self.layout279 ~= nil then self.layout279:destroy(); self.layout279 = nil; end;
         if self.layout90 ~= nil then self.layout90:destroy(); self.layout90 = nil; end;
         if self.layout262 ~= nil then self.layout262:destroy(); self.layout262 = nil; end;
         if self.edit54 ~= nil then self.edit54:destroy(); self.edit54 = nil; end;
@@ -6293,12 +6083,15 @@ local function constructNew_frmSR6e1_svg()
         if self.edit61 ~= nil then self.edit61:destroy(); self.edit61 = nil; end;
         if self.edit84 ~= nil then self.edit84:destroy(); self.edit84 = nil; end;
         if self.edit224 ~= nil then self.edit224:destroy(); self.edit224 = nil; end;
+        if self.imageCheckBox38 ~= nil then self.imageCheckBox38:destroy(); self.imageCheckBox38 = nil; end;
         if self.layout111 ~= nil then self.layout111:destroy(); self.layout111 = nil; end;
         if self.edit24 ~= nil then self.edit24:destroy(); self.edit24 = nil; end;
         if self.edit59 ~= nil then self.edit59:destroy(); self.edit59 = nil; end;
         if self.layout12 ~= nil then self.layout12:destroy(); self.layout12 = nil; end;
         if self.edit14 ~= nil then self.edit14:destroy(); self.edit14 = nil; end;
         if self.layout242 ~= nil then self.layout242:destroy(); self.layout242 = nil; end;
+        if self.imageCheckBox36 ~= nil then self.imageCheckBox36:destroy(); self.imageCheckBox36 = nil; end;
+        if self.imageCheckBox32 ~= nil then self.imageCheckBox32:destroy(); self.imageCheckBox32 = nil; end;
         if self.edit4 ~= nil then self.edit4:destroy(); self.edit4 = nil; end;
         if self.layout25 ~= nil then self.layout25:destroy(); self.layout25 = nil; end;
         if self.layout193 ~= nil then self.layout193:destroy(); self.layout193 = nil; end;
@@ -6311,10 +6104,8 @@ local function constructNew_frmSR6e1_svg()
         if self.layout228 ~= nil then self.layout228:destroy(); self.layout228 = nil; end;
         if self.layout116 ~= nil then self.layout116:destroy(); self.layout116 = nil; end;
         if self.layout107 ~= nil then self.layout107:destroy(); self.layout107 = nil; end;
-        if self.checkBox17 ~= nil then self.checkBox17:destroy(); self.checkBox17 = nil; end;
         if self.edit103 ~= nil then self.edit103:destroy(); self.edit103 = nil; end;
         if self.edit187 ~= nil then self.edit187:destroy(); self.edit187 = nil; end;
-        if self.checkBox16 ~= nil then self.checkBox16:destroy(); self.checkBox16 = nil; end;
         if self.edit127 ~= nil then self.edit127:destroy(); self.edit127 = nil; end;
         if self.edit218 ~= nil then self.edit218:destroy(); self.edit218 = nil; end;
         if self.edit165 ~= nil then self.edit165:destroy(); self.edit165 = nil; end;
@@ -6323,7 +6114,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout101 ~= nil then self.layout101:destroy(); self.layout101 = nil; end;
         if self.edit45 ~= nil then self.edit45:destroy(); self.edit45 = nil; end;
         if self.edit8 ~= nil then self.edit8:destroy(); self.edit8 = nil; end;
-        if self.checkBox9 ~= nil then self.checkBox9:destroy(); self.checkBox9 = nil; end;
         if self.layout267 ~= nil then self.layout267:destroy(); self.layout267 = nil; end;
         if self.edit145 ~= nil then self.edit145:destroy(); self.edit145 = nil; end;
         if self.layout168 ~= nil then self.layout168:destroy(); self.layout168 = nil; end;
@@ -6337,7 +6127,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout148 ~= nil then self.layout148:destroy(); self.layout148 = nil; end;
         if self.edit21 ~= nil then self.edit21:destroy(); self.edit21 = nil; end;
         if self.layout76 ~= nil then self.layout76:destroy(); self.layout76 = nil; end;
-        if self.checkBox14 ~= nil then self.checkBox14:destroy(); self.checkBox14 = nil; end;
         if self.edit174 ~= nil then self.edit174:destroy(); self.edit174 = nil; end;
         if self.edit152 ~= nil then self.edit152:destroy(); self.edit152 = nil; end;
         if self.edit133 ~= nil then self.edit133:destroy(); self.edit133 = nil; end;
@@ -6355,10 +6144,9 @@ local function constructNew_frmSR6e1_svg()
         if self.edit166 ~= nil then self.edit166:destroy(); self.edit166 = nil; end;
         if self.layout230 ~= nil then self.layout230:destroy(); self.layout230 = nil; end;
         if self.edit37 ~= nil then self.edit37:destroy(); self.edit37 = nil; end;
-        if self.checkBox12 ~= nil then self.checkBox12:destroy(); self.checkBox12 = nil; end;
         if self.layout165 ~= nil then self.layout165:destroy(); self.layout165 = nil; end;
-        if self.layout198 ~= nil then self.layout198:destroy(); self.layout198 = nil; end;
         if self.edit184 ~= nil then self.edit184:destroy(); self.edit184 = nil; end;
+        if self.layout198 ~= nil then self.layout198:destroy(); self.layout198 = nil; end;
         if self.layout216 ~= nil then self.layout216:destroy(); self.layout216 = nil; end;
         if self.layout70 ~= nil then self.layout70:destroy(); self.layout70 = nil; end;
         if self.layout31 ~= nil then self.layout31:destroy(); self.layout31 = nil; end;
@@ -6381,21 +6169,18 @@ local function constructNew_frmSR6e1_svg()
         if self.edit113 ~= nil then self.edit113:destroy(); self.edit113 = nil; end;
         if self.edit15 ~= nil then self.edit15:destroy(); self.edit15 = nil; end;
         if self.layout202 ~= nil then self.layout202:destroy(); self.layout202 = nil; end;
-        if self.checkBox19 ~= nil then self.checkBox19:destroy(); self.checkBox19 = nil; end;
-        if self.layout113 ~= nil then self.layout113:destroy(); self.layout113 = nil; end;
         if self.layout220 ~= nil then self.layout220:destroy(); self.layout220 = nil; end;
+        if self.layout113 ~= nil then self.layout113:destroy(); self.layout113 = nil; end;
         if self.edit211 ~= nil then self.edit211:destroy(); self.edit211 = nil; end;
         if self.label3 ~= nil then self.label3:destroy(); self.label3 = nil; end;
-        if self.layout272 ~= nil then self.layout272:destroy(); self.layout272 = nil; end;
         if self.edit138 ~= nil then self.edit138:destroy(); self.edit138 = nil; end;
         if self.label7 ~= nil then self.label7:destroy(); self.label7 = nil; end;
         if self.edit42 ~= nil then self.edit42:destroy(); self.edit42 = nil; end;
         if self.edit209 ~= nil then self.edit209:destroy(); self.edit209 = nil; end;
         if self.edit118 ~= nil then self.edit118:destroy(); self.edit118 = nil; end;
-        if self.checkBox10 ~= nil then self.checkBox10:destroy(); self.checkBox10 = nil; end;
         if self.layout109 ~= nil then self.layout109:destroy(); self.layout109 = nil; end;
-        if self.layout170 ~= nil then self.layout170:destroy(); self.layout170 = nil; end;
         if self.edit154 ~= nil then self.edit154:destroy(); self.edit154 = nil; end;
+        if self.layout170 ~= nil then self.layout170:destroy(); self.layout170 = nil; end;
         if self.layout98 ~= nil then self.layout98:destroy(); self.layout98 = nil; end;
         if self.layout22 ~= nil then self.layout22:destroy(); self.layout22 = nil; end;
         if self.layout48 ~= nil then self.layout48:destroy(); self.layout48 = nil; end;
@@ -6416,9 +6201,7 @@ local function constructNew_frmSR6e1_svg()
         if self.edit73 ~= nil then self.edit73:destroy(); self.edit73 = nil; end;
         if self.edit222 ~= nil then self.edit222:destroy(); self.edit222 = nil; end;
         if self.edit98 ~= nil then self.edit98:destroy(); self.edit98 = nil; end;
-        if self.checkBox15 ~= nil then self.checkBox15:destroy(); self.checkBox15 = nil; end;
         if self.layout58 ~= nil then self.layout58:destroy(); self.layout58 = nil; end;
-        if self.checkBox18 ~= nil then self.checkBox18:destroy(); self.checkBox18 = nil; end;
         if self.layout240 ~= nil then self.layout240:destroy(); self.layout240 = nil; end;
         if self.layout209 ~= nil then self.layout209:destroy(); self.layout209 = nil; end;
         if self.layout110 ~= nil then self.layout110:destroy(); self.layout110 = nil; end;
@@ -6433,10 +6216,9 @@ local function constructNew_frmSR6e1_svg()
         if self.edit71 ~= nil then self.edit71:destroy(); self.edit71 = nil; end;
         if self.layout41 ~= nil then self.layout41:destroy(); self.layout41 = nil; end;
         if self.edit85 ~= nil then self.edit85:destroy(); self.edit85 = nil; end;
-        if self.layout219 ~= nil then self.layout219:destroy(); self.layout219 = nil; end;
         if self.edit201 ~= nil then self.edit201:destroy(); self.edit201 = nil; end;
+        if self.layout219 ~= nil then self.layout219:destroy(); self.layout219 = nil; end;
         if self.layout245 ~= nil then self.layout245:destroy(); self.layout245 = nil; end;
-        if self.checkBox11 ~= nil then self.checkBox11:destroy(); self.checkBox11 = nil; end;
         if self.layout38 ~= nil then self.layout38:destroy(); self.layout38 = nil; end;
         if self.layout218 ~= nil then self.layout218:destroy(); self.layout218 = nil; end;
         if self.layout13 ~= nil then self.layout13:destroy(); self.layout13 = nil; end;
@@ -6444,9 +6226,8 @@ local function constructNew_frmSR6e1_svg()
         if self.edit192 ~= nil then self.edit192:destroy(); self.edit192 = nil; end;
         if self.layout8 ~= nil then self.layout8:destroy(); self.layout8 = nil; end;
         if self.edit153 ~= nil then self.edit153:destroy(); self.edit153 = nil; end;
-        if self.checkBox7 ~= nil then self.checkBox7:destroy(); self.checkBox7 = nil; end;
-        if self.edit131 ~= nil then self.edit131:destroy(); self.edit131 = nil; end;
         if self.layout160 ~= nil then self.layout160:destroy(); self.layout160 = nil; end;
+        if self.edit131 ~= nil then self.edit131:destroy(); self.edit131 = nil; end;
         if self.edit47 ~= nil then self.edit47:destroy(); self.edit47 = nil; end;
         if self.layout68 ~= nil then self.layout68:destroy(); self.layout68 = nil; end;
         if self.edit169 ~= nil then self.edit169:destroy(); self.edit169 = nil; end;
@@ -6477,6 +6258,7 @@ local function constructNew_frmSR6e1_svg()
         if self.layout243 ~= nil then self.layout243:destroy(); self.layout243 = nil; end;
         if self.layout192 ~= nil then self.layout192:destroy(); self.layout192 = nil; end;
         if self.layout92 ~= nil then self.layout92:destroy(); self.layout92 = nil; end;
+        if self.imageCheckBox34 ~= nil then self.imageCheckBox34:destroy(); self.imageCheckBox34 = nil; end;
         if self.layout143 ~= nil then self.layout143:destroy(); self.layout143 = nil; end;
         if self.edit158 ~= nil then self.edit158:destroy(); self.edit158 = nil; end;
         if self.edit10 ~= nil then self.edit10:destroy(); self.edit10 = nil; end;
@@ -6489,7 +6271,6 @@ local function constructNew_frmSR6e1_svg()
         if self.edit79 ~= nil then self.edit79:destroy(); self.edit79 = nil; end;
         if self.layout180 ~= nil then self.layout180:destroy(); self.layout180 = nil; end;
         if self.layout204 ~= nil then self.layout204:destroy(); self.layout204 = nil; end;
-        if self.layout271 ~= nil then self.layout271:destroy(); self.layout271 = nil; end;
         if self.layout253 ~= nil then self.layout253:destroy(); self.layout253 = nil; end;
         if self.edit175 ~= nil then self.edit175:destroy(); self.edit175 = nil; end;
         if self.layout4 ~= nil then self.layout4:destroy(); self.layout4 = nil; end;
@@ -6503,13 +6284,14 @@ local function constructNew_frmSR6e1_svg()
         if self.layout20 ~= nil then self.layout20:destroy(); self.layout20 = nil; end;
         if self.edit23 ~= nil then self.edit23:destroy(); self.edit23 = nil; end;
         if self.layout133 ~= nil then self.layout133:destroy(); self.layout133 = nil; end;
+        if self.imageCheckBox31 ~= nil then self.imageCheckBox31:destroy(); self.imageCheckBox31 = nil; end;
         if self.layout173 ~= nil then self.layout173:destroy(); self.layout173 = nil; end;
         if self.layout18 ~= nil then self.layout18:destroy(); self.layout18 = nil; end;
         if self.layout112 ~= nil then self.layout112:destroy(); self.layout112 = nil; end;
         if self.imageCheckBox9 ~= nil then self.imageCheckBox9:destroy(); self.imageCheckBox9 = nil; end;
         if self.edit139 ~= nil then self.edit139:destroy(); self.edit139 = nil; end;
-        if self.edit122 ~= nil then self.edit122:destroy(); self.edit122 = nil; end;
         if self.imageCheckBox1 ~= nil then self.imageCheckBox1:destroy(); self.imageCheckBox1 = nil; end;
+        if self.edit122 ~= nil then self.edit122:destroy(); self.edit122 = nil; end;
         if self.edit40 ~= nil then self.edit40:destroy(); self.edit40 = nil; end;
         if self.edit110 ~= nil then self.edit110:destroy(); self.edit110 = nil; end;
         if self.layout138 ~= nil then self.layout138:destroy(); self.layout138 = nil; end;
@@ -6524,16 +6306,14 @@ local function constructNew_frmSR6e1_svg()
         if self.layout129 ~= nil then self.layout129:destroy(); self.layout129 = nil; end;
         if self.edit206 ~= nil then self.edit206:destroy(); self.edit206 = nil; end;
         if self.edit105 ~= nil then self.edit105:destroy(); self.edit105 = nil; end;
-        if self.layout280 ~= nil then self.layout280:destroy(); self.layout280 = nil; end;
         if self.layout238 ~= nil then self.layout238:destroy(); self.layout238 = nil; end;
         if self.edit137 ~= nil then self.edit137:destroy(); self.edit137 = nil; end;
         if self.layout153 ~= nil then self.layout153:destroy(); self.layout153 = nil; end;
         if self.edit146 ~= nil then self.edit146:destroy(); self.edit146 = nil; end;
-        if self.checkBox13 ~= nil then self.checkBox13:destroy(); self.checkBox13 = nil; end;
         if self.edit6 ~= nil then self.edit6:destroy(); self.edit6 = nil; end;
+        if self.imageCheckBox6 ~= nil then self.imageCheckBox6:destroy(); self.imageCheckBox6 = nil; end;
         if self.layout179 ~= nil then self.layout179:destroy(); self.layout179 = nil; end;
         if self.edit230 ~= nil then self.edit230:destroy(); self.edit230 = nil; end;
-        if self.imageCheckBox6 ~= nil then self.imageCheckBox6:destroy(); self.imageCheckBox6 = nil; end;
         if self.edit90 ~= nil then self.edit90:destroy(); self.edit90 = nil; end;
         if self.edit3 ~= nil then self.edit3:destroy(); self.edit3 = nil; end;
         if self.layout33 ~= nil then self.layout33:destroy(); self.layout33 = nil; end;
@@ -6543,11 +6323,10 @@ local function constructNew_frmSR6e1_svg()
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.layout102 ~= nil then self.layout102:destroy(); self.layout102 = nil; end;
         if self.edit140 ~= nil then self.edit140:destroy(); self.edit140 = nil; end;
-        if self.checkBox4 ~= nil then self.checkBox4:destroy(); self.checkBox4 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
         if self.edit25 ~= nil then self.edit25:destroy(); self.edit25 = nil; end;
         if self.scrollBox1 ~= nil then self.scrollBox1:destroy(); self.scrollBox1 = nil; end;
-        if self.layout274 ~= nil then self.layout274:destroy(); self.layout274 = nil; end;
+        if self.imageCheckBox35 ~= nil then self.imageCheckBox35:destroy(); self.imageCheckBox35 = nil; end;
         if self.edit189 ~= nil then self.edit189:destroy(); self.edit189 = nil; end;
         if self.layout79 ~= nil then self.layout79:destroy(); self.layout79 = nil; end;
         if self.edit94 ~= nil then self.edit94:destroy(); self.edit94 = nil; end;
@@ -6557,7 +6336,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
         if self.edit46 ~= nil then self.edit46:destroy(); self.edit46 = nil; end;
         if self.edit229 ~= nil then self.edit229:destroy(); self.edit229 = nil; end;
-        if self.layout269 ~= nil then self.layout269:destroy(); self.layout269 = nil; end;
         if self.layout149 ~= nil then self.layout149:destroy(); self.layout149 = nil; end;
         if self.layout80 ~= nil then self.layout80:destroy(); self.layout80 = nil; end;
         if self.edit104 ~= nil then self.edit104:destroy(); self.edit104 = nil; end;
@@ -6576,17 +6354,15 @@ local function constructNew_frmSR6e1_svg()
         if self.edit171 ~= nil then self.edit171:destroy(); self.edit171 = nil; end;
         if self.edit186 ~= nil then self.edit186:destroy(); self.edit186 = nil; end;
         if self.edit97 ~= nil then self.edit97:destroy(); self.edit97 = nil; end;
-        if self.checkBox6 ~= nil then self.checkBox6:destroy(); self.checkBox6 = nil; end;
-        if self.edit57 ~= nil then self.edit57:destroy(); self.edit57 = nil; end;
         if self.layout208 ~= nil then self.layout208:destroy(); self.layout208 = nil; end;
+        if self.edit57 ~= nil then self.edit57:destroy(); self.edit57 = nil; end;
+        if self.imageCheckBox30 ~= nil then self.imageCheckBox30:destroy(); self.imageCheckBox30 = nil; end;
         if self.layout99 ~= nil then self.layout99:destroy(); self.layout99 = nil; end;
         if self.layout95 ~= nil then self.layout95:destroy(); self.layout95 = nil; end;
         if self.edit147 ~= nil then self.edit147:destroy(); self.edit147 = nil; end;
         if self.layout3 ~= nil then self.layout3:destroy(); self.layout3 = nil; end;
-        if self.imageCheckBox30 ~= nil then self.imageCheckBox30:destroy(); self.imageCheckBox30 = nil; end;
         if self.edit63 ~= nil then self.edit63:destroy(); self.edit63 = nil; end;
         if self.layout93 ~= nil then self.layout93:destroy(); self.layout93 = nil; end;
-        if self.checkBox8 ~= nil then self.checkBox8:destroy(); self.checkBox8 = nil; end;
         if self.layout81 ~= nil then self.layout81:destroy(); self.layout81 = nil; end;
         if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
         if self.edit50 ~= nil then self.edit50:destroy(); self.edit50 = nil; end;
@@ -6605,7 +6381,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout66 ~= nil then self.layout66:destroy(); self.layout66 = nil; end;
         if self.layout231 ~= nil then self.layout231:destroy(); self.layout231 = nil; end;
         if self.edit148 ~= nil then self.edit148:destroy(); self.edit148 = nil; end;
-        if self.checkBox20 ~= nil then self.checkBox20:destroy(); self.checkBox20 = nil; end;
         if self.imageCheckBox18 ~= nil then self.imageCheckBox18:destroy(); self.imageCheckBox18 = nil; end;
         if self.layout27 ~= nil then self.layout27:destroy(); self.layout27 = nil; end;
         if self.edit53 ~= nil then self.edit53:destroy(); self.edit53 = nil; end;
@@ -6620,18 +6395,17 @@ local function constructNew_frmSR6e1_svg()
         if self.layout74 ~= nil then self.layout74:destroy(); self.layout74 = nil; end;
         if self.layout104 ~= nil then self.layout104:destroy(); self.layout104 = nil; end;
         if self.edit30 ~= nil then self.edit30:destroy(); self.edit30 = nil; end;
-        if self.checkBox5 ~= nil then self.checkBox5:destroy(); self.checkBox5 = nil; end;
-        if self.edit56 ~= nil then self.edit56:destroy(); self.edit56 = nil; end;
         if self.layout124 ~= nil then self.layout124:destroy(); self.layout124 = nil; end;
+        if self.edit56 ~= nil then self.edit56:destroy(); self.edit56 = nil; end;
         if self.layout159 ~= nil then self.layout159:destroy(); self.layout159 = nil; end;
-        if self.layout144 ~= nil then self.layout144:destroy(); self.layout144 = nil; end;
         if self.layout197 ~= nil then self.layout197:destroy(); self.layout197 = nil; end;
+        if self.layout144 ~= nil then self.layout144:destroy(); self.layout144 = nil; end;
+        if self.imageCheckBox14 ~= nil then self.imageCheckBox14:destroy(); self.imageCheckBox14 = nil; end;
         if self.edit197 ~= nil then self.edit197:destroy(); self.edit197 = nil; end;
         if self.edit141 ~= nil then self.edit141:destroy(); self.edit141 = nil; end;
         if self.edit55 ~= nil then self.edit55:destroy(); self.edit55 = nil; end;
-        if self.imageCheckBox14 ~= nil then self.imageCheckBox14:destroy(); self.imageCheckBox14 = nil; end;
-        if self.edit43 ~= nil then self.edit43:destroy(); self.edit43 = nil; end;
         if self.imageCheckBox25 ~= nil then self.imageCheckBox25:destroy(); self.imageCheckBox25 = nil; end;
+        if self.edit43 ~= nil then self.edit43:destroy(); self.edit43 = nil; end;
         if self.edit75 ~= nil then self.edit75:destroy(); self.edit75 = nil; end;
         if self.layout214 ~= nil then self.layout214:destroy(); self.layout214 = nil; end;
         if self.edit193 ~= nil then self.edit193:destroy(); self.edit193 = nil; end;
@@ -6659,15 +6433,14 @@ local function constructNew_frmSR6e1_svg()
         if self.edit48 ~= nil then self.edit48:destroy(); self.edit48 = nil; end;
         if self.edit190 ~= nil then self.edit190:destroy(); self.edit190 = nil; end;
         if self.layout239 ~= nil then self.layout239:destroy(); self.layout239 = nil; end;
-        if self.checkBox2 ~= nil then self.checkBox2:destroy(); self.checkBox2 = nil; end;
-        if self.edit168 ~= nil then self.edit168:destroy(); self.edit168 = nil; end;
         if self.imageCheckBox3 ~= nil then self.imageCheckBox3:destroy(); self.imageCheckBox3 = nil; end;
+        if self.edit168 ~= nil then self.edit168:destroy(); self.edit168 = nil; end;
         if self.layout258 ~= nil then self.layout258:destroy(); self.layout258 = nil; end;
         if self.layout121 ~= nil then self.layout121:destroy(); self.layout121 = nil; end;
         if self.layout84 ~= nil then self.layout84:destroy(); self.layout84 = nil; end;
         if self.layout40 ~= nil then self.layout40:destroy(); self.layout40 = nil; end;
-        if self.layout87 ~= nil then self.layout87:destroy(); self.layout87 = nil; end;
         if self.edit78 ~= nil then self.edit78:destroy(); self.edit78 = nil; end;
+        if self.layout87 ~= nil then self.layout87:destroy(); self.layout87 = nil; end;
         if self.layout96 ~= nil then self.layout96:destroy(); self.layout96 = nil; end;
         if self.edit202 ~= nil then self.edit202:destroy(); self.edit202 = nil; end;
         if self.layout157 ~= nil then self.layout157:destroy(); self.layout157 = nil; end;
@@ -6683,7 +6456,6 @@ local function constructNew_frmSR6e1_svg()
         if self.layout237 ~= nil then self.layout237:destroy(); self.layout237 = nil; end;
         if self.edit212 ~= nil then self.edit212:destroy(); self.edit212 = nil; end;
         if self.layout85 ~= nil then self.layout85:destroy(); self.layout85 = nil; end;
-        if self.checkBox1 ~= nil then self.checkBox1:destroy(); self.checkBox1 = nil; end;
         if self.edit173 ~= nil then self.edit173:destroy(); self.edit173 = nil; end;
         if self.layout255 ~= nil then self.layout255:destroy(); self.layout255 = nil; end;
         if self.edit227 ~= nil then self.edit227:destroy(); self.edit227 = nil; end;

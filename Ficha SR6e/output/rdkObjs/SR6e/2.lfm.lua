@@ -49,7 +49,7 @@ local function constructNew_frmSR6e2_svg()
     obj.image1:setTop(0);
     obj.image1:setWidth(1224);
     obj.image1:setHeight(1584);
-    obj.image1:setSRC("/SR6e/images/4.png");
+    obj.image1:setSRC("/SR6e/images/02.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");
@@ -1756,14 +1756,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout78:setHeight(26);
     obj.layout78:setName("layout78");
 
-    obj.checkBox1 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox1:setParent(obj.layout78);
-    obj.checkBox1:setLeft(0);
-    obj.checkBox1:setTop(0);
-    obj.checkBox1:setWidth(20);
-    obj.checkBox1:setHeight(27);
-    obj.checkBox1:setField("MatrixCond");
-    obj.checkBox1:setName("checkBox1");
+    obj.imageCheckBox1 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox1:setParent(obj.layout78);
+    obj.imageCheckBox1:setWidth(20);
+    obj.imageCheckBox1:setHeight(20);
+    obj.imageCheckBox1:setField("MatrixCond0");
+    obj.imageCheckBox1:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox1:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox1:setName("imageCheckBox1");
 
     obj.layout79 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout79:setParent(obj.rectangle1);
@@ -1773,14 +1773,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout79:setHeight(26);
     obj.layout79:setName("layout79");
 
-    obj.checkBox2 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox2:setParent(obj.layout79);
-    obj.checkBox2:setLeft(0);
-    obj.checkBox2:setTop(0);
-    obj.checkBox2:setWidth(20);
-    obj.checkBox2:setHeight(27);
-    obj.checkBox2:setField("MatrixCond1");
-    obj.checkBox2:setName("checkBox2");
+    obj.imageCheckBox2 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox2:setParent(obj.layout79);
+    obj.imageCheckBox2:setWidth(20);
+    obj.imageCheckBox2:setHeight(20);
+    obj.imageCheckBox2:setField("MatrixCond1");
+    obj.imageCheckBox2:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox2:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox2:setName("imageCheckBox2");
 
     obj.layout80 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout80:setParent(obj.rectangle1);
@@ -1790,14 +1790,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout80:setHeight(26);
     obj.layout80:setName("layout80");
 
-    obj.checkBox3 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox3:setParent(obj.layout80);
-    obj.checkBox3:setLeft(0);
-    obj.checkBox3:setTop(0);
-    obj.checkBox3:setWidth(20);
-    obj.checkBox3:setHeight(27);
-    obj.checkBox3:setField("MatrixCond2");
-    obj.checkBox3:setName("checkBox3");
+    obj.imageCheckBox3 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox3:setParent(obj.layout80);
+    obj.imageCheckBox3:setWidth(20);
+    obj.imageCheckBox3:setHeight(20);
+    obj.imageCheckBox3:setField("MatrixCond2");
+    obj.imageCheckBox3:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox3:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox3:setName("imageCheckBox3");
 
     obj.layout81 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout81:setParent(obj.rectangle1);
@@ -1807,14 +1807,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout81:setHeight(26);
     obj.layout81:setName("layout81");
 
-    obj.checkBox4 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox4:setParent(obj.layout81);
-    obj.checkBox4:setLeft(0);
-    obj.checkBox4:setTop(0);
-    obj.checkBox4:setWidth(20);
-    obj.checkBox4:setHeight(27);
-    obj.checkBox4:setField("MatrixCond3");
-    obj.checkBox4:setName("checkBox4");
+    obj.imageCheckBox4 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox4:setParent(obj.layout81);
+    obj.imageCheckBox4:setWidth(20);
+    obj.imageCheckBox4:setHeight(20);
+    obj.imageCheckBox4:setField("MatrixCond3");
+    obj.imageCheckBox4:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox4:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox4:setName("imageCheckBox4");
 
     obj.layout82 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout82:setParent(obj.rectangle1);
@@ -1824,14 +1824,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout82:setHeight(26);
     obj.layout82:setName("layout82");
 
-    obj.checkBox5 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox5:setParent(obj.layout82);
-    obj.checkBox5:setLeft(0);
-    obj.checkBox5:setTop(0);
-    obj.checkBox5:setWidth(20);
-    obj.checkBox5:setHeight(27);
-    obj.checkBox5:setField("MatrixCond4");
-    obj.checkBox5:setName("checkBox5");
+    obj.imageCheckBox5 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox5:setParent(obj.layout82);
+    obj.imageCheckBox5:setWidth(20);
+    obj.imageCheckBox5:setHeight(20);
+    obj.imageCheckBox5:setField("MatrixCond4");
+    obj.imageCheckBox5:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox5:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox5:setName("imageCheckBox5");
 
     obj.layout83 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout83:setParent(obj.rectangle1);
@@ -1841,14 +1841,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout83:setHeight(26);
     obj.layout83:setName("layout83");
 
-    obj.checkBox6 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox6:setParent(obj.layout83);
-    obj.checkBox6:setLeft(0);
-    obj.checkBox6:setTop(0);
-    obj.checkBox6:setWidth(20);
-    obj.checkBox6:setHeight(27);
-    obj.checkBox6:setField("MatrixCond5");
-    obj.checkBox6:setName("checkBox6");
+    obj.imageCheckBox6 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox6:setParent(obj.layout83);
+    obj.imageCheckBox6:setWidth(20);
+    obj.imageCheckBox6:setHeight(20);
+    obj.imageCheckBox6:setField("MatrixCond5");
+    obj.imageCheckBox6:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox6:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox6:setName("imageCheckBox6");
 
     obj.layout84 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout84:setParent(obj.rectangle1);
@@ -1858,14 +1858,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout84:setHeight(26);
     obj.layout84:setName("layout84");
 
-    obj.checkBox7 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox7:setParent(obj.layout84);
-    obj.checkBox7:setLeft(0);
-    obj.checkBox7:setTop(0);
-    obj.checkBox7:setWidth(20);
-    obj.checkBox7:setHeight(27);
-    obj.checkBox7:setField("MatrixCond6");
-    obj.checkBox7:setName("checkBox7");
+    obj.imageCheckBox7 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox7:setParent(obj.layout84);
+    obj.imageCheckBox7:setWidth(20);
+    obj.imageCheckBox7:setHeight(20);
+    obj.imageCheckBox7:setField("MatrixCond6");
+    obj.imageCheckBox7:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox7:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox7:setName("imageCheckBox7");
 
     obj.layout85 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout85:setParent(obj.rectangle1);
@@ -1875,14 +1875,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout85:setHeight(26);
     obj.layout85:setName("layout85");
 
-    obj.checkBox8 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox8:setParent(obj.layout85);
-    obj.checkBox8:setLeft(0);
-    obj.checkBox8:setTop(0);
-    obj.checkBox8:setWidth(20);
-    obj.checkBox8:setHeight(27);
-    obj.checkBox8:setField("MatrixCond7");
-    obj.checkBox8:setName("checkBox8");
+    obj.imageCheckBox8 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox8:setParent(obj.layout85);
+    obj.imageCheckBox8:setWidth(20);
+    obj.imageCheckBox8:setHeight(20);
+    obj.imageCheckBox8:setField("MatrixCond7");
+    obj.imageCheckBox8:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox8:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox8:setName("imageCheckBox8");
 
     obj.layout86 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout86:setParent(obj.rectangle1);
@@ -1892,14 +1892,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout86:setHeight(26);
     obj.layout86:setName("layout86");
 
-    obj.checkBox9 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox9:setParent(obj.layout86);
-    obj.checkBox9:setLeft(0);
-    obj.checkBox9:setTop(0);
-    obj.checkBox9:setWidth(20);
-    obj.checkBox9:setHeight(27);
-    obj.checkBox9:setField("MatrixCond8");
-    obj.checkBox9:setName("checkBox9");
+    obj.imageCheckBox9 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox9:setParent(obj.layout86);
+    obj.imageCheckBox9:setWidth(20);
+    obj.imageCheckBox9:setHeight(20);
+    obj.imageCheckBox9:setField("MatrixCond8");
+    obj.imageCheckBox9:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox9:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox9:setName("imageCheckBox9");
 
     obj.layout87 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout87:setParent(obj.rectangle1);
@@ -1909,14 +1909,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout87:setHeight(26);
     obj.layout87:setName("layout87");
 
-    obj.checkBox10 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox10:setParent(obj.layout87);
-    obj.checkBox10:setLeft(0);
-    obj.checkBox10:setTop(0);
-    obj.checkBox10:setWidth(20);
-    obj.checkBox10:setHeight(27);
-    obj.checkBox10:setField("MatrixCond9");
-    obj.checkBox10:setName("checkBox10");
+    obj.imageCheckBox10 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox10:setParent(obj.layout87);
+    obj.imageCheckBox10:setWidth(20);
+    obj.imageCheckBox10:setHeight(20);
+    obj.imageCheckBox10:setField("MatrixCond9");
+    obj.imageCheckBox10:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox10:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox10:setName("imageCheckBox10");
 
     obj.layout88 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout88:setParent(obj.rectangle1);
@@ -1926,14 +1926,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout88:setHeight(26);
     obj.layout88:setName("layout88");
 
-    obj.checkBox11 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox11:setParent(obj.layout88);
-    obj.checkBox11:setLeft(0);
-    obj.checkBox11:setTop(0);
-    obj.checkBox11:setWidth(20);
-    obj.checkBox11:setHeight(27);
-    obj.checkBox11:setField("MatrixCond10");
-    obj.checkBox11:setName("checkBox11");
+    obj.imageCheckBox11 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox11:setParent(obj.layout88);
+    obj.imageCheckBox11:setWidth(20);
+    obj.imageCheckBox11:setHeight(20);
+    obj.imageCheckBox11:setField("MatrixCond10");
+    obj.imageCheckBox11:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox11:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox11:setName("imageCheckBox11");
 
     obj.layout89 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout89:setParent(obj.rectangle1);
@@ -1943,14 +1943,14 @@ local function constructNew_frmSR6e2_svg()
     obj.layout89:setHeight(26);
     obj.layout89:setName("layout89");
 
-    obj.checkBox12 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox12:setParent(obj.layout89);
-    obj.checkBox12:setLeft(0);
-    obj.checkBox12:setTop(0);
-    obj.checkBox12:setWidth(20);
-    obj.checkBox12:setHeight(27);
-    obj.checkBox12:setField("MatrixCond11");
-    obj.checkBox12:setName("checkBox12");
+    obj.imageCheckBox12 = GUI.fromHandle(_obj_newObject("imageCheckBox"));
+    obj.imageCheckBox12:setParent(obj.layout89);
+    obj.imageCheckBox12:setWidth(20);
+    obj.imageCheckBox12:setHeight(20);
+    obj.imageCheckBox12:setField("MatrixCond11");
+    obj.imageCheckBox12:setImageChecked("/SR6e/images/icon.png");
+    obj.imageCheckBox12:setImageUnchecked("/SR6e/images/null.png");
+    obj.imageCheckBox12:setName("imageCheckBox12");
 
     obj.layout90 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout90:setParent(obj.rectangle1);
@@ -4961,7 +4961,6 @@ local function constructNew_frmSR6e2_svg()
         if self.layout210 ~= nil then self.layout210:destroy(); self.layout210 = nil; end;
         if self.layout106 ~= nil then self.layout106:destroy(); self.layout106 = nil; end;
         if self.layout166 ~= nil then self.layout166:destroy(); self.layout166 = nil; end;
-        if self.checkBox3 ~= nil then self.checkBox3:destroy(); self.checkBox3 = nil; end;
         if self.layout42 ~= nil then self.layout42:destroy(); self.layout42 = nil; end;
         if self.edit58 ~= nil then self.edit58:destroy(); self.edit58 = nil; end;
         if self.layout61 ~= nil then self.layout61:destroy(); self.layout61 = nil; end;
@@ -4977,6 +4976,7 @@ local function constructNew_frmSR6e2_svg()
         if self.layout137 ~= nil then self.layout137:destroy(); self.layout137 = nil; end;
         if self.layout185 ~= nil then self.layout185:destroy(); self.layout185 = nil; end;
         if self.layout78 ~= nil then self.layout78:destroy(); self.layout78 = nil; end;
+        if self.imageCheckBox2 ~= nil then self.imageCheckBox2:destroy(); self.imageCheckBox2 = nil; end;
         if self.edit99 ~= nil then self.edit99:destroy(); self.edit99 = nil; end;
         if self.edit182 ~= nil then self.edit182:destroy(); self.edit182 = nil; end;
         if self.layout103 ~= nil then self.layout103:destroy(); self.layout103 = nil; end;
@@ -4998,6 +4998,7 @@ local function constructNew_frmSR6e2_svg()
         if self.edit62 ~= nil then self.edit62:destroy(); self.edit62 = nil; end;
         if self.edit74 ~= nil then self.edit74:destroy(); self.edit74 = nil; end;
         if self.layout100 ~= nil then self.layout100:destroy(); self.layout100 = nil; end;
+        if self.imageCheckBox12 ~= nil then self.imageCheckBox12:destroy(); self.imageCheckBox12 = nil; end;
         if self.layout7 ~= nil then self.layout7:destroy(); self.layout7 = nil; end;
         if self.edit60 ~= nil then self.edit60:destroy(); self.edit60 = nil; end;
         if self.layout132 ~= nil then self.layout132:destroy(); self.layout132 = nil; end;
@@ -5008,6 +5009,7 @@ local function constructNew_frmSR6e2_svg()
         if self.layout39 ~= nil then self.layout39:destroy(); self.layout39 = nil; end;
         if self.layout136 ~= nil then self.layout136:destroy(); self.layout136 = nil; end;
         if self.layout154 ~= nil then self.layout154:destroy(); self.layout154 = nil; end;
+        if self.imageCheckBox8 ~= nil then self.imageCheckBox8:destroy(); self.imageCheckBox8 = nil; end;
         if self.layout162 ~= nil then self.layout162:destroy(); self.layout162 = nil; end;
         if self.layout69 ~= nil then self.layout69:destroy(); self.layout69 = nil; end;
         if self.edit121 ~= nil then self.edit121:destroy(); self.edit121 = nil; end;
@@ -5017,9 +5019,11 @@ local function constructNew_frmSR6e2_svg()
         if self.layout135 ~= nil then self.layout135:destroy(); self.layout135 = nil; end;
         if self.layout152 ~= nil then self.layout152:destroy(); self.layout152 = nil; end;
         if self.layout60 ~= nil then self.layout60:destroy(); self.layout60 = nil; end;
-        if self.layout206 ~= nil then self.layout206:destroy(); self.layout206 = nil; end;
+        if self.imageCheckBox4 ~= nil then self.imageCheckBox4:destroy(); self.imageCheckBox4 = nil; end;
         if self.layout59 ~= nil then self.layout59:destroy(); self.layout59 = nil; end;
+        if self.layout206 ~= nil then self.layout206:destroy(); self.layout206 = nil; end;
         if self.layout207 ~= nil then self.layout207:destroy(); self.layout207 = nil; end;
+        if self.imageCheckBox7 ~= nil then self.imageCheckBox7:destroy(); self.imageCheckBox7 = nil; end;
         if self.edit92 ~= nil then self.edit92:destroy(); self.edit92 = nil; end;
         if self.layout72 ~= nil then self.layout72:destroy(); self.layout72 = nil; end;
         if self.layout118 ~= nil then self.layout118:destroy(); self.layout118 = nil; end;
@@ -5052,8 +5056,8 @@ local function constructNew_frmSR6e2_svg()
         if self.layout101 ~= nil then self.layout101:destroy(); self.layout101 = nil; end;
         if self.edit45 ~= nil then self.edit45:destroy(); self.edit45 = nil; end;
         if self.edit8 ~= nil then self.edit8:destroy(); self.edit8 = nil; end;
-        if self.checkBox9 ~= nil then self.checkBox9:destroy(); self.checkBox9 = nil; end;
         if self.edit145 ~= nil then self.edit145:destroy(); self.edit145 = nil; end;
+        if self.imageCheckBox10 ~= nil then self.imageCheckBox10:destroy(); self.imageCheckBox10 = nil; end;
         if self.layout168 ~= nil then self.layout168:destroy(); self.layout168 = nil; end;
         if self.edit181 ~= nil then self.edit181:destroy(); self.edit181 = nil; end;
         if self.edit96 ~= nil then self.edit96:destroy(); self.edit96 = nil; end;
@@ -5077,7 +5081,6 @@ local function constructNew_frmSR6e2_svg()
         if self.layout130 ~= nil then self.layout130:destroy(); self.layout130 = nil; end;
         if self.edit166 ~= nil then self.edit166:destroy(); self.edit166 = nil; end;
         if self.edit37 ~= nil then self.edit37:destroy(); self.edit37 = nil; end;
-        if self.checkBox12 ~= nil then self.checkBox12:destroy(); self.checkBox12 = nil; end;
         if self.layout165 ~= nil then self.layout165:destroy(); self.layout165 = nil; end;
         if self.layout198 ~= nil then self.layout198:destroy(); self.layout198 = nil; end;
         if self.edit184 ~= nil then self.edit184:destroy(); self.edit184 = nil; end;
@@ -5106,7 +5109,6 @@ local function constructNew_frmSR6e2_svg()
         if self.edit138 ~= nil then self.edit138:destroy(); self.edit138 = nil; end;
         if self.edit42 ~= nil then self.edit42:destroy(); self.edit42 = nil; end;
         if self.edit118 ~= nil then self.edit118:destroy(); self.edit118 = nil; end;
-        if self.checkBox10 ~= nil then self.checkBox10:destroy(); self.checkBox10 = nil; end;
         if self.layout109 ~= nil then self.layout109:destroy(); self.layout109 = nil; end;
         if self.edit154 ~= nil then self.edit154:destroy(); self.edit154 = nil; end;
         if self.layout170 ~= nil then self.layout170:destroy(); self.layout170 = nil; end;
@@ -5141,7 +5143,6 @@ local function constructNew_frmSR6e2_svg()
         if self.edit85 ~= nil then self.edit85:destroy(); self.edit85 = nil; end;
         if self.layout219 ~= nil then self.layout219:destroy(); self.layout219 = nil; end;
         if self.edit201 ~= nil then self.edit201:destroy(); self.edit201 = nil; end;
-        if self.checkBox11 ~= nil then self.checkBox11:destroy(); self.checkBox11 = nil; end;
         if self.layout38 ~= nil then self.layout38:destroy(); self.layout38 = nil; end;
         if self.layout218 ~= nil then self.layout218:destroy(); self.layout218 = nil; end;
         if self.layout13 ~= nil then self.layout13:destroy(); self.layout13 = nil; end;
@@ -5149,9 +5150,8 @@ local function constructNew_frmSR6e2_svg()
         if self.edit192 ~= nil then self.edit192:destroy(); self.edit192 = nil; end;
         if self.layout8 ~= nil then self.layout8:destroy(); self.layout8 = nil; end;
         if self.edit153 ~= nil then self.edit153:destroy(); self.edit153 = nil; end;
-        if self.checkBox7 ~= nil then self.checkBox7:destroy(); self.checkBox7 = nil; end;
-        if self.edit131 ~= nil then self.edit131:destroy(); self.edit131 = nil; end;
         if self.layout160 ~= nil then self.layout160:destroy(); self.layout160 = nil; end;
+        if self.edit131 ~= nil then self.edit131:destroy(); self.edit131 = nil; end;
         if self.edit47 ~= nil then self.edit47:destroy(); self.edit47 = nil; end;
         if self.layout68 ~= nil then self.layout68:destroy(); self.layout68 = nil; end;
         if self.edit169 ~= nil then self.edit169:destroy(); self.edit169 = nil; end;
@@ -5207,7 +5207,9 @@ local function constructNew_frmSR6e2_svg()
         if self.layout173 ~= nil then self.layout173:destroy(); self.layout173 = nil; end;
         if self.layout18 ~= nil then self.layout18:destroy(); self.layout18 = nil; end;
         if self.layout112 ~= nil then self.layout112:destroy(); self.layout112 = nil; end;
+        if self.imageCheckBox9 ~= nil then self.imageCheckBox9:destroy(); self.imageCheckBox9 = nil; end;
         if self.edit139 ~= nil then self.edit139:destroy(); self.edit139 = nil; end;
+        if self.imageCheckBox1 ~= nil then self.imageCheckBox1:destroy(); self.imageCheckBox1 = nil; end;
         if self.edit122 ~= nil then self.edit122:destroy(); self.edit122 = nil; end;
         if self.edit40 ~= nil then self.edit40:destroy(); self.edit40 = nil; end;
         if self.edit110 ~= nil then self.edit110:destroy(); self.edit110 = nil; end;
@@ -5225,6 +5227,7 @@ local function constructNew_frmSR6e2_svg()
         if self.layout153 ~= nil then self.layout153:destroy(); self.layout153 = nil; end;
         if self.edit146 ~= nil then self.edit146:destroy(); self.edit146 = nil; end;
         if self.edit6 ~= nil then self.edit6:destroy(); self.edit6 = nil; end;
+        if self.imageCheckBox6 ~= nil then self.imageCheckBox6:destroy(); self.imageCheckBox6 = nil; end;
         if self.layout179 ~= nil then self.layout179:destroy(); self.layout179 = nil; end;
         if self.edit90 ~= nil then self.edit90:destroy(); self.edit90 = nil; end;
         if self.edit3 ~= nil then self.edit3:destroy(); self.edit3 = nil; end;
@@ -5235,7 +5238,6 @@ local function constructNew_frmSR6e2_svg()
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.layout102 ~= nil then self.layout102:destroy(); self.layout102 = nil; end;
         if self.edit140 ~= nil then self.edit140:destroy(); self.edit140 = nil; end;
-        if self.checkBox4 ~= nil then self.checkBox4:destroy(); self.checkBox4 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
         if self.edit25 ~= nil then self.edit25:destroy(); self.edit25 = nil; end;
         if self.scrollBox1 ~= nil then self.scrollBox1:destroy(); self.scrollBox1 = nil; end;
@@ -5264,16 +5266,14 @@ local function constructNew_frmSR6e2_svg()
         if self.comboBox4 ~= nil then self.comboBox4:destroy(); self.comboBox4 = nil; end;
         if self.edit186 ~= nil then self.edit186:destroy(); self.edit186 = nil; end;
         if self.edit97 ~= nil then self.edit97:destroy(); self.edit97 = nil; end;
-        if self.checkBox6 ~= nil then self.checkBox6:destroy(); self.checkBox6 = nil; end;
-        if self.edit57 ~= nil then self.edit57:destroy(); self.edit57 = nil; end;
         if self.layout208 ~= nil then self.layout208:destroy(); self.layout208 = nil; end;
+        if self.edit57 ~= nil then self.edit57:destroy(); self.edit57 = nil; end;
         if self.layout99 ~= nil then self.layout99:destroy(); self.layout99 = nil; end;
         if self.layout95 ~= nil then self.layout95:destroy(); self.layout95 = nil; end;
         if self.edit147 ~= nil then self.edit147:destroy(); self.edit147 = nil; end;
         if self.layout3 ~= nil then self.layout3:destroy(); self.layout3 = nil; end;
         if self.edit63 ~= nil then self.edit63:destroy(); self.edit63 = nil; end;
         if self.layout93 ~= nil then self.layout93:destroy(); self.layout93 = nil; end;
-        if self.checkBox8 ~= nil then self.checkBox8:destroy(); self.checkBox8 = nil; end;
         if self.layout81 ~= nil then self.layout81:destroy(); self.layout81 = nil; end;
         if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
         if self.edit50 ~= nil then self.edit50:destroy(); self.edit50 = nil; end;
@@ -5299,12 +5299,11 @@ local function constructNew_frmSR6e2_svg()
         if self.layout74 ~= nil then self.layout74:destroy(); self.layout74 = nil; end;
         if self.layout104 ~= nil then self.layout104:destroy(); self.layout104 = nil; end;
         if self.edit30 ~= nil then self.edit30:destroy(); self.edit30 = nil; end;
-        if self.checkBox5 ~= nil then self.checkBox5:destroy(); self.checkBox5 = nil; end;
-        if self.edit56 ~= nil then self.edit56:destroy(); self.edit56 = nil; end;
         if self.layout124 ~= nil then self.layout124:destroy(); self.layout124 = nil; end;
+        if self.edit56 ~= nil then self.edit56:destroy(); self.edit56 = nil; end;
         if self.layout159 ~= nil then self.layout159:destroy(); self.layout159 = nil; end;
-        if self.layout144 ~= nil then self.layout144:destroy(); self.layout144 = nil; end;
         if self.layout197 ~= nil then self.layout197:destroy(); self.layout197 = nil; end;
+        if self.layout144 ~= nil then self.layout144:destroy(); self.layout144 = nil; end;
         if self.edit197 ~= nil then self.edit197:destroy(); self.edit197 = nil; end;
         if self.edit141 ~= nil then self.edit141:destroy(); self.edit141 = nil; end;
         if self.edit55 ~= nil then self.edit55:destroy(); self.edit55 = nil; end;
@@ -5317,6 +5316,7 @@ local function constructNew_frmSR6e2_svg()
         if self.layout53 ~= nil then self.layout53:destroy(); self.layout53 = nil; end;
         if self.edit130 ~= nil then self.edit130:destroy(); self.edit130 = nil; end;
         if self.edit39 ~= nil then self.edit39:destroy(); self.edit39 = nil; end;
+        if self.imageCheckBox5 ~= nil then self.imageCheckBox5:destroy(); self.imageCheckBox5 = nil; end;
         if self.layout184 ~= nil then self.layout184:destroy(); self.layout184 = nil; end;
         if self.layout161 ~= nil then self.layout161:destroy(); self.layout161 = nil; end;
         if self.layout131 ~= nil then self.layout131:destroy(); self.layout131 = nil; end;
@@ -5331,7 +5331,7 @@ local function constructNew_frmSR6e2_svg()
         if self.edit119 ~= nil then self.edit119:destroy(); self.edit119 = nil; end;
         if self.edit48 ~= nil then self.edit48:destroy(); self.edit48 = nil; end;
         if self.edit190 ~= nil then self.edit190:destroy(); self.edit190 = nil; end;
-        if self.checkBox2 ~= nil then self.checkBox2:destroy(); self.checkBox2 = nil; end;
+        if self.imageCheckBox3 ~= nil then self.imageCheckBox3:destroy(); self.imageCheckBox3 = nil; end;
         if self.edit168 ~= nil then self.edit168:destroy(); self.edit168 = nil; end;
         if self.layout121 ~= nil then self.layout121:destroy(); self.layout121 = nil; end;
         if self.layout84 ~= nil then self.layout84:destroy(); self.layout84 = nil; end;
@@ -5346,10 +5346,10 @@ local function constructNew_frmSR6e2_svg()
         if self.edit22 ~= nil then self.edit22:destroy(); self.edit22 = nil; end;
         if self.layout6 ~= nil then self.layout6:destroy(); self.layout6 = nil; end;
         if self.layout163 ~= nil then self.layout163:destroy(); self.layout163 = nil; end;
+        if self.imageCheckBox11 ~= nil then self.imageCheckBox11:destroy(); self.imageCheckBox11 = nil; end;
         if self.edit136 ~= nil then self.edit136:destroy(); self.edit136 = nil; end;
         if self.layout86 ~= nil then self.layout86:destroy(); self.layout86 = nil; end;
         if self.layout85 ~= nil then self.layout85:destroy(); self.layout85 = nil; end;
-        if self.checkBox1 ~= nil then self.checkBox1:destroy(); self.checkBox1 = nil; end;
         if self.edit173 ~= nil then self.edit173:destroy(); self.edit173 = nil; end;
         if self.layout91 ~= nil then self.layout91:destroy(); self.layout91 = nil; end;
         if self.edit20 ~= nil then self.edit20:destroy(); self.edit20 = nil; end;
