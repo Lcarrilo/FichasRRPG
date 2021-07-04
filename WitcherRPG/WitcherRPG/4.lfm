@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmWitcherRPG4_svg" align="client" theme="dark" margins="{top=1}">
+    <style>#frmWitcherRPG4_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmWitcherRPG4_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+        <rectangle width="1469" height="1901" color="white">&#xD;
+            <image left="0" top="0" width="1469" height="1901" src="images/4.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <layout left="248" top="75" width="231" height="58" compilerOrder="1">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="231" height="59" field="Clothing" compilerOrder="2"/>
+            </layout>&#xD;
+            <layout left="521" top="112" width="873" height="42" compilerOrder="3">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="43" field="Early_LifeRow1" compilerOrder="4"/>
+            </layout>&#xD;
+            <layout left="246" top="137" width="234" height="63" compilerOrder="5">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="234" height="64" field="Personality" compilerOrder="6"/>
+            </layout>&#xD;
+            <layout left="521" top="158" width="873" height="43" compilerOrder="7">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="44" field="Early_LifeRow2" compilerOrder="8"/>
+            </layout>&#xD;
+            <layout left="246" top="204" width="237" height="63" compilerOrder="9">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="237" height="64" field="Hair_Style" compilerOrder="10"/>
+            </layout>&#xD;
+            <layout left="521" top="204" width="873" height="44" compilerOrder="11">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="45" field="Early_LifeRow3" compilerOrder="12"/>
+            </layout>&#xD;
+            <layout left="521" top="252" width="873" height="43" compilerOrder="13">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="44" field="Early_LifeRow4" compilerOrder="14"/>
+            </layout>&#xD;
+            <layout left="247" top="270" width="233" height="65" compilerOrder="15">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="233" height="66" field="Affectations" compilerOrder="16"/>
+            </layout>&#xD;
+            <layout left="521" top="298" width="873" height="43" compilerOrder="17">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="44" field="Early_LifeRow5" compilerOrder="18"/>
+            </layout>&#xD;
+            <layout left="247" top="339" width="233" height="63" compilerOrder="19">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="233" height="64" field="Valued_Person" compilerOrder="20"/>
+            </layout>&#xD;
+            <layout left="521" top="345" width="873" height="42" compilerOrder="21">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="43" field="Early_LifeRow6" compilerOrder="22"/>
+            </layout>&#xD;
+            <layout left="521" top="392" width="873" height="43" compilerOrder="23">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="44" field="Early_LifeRow7" compilerOrder="24"/>
+            </layout>&#xD;
+            <layout left="246" top="406" width="232" height="63" compilerOrder="25">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="232" height="64" field="Value" compilerOrder="26"/>
+            </layout>&#xD;
+            <layout left="521" top="438" width="873" height="42" compilerOrder="27">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="873" height="43" field="Early_LifeRow8" compilerOrder="28"/>
+            </layout>&#xD;
+            <layout left="247" top="475" width="233" height="63" compilerOrder="29">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="233" height="64" field="Feelings_on_People" compilerOrder="30"/>
+            </layout>&#xD;
+            <layout left="96" top="619" width="380" height="42" compilerOrder="31">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow1" compilerOrder="32"/>
+            </layout>&#xD;
+            <layout left="671" top="631" width="723" height="58" compilerOrder="33">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="723" height="59" field="_10" compilerOrder="34"/>
+            </layout>&#xD;
+            <layout left="96" top="665" width="380" height="42" compilerOrder="35">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow2" compilerOrder="36"/>
+            </layout>&#xD;
+            <layout left="673" top="691" width="721" height="57" compilerOrder="39">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="721" height="58" field="_20" compilerOrder="40"/>
+            </layout>&#xD;
+            <layout left="96" top="712" width="380" height="43" compilerOrder="37">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow3" compilerOrder="38"/>
+            </layout>&#xD;
+            <layout left="676" top="751" width="721" height="57" compilerOrder="43">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="721" height="58" field="_30" compilerOrder="44"/>
+            </layout>&#xD;
+            <layout left="96" top="758" width="380" height="43" compilerOrder="41">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow4" compilerOrder="42"/>
+            </layout>&#xD;
+            <layout left="96" top="805" width="380" height="43" compilerOrder="45">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow5" compilerOrder="46"/>
+            </layout>&#xD;
+            <layout left="673" top="811" width="723" height="58" compilerOrder="47">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="723" height="59" field="_40" compilerOrder="48"/>
+            </layout>&#xD;
+            <layout left="96" top="851" width="380" height="43" compilerOrder="49">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow6" compilerOrder="50"/>
+            </layout>&#xD;
+            <layout left="674" top="871" width="721" height="57" compilerOrder="51">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="721" height="58" field="_50" compilerOrder="52"/>
+            </layout>&#xD;
+            <layout left="96" top="898" width="380" height="44" compilerOrder="53">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="45" field="Campaign_NotesRow7" compilerOrder="54"/>
+            </layout>&#xD;
+            <layout left="671" top="931" width="724" height="58" compilerOrder="57">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="724" height="59" field="_60" compilerOrder="58"/>
+            </layout>&#xD;
+            <layout left="96" top="945" width="380" height="43" compilerOrder="55">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow8" compilerOrder="56"/>
+            </layout>&#xD;
+            <layout left="96" top="991" width="380" height="43" compilerOrder="59">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow9" compilerOrder="60"/>
+            </layout>&#xD;
+            <layout left="671" top="992" width="723" height="56" compilerOrder="61">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="723" height="57" field="_70" compilerOrder="62"/>
+            </layout>&#xD;
+            <layout left="96" top="1039" width="380" height="42" compilerOrder="63">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow10" compilerOrder="64"/>
+            </layout>&#xD;
+            <layout left="676" top="1052" width="719" height="58" compilerOrder="65">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="719" height="59" field="_80" compilerOrder="66"/>
+            </layout>&#xD;
+            <layout left="96" top="1086" width="380" height="42" compilerOrder="67">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow11" compilerOrder="68"/>
+            </layout>&#xD;
+            <layout left="671" top="1112" width="722" height="56" compilerOrder="71">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="722" height="57" field="_90" compilerOrder="72"/>
+            </layout>&#xD;
+            <layout left="96" top="1132" width="380" height="41" compilerOrder="69">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="42" field="Campaign_NotesRow12" compilerOrder="70"/>
+            </layout>&#xD;
+            <layout left="672" top="1172" width="723" height="57" compilerOrder="75">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="723" height="58" field="_100" compilerOrder="76"/>
+            </layout>&#xD;
+            <layout left="96" top="1178" width="380" height="43" compilerOrder="73">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow13" compilerOrder="74"/>
+            </layout>&#xD;
+            <layout left="96" top="1226" width="380" height="42" compilerOrder="77">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow14" compilerOrder="78"/>
+            </layout>&#xD;
+            <layout left="677" top="1232" width="719" height="58" compilerOrder="79">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="719" height="59" field="llO" compilerOrder="80"/>
+            </layout>&#xD;
+            <layout left="96" top="1272" width="380" height="43" compilerOrder="81">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow15" compilerOrder="82"/>
+            </layout>&#xD;
+            <layout left="675" top="1293" width="723" height="56" compilerOrder="83">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="723" height="57" field="_120" compilerOrder="84"/>
+            </layout>&#xD;
+            <layout left="96" top="1318" width="380" height="43" compilerOrder="85">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow16" compilerOrder="86"/>
+            </layout>&#xD;
+            <layout left="671" top="1352" width="722" height="58" compilerOrder="89">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="722" height="59" field="_130" compilerOrder="90"/>
+            </layout>&#xD;
+            <layout left="96" top="1366" width="380" height="42" compilerOrder="87">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow17" compilerOrder="88"/>
+            </layout>&#xD;
+            <layout left="96" top="1412" width="380" height="43" compilerOrder="91">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow18" compilerOrder="92"/>
+            </layout>&#xD;
+            <layout left="671" top="1413" width="725" height="56" compilerOrder="93">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="725" height="57" field="_140" compilerOrder="94"/>
+            </layout>&#xD;
+            <layout left="96" top="1458" width="380" height="43" compilerOrder="95">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow19" compilerOrder="96"/>
+            </layout>&#xD;
+            <layout left="671" top="1472" width="737" height="57" compilerOrder="97">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="58" field="_150" compilerOrder="98"/>
+            </layout>&#xD;
+            <layout left="96" top="1505" width="380" height="43" compilerOrder="99">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow20" compilerOrder="100"/>
+            </layout>&#xD;
+            <layout left="671" top="1532" width="737" height="57" compilerOrder="103">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="58" field="_160" compilerOrder="104"/>
+            </layout>&#xD;
+            <layout left="96" top="1552" width="380" height="43" compilerOrder="101">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow21" compilerOrder="102"/>
+            </layout>&#xD;
+            <layout left="671" top="1591" width="737" height="58" compilerOrder="107">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="59" field="_170" compilerOrder="108"/>
+            </layout>&#xD;
+            <layout left="96" top="1598" width="380" height="43" compilerOrder="105">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow22" compilerOrder="106"/>
+            </layout>&#xD;
+            <layout left="96" top="1646" width="380" height="42" compilerOrder="109">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow23" compilerOrder="110"/>
+            </layout>&#xD;
+            <layout left="671" top="1652" width="737" height="56" compilerOrder="111">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="57" field="_180" compilerOrder="112"/>
+            </layout>&#xD;
+            <layout left="96" top="1692" width="380" height="43" compilerOrder="113">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="44" field="Campaign_NotesRow24" compilerOrder="114"/>
+            </layout>&#xD;
+            <layout left="671" top="1711" width="737" height="57" compilerOrder="117">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="58" field="_190" compilerOrder="118"/>
+            </layout>&#xD;
+            <layout left="96" top="1740" width="380" height="42" compilerOrder="115">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="43" field="Campaign_NotesRow25" compilerOrder="116"/>
+            </layout>&#xD;
+            <layout left="671" top="1769" width="737" height="57" compilerOrder="121">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="737" height="58" field="_200" compilerOrder="122"/>
+            </layout>&#xD;
+            <layout left="96" top="1786" width="380" height="41" compilerOrder="119">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="380" height="42" field="Campaign_NotesRow26" compilerOrder="120"/>
+            </layout>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>

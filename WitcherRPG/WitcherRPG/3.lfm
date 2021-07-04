@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmWitcherRPG3_svg" align="client" theme="dark" margins="{top=1}">
+    <style>#frmWitcherRPG3_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmWitcherRPG3_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+        <rectangle width="1469" height="1901" color="white">&#xD;
+            <image left="0" top="0" width="1469" height="1901" src="images/3.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <layout left="1170" top="73" width="203" height="35" compilerOrder="1">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="203" height="36" field="Vigor" compilerOrder="2"/>
+            </layout>&#xD;
+            <layout left="713" top="169.2" width="76" height="50.8" compilerOrder="99">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_0" transparent="true" compilerOrder="100"/>
+            </layout>&#xD;
+            <layout left="74" top="170.2" width="238" height="49.8" compilerOrder="3">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_0" transparent="true" compilerOrder="4"/>
+            </layout>&#xD;
+            <layout left="316" top="170.2" width="79" height="50.8" compilerOrder="35">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_0" transparent="true" compilerOrder="36"/>
+            </layout>&#xD;
+            <layout left="399" top="170.2" width="311" height="49.8" compilerOrder="67">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_0" transparent="true" compilerOrder="68"/>
+            </layout>&#xD;
+            <layout left="793" top="170.2" width="118" height="49.8" compilerOrder="131">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_0" transparent="true" compilerOrder="132"/>
+            </layout>&#xD;
+            <layout left="961" top="211.2" width="201" height="110.8" compilerOrder="163">
+                <textEditor left="0" top="0" width="201" height="110.8" fontSize="22.8" fontColor="#000000" field="CurrentRow1" transparent="true" compilerOrder="164"/>
+            </layout>&#xD;
+            <layout left="1170" top="211.2" width="201" height="110.8" compilerOrder="165">
+                <textEditor left="0" top="0" width="201" height="110.8" fontSize="22.8" fontColor="#000000" field="UsedRow1" transparent="true" compilerOrder="166"/>
+            </layout>&#xD;
+            <layout left="794" top="240.2" width="118" height="49.8" compilerOrder="133">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_1" transparent="true" compilerOrder="134"/>
+            </layout>&#xD;
+            <layout left="74" top="241.2" width="238" height="49.8" compilerOrder="33">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_0" transparent="true" compilerOrder="34"/>
+            </layout>&#xD;
+            <layout left="315" top="241.2" width="79" height="50.8" compilerOrder="65">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_1" transparent="true" compilerOrder="66"/>
+            </layout>&#xD;
+            <layout left="399" top="241.2" width="311" height="49.8" compilerOrder="97">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_1" transparent="true" compilerOrder="98"/>
+            </layout>&#xD;
+            <layout left="713" top="241.2" width="76" height="50.8" compilerOrder="101">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_1" transparent="true" compilerOrder="102"/>
+            </layout>&#xD;
+            <layout left="315" top="312.2" width="79" height="50.8" compilerOrder="37">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_2" transparent="true" compilerOrder="38"/>
+            </layout>&#xD;
+            <layout left="75" top="313.2" width="238" height="49.8" compilerOrder="5">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_1" transparent="true" compilerOrder="6"/>
+            </layout>&#xD;
+            <layout left="399" top="313.2" width="311" height="49.8" compilerOrder="69">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_2" transparent="true" compilerOrder="70"/>
+            </layout>&#xD;
+            <layout left="714" top="313.2" width="76" height="50.8" compilerOrder="103">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_2" transparent="true" compilerOrder="104"/>
+            </layout>&#xD;
+            <layout left="793" top="313.2" width="118" height="49.8" compilerOrder="135">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_2" transparent="true" compilerOrder="136"/>
+            </layout>&#xD;
+            <layout left="1169" top="363" width="204" height="33" compilerOrder="167">
+                <edit transparent="true" fontSize="22.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="204" height="34" field="Focus" compilerOrder="168"/>
+            </layout>&#xD;
+            <layout left="315" top="384.2" width="79" height="50.8" compilerOrder="39">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_3" transparent="true" compilerOrder="40"/>
+            </layout>&#xD;
+            <layout left="75" top="385.2" width="238" height="49.8" compilerOrder="7">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_1" transparent="true" compilerOrder="8"/>
+            </layout>&#xD;
+            <layout left="399" top="385.2" width="311" height="49.8" compilerOrder="71">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_3" transparent="true" compilerOrder="72"/>
+            </layout>&#xD;
+            <layout left="713" top="385.2" width="76" height="50.8" compilerOrder="105">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_3" transparent="true" compilerOrder="106"/>
+            </layout>&#xD;
+            <layout left="794" top="385.2" width="118" height="49.8" compilerOrder="137">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_3" transparent="true" compilerOrder="138"/>
+            </layout>&#xD;
+            <layout left="1170" top="401" width="203" height="36" compilerOrder="169">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="203" height="37" field="Vigor_Modifier" compilerOrder="170"/>
+            </layout>&#xD;
+            <layout left="75" top="456.2" width="238" height="49.8" compilerOrder="9">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_2" transparent="true" compilerOrder="10"/>
+            </layout>&#xD;
+            <layout left="315" top="456.2" width="79" height="50.8" compilerOrder="41">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_4" transparent="true" compilerOrder="42"/>
+            </layout>&#xD;
+            <layout left="399" top="456.2" width="311" height="49.8" compilerOrder="73">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_4" transparent="true" compilerOrder="74"/>
+            </layout>&#xD;
+            <layout left="713" top="456.2" width="76" height="50.8" compilerOrder="107">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_4" transparent="true" compilerOrder="108"/>
+            </layout>&#xD;
+            <layout left="794" top="456.2" width="118" height="49.8" compilerOrder="139">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_4" transparent="true" compilerOrder="140"/>
+            </layout>&#xD;
+            <layout left="960" top="480" width="412" height="36" compilerOrder="171">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="412" height="37" field="NotesRow1" compilerOrder="172"/>
+            </layout>&#xD;
+            <layout left="960" top="519" width="412" height="36" compilerOrder="173">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="412" height="37" field="NotesRow2" compilerOrder="174"/>
+            </layout>&#xD;
+            <layout left="315" top="527.2" width="79" height="50.8" compilerOrder="43">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_5" transparent="true" compilerOrder="44"/>
+            </layout>&#xD;
+            <layout left="75" top="528.2" width="238" height="49.8" compilerOrder="11">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_2" transparent="true" compilerOrder="12"/>
+            </layout>&#xD;
+            <layout left="398" top="528.2" width="311" height="49.8" compilerOrder="75">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_5" transparent="true" compilerOrder="76"/>
+            </layout>&#xD;
+            <layout left="714" top="528.2" width="76" height="50.8" compilerOrder="109">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_5" transparent="true" compilerOrder="110"/>
+            </layout>&#xD;
+            <layout left="794" top="528.2" width="118" height="49.8" compilerOrder="141">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_5" transparent="true" compilerOrder="142"/>
+            </layout>&#xD;
+            <layout left="960" top="558" width="414" height="36" compilerOrder="175">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="414" height="37" field="NotesRow3" compilerOrder="176"/>
+            </layout>&#xD;
+            <layout left="960" top="598" width="414" height="35" compilerOrder="177">
+                <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="414" height="36" field="NotesRow4" compilerOrder="178"/>
+            </layout>&#xD;
+            <layout left="315" top="599.2" width="79" height="50.8" compilerOrder="45">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_6" transparent="true" compilerOrder="46"/>
+            </layout>&#xD;
+            <layout left="714" top="599.2" width="76" height="50.8" compilerOrder="111">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_6" transparent="true" compilerOrder="112"/>
+            </layout>&#xD;
+            <layout left="75" top="600.2" width="238" height="49.8" compilerOrder="13">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_3" transparent="true" compilerOrder="14"/>
+            </layout>&#xD;
+            <layout left="398" top="600.2" width="311" height="49.8" compilerOrder="77">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_6" transparent="true" compilerOrder="78"/>
+            </layout>&#xD;
+            <layout left="794" top="600.2" width="118" height="49.8" compilerOrder="143">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_6" transparent="true" compilerOrder="144"/>
+            </layout>&#xD;
+            <layout left="315" top="671.2" width="79" height="50.8" compilerOrder="47">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_7" transparent="true" compilerOrder="48"/>
+            </layout>&#xD;
+            <layout left="399" top="671.2" width="311" height="49.8" compilerOrder="79">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_7" transparent="true" compilerOrder="80"/>
+            </layout>&#xD;
+            <layout left="713" top="671.2" width="76" height="50.8" compilerOrder="113">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_7" transparent="true" compilerOrder="114"/>
+            </layout>&#xD;
+            <layout left="793" top="671.2" width="118" height="49.8" compilerOrder="145">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_7" transparent="true" compilerOrder="146"/>
+            </layout>&#xD;
+            <layout left="75" top="672.2" width="238" height="49.8" compilerOrder="15">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_3" transparent="true" compilerOrder="16"/>
+            </layout>&#xD;
+            <layout left="315" top="742.2" width="79" height="50.8" compilerOrder="49">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_8" transparent="true" compilerOrder="50"/>
+            </layout>&#xD;
+            <layout left="75" top="743.2" width="238" height="49.8" compilerOrder="17">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_4" transparent="true" compilerOrder="18"/>
+            </layout>&#xD;
+            <layout left="399" top="743.2" width="311" height="49.8" compilerOrder="81">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_8" transparent="true" compilerOrder="82"/>
+            </layout>&#xD;
+            <layout left="713" top="743.2" width="76" height="50.8" compilerOrder="115">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_8" transparent="true" compilerOrder="116"/>
+            </layout>&#xD;
+            <layout left="793" top="744.2" width="118" height="49.8" compilerOrder="147">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_8" transparent="true" compilerOrder="148"/>
+            </layout>&#xD;
+            <layout left="1103" top="771.2" width="64" height="112.8" compilerOrder="181">
+                <textEditor left="0" top="0" width="64" height="112.8" fontSize="22.8" fontColor="#000000" field="CostRow1" transparent="true" compilerOrder="182"/>
+            </layout>&#xD;
+            <layout left="961" top="772.2" width="135" height="112.8" compilerOrder="179">
+                <textEditor left="0" top="0" width="135" height="112.8" fontSize="22.8" fontColor="#000000" field="NameRow1" transparent="true" compilerOrder="180"/>
+            </layout>&#xD;
+            <layout left="1176" top="772.2" width="196" height="112.8" compilerOrder="183">
+                <textEditor left="0" top="0" width="196" height="112.8" fontSize="22.8" fontColor="#000000" field="EffectRow1" transparent="true" compilerOrder="184"/>
+            </layout>&#xD;
+            <layout left="315" top="814.2" width="79" height="50.8" compilerOrder="51">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_9" transparent="true" compilerOrder="52"/>
+            </layout>&#xD;
+            <layout left="714" top="814.2" width="76" height="50.8" compilerOrder="117">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_9" transparent="true" compilerOrder="118"/>
+            </layout>&#xD;
+            <layout left="793" top="814.2" width="118" height="49.8" compilerOrder="149">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_9" transparent="true" compilerOrder="150"/>
+            </layout>&#xD;
+            <layout left="75" top="815.2" width="238" height="49.8" compilerOrder="19">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_4" transparent="true" compilerOrder="20"/>
+            </layout>&#xD;
+            <layout left="399" top="815.2" width="311" height="49.8" compilerOrder="83">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_9" transparent="true" compilerOrder="84"/>
+            </layout>&#xD;
+            <layout left="75" top="886.2" width="238" height="49.8" compilerOrder="21">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_5" transparent="true" compilerOrder="22"/>
+            </layout>&#xD;
+            <layout left="315" top="886.2" width="79" height="50.8" compilerOrder="53">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_10" transparent="true" compilerOrder="54"/>
+            </layout>&#xD;
+            <layout left="399" top="886.2" width="311" height="49.8" compilerOrder="85">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_10" transparent="true" compilerOrder="86"/>
+            </layout>&#xD;
+            <layout left="713" top="886.2" width="76" height="50.8" compilerOrder="119">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_10" transparent="true" compilerOrder="120"/>
+            </layout>&#xD;
+            <layout left="794" top="886.2" width="118" height="49.8" compilerOrder="151">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_10" transparent="true" compilerOrder="152"/>
+            </layout>&#xD;
+            <layout left="961" top="908.2" width="135" height="112.8" compilerOrder="185">
+                <textEditor left="0" top="0" width="135" height="112.8" fontSize="22.8" fontColor="#000000" field="NameRow2" transparent="true" compilerOrder="186"/>
+            </layout>&#xD;
+            <layout left="1103" top="908.2" width="64" height="112.8" compilerOrder="187">
+                <textEditor left="0" top="0" width="64" height="112.8" fontSize="22.8" fontColor="#000000" field="CostRow2" transparent="true" compilerOrder="188"/>
+            </layout>&#xD;
+            <layout left="1176" top="908.2" width="196" height="112.8" compilerOrder="189">
+                <textEditor left="0" top="0" width="196" height="112.8" fontSize="22.8" fontColor="#000000" field="EffectRow2" transparent="true" compilerOrder="190"/>
+            </layout>&#xD;
+            <layout left="316" top="957.2" width="79" height="50.8" compilerOrder="55">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_11" transparent="true" compilerOrder="56"/>
+            </layout>&#xD;
+            <layout left="75" top="958.2" width="238" height="49.8" compilerOrder="23">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_5" transparent="true" compilerOrder="24"/>
+            </layout>&#xD;
+            <layout left="399" top="958.2" width="311" height="49.8" compilerOrder="87">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_11" transparent="true" compilerOrder="88"/>
+            </layout>&#xD;
+            <layout left="714" top="958.2" width="76" height="50.8" compilerOrder="121">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_11" transparent="true" compilerOrder="122"/>
+            </layout>&#xD;
+            <layout left="793" top="958.2" width="118" height="49.8" compilerOrder="153">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_11" transparent="true" compilerOrder="154"/>
+            </layout>&#xD;
+            <layout left="315" top="1029.2" width="79" height="50.8" compilerOrder="57">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_12" transparent="true" compilerOrder="58"/>
+            </layout>&#xD;
+            <layout left="399" top="1029.2" width="311" height="49.8" compilerOrder="89">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_12" transparent="true" compilerOrder="90"/>
+            </layout>&#xD;
+            <layout left="713" top="1029.2" width="76" height="50.8" compilerOrder="123">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_12" transparent="true" compilerOrder="124"/>
+            </layout>&#xD;
+            <layout left="794" top="1029.2" width="118" height="49.8" compilerOrder="155">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_12" transparent="true" compilerOrder="156"/>
+            </layout>&#xD;
+            <layout left="75" top="1030.2" width="238" height="49.8" compilerOrder="25">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_6" transparent="true" compilerOrder="26"/>
+            </layout>&#xD;
+            <layout left="1103" top="1044.2" width="64" height="112.8" compilerOrder="193">
+                <textEditor left="0" top="0" width="64" height="112.8" fontSize="22.8" fontColor="#000000" field="CostRow3" transparent="true" compilerOrder="194"/>
+            </layout>&#xD;
+            <layout left="961" top="1045.2" width="135" height="112.8" compilerOrder="191">
+                <textEditor left="0" top="0" width="135" height="112.8" fontSize="22.8" fontColor="#000000" field="NameRow3" transparent="true" compilerOrder="192"/>
+            </layout>&#xD;
+            <layout left="1176" top="1045.2" width="196" height="112.8" compilerOrder="195">
+                <textEditor left="0" top="0" width="196" height="112.8" fontSize="22.8" fontColor="#000000" field="EffectRow3" transparent="true" compilerOrder="196"/>
+            </layout>&#xD;
+            <layout left="315" top="1100.2" width="79" height="50.8" compilerOrder="59">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_13" transparent="true" compilerOrder="60"/>
+            </layout>&#xD;
+            <layout left="75" top="1101.2" width="238" height="49.8" compilerOrder="27">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_6" transparent="true" compilerOrder="28"/>
+            </layout>&#xD;
+            <layout left="399" top="1101.2" width="311" height="49.8" compilerOrder="91">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_13" transparent="true" compilerOrder="92"/>
+            </layout>&#xD;
+            <layout left="713" top="1101.2" width="76" height="50.8" compilerOrder="125">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_13" transparent="true" compilerOrder="126"/>
+            </layout>&#xD;
+            <layout left="794" top="1101.2" width="118" height="49.8" compilerOrder="157">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_13" transparent="true" compilerOrder="158"/>
+            </layout>&#xD;
+            <layout left="713" top="1172.2" width="76" height="50.8" compilerOrder="127">
+                <textEditor left="0" top="0" width="76" height="50.8" fontSize="22.8" fontColor="#000000" field="RNG_2_14" transparent="true" compilerOrder="128"/>
+            </layout>&#xD;
+            <layout left="75" top="1173.2" width="238" height="49.8" compilerOrder="29">
+                <textEditor left="0" top="0" width="238" height="49.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_0_7" transparent="true" compilerOrder="30"/>
+            </layout>&#xD;
+            <layout left="315" top="1173.2" width="79" height="50.8" compilerOrder="61">
+                <textEditor left="0" top="0" width="79" height="50.8" fontSize="22.8" fontColor="#000000" field="Cost_14" transparent="true" compilerOrder="62"/>
+            </layout>&#xD;
+            <layout left="399" top="1173.2" width="311" height="49.8" compilerOrder="93">
+                <textEditor left="0" top="0" width="311" height="49.8" fontSize="22.8" fontColor="#000000" field="Effect_3_14" transparent="true" compilerOrder="94"/>
+            </layout>&#xD;
+            <layout left="794" top="1173.2" width="118" height="49.8" compilerOrder="159">
+                <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_14" transparent="true" compilerOrder="160"/>
+            </layout>&#xD;
+            <layout left="961" top="1181.2" width="135" height="110.8" compilerOrder="197">
+                <textEditor left="0" top="0" width="135" height="110.8" fontSize="22.8" fontColor="#000000" field="NameRow4" transparent="true" compilerOrder="198"/>
+            </layout>&#xD;
+            <layout left="1103" top="1181.2" width="64" height="110.8" compilerOrder="199">
+                <textEditor left="0" top="0" width="64" height="110.8" fontSize="22.8" fontColor="#000000" field="CostRow4" transparent="true" compilerOrder="200"/>
+            </layout>&#xD;
+            <layout left="1176" top="1181.2" width="196" height="110.8" compilerOrder="201">
+                <textEditor left="0" top="0" width="196" height="110.8" fontSize="22.8" fontColor="#000000" field="EffectRow4" transparent="true" compilerOrder="202"/>
+            </layout>&#xD;
+            <layout left="75" top="1244.2" width="238" height="47.8" compilerOrder="31">
+                <textEditor left="0" top="0" width="238" height="47.8" fontSize="22.8" fontColor="#000000" field="Name_4_0_1_7" transparent="true" compilerOrder="32"/>
+            </layout>&#xD;
+            <layout left="399" top="1244.2" width="311" height="47.8" compilerOrder="95">
+                <textEditor left="0" top="0" width="311" height="47.8" fontSize="22.8" fontColor="#000000" field="Effect_3_15" transparent="true" compilerOrder="96"/>
+            </layout>&#xD;
+            <layout left="713" top="1244.2" width="76" height="47.8" compilerOrder="129">
+                <textEditor left="0" top="0" width="76" height="47.8" fontSize="22.8" fontColor="#000000" field="RNG_2_15" transparent="true" compilerOrder="130"/>
+            </layout>&#xD;
+            <layout left="315" top="1245.2" width="79" height="47.8" compilerOrder="63">
+                <textEditor left="0" top="0" width="79" height="47.8" fontSize="22.8" fontColor="#000000" field="Cost_15" transparent="true" compilerOrder="64"/>
+            </layout>&#xD;
+            <layout left="793" top="1245.2" width="118" height="47.8" compilerOrder="161">
+                <textEditor left="0" top="0" width="118" height="47.8" fontSize="22.8" fontColor="#000000" field="Duration_15" transparent="true" compilerOrder="162"/>
+            </layout>&#xD;
+            <layout left="218" top="1433.2" width="63" height="83.8" compilerOrder="205">
+                <textEditor left="0" top="0" width="63" height="83.8" fontSize="22.8" fontColor="#000000" field="Cost_2a" transparent="true" compilerOrder="206"/>
+            </layout>&#xD;
+            <layout left="1085" top="1433.2" width="290" height="83.8" compilerOrder="215">
+                <textEditor left="0" top="0" width="290" height="83.8" fontSize="22.8" fontColor="#000000" field="Componentsa" transparent="true" compilerOrder="216"/>
+            </layout>&#xD;
+            <layout left="822" top="1434.2" width="71" height="82.8" compilerOrder="209">
+                <textEditor left="0" top="0" width="71" height="82.8" fontSize="22.8" fontColor="#000000" field="Timea" transparent="true" compilerOrder="210"/>
+            </layout>&#xD;
+            <layout left="902" top="1434.2" width="54" height="82.8" compilerOrder="211">
+                <textEditor left="0" top="0" width="54" height="82.8" fontSize="22.8" fontColor="#000000" field="DCa" transparent="true" compilerOrder="212"/>
+            </layout>&#xD;
+            <layout left="965" top="1434.2" width="111" height="83.8" compilerOrder="213">
+                <textEditor left="0" top="0" width="111" height="83.8" fontSize="22.8" fontColor="#000000" field="Duration_2a" transparent="true" compilerOrder="214"/>
+            </layout>&#xD;
+            <layout left="75" top="1435.2" width="135" height="80.8" compilerOrder="203">
+                <textEditor left="0" top="0" width="135" height="80.8" fontSize="22.8" fontColor="#000000" field="Name_5a" transparent="true" compilerOrder="204"/>
+            </layout>&#xD;
+            <layout left="288" top="1435.2" width="527" height="82.8" compilerOrder="207">
+                <textEditor left="0" top="0" width="527" height="82.8" fontSize="22.8" fontColor="#000000" field="Effect_4a" transparent="true" compilerOrder="208"/>
+            </layout>&#xD;
+            <layout left="290" top="1535.2" width="527" height="82.8" compilerOrder="221">
+                <textEditor left="0" top="0" width="527" height="82.8" fontSize="22.8" fontColor="#000000" field="Effect_4b" transparent="true" compilerOrder="222"/>
+            </layout>&#xD;
+            <layout left="219" top="1538.2" width="63" height="83.8" compilerOrder="219">
+                <textEditor left="0" top="0" width="63" height="83.8" fontSize="22.8" fontColor="#000000" field="Cost_2b" transparent="true" compilerOrder="220"/>
+            </layout>&#xD;
+            <layout left="823" top="1538.2" width="71" height="82.8" compilerOrder="223">
+                <textEditor left="0" top="0" width="71" height="82.8" fontSize="22.8" fontColor="#000000" field="Timeb" transparent="true" compilerOrder="224"/>
+            </layout>&#xD;
+            <layout left="963" top="1538.2" width="111" height="83.8" compilerOrder="227">
+                <textEditor left="0" top="0" width="111" height="83.8" fontSize="22.8" fontColor="#000000" field="Duration_2b" transparent="true" compilerOrder="228"/>
+            </layout>&#xD;
+            <layout left="1083" top="1538.2" width="290" height="83.8" compilerOrder="229">
+                <textEditor left="0" top="0" width="290" height="83.8" fontSize="22.8" fontColor="#000000" field="Componentsb" transparent="true" compilerOrder="230"/>
+            </layout>&#xD;
+            <layout left="903" top="1539.2" width="54" height="82.8" compilerOrder="225">
+                <textEditor left="0" top="0" width="54" height="82.8" fontSize="22.8" fontColor="#000000" field="DCb" transparent="true" compilerOrder="226"/>
+            </layout>&#xD;
+            <layout left="76" top="1541.2" width="135" height="80.8" compilerOrder="217">
+                <textEditor left="0" top="0" width="135" height="80.8" fontSize="22.8" fontColor="#000000" field="Name_5b" transparent="true" compilerOrder="218"/>
+            </layout>&#xD;
+            <layout left="291" top="1639.2" width="527" height="82.8" compilerOrder="247">
+                <textEditor left="0" top="0" width="527" height="82.8" fontSize="22.8" fontColor="#000000" field="Effect_4c" transparent="true" compilerOrder="248"/>
+            </layout>&#xD;
+            <layout left="822" top="1640.2" width="71" height="82.8" compilerOrder="235">
+                <textEditor left="0" top="0" width="71" height="82.8" fontSize="22.8" fontColor="#000000" field="Timec" transparent="true" compilerOrder="236"/>
+            </layout>&#xD;
+            <layout left="78" top="1641.2" width="135" height="80.8" compilerOrder="231">
+                <textEditor left="0" top="0" width="135" height="80.8" fontSize="22.8" fontColor="#000000" field="Name_5c" transparent="true" compilerOrder="232"/>
+            </layout>&#xD;
+            <layout left="217" top="1641.2" width="63" height="83.8" compilerOrder="233">
+                <textEditor left="0" top="0" width="63" height="83.8" fontSize="22.8" fontColor="#000000" field="Cost_2c" transparent="true" compilerOrder="234"/>
+            </layout>&#xD;
+            <layout left="1084" top="1641.2" width="290" height="83.8" compilerOrder="241">
+                <textEditor left="0" top="0" width="290" height="83.8" fontSize="22.8" fontColor="#000000" field="Componentsc" transparent="true" compilerOrder="242"/>
+            </layout>&#xD;
+            <layout left="903" top="1642.2" width="54" height="82.8" compilerOrder="237">
+                <textEditor left="0" top="0" width="54" height="82.8" fontSize="22.8" fontColor="#000000" field="DCc" transparent="true" compilerOrder="238"/>
+            </layout>&#xD;
+            <layout left="967" top="1642.2" width="111" height="83.8" compilerOrder="239">
+                <textEditor left="0" top="0" width="111" height="83.8" fontSize="22.8" fontColor="#000000" field="Duration_2c" transparent="true" compilerOrder="240"/>
+            </layout>&#xD;
+            <layout left="218" top="1742.2" width="63" height="83.8" compilerOrder="245">
+                <textEditor left="0" top="0" width="63" height="83.8" fontSize="22.8" fontColor="#000000" field="Cost_2d" transparent="true" compilerOrder="246"/>
+            </layout>&#xD;
+            <layout left="901" top="1744.2" width="54" height="82.8" compilerOrder="253">
+                <textEditor left="0" top="0" width="54" height="82.8" fontSize="22.8" fontColor="#000000" field="DCd" transparent="true" compilerOrder="254"/>
+            </layout>&#xD;
+            <layout left="76" top="1745.2" width="135" height="80.8" compilerOrder="243">
+                <textEditor left="0" top="0" width="135" height="80.8" fontSize="22.8" fontColor="#000000" field="Name_5d__0" transparent="true" compilerOrder="244"/>
+            </layout>&#xD;
+            <layout left="822" top="1745.2" width="71" height="82.8" compilerOrder="251">
+                <textEditor left="0" top="0" width="71" height="82.8" fontSize="22.8" fontColor="#000000" field="Timed" transparent="true" compilerOrder="252"/>
+            </layout>&#xD;
+            <layout left="290" top="1746.2" width="527" height="82.8" compilerOrder="249">
+                <textEditor left="0" top="0" width="527" height="82.8" fontSize="22.8" fontColor="#000000" field="Effect_4d" transparent="true" compilerOrder="250"/>
+            </layout>&#xD;
+            <layout left="963" top="1747.2" width="111" height="78.8" compilerOrder="255">
+                <textEditor left="0" top="0" width="111" height="78.8" fontSize="22.8" fontColor="#000000" field="Duration_2d" transparent="true" compilerOrder="256"/>
+            </layout>&#xD;
+            <layout left="1083" top="1747.2" width="290" height="76.8" compilerOrder="257">
+                <textEditor left="0" top="0" width="290" height="76.8" fontSize="22.8" fontColor="#000000" field="Componentsd" transparent="true" compilerOrder="258"/>
+            </layout>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>
