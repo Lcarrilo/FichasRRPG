@@ -3148,6 +3148,24 @@ local function constructNew_frmWitcherRPG1_svg()
     obj.textEditor4:setTransparent(true);
     obj.textEditor4:setName("textEditor4");
 
+    obj.layout142 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout142:setParent(obj.rectangle1);
+    obj.layout142:setLeft(970);
+    obj.layout142:setTop(92);
+    obj.layout142:setWidth(380);
+    obj.layout142:setHeight(500);
+    obj.layout142:setName("layout142");
+
+    obj.image2 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image2:setParent(obj.layout142);
+    obj.image2:setAlign("client");
+    obj.image2:setStyle("autoFit");
+    obj.image2:setField("imagens.aparencia");
+    obj.image2:setMargins({top=2});
+    obj.image2:setEditable(true);
+    lfm_setPropAsString(obj.image2, "animate",  "true");
+    obj.image2:setName("image2");
+
     function obj:_releaseEvents()
     end;
 
@@ -3303,6 +3321,7 @@ local function constructNew_frmWitcherRPG1_svg()
         if self.edit134 ~= nil then self.edit134:destroy(); self.edit134 = nil; end;
         if self.layout39 ~= nil then self.layout39:destroy(); self.layout39 = nil; end;
         if self.layout136 ~= nil then self.layout136:destroy(); self.layout136 = nil; end;
+        if self.layout142 ~= nil then self.layout142:destroy(); self.layout142 = nil; end;
         if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
         if self.edit46 ~= nil then self.edit46:destroy(); self.edit46 = nil; end;
         if self.layout69 ~= nil then self.layout69:destroy(); self.layout69 = nil; end;
@@ -3360,6 +3379,7 @@ local function constructNew_frmWitcherRPG1_svg()
         if self.layout122 ~= nil then self.layout122:destroy(); self.layout122 = nil; end;
         if self.edit128 ~= nil then self.edit128:destroy(); self.edit128 = nil; end;
         if self.layout66 ~= nil then self.layout66:destroy(); self.layout66 = nil; end;
+        if self.image2 ~= nil then self.image2:destroy(); self.image2 = nil; end;
         if self.layout116 ~= nil then self.layout116:destroy(); self.layout116 = nil; end;
         if self.layout107 ~= nil then self.layout107:destroy(); self.layout107 = nil; end;
         if self.edit103 ~= nil then self.edit103:destroy(); self.edit103 = nil; end;

@@ -3167,6 +3167,24 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor4:setTransparent(true);
     obj.textEditor4:setName("textEditor4");
 
+    obj.layout142 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout142:setParent(obj.rectangle1);
+    obj.layout142:setLeft(970);
+    obj.layout142:setTop(92);
+    obj.layout142:setWidth(380);
+    obj.layout142:setHeight(500);
+    obj.layout142:setName("layout142");
+
+    obj.image2 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image2:setParent(obj.layout142);
+    obj.image2:setAlign("client");
+    obj.image2:setStyle("autoFit");
+    obj.image2:setField("imagens.aparencia");
+    obj.image2:setMargins({top=2});
+    obj.image2:setEditable(true);
+    lfm_setPropAsString(obj.image2, "animate",  "true");
+    obj.image2:setName("image2");
+
     obj.tab2 = GUI.fromHandle(_obj_newObject("tab"));
     obj.tab2:setParent(obj.tabControl1);
     obj.tab2:setTitle("Página 2");
@@ -3191,27 +3209,27 @@ local function constructNew_frmWitcherRPG()
     obj.rectangle2:setColor("white");
     obj.rectangle2:setName("rectangle2");
 
-    obj.image2 = GUI.fromHandle(_obj_newObject("image"));
-    obj.image2:setParent(obj.rectangle2);
-    obj.image2:setLeft(0);
-    obj.image2:setTop(0);
-    obj.image2:setWidth(1469);
-    obj.image2:setHeight(1901);
-    obj.image2:setSRC("/WitcherRPG/images/2.png");
-    obj.image2:setStyle("stretch");
-    obj.image2:setOptimize(true);
-    obj.image2:setName("image2");
+    obj.image3 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image3:setParent(obj.rectangle2);
+    obj.image3:setLeft(0);
+    obj.image3:setTop(0);
+    obj.image3:setWidth(1469);
+    obj.image3:setHeight(1901);
+    obj.image3:setSRC("/WitcherRPG/images/2.png");
+    obj.image3:setStyle("stretch");
+    obj.image3:setOptimize(true);
+    obj.image3:setName("image3");
 
-    obj.layout142 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout142:setParent(obj.rectangle2);
-    obj.layout142:setLeft(94);
-    obj.layout142:setTop(167.2);
-    obj.layout142:setWidth(174);
-    obj.layout142:setHeight(20.8);
-    obj.layout142:setName("layout142");
+    obj.layout143 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout143:setParent(obj.rectangle2);
+    obj.layout143:setLeft(94);
+    obj.layout143:setTop(167.2);
+    obj.layout143:setWidth(174);
+    obj.layout143:setHeight(20.8);
+    obj.layout143:setName("layout143");
 
     obj.textEditor5 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor5:setParent(obj.layout142);
+    obj.textEditor5:setParent(obj.layout143);
     obj.textEditor5:setLeft(0);
     obj.textEditor5:setTop(0);
     obj.textEditor5:setWidth(174);
@@ -3222,16 +3240,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor5:setTransparent(true);
     obj.textEditor5:setName("textEditor5");
 
-    obj.layout143 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout143:setParent(obj.rectangle2);
-    obj.layout143:setLeft(272);
-    obj.layout143:setTop(169.2);
-    obj.layout143:setWidth(70);
-    obj.layout143:setHeight(17.8);
-    obj.layout143:setName("layout143");
+    obj.layout144 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout144:setParent(obj.rectangle2);
+    obj.layout144:setLeft(272);
+    obj.layout144:setTop(169.2);
+    obj.layout144:setWidth(70);
+    obj.layout144:setHeight(17.8);
+    obj.layout144:setName("layout144");
 
     obj.textEditor6 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor6:setParent(obj.layout143);
+    obj.textEditor6:setParent(obj.layout144);
     obj.textEditor6:setLeft(0);
     obj.textEditor6:setTop(0);
     obj.textEditor6:setWidth(70);
@@ -3242,16 +3260,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor6:setTransparent(true);
     obj.textEditor6:setName("textEditor6");
 
-    obj.layout144 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout144:setParent(obj.rectangle2);
-    obj.layout144:setLeft(345);
-    obj.layout144:setTop(170.2);
-    obj.layout144:setWidth(100);
-    obj.layout144:setHeight(17.8);
-    obj.layout144:setName("layout144");
+    obj.layout145 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout145:setParent(obj.rectangle2);
+    obj.layout145:setLeft(345);
+    obj.layout145:setTop(170.2);
+    obj.layout145:setWidth(100);
+    obj.layout145:setHeight(17.8);
+    obj.layout145:setName("layout145");
 
     obj.textEditor7 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor7:setParent(obj.layout144);
+    obj.textEditor7:setParent(obj.layout145);
     obj.textEditor7:setLeft(0);
     obj.textEditor7:setTop(0);
     obj.textEditor7:setWidth(100);
@@ -3262,16 +3280,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor7:setTransparent(true);
     obj.textEditor7:setName("textEditor7");
 
-    obj.layout145 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout145:setParent(obj.rectangle2);
-    obj.layout145:setLeft(449);
-    obj.layout145:setTop(170.2);
-    obj.layout145:setWidth(72);
-    obj.layout145:setHeight(16.8);
-    obj.layout145:setName("layout145");
+    obj.layout146 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout146:setParent(obj.rectangle2);
+    obj.layout146:setLeft(449);
+    obj.layout146:setTop(170.2);
+    obj.layout146:setWidth(72);
+    obj.layout146:setHeight(16.8);
+    obj.layout146:setName("layout146");
 
     obj.textEditor8 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor8:setParent(obj.layout145);
+    obj.textEditor8:setParent(obj.layout146);
     obj.textEditor8:setLeft(0);
     obj.textEditor8:setTop(0);
     obj.textEditor8:setWidth(72);
@@ -3282,16 +3300,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor8:setTransparent(true);
     obj.textEditor8:setName("textEditor8");
 
-    obj.layout146 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout146:setParent(obj.rectangle2);
-    obj.layout146:setLeft(525);
-    obj.layout146:setTop(170.2);
-    obj.layout146:setWidth(88);
-    obj.layout146:setHeight(16.8);
-    obj.layout146:setName("layout146");
+    obj.layout147 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout147:setParent(obj.rectangle2);
+    obj.layout147:setLeft(525);
+    obj.layout147:setTop(170.2);
+    obj.layout147:setWidth(88);
+    obj.layout147:setHeight(16.8);
+    obj.layout147:setName("layout147");
 
     obj.textEditor9 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor9:setParent(obj.layout146);
+    obj.textEditor9:setParent(obj.layout147);
     obj.textEditor9:setLeft(0);
     obj.textEditor9:setTop(0);
     obj.textEditor9:setWidth(88);
@@ -3302,16 +3320,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor9:setTransparent(true);
     obj.textEditor9:setName("textEditor9");
 
-    obj.layout147 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout147:setParent(obj.rectangle2);
-    obj.layout147:setLeft(617);
-    obj.layout147:setTop(170.2);
-    obj.layout147:setWidth(79);
-    obj.layout147:setHeight(16.8);
-    obj.layout147:setName("layout147");
+    obj.layout148 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout148:setParent(obj.rectangle2);
+    obj.layout148:setLeft(617);
+    obj.layout148:setTop(170.2);
+    obj.layout148:setWidth(79);
+    obj.layout148:setHeight(16.8);
+    obj.layout148:setName("layout148");
 
     obj.textEditor10 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor10:setParent(obj.layout147);
+    obj.textEditor10:setParent(obj.layout148);
     obj.textEditor10:setLeft(0);
     obj.textEditor10:setTop(0);
     obj.textEditor10:setWidth(79);
@@ -3322,16 +3340,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor10:setTransparent(true);
     obj.textEditor10:setName("textEditor10");
 
-    obj.layout148 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout148:setParent(obj.rectangle2);
-    obj.layout148:setLeft(700);
-    obj.layout148:setTop(170.2);
-    obj.layout148:setWidth(92);
-    obj.layout148:setHeight(17.8);
-    obj.layout148:setName("layout148");
+    obj.layout149 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout149:setParent(obj.rectangle2);
+    obj.layout149:setLeft(700);
+    obj.layout149:setTop(170.2);
+    obj.layout149:setWidth(92);
+    obj.layout149:setHeight(17.8);
+    obj.layout149:setName("layout149");
 
     obj.textEditor11 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor11:setParent(obj.layout148);
+    obj.textEditor11:setParent(obj.layout149);
     obj.textEditor11:setLeft(0);
     obj.textEditor11:setTop(0);
     obj.textEditor11:setWidth(92);
@@ -3342,16 +3360,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor11:setTransparent(true);
     obj.textEditor11:setName("textEditor11");
 
-    obj.layout149 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout149:setParent(obj.rectangle2);
-    obj.layout149:setLeft(796);
-    obj.layout149:setTop(169.2);
-    obj.layout149:setWidth(82);
-    obj.layout149:setHeight(17.8);
-    obj.layout149:setName("layout149");
+    obj.layout150 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout150:setParent(obj.rectangle2);
+    obj.layout150:setLeft(796);
+    obj.layout150:setTop(169.2);
+    obj.layout150:setWidth(82);
+    obj.layout150:setHeight(17.8);
+    obj.layout150:setName("layout150");
 
     obj.textEditor12 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor12:setParent(obj.layout149);
+    obj.textEditor12:setParent(obj.layout150);
     obj.textEditor12:setLeft(0);
     obj.textEditor12:setTop(0);
     obj.textEditor12:setWidth(82);
@@ -3362,16 +3380,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor12:setTransparent(true);
     obj.textEditor12:setName("textEditor12");
 
-    obj.layout150 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout150:setParent(obj.rectangle2);
-    obj.layout150:setLeft(882);
-    obj.layout150:setTop(170.2);
-    obj.layout150:setWidth(55);
-    obj.layout150:setHeight(17.8);
-    obj.layout150:setName("layout150");
+    obj.layout151 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout151:setParent(obj.rectangle2);
+    obj.layout151:setLeft(882);
+    obj.layout151:setTop(170.2);
+    obj.layout151:setWidth(55);
+    obj.layout151:setHeight(17.8);
+    obj.layout151:setName("layout151");
 
     obj.textEditor13 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor13:setParent(obj.layout150);
+    obj.textEditor13:setParent(obj.layout151);
     obj.textEditor13:setLeft(0);
     obj.textEditor13:setTop(0);
     obj.textEditor13:setWidth(55);
@@ -3382,16 +3400,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor13:setTransparent(true);
     obj.textEditor13:setName("textEditor13");
 
-    obj.layout151 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout151:setParent(obj.rectangle2);
-    obj.layout151:setLeft(940);
-    obj.layout151:setTop(170.2);
-    obj.layout151:setWidth(84);
-    obj.layout151:setHeight(17.8);
-    obj.layout151:setName("layout151");
+    obj.layout152 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout152:setParent(obj.rectangle2);
+    obj.layout152:setLeft(940);
+    obj.layout152:setTop(170.2);
+    obj.layout152:setWidth(84);
+    obj.layout152:setHeight(17.8);
+    obj.layout152:setName("layout152");
 
     obj.textEditor14 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor14:setParent(obj.layout151);
+    obj.textEditor14:setParent(obj.layout152);
     obj.textEditor14:setLeft(0);
     obj.textEditor14:setTop(0);
     obj.textEditor14:setWidth(84);
@@ -3402,16 +3420,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor14:setTransparent(true);
     obj.textEditor14:setName("textEditor14");
 
-    obj.layout152 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout152:setParent(obj.rectangle2);
-    obj.layout152:setLeft(1224);
-    obj.layout152:setTop(150);
-    obj.layout152:setWidth(87);
-    obj.layout152:setHeight(37);
-    obj.layout152:setName("layout152");
+    obj.layout153 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout153:setParent(obj.rectangle2);
+    obj.layout153:setLeft(1224);
+    obj.layout153:setTop(150);
+    obj.layout153:setWidth(87);
+    obj.layout153:setHeight(37);
+    obj.layout153:setName("layout153");
 
     obj.edit138 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit138:setParent(obj.layout152);
+    obj.edit138:setParent(obj.layout153);
     obj.edit138:setTransparent(true);
     obj.edit138:setFontSize(22.8);
     obj.edit138:setFontColor("#000000");
@@ -3424,16 +3442,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit138:setField("SPHeld");
     obj.edit138:setName("edit138");
 
-    obj.layout153 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout153:setParent(obj.rectangle2);
-    obj.layout153:setLeft(1313);
-    obj.layout153:setTop(151);
-    obj.layout153:setWidth(82);
-    obj.layout153:setHeight(38);
-    obj.layout153:setName("layout153");
+    obj.layout154 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout154:setParent(obj.rectangle2);
+    obj.layout154:setLeft(1313);
+    obj.layout154:setTop(151);
+    obj.layout154:setWidth(82);
+    obj.layout154:setHeight(38);
+    obj.layout154:setName("layout154");
 
     obj.edit139 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit139:setParent(obj.layout153);
+    obj.edit139:setParent(obj.layout154);
     obj.edit139:setTransparent(true);
     obj.edit139:setFontSize(22.8);
     obj.edit139:setFontColor("#000000");
@@ -3446,16 +3464,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit139:setField("DMGHeld");
     obj.edit139:setName("edit139");
 
-    obj.layout154 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout154:setParent(obj.rectangle2);
-    obj.layout154:setLeft(95);
-    obj.layout154:setTop(209.2);
-    obj.layout154:setWidth(174);
-    obj.layout154:setHeight(20.8);
-    obj.layout154:setName("layout154");
+    obj.layout155 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout155:setParent(obj.rectangle2);
+    obj.layout155:setLeft(95);
+    obj.layout155:setTop(209.2);
+    obj.layout155:setWidth(174);
+    obj.layout155:setHeight(20.8);
+    obj.layout155:setName("layout155");
 
     obj.textEditor15 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor15:setParent(obj.layout154);
+    obj.textEditor15:setParent(obj.layout155);
     obj.textEditor15:setLeft(0);
     obj.textEditor15:setTop(0);
     obj.textEditor15:setWidth(174);
@@ -3466,16 +3484,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor15:setTransparent(true);
     obj.textEditor15:setName("textEditor15");
 
-    obj.layout155 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout155:setParent(obj.rectangle2);
-    obj.layout155:setLeft(272);
-    obj.layout155:setTop(209.2);
-    obj.layout155:setWidth(70);
-    obj.layout155:setHeight(17.8);
-    obj.layout155:setName("layout155");
+    obj.layout156 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout156:setParent(obj.rectangle2);
+    obj.layout156:setLeft(272);
+    obj.layout156:setTop(209.2);
+    obj.layout156:setWidth(70);
+    obj.layout156:setHeight(17.8);
+    obj.layout156:setName("layout156");
 
     obj.textEditor16 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor16:setParent(obj.layout155);
+    obj.textEditor16:setParent(obj.layout156);
     obj.textEditor16:setLeft(0);
     obj.textEditor16:setTop(0);
     obj.textEditor16:setWidth(70);
@@ -3486,16 +3504,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor16:setTransparent(true);
     obj.textEditor16:setName("textEditor16");
 
-    obj.layout156 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout156:setParent(obj.rectangle2);
-    obj.layout156:setLeft(346);
-    obj.layout156:setTop(209.2);
-    obj.layout156:setWidth(100);
-    obj.layout156:setHeight(17.8);
-    obj.layout156:setName("layout156");
+    obj.layout157 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout157:setParent(obj.rectangle2);
+    obj.layout157:setLeft(346);
+    obj.layout157:setTop(209.2);
+    obj.layout157:setWidth(100);
+    obj.layout157:setHeight(17.8);
+    obj.layout157:setName("layout157");
 
     obj.textEditor17 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor17:setParent(obj.layout156);
+    obj.textEditor17:setParent(obj.layout157);
     obj.textEditor17:setLeft(0);
     obj.textEditor17:setTop(0);
     obj.textEditor17:setWidth(100);
@@ -3506,16 +3524,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor17:setTransparent(true);
     obj.textEditor17:setName("textEditor17");
 
-    obj.layout157 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout157:setParent(obj.rectangle2);
-    obj.layout157:setLeft(449);
-    obj.layout157:setTop(209.2);
-    obj.layout157:setWidth(72);
-    obj.layout157:setHeight(17.8);
-    obj.layout157:setName("layout157");
+    obj.layout158 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout158:setParent(obj.rectangle2);
+    obj.layout158:setLeft(449);
+    obj.layout158:setTop(209.2);
+    obj.layout158:setWidth(72);
+    obj.layout158:setHeight(17.8);
+    obj.layout158:setName("layout158");
 
     obj.textEditor18 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor18:setParent(obj.layout157);
+    obj.textEditor18:setParent(obj.layout158);
     obj.textEditor18:setLeft(0);
     obj.textEditor18:setTop(0);
     obj.textEditor18:setWidth(72);
@@ -3526,16 +3544,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor18:setTransparent(true);
     obj.textEditor18:setName("textEditor18");
 
-    obj.layout158 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout158:setParent(obj.rectangle2);
-    obj.layout158:setLeft(525);
-    obj.layout158:setTop(209.2);
-    obj.layout158:setWidth(88);
-    obj.layout158:setHeight(17.8);
-    obj.layout158:setName("layout158");
+    obj.layout159 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout159:setParent(obj.rectangle2);
+    obj.layout159:setLeft(525);
+    obj.layout159:setTop(209.2);
+    obj.layout159:setWidth(88);
+    obj.layout159:setHeight(17.8);
+    obj.layout159:setName("layout159");
 
     obj.textEditor19 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor19:setParent(obj.layout158);
+    obj.textEditor19:setParent(obj.layout159);
     obj.textEditor19:setLeft(0);
     obj.textEditor19:setTop(0);
     obj.textEditor19:setWidth(88);
@@ -3546,16 +3564,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor19:setTransparent(true);
     obj.textEditor19:setName("textEditor19");
 
-    obj.layout159 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout159:setParent(obj.rectangle2);
-    obj.layout159:setLeft(617);
-    obj.layout159:setTop(209.2);
-    obj.layout159:setWidth(79);
-    obj.layout159:setHeight(17.8);
-    obj.layout159:setName("layout159");
+    obj.layout160 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout160:setParent(obj.rectangle2);
+    obj.layout160:setLeft(617);
+    obj.layout160:setTop(209.2);
+    obj.layout160:setWidth(79);
+    obj.layout160:setHeight(17.8);
+    obj.layout160:setName("layout160");
 
     obj.textEditor20 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor20:setParent(obj.layout159);
+    obj.textEditor20:setParent(obj.layout160);
     obj.textEditor20:setLeft(0);
     obj.textEditor20:setTop(0);
     obj.textEditor20:setWidth(79);
@@ -3566,16 +3584,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor20:setTransparent(true);
     obj.textEditor20:setName("textEditor20");
 
-    obj.layout160 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout160:setParent(obj.rectangle2);
-    obj.layout160:setLeft(700);
-    obj.layout160:setTop(209.2);
-    obj.layout160:setWidth(92);
-    obj.layout160:setHeight(17.8);
-    obj.layout160:setName("layout160");
+    obj.layout161 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout161:setParent(obj.rectangle2);
+    obj.layout161:setLeft(700);
+    obj.layout161:setTop(209.2);
+    obj.layout161:setWidth(92);
+    obj.layout161:setHeight(17.8);
+    obj.layout161:setName("layout161");
 
     obj.textEditor21 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor21:setParent(obj.layout160);
+    obj.textEditor21:setParent(obj.layout161);
     obj.textEditor21:setLeft(0);
     obj.textEditor21:setTop(0);
     obj.textEditor21:setWidth(92);
@@ -3586,16 +3604,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor21:setTransparent(true);
     obj.textEditor21:setName("textEditor21");
 
-    obj.layout161 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout161:setParent(obj.rectangle2);
-    obj.layout161:setLeft(796);
-    obj.layout161:setTop(209.2);
-    obj.layout161:setWidth(82);
-    obj.layout161:setHeight(17.8);
-    obj.layout161:setName("layout161");
+    obj.layout162 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout162:setParent(obj.rectangle2);
+    obj.layout162:setLeft(796);
+    obj.layout162:setTop(209.2);
+    obj.layout162:setWidth(82);
+    obj.layout162:setHeight(17.8);
+    obj.layout162:setName("layout162");
 
     obj.textEditor22 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor22:setParent(obj.layout161);
+    obj.textEditor22:setParent(obj.layout162);
     obj.textEditor22:setLeft(0);
     obj.textEditor22:setTop(0);
     obj.textEditor22:setWidth(82);
@@ -3606,16 +3624,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor22:setTransparent(true);
     obj.textEditor22:setName("textEditor22");
 
-    obj.layout162 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout162:setParent(obj.rectangle2);
-    obj.layout162:setLeft(882);
-    obj.layout162:setTop(209.2);
-    obj.layout162:setWidth(54);
-    obj.layout162:setHeight(17.8);
-    obj.layout162:setName("layout162");
+    obj.layout163 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout163:setParent(obj.rectangle2);
+    obj.layout163:setLeft(882);
+    obj.layout163:setTop(209.2);
+    obj.layout163:setWidth(54);
+    obj.layout163:setHeight(17.8);
+    obj.layout163:setName("layout163");
 
     obj.textEditor23 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor23:setParent(obj.layout162);
+    obj.textEditor23:setParent(obj.layout163);
     obj.textEditor23:setLeft(0);
     obj.textEditor23:setTop(0);
     obj.textEditor23:setWidth(54);
@@ -3626,16 +3644,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor23:setTransparent(true);
     obj.textEditor23:setName("textEditor23");
 
-    obj.layout163 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout163:setParent(obj.rectangle2);
-    obj.layout163:setLeft(940);
-    obj.layout163:setTop(209.2);
-    obj.layout163:setWidth(84);
-    obj.layout163:setHeight(17.8);
-    obj.layout163:setName("layout163");
+    obj.layout164 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout164:setParent(obj.rectangle2);
+    obj.layout164:setLeft(940);
+    obj.layout164:setTop(209.2);
+    obj.layout164:setWidth(84);
+    obj.layout164:setHeight(17.8);
+    obj.layout164:setName("layout164");
 
     obj.textEditor24 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor24:setParent(obj.layout163);
+    obj.textEditor24:setParent(obj.layout164);
     obj.textEditor24:setLeft(0);
     obj.textEditor24:setTop(0);
     obj.textEditor24:setWidth(84);
@@ -3646,16 +3664,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor24:setTransparent(true);
     obj.textEditor24:setName("textEditor24");
 
-    obj.layout164 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout164:setParent(obj.rectangle2);
-    obj.layout164:setLeft(96);
-    obj.layout164:setTop(247.2);
-    obj.layout164:setWidth(174);
-    obj.layout164:setHeight(20.8);
-    obj.layout164:setName("layout164");
+    obj.layout165 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout165:setParent(obj.rectangle2);
+    obj.layout165:setLeft(96);
+    obj.layout165:setTop(247.2);
+    obj.layout165:setWidth(174);
+    obj.layout165:setHeight(20.8);
+    obj.layout165:setName("layout165");
 
     obj.textEditor25 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor25:setParent(obj.layout164);
+    obj.textEditor25:setParent(obj.layout165);
     obj.textEditor25:setLeft(0);
     obj.textEditor25:setTop(0);
     obj.textEditor25:setWidth(174);
@@ -3666,16 +3684,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor25:setTransparent(true);
     obj.textEditor25:setName("textEditor25");
 
-    obj.layout165 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout165:setParent(obj.rectangle2);
-    obj.layout165:setLeft(271);
-    obj.layout165:setTop(249.2);
-    obj.layout165:setWidth(70);
-    obj.layout165:setHeight(17.8);
-    obj.layout165:setName("layout165");
+    obj.layout166 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout166:setParent(obj.rectangle2);
+    obj.layout166:setLeft(271);
+    obj.layout166:setTop(249.2);
+    obj.layout166:setWidth(70);
+    obj.layout166:setHeight(17.8);
+    obj.layout166:setName("layout166");
 
     obj.textEditor26 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor26:setParent(obj.layout165);
+    obj.textEditor26:setParent(obj.layout166);
     obj.textEditor26:setLeft(0);
     obj.textEditor26:setTop(0);
     obj.textEditor26:setWidth(70);
@@ -3686,16 +3704,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor26:setTransparent(true);
     obj.textEditor26:setName("textEditor26");
 
-    obj.layout166 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout166:setParent(obj.rectangle2);
-    obj.layout166:setLeft(345);
-    obj.layout166:setTop(249.2);
-    obj.layout166:setWidth(103);
-    obj.layout166:setHeight(17.8);
-    obj.layout166:setName("layout166");
+    obj.layout167 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout167:setParent(obj.rectangle2);
+    obj.layout167:setLeft(345);
+    obj.layout167:setTop(249.2);
+    obj.layout167:setWidth(103);
+    obj.layout167:setHeight(17.8);
+    obj.layout167:setName("layout167");
 
     obj.textEditor27 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor27:setParent(obj.layout166);
+    obj.textEditor27:setParent(obj.layout167);
     obj.textEditor27:setLeft(0);
     obj.textEditor27:setTop(0);
     obj.textEditor27:setWidth(103);
@@ -3706,16 +3724,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor27:setTransparent(true);
     obj.textEditor27:setName("textEditor27");
 
-    obj.layout167 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout167:setParent(obj.rectangle2);
-    obj.layout167:setLeft(449);
-    obj.layout167:setTop(248.2);
-    obj.layout167:setWidth(72);
-    obj.layout167:setHeight(17.8);
-    obj.layout167:setName("layout167");
+    obj.layout168 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout168:setParent(obj.rectangle2);
+    obj.layout168:setLeft(449);
+    obj.layout168:setTop(248.2);
+    obj.layout168:setWidth(72);
+    obj.layout168:setHeight(17.8);
+    obj.layout168:setName("layout168");
 
     obj.textEditor28 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor28:setParent(obj.layout167);
+    obj.textEditor28:setParent(obj.layout168);
     obj.textEditor28:setLeft(0);
     obj.textEditor28:setTop(0);
     obj.textEditor28:setWidth(72);
@@ -3726,16 +3744,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor28:setTransparent(true);
     obj.textEditor28:setName("textEditor28");
 
-    obj.layout168 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout168:setParent(obj.rectangle2);
-    obj.layout168:setLeft(525);
-    obj.layout168:setTop(249.2);
-    obj.layout168:setWidth(88);
-    obj.layout168:setHeight(17.8);
-    obj.layout168:setName("layout168");
+    obj.layout169 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout169:setParent(obj.rectangle2);
+    obj.layout169:setLeft(525);
+    obj.layout169:setTop(249.2);
+    obj.layout169:setWidth(88);
+    obj.layout169:setHeight(17.8);
+    obj.layout169:setName("layout169");
 
     obj.textEditor29 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor29:setParent(obj.layout168);
+    obj.textEditor29:setParent(obj.layout169);
     obj.textEditor29:setLeft(0);
     obj.textEditor29:setTop(0);
     obj.textEditor29:setWidth(88);
@@ -3746,16 +3764,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor29:setTransparent(true);
     obj.textEditor29:setName("textEditor29");
 
-    obj.layout169 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout169:setParent(obj.rectangle2);
-    obj.layout169:setLeft(617);
-    obj.layout169:setTop(249.2);
-    obj.layout169:setWidth(79);
-    obj.layout169:setHeight(17.8);
-    obj.layout169:setName("layout169");
+    obj.layout170 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout170:setParent(obj.rectangle2);
+    obj.layout170:setLeft(617);
+    obj.layout170:setTop(249.2);
+    obj.layout170:setWidth(79);
+    obj.layout170:setHeight(17.8);
+    obj.layout170:setName("layout170");
 
     obj.textEditor30 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor30:setParent(obj.layout169);
+    obj.textEditor30:setParent(obj.layout170);
     obj.textEditor30:setLeft(0);
     obj.textEditor30:setTop(0);
     obj.textEditor30:setWidth(79);
@@ -3766,16 +3784,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor30:setTransparent(true);
     obj.textEditor30:setName("textEditor30");
 
-    obj.layout170 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout170:setParent(obj.rectangle2);
-    obj.layout170:setLeft(700);
-    obj.layout170:setTop(249.2);
-    obj.layout170:setWidth(92);
-    obj.layout170:setHeight(17.8);
-    obj.layout170:setName("layout170");
+    obj.layout171 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout171:setParent(obj.rectangle2);
+    obj.layout171:setLeft(700);
+    obj.layout171:setTop(249.2);
+    obj.layout171:setWidth(92);
+    obj.layout171:setHeight(17.8);
+    obj.layout171:setName("layout171");
 
     obj.textEditor31 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor31:setParent(obj.layout170);
+    obj.textEditor31:setParent(obj.layout171);
     obj.textEditor31:setLeft(0);
     obj.textEditor31:setTop(0);
     obj.textEditor31:setWidth(92);
@@ -3786,16 +3804,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor31:setTransparent(true);
     obj.textEditor31:setName("textEditor31");
 
-    obj.layout171 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout171:setParent(obj.rectangle2);
-    obj.layout171:setLeft(796);
-    obj.layout171:setTop(248.2);
-    obj.layout171:setWidth(82);
-    obj.layout171:setHeight(18.8);
-    obj.layout171:setName("layout171");
+    obj.layout172 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout172:setParent(obj.rectangle2);
+    obj.layout172:setLeft(796);
+    obj.layout172:setTop(248.2);
+    obj.layout172:setWidth(82);
+    obj.layout172:setHeight(18.8);
+    obj.layout172:setName("layout172");
 
     obj.textEditor32 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor32:setParent(obj.layout171);
+    obj.textEditor32:setParent(obj.layout172);
     obj.textEditor32:setLeft(0);
     obj.textEditor32:setTop(0);
     obj.textEditor32:setWidth(82);
@@ -3806,16 +3824,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor32:setTransparent(true);
     obj.textEditor32:setName("textEditor32");
 
-    obj.layout172 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout172:setParent(obj.rectangle2);
-    obj.layout172:setLeft(882);
-    obj.layout172:setTop(249.2);
-    obj.layout172:setWidth(55);
-    obj.layout172:setHeight(17.8);
-    obj.layout172:setName("layout172");
+    obj.layout173 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout173:setParent(obj.rectangle2);
+    obj.layout173:setLeft(882);
+    obj.layout173:setTop(249.2);
+    obj.layout173:setWidth(55);
+    obj.layout173:setHeight(17.8);
+    obj.layout173:setName("layout173");
 
     obj.textEditor33 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor33:setParent(obj.layout172);
+    obj.textEditor33:setParent(obj.layout173);
     obj.textEditor33:setLeft(0);
     obj.textEditor33:setTop(0);
     obj.textEditor33:setWidth(55);
@@ -3826,16 +3844,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor33:setTransparent(true);
     obj.textEditor33:setName("textEditor33");
 
-    obj.layout173 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout173:setParent(obj.rectangle2);
-    obj.layout173:setLeft(940);
-    obj.layout173:setTop(248.2);
-    obj.layout173:setWidth(84);
-    obj.layout173:setHeight(17.8);
-    obj.layout173:setName("layout173");
+    obj.layout174 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout174:setParent(obj.rectangle2);
+    obj.layout174:setLeft(940);
+    obj.layout174:setTop(248.2);
+    obj.layout174:setWidth(84);
+    obj.layout174:setHeight(17.8);
+    obj.layout174:setName("layout174");
 
     obj.textEditor34 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor34:setParent(obj.layout173);
+    obj.textEditor34:setParent(obj.layout174);
     obj.textEditor34:setLeft(0);
     obj.textEditor34:setTop(0);
     obj.textEditor34:setWidth(84);
@@ -3846,16 +3864,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor34:setTransparent(true);
     obj.textEditor34:setName("textEditor34");
 
-    obj.layout174 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout174:setParent(obj.rectangle2);
-    obj.layout174:setLeft(1064);
-    obj.layout174:setTop(249.2);
-    obj.layout174:setWidth(332);
-    obj.layout174:setHeight(19.8);
-    obj.layout174:setName("layout174");
+    obj.layout175 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout175:setParent(obj.rectangle2);
+    obj.layout175:setLeft(1064);
+    obj.layout175:setTop(249.2);
+    obj.layout175:setWidth(332);
+    obj.layout175:setHeight(19.8);
+    obj.layout175:setName("layout175");
 
     obj.textEditor35 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor35:setParent(obj.layout174);
+    obj.textEditor35:setParent(obj.layout175);
     obj.textEditor35:setLeft(0);
     obj.textEditor35:setTop(0);
     obj.textEditor35:setWidth(332);
@@ -3866,16 +3884,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor35:setTransparent(true);
     obj.textEditor35:setName("textEditor35");
 
-    obj.layout175 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout175:setParent(obj.rectangle2);
-    obj.layout175:setLeft(95);
-    obj.layout175:setTop(285.2);
-    obj.layout175:setWidth(174);
-    obj.layout175:setHeight(20.8);
-    obj.layout175:setName("layout175");
+    obj.layout176 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout176:setParent(obj.rectangle2);
+    obj.layout176:setLeft(95);
+    obj.layout176:setTop(285.2);
+    obj.layout176:setWidth(174);
+    obj.layout176:setHeight(20.8);
+    obj.layout176:setName("layout176");
 
     obj.textEditor36 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor36:setParent(obj.layout175);
+    obj.textEditor36:setParent(obj.layout176);
     obj.textEditor36:setLeft(0);
     obj.textEditor36:setTop(0);
     obj.textEditor36:setWidth(174);
@@ -3886,16 +3904,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor36:setTransparent(true);
     obj.textEditor36:setName("textEditor36");
 
-    obj.layout176 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout176:setParent(obj.rectangle2);
-    obj.layout176:setLeft(271);
-    obj.layout176:setTop(287.2);
-    obj.layout176:setWidth(70);
-    obj.layout176:setHeight(17.8);
-    obj.layout176:setName("layout176");
+    obj.layout177 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout177:setParent(obj.rectangle2);
+    obj.layout177:setLeft(271);
+    obj.layout177:setTop(287.2);
+    obj.layout177:setWidth(70);
+    obj.layout177:setHeight(17.8);
+    obj.layout177:setName("layout177");
 
     obj.textEditor37 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor37:setParent(obj.layout176);
+    obj.textEditor37:setParent(obj.layout177);
     obj.textEditor37:setLeft(0);
     obj.textEditor37:setTop(0);
     obj.textEditor37:setWidth(70);
@@ -3906,16 +3924,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor37:setTransparent(true);
     obj.textEditor37:setName("textEditor37");
 
-    obj.layout177 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout177:setParent(obj.rectangle2);
-    obj.layout177:setLeft(345);
-    obj.layout177:setTop(288.2);
-    obj.layout177:setWidth(100);
-    obj.layout177:setHeight(15.8);
-    obj.layout177:setName("layout177");
+    obj.layout178 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout178:setParent(obj.rectangle2);
+    obj.layout178:setLeft(345);
+    obj.layout178:setTop(288.2);
+    obj.layout178:setWidth(100);
+    obj.layout178:setHeight(15.8);
+    obj.layout178:setName("layout178");
 
     obj.textEditor38 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor38:setParent(obj.layout177);
+    obj.textEditor38:setParent(obj.layout178);
     obj.textEditor38:setLeft(0);
     obj.textEditor38:setTop(0);
     obj.textEditor38:setWidth(100);
@@ -3926,16 +3944,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor38:setTransparent(true);
     obj.textEditor38:setName("textEditor38");
 
-    obj.layout178 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout178:setParent(obj.rectangle2);
-    obj.layout178:setLeft(449);
-    obj.layout178:setTop(288.2);
-    obj.layout178:setWidth(72);
-    obj.layout178:setHeight(14.8);
-    obj.layout178:setName("layout178");
+    obj.layout179 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout179:setParent(obj.rectangle2);
+    obj.layout179:setLeft(449);
+    obj.layout179:setTop(288.2);
+    obj.layout179:setWidth(72);
+    obj.layout179:setHeight(14.8);
+    obj.layout179:setName("layout179");
 
     obj.textEditor39 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor39:setParent(obj.layout178);
+    obj.textEditor39:setParent(obj.layout179);
     obj.textEditor39:setLeft(0);
     obj.textEditor39:setTop(0);
     obj.textEditor39:setWidth(72);
@@ -3946,16 +3964,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor39:setTransparent(true);
     obj.textEditor39:setName("textEditor39");
 
-    obj.layout179 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout179:setParent(obj.rectangle2);
-    obj.layout179:setLeft(525);
-    obj.layout179:setTop(288.2);
-    obj.layout179:setWidth(88);
-    obj.layout179:setHeight(14.8);
-    obj.layout179:setName("layout179");
+    obj.layout180 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout180:setParent(obj.rectangle2);
+    obj.layout180:setLeft(525);
+    obj.layout180:setTop(288.2);
+    obj.layout180:setWidth(88);
+    obj.layout180:setHeight(14.8);
+    obj.layout180:setName("layout180");
 
     obj.textEditor40 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor40:setParent(obj.layout179);
+    obj.textEditor40:setParent(obj.layout180);
     obj.textEditor40:setLeft(0);
     obj.textEditor40:setTop(0);
     obj.textEditor40:setWidth(88);
@@ -3966,16 +3984,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor40:setTransparent(true);
     obj.textEditor40:setName("textEditor40");
 
-    obj.layout180 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout180:setParent(obj.rectangle2);
-    obj.layout180:setLeft(617);
-    obj.layout180:setTop(288.2);
-    obj.layout180:setWidth(79);
-    obj.layout180:setHeight(14.8);
-    obj.layout180:setName("layout180");
+    obj.layout181 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout181:setParent(obj.rectangle2);
+    obj.layout181:setLeft(617);
+    obj.layout181:setTop(288.2);
+    obj.layout181:setWidth(79);
+    obj.layout181:setHeight(14.8);
+    obj.layout181:setName("layout181");
 
     obj.textEditor41 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor41:setParent(obj.layout180);
+    obj.textEditor41:setParent(obj.layout181);
     obj.textEditor41:setLeft(0);
     obj.textEditor41:setTop(0);
     obj.textEditor41:setWidth(79);
@@ -3986,16 +4004,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor41:setTransparent(true);
     obj.textEditor41:setName("textEditor41");
 
-    obj.layout181 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout181:setParent(obj.rectangle2);
-    obj.layout181:setLeft(700);
-    obj.layout181:setTop(288.2);
-    obj.layout181:setWidth(93);
-    obj.layout181:setHeight(14.8);
-    obj.layout181:setName("layout181");
+    obj.layout182 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout182:setParent(obj.rectangle2);
+    obj.layout182:setLeft(700);
+    obj.layout182:setTop(288.2);
+    obj.layout182:setWidth(93);
+    obj.layout182:setHeight(14.8);
+    obj.layout182:setName("layout182");
 
     obj.textEditor42 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor42:setParent(obj.layout181);
+    obj.textEditor42:setParent(obj.layout182);
     obj.textEditor42:setLeft(0);
     obj.textEditor42:setTop(0);
     obj.textEditor42:setWidth(93);
@@ -4006,16 +4024,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor42:setTransparent(true);
     obj.textEditor42:setName("textEditor42");
 
-    obj.layout182 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout182:setParent(obj.rectangle2);
-    obj.layout182:setLeft(796);
-    obj.layout182:setTop(288.2);
-    obj.layout182:setWidth(82);
-    obj.layout182:setHeight(15.8);
-    obj.layout182:setName("layout182");
+    obj.layout183 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout183:setParent(obj.rectangle2);
+    obj.layout183:setLeft(796);
+    obj.layout183:setTop(288.2);
+    obj.layout183:setWidth(82);
+    obj.layout183:setHeight(15.8);
+    obj.layout183:setName("layout183");
 
     obj.textEditor43 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor43:setParent(obj.layout182);
+    obj.textEditor43:setParent(obj.layout183);
     obj.textEditor43:setLeft(0);
     obj.textEditor43:setTop(0);
     obj.textEditor43:setWidth(82);
@@ -4026,16 +4044,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor43:setTransparent(true);
     obj.textEditor43:setName("textEditor43");
 
-    obj.layout183 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout183:setParent(obj.rectangle2);
-    obj.layout183:setLeft(882);
-    obj.layout183:setTop(288.2);
-    obj.layout183:setWidth(55);
-    obj.layout183:setHeight(15.8);
-    obj.layout183:setName("layout183");
+    obj.layout184 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout184:setParent(obj.rectangle2);
+    obj.layout184:setLeft(882);
+    obj.layout184:setTop(288.2);
+    obj.layout184:setWidth(55);
+    obj.layout184:setHeight(15.8);
+    obj.layout184:setName("layout184");
 
     obj.textEditor44 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor44:setParent(obj.layout183);
+    obj.textEditor44:setParent(obj.layout184);
     obj.textEditor44:setLeft(0);
     obj.textEditor44:setTop(0);
     obj.textEditor44:setWidth(55);
@@ -4046,16 +4064,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor44:setTransparent(true);
     obj.textEditor44:setName("textEditor44");
 
-    obj.layout184 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout184:setParent(obj.rectangle2);
-    obj.layout184:setLeft(940);
-    obj.layout184:setTop(288.2);
-    obj.layout184:setWidth(84);
-    obj.layout184:setHeight(15.8);
-    obj.layout184:setName("layout184");
+    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout185:setParent(obj.rectangle2);
+    obj.layout185:setLeft(940);
+    obj.layout185:setTop(288.2);
+    obj.layout185:setWidth(84);
+    obj.layout185:setHeight(15.8);
+    obj.layout185:setName("layout185");
 
     obj.textEditor45 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor45:setParent(obj.layout184);
+    obj.textEditor45:setParent(obj.layout185);
     obj.textEditor45:setLeft(0);
     obj.textEditor45:setTop(0);
     obj.textEditor45:setWidth(84);
@@ -4066,16 +4084,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor45:setTransparent(true);
     obj.textEditor45:setName("textEditor45");
 
-    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout185:setParent(obj.rectangle2);
-    obj.layout185:setLeft(1066);
-    obj.layout185:setTop(286.2);
-    obj.layout185:setWidth(332);
-    obj.layout185:setHeight(19.8);
-    obj.layout185:setName("layout185");
+    obj.layout186 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout186:setParent(obj.rectangle2);
+    obj.layout186:setLeft(1066);
+    obj.layout186:setTop(286.2);
+    obj.layout186:setWidth(332);
+    obj.layout186:setHeight(19.8);
+    obj.layout186:setName("layout186");
 
     obj.textEditor46 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor46:setParent(obj.layout185);
+    obj.textEditor46:setParent(obj.layout186);
     obj.textEditor46:setLeft(0);
     obj.textEditor46:setTop(0);
     obj.textEditor46:setWidth(332);
@@ -4086,16 +4104,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor46:setTransparent(true);
     obj.textEditor46:setName("textEditor46");
 
-    obj.layout186 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout186:setParent(obj.rectangle2);
-    obj.layout186:setLeft(1066);
-    obj.layout186:setTop(327.2);
-    obj.layout186:setWidth(332);
-    obj.layout186:setHeight(19.8);
-    obj.layout186:setName("layout186");
+    obj.layout187 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout187:setParent(obj.rectangle2);
+    obj.layout187:setLeft(1066);
+    obj.layout187:setTop(327.2);
+    obj.layout187:setWidth(332);
+    obj.layout187:setHeight(19.8);
+    obj.layout187:setName("layout187");
 
     obj.textEditor47 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor47:setParent(obj.layout186);
+    obj.textEditor47:setParent(obj.layout187);
     obj.textEditor47:setLeft(0);
     obj.textEditor47:setTop(0);
     obj.textEditor47:setWidth(332);
@@ -4106,16 +4124,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor47:setTransparent(true);
     obj.textEditor47:setName("textEditor47");
 
-    obj.layout187 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout187:setParent(obj.rectangle2);
-    obj.layout187:setLeft(1066);
-    obj.layout187:setTop(366.2);
-    obj.layout187:setWidth(332);
-    obj.layout187:setHeight(19.8);
-    obj.layout187:setName("layout187");
+    obj.layout188 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout188:setParent(obj.rectangle2);
+    obj.layout188:setLeft(1066);
+    obj.layout188:setTop(366.2);
+    obj.layout188:setWidth(332);
+    obj.layout188:setHeight(19.8);
+    obj.layout188:setName("layout188");
 
     obj.textEditor48 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor48:setParent(obj.layout187);
+    obj.textEditor48:setParent(obj.layout188);
     obj.textEditor48:setLeft(0);
     obj.textEditor48:setTop(0);
     obj.textEditor48:setWidth(332);
@@ -4126,16 +4144,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor48:setTransparent(true);
     obj.textEditor48:setName("textEditor48");
 
-    obj.layout188 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout188:setParent(obj.rectangle2);
-    obj.layout188:setLeft(96);
-    obj.layout188:setTop(468.2);
-    obj.layout188:setWidth(237);
-    obj.layout188:setHeight(17.8);
-    obj.layout188:setName("layout188");
+    obj.layout189 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout189:setParent(obj.rectangle2);
+    obj.layout189:setLeft(96);
+    obj.layout189:setTop(468.2);
+    obj.layout189:setWidth(237);
+    obj.layout189:setHeight(17.8);
+    obj.layout189:setName("layout189");
 
     obj.textEditor49 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor49:setParent(obj.layout188);
+    obj.textEditor49:setParent(obj.layout189);
     obj.textEditor49:setLeft(0);
     obj.textEditor49:setTop(0);
     obj.textEditor49:setWidth(237);
@@ -4146,16 +4164,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor49:setTransparent(true);
     obj.textEditor49:setName("textEditor49");
 
-    obj.layout189 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout189:setParent(obj.rectangle2);
-    obj.layout189:setLeft(96);
-    obj.layout189:setTop(508.2);
-    obj.layout189:setWidth(236);
-    obj.layout189:setHeight(17.8);
-    obj.layout189:setName("layout189");
+    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout190:setParent(obj.rectangle2);
+    obj.layout190:setLeft(96);
+    obj.layout190:setTop(508.2);
+    obj.layout190:setWidth(236);
+    obj.layout190:setHeight(17.8);
+    obj.layout190:setName("layout190");
 
     obj.textEditor50 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor50:setParent(obj.layout189);
+    obj.textEditor50:setParent(obj.layout190);
     obj.textEditor50:setLeft(0);
     obj.textEditor50:setTop(0);
     obj.textEditor50:setWidth(236);
@@ -4166,16 +4184,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor50:setTransparent(true);
     obj.textEditor50:setName("textEditor50");
 
-    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout190:setParent(obj.rectangle2);
-    obj.layout190:setLeft(96);
-    obj.layout190:setTop(548.2);
-    obj.layout190:setWidth(236);
-    obj.layout190:setHeight(18.8);
-    obj.layout190:setName("layout190");
+    obj.layout191 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout191:setParent(obj.rectangle2);
+    obj.layout191:setLeft(96);
+    obj.layout191:setTop(548.2);
+    obj.layout191:setWidth(236);
+    obj.layout191:setHeight(18.8);
+    obj.layout191:setName("layout191");
 
     obj.textEditor51 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor51:setParent(obj.layout190);
+    obj.textEditor51:setParent(obj.layout191);
     obj.textEditor51:setLeft(0);
     obj.textEditor51:setTop(0);
     obj.textEditor51:setWidth(236);
@@ -4186,16 +4204,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor51:setTransparent(true);
     obj.textEditor51:setName("textEditor51");
 
-    obj.layout191 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout191:setParent(obj.rectangle2);
-    obj.layout191:setLeft(337);
-    obj.layout191:setTop(449);
-    obj.layout191:setWidth(556);
-    obj.layout191:setHeight(38);
-    obj.layout191:setName("layout191");
+    obj.layout192 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout192:setParent(obj.rectangle2);
+    obj.layout192:setLeft(337);
+    obj.layout192:setTop(449);
+    obj.layout192:setWidth(556);
+    obj.layout192:setHeight(38);
+    obj.layout192:setName("layout192");
 
     obj.edit140 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit140:setParent(obj.layout191);
+    obj.edit140:setParent(obj.layout192);
     obj.edit140:setTransparent(true);
     obj.edit140:setFontSize(26.3);
     obj.edit140:setFontColor("#000000");
@@ -4208,16 +4226,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit140:setField("Gearnotes_0_0");
     obj.edit140:setName("edit140");
 
-    obj.layout192 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout192:setParent(obj.rectangle2);
-    obj.layout192:setLeft(895);
-    obj.layout192:setTop(469.2);
-    obj.layout192:setWidth(129);
-    obj.layout192:setHeight(15.8);
-    obj.layout192:setName("layout192");
+    obj.layout193 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout193:setParent(obj.rectangle2);
+    obj.layout193:setLeft(895);
+    obj.layout193:setTop(469.2);
+    obj.layout193:setWidth(129);
+    obj.layout193:setHeight(15.8);
+    obj.layout193:setName("layout193");
 
     obj.textEditor52 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor52:setParent(obj.layout192);
+    obj.textEditor52:setParent(obj.layout193);
     obj.textEditor52:setLeft(0);
     obj.textEditor52:setTop(0);
     obj.textEditor52:setWidth(129);
@@ -4228,16 +4246,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor52:setTransparent(true);
     obj.textEditor52:setName("textEditor52");
 
-    obj.layout193 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout193:setParent(obj.rectangle2);
-    obj.layout193:setLeft(337);
-    obj.layout193:setTop(489);
-    obj.layout193:setWidth(556);
-    obj.layout193:setHeight(38);
-    obj.layout193:setName("layout193");
+    obj.layout194 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout194:setParent(obj.rectangle2);
+    obj.layout194:setLeft(337);
+    obj.layout194:setTop(489);
+    obj.layout194:setWidth(556);
+    obj.layout194:setHeight(38);
+    obj.layout194:setName("layout194");
 
     obj.edit141 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit141:setParent(obj.layout193);
+    obj.edit141:setParent(obj.layout194);
     obj.edit141:setTransparent(true);
     obj.edit141:setFontSize(26.3);
     obj.edit141:setFontColor("#000000");
@@ -4250,16 +4268,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit141:setField("Gearnotes_01_0");
     obj.edit141:setName("edit141");
 
-    obj.layout194 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout194:setParent(obj.rectangle2);
-    obj.layout194:setLeft(896);
-    obj.layout194:setTop(509.2);
-    obj.layout194:setWidth(130);
-    obj.layout194:setHeight(15.8);
-    obj.layout194:setName("layout194");
+    obj.layout195 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout195:setParent(obj.rectangle2);
+    obj.layout195:setLeft(896);
+    obj.layout195:setTop(509.2);
+    obj.layout195:setWidth(130);
+    obj.layout195:setHeight(15.8);
+    obj.layout195:setName("layout195");
 
     obj.textEditor53 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor53:setParent(obj.layout194);
+    obj.textEditor53:setParent(obj.layout195);
     obj.textEditor53:setLeft(0);
     obj.textEditor53:setTop(0);
     obj.textEditor53:setWidth(130);
@@ -4270,16 +4288,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor53:setTransparent(true);
     obj.textEditor53:setName("textEditor53");
 
-    obj.layout195 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout195:setParent(obj.rectangle2);
-    obj.layout195:setLeft(893);
-    obj.layout195:setTop(549.2);
-    obj.layout195:setWidth(133);
-    obj.layout195:setHeight(15.8);
-    obj.layout195:setName("layout195");
+    obj.layout196 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout196:setParent(obj.rectangle2);
+    obj.layout196:setLeft(893);
+    obj.layout196:setTop(549.2);
+    obj.layout196:setWidth(133);
+    obj.layout196:setHeight(15.8);
+    obj.layout196:setName("layout196");
 
     obj.textEditor54 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor54:setParent(obj.layout195);
+    obj.textEditor54:setParent(obj.layout196);
     obj.textEditor54:setLeft(0);
     obj.textEditor54:setTop(0);
     obj.textEditor54:setWidth(133);
@@ -4290,16 +4308,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor54:setTransparent(true);
     obj.textEditor54:setName("textEditor54");
 
-    obj.layout196 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout196:setParent(obj.rectangle2);
-    obj.layout196:setLeft(96);
-    obj.layout196:setTop(587.2);
-    obj.layout196:setWidth(236);
-    obj.layout196:setHeight(17.8);
-    obj.layout196:setName("layout196");
+    obj.layout197 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout197:setParent(obj.rectangle2);
+    obj.layout197:setLeft(96);
+    obj.layout197:setTop(587.2);
+    obj.layout197:setWidth(236);
+    obj.layout197:setHeight(17.8);
+    obj.layout197:setName("layout197");
 
     obj.textEditor55 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor55:setParent(obj.layout196);
+    obj.textEditor55:setParent(obj.layout197);
     obj.textEditor55:setLeft(0);
     obj.textEditor55:setTop(0);
     obj.textEditor55:setWidth(236);
@@ -4310,16 +4328,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor55:setTransparent(true);
     obj.textEditor55:setName("textEditor55");
 
-    obj.layout197 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout197:setParent(obj.rectangle2);
-    obj.layout197:setLeft(895);
-    obj.layout197:setTop(588.2);
-    obj.layout197:setWidth(133);
-    obj.layout197:setHeight(15.8);
-    obj.layout197:setName("layout197");
+    obj.layout198 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout198:setParent(obj.rectangle2);
+    obj.layout198:setLeft(895);
+    obj.layout198:setTop(588.2);
+    obj.layout198:setWidth(133);
+    obj.layout198:setHeight(15.8);
+    obj.layout198:setName("layout198");
 
     obj.textEditor56 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor56:setParent(obj.layout197);
+    obj.textEditor56:setParent(obj.layout198);
     obj.textEditor56:setLeft(0);
     obj.textEditor56:setTop(0);
     obj.textEditor56:setWidth(133);
@@ -4330,16 +4348,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor56:setTransparent(true);
     obj.textEditor56:setName("textEditor56");
 
-    obj.layout198 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout198:setParent(obj.rectangle2);
-    obj.layout198:setLeft(96);
-    obj.layout198:setTop(626.2);
-    obj.layout198:setWidth(236);
-    obj.layout198:setHeight(17.8);
-    obj.layout198:setName("layout198");
+    obj.layout199 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout199:setParent(obj.rectangle2);
+    obj.layout199:setLeft(96);
+    obj.layout199:setTop(626.2);
+    obj.layout199:setWidth(236);
+    obj.layout199:setHeight(17.8);
+    obj.layout199:setName("layout199");
 
     obj.textEditor57 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor57:setParent(obj.layout198);
+    obj.textEditor57:setParent(obj.layout199);
     obj.textEditor57:setLeft(0);
     obj.textEditor57:setTop(0);
     obj.textEditor57:setWidth(236);
@@ -4350,16 +4368,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor57:setTransparent(true);
     obj.textEditor57:setName("textEditor57");
 
-    obj.layout199 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout199:setParent(obj.rectangle2);
-    obj.layout199:setLeft(892);
-    obj.layout199:setTop(630.2);
-    obj.layout199:setWidth(133);
-    obj.layout199:setHeight(15.8);
-    obj.layout199:setName("layout199");
+    obj.layout200 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout200:setParent(obj.rectangle2);
+    obj.layout200:setLeft(892);
+    obj.layout200:setTop(630.2);
+    obj.layout200:setWidth(133);
+    obj.layout200:setHeight(15.8);
+    obj.layout200:setName("layout200");
 
     obj.textEditor58 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor58:setParent(obj.layout199);
+    obj.textEditor58:setParent(obj.layout200);
     obj.textEditor58:setLeft(0);
     obj.textEditor58:setTop(0);
     obj.textEditor58:setWidth(133);
@@ -4370,16 +4388,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor58:setTransparent(true);
     obj.textEditor58:setName("textEditor58");
 
-    obj.layout200 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout200:setParent(obj.rectangle2);
-    obj.layout200:setLeft(893);
-    obj.layout200:setTop(669.2);
-    obj.layout200:setWidth(133);
-    obj.layout200:setHeight(15.8);
-    obj.layout200:setName("layout200");
+    obj.layout201 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout201:setParent(obj.rectangle2);
+    obj.layout201:setLeft(893);
+    obj.layout201:setTop(669.2);
+    obj.layout201:setWidth(133);
+    obj.layout201:setHeight(15.8);
+    obj.layout201:setName("layout201");
 
     obj.textEditor59 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor59:setParent(obj.layout200);
+    obj.textEditor59:setParent(obj.layout201);
     obj.textEditor59:setLeft(0);
     obj.textEditor59:setTop(0);
     obj.textEditor59:setWidth(133);
@@ -4390,16 +4408,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor59:setTransparent(true);
     obj.textEditor59:setName("textEditor59");
 
-    obj.layout201 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout201:setParent(obj.rectangle2);
-    obj.layout201:setLeft(895);
-    obj.layout201:setTop(709.2);
-    obj.layout201:setWidth(133);
-    obj.layout201:setHeight(15.8);
-    obj.layout201:setName("layout201");
+    obj.layout202 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout202:setParent(obj.rectangle2);
+    obj.layout202:setLeft(895);
+    obj.layout202:setTop(709.2);
+    obj.layout202:setWidth(133);
+    obj.layout202:setHeight(15.8);
+    obj.layout202:setName("layout202");
 
     obj.textEditor60 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor60:setParent(obj.layout201);
+    obj.textEditor60:setParent(obj.layout202);
     obj.textEditor60:setLeft(0);
     obj.textEditor60:setTop(0);
     obj.textEditor60:setWidth(133);
@@ -4410,16 +4428,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor60:setTransparent(true);
     obj.textEditor60:setName("textEditor60");
 
-    obj.layout202 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout202:setParent(obj.rectangle2);
-    obj.layout202:setLeft(895);
-    obj.layout202:setTop(747.2);
-    obj.layout202:setWidth(133);
-    obj.layout202:setHeight(15.8);
-    obj.layout202:setName("layout202");
+    obj.layout203 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout203:setParent(obj.rectangle2);
+    obj.layout203:setLeft(895);
+    obj.layout203:setTop(747.2);
+    obj.layout203:setWidth(133);
+    obj.layout203:setHeight(15.8);
+    obj.layout203:setName("layout203");
 
     obj.textEditor61 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor61:setParent(obj.layout202);
+    obj.textEditor61:setParent(obj.layout203);
     obj.textEditor61:setLeft(0);
     obj.textEditor61:setTop(0);
     obj.textEditor61:setWidth(133);
@@ -4430,16 +4448,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor61:setTransparent(true);
     obj.textEditor61:setName("textEditor61");
 
-    obj.layout203 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout203:setParent(obj.rectangle2);
-    obj.layout203:setLeft(1241);
-    obj.layout203:setTop(441);
-    obj.layout203:setWidth(154);
-    obj.layout203:setHeight(34);
-    obj.layout203:setName("layout203");
+    obj.layout204 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout204:setParent(obj.rectangle2);
+    obj.layout204:setLeft(1241);
+    obj.layout204:setTop(441);
+    obj.layout204:setWidth(154);
+    obj.layout204:setHeight(34);
+    obj.layout204:setName("layout204");
 
     obj.edit142 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit142:setParent(obj.layout203);
+    obj.edit142:setParent(obj.layout204);
     obj.edit142:setTransparent(true);
     obj.edit142:setFontSize(22.8);
     obj.edit142:setFontColor("#000000");
@@ -4452,16 +4470,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit142:setField("Encumbrance");
     obj.edit142:setName("edit142");
 
-    obj.layout204 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout204:setParent(obj.rectangle2);
-    obj.layout204:setLeft(1241);
-    obj.layout204:setTop(480);
-    obj.layout204:setWidth(153);
-    obj.layout204:setHeight(36);
-    obj.layout204:setName("layout204");
+    obj.layout205 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout205:setParent(obj.rectangle2);
+    obj.layout205:setLeft(1241);
+    obj.layout205:setTop(480);
+    obj.layout205:setWidth(153);
+    obj.layout205:setHeight(36);
+    obj.layout205:setName("layout205");
 
     obj.edit143 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit143:setParent(obj.layout204);
+    obj.edit143:setParent(obj.layout205);
     obj.edit143:setTransparent(true);
     obj.edit143:setFontSize(22.8);
     obj.edit143:setFontColor("#000000");
@@ -4474,16 +4492,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit143:setField("Penalties");
     obj.edit143:setName("edit143");
 
-    obj.layout205 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout205:setParent(obj.rectangle2);
-    obj.layout205:setLeft(1065);
-    obj.layout205:setTop(514);
-    obj.layout205:setWidth(331);
-    obj.layout205:setHeight(42);
-    obj.layout205:setName("layout205");
+    obj.layout206 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout206:setParent(obj.rectangle2);
+    obj.layout206:setLeft(1065);
+    obj.layout206:setTop(514);
+    obj.layout206:setWidth(331);
+    obj.layout206:setHeight(42);
+    obj.layout206:setName("layout206");
 
     obj.edit144 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit144:setParent(obj.layout205);
+    obj.edit144:setParent(obj.layout206);
     obj.edit144:setTransparent(true);
     obj.edit144:setFontSize(28.8);
     obj.edit144:setFontColor("#000000");
@@ -4496,16 +4514,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit144:setField("Penalties2");
     obj.edit144:setName("edit144");
 
-    obj.layout206 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout206:setParent(obj.rectangle2);
-    obj.layout206:setLeft(1065);
-    obj.layout206:setTop(559);
-    obj.layout206:setWidth(331);
-    obj.layout206:setHeight(35);
-    obj.layout206:setName("layout206");
+    obj.layout207 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout207:setParent(obj.rectangle2);
+    obj.layout207:setLeft(1065);
+    obj.layout207:setTop(559);
+    obj.layout207:setWidth(331);
+    obj.layout207:setHeight(35);
+    obj.layout207:setName("layout207");
 
     obj.edit145 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit145:setParent(obj.layout206);
+    obj.edit145:setParent(obj.layout207);
     obj.edit145:setTransparent(true);
     obj.edit145:setFontSize(24.1);
     obj.edit145:setFontColor("#000000");
@@ -4518,16 +4536,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit145:setField("Penalties3");
     obj.edit145:setName("edit145");
 
-    obj.layout207 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout207:setParent(obj.rectangle2);
-    obj.layout207:setLeft(1065);
-    obj.layout207:setTop(599);
-    obj.layout207:setWidth(331);
-    obj.layout207:setHeight(35);
-    obj.layout207:setName("layout207");
+    obj.layout208 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout208:setParent(obj.rectangle2);
+    obj.layout208:setLeft(1065);
+    obj.layout208:setTop(599);
+    obj.layout208:setWidth(331);
+    obj.layout208:setHeight(35);
+    obj.layout208:setName("layout208");
 
     obj.edit146 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit146:setParent(obj.layout207);
+    obj.edit146:setParent(obj.layout208);
     obj.edit146:setTransparent(true);
     obj.edit146:setFontSize(24.1);
     obj.edit146:setFontColor("#000000");
@@ -4540,16 +4558,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit146:setField("Penalties4");
     obj.edit146:setName("edit146");
 
-    obj.layout208 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout208:setParent(obj.rectangle2);
-    obj.layout208:setLeft(96);
-    obj.layout208:setTop(666.2);
-    obj.layout208:setWidth(237);
-    obj.layout208:setHeight(17.8);
-    obj.layout208:setName("layout208");
+    obj.layout209 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout209:setParent(obj.rectangle2);
+    obj.layout209:setLeft(96);
+    obj.layout209:setTop(666.2);
+    obj.layout209:setWidth(237);
+    obj.layout209:setHeight(17.8);
+    obj.layout209:setName("layout209");
 
     obj.textEditor62 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor62:setParent(obj.layout208);
+    obj.textEditor62:setParent(obj.layout209);
     obj.textEditor62:setLeft(0);
     obj.textEditor62:setTop(0);
     obj.textEditor62:setWidth(237);
@@ -4560,16 +4578,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor62:setTransparent(true);
     obj.textEditor62:setName("textEditor62");
 
-    obj.layout209 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout209:setParent(obj.rectangle2);
-    obj.layout209:setLeft(1065);
-    obj.layout209:setTop(639);
-    obj.layout209:setWidth(331);
-    obj.layout209:setHeight(35);
-    obj.layout209:setName("layout209");
+    obj.layout210 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout210:setParent(obj.rectangle2);
+    obj.layout210:setLeft(1065);
+    obj.layout210:setTop(639);
+    obj.layout210:setWidth(331);
+    obj.layout210:setHeight(35);
+    obj.layout210:setName("layout210");
 
     obj.edit147 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit147:setParent(obj.layout209);
+    obj.edit147:setParent(obj.layout210);
     obj.edit147:setTransparent(true);
     obj.edit147:setFontSize(24.1);
     obj.edit147:setFontColor("#000000");
@@ -4582,16 +4600,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit147:setField("Penalties5");
     obj.edit147:setName("edit147");
 
-    obj.layout210 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout210:setParent(obj.rectangle2);
-    obj.layout210:setLeft(97);
-    obj.layout210:setTop(705.2);
-    obj.layout210:setWidth(236);
-    obj.layout210:setHeight(18.8);
-    obj.layout210:setName("layout210");
+    obj.layout211 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout211:setParent(obj.rectangle2);
+    obj.layout211:setLeft(97);
+    obj.layout211:setTop(705.2);
+    obj.layout211:setWidth(236);
+    obj.layout211:setHeight(18.8);
+    obj.layout211:setName("layout211");
 
     obj.textEditor63 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor63:setParent(obj.layout210);
+    obj.textEditor63:setParent(obj.layout211);
     obj.textEditor63:setLeft(0);
     obj.textEditor63:setTop(0);
     obj.textEditor63:setWidth(236);
@@ -4602,16 +4620,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor63:setTransparent(true);
     obj.textEditor63:setName("textEditor63");
 
-    obj.layout211 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout211:setParent(obj.rectangle2);
-    obj.layout211:setLeft(1190);
-    obj.layout211:setTop(715);
-    obj.layout211:setWidth(204);
-    obj.layout211:setHeight(34);
-    obj.layout211:setName("layout211");
+    obj.layout212 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout212:setParent(obj.rectangle2);
+    obj.layout212:setLeft(1190);
+    obj.layout212:setTop(715);
+    obj.layout212:setWidth(204);
+    obj.layout212:setHeight(34);
+    obj.layout212:setName("layout212");
 
     obj.edit148 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit148:setParent(obj.layout211);
+    obj.edit148:setParent(obj.layout212);
     obj.edit148:setTransparent(true);
     obj.edit148:setFontSize(22.8);
     obj.edit148:setFontColor("#000000");
@@ -4624,16 +4642,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit148:setField("Crowns");
     obj.edit148:setName("edit148");
 
-    obj.layout212 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout212:setParent(obj.rectangle2);
-    obj.layout212:setLeft(96);
-    obj.layout212:setTop(745.2);
-    obj.layout212:setWidth(236);
-    obj.layout212:setHeight(17.8);
-    obj.layout212:setName("layout212");
+    obj.layout213 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout213:setParent(obj.rectangle2);
+    obj.layout213:setLeft(96);
+    obj.layout213:setTop(745.2);
+    obj.layout213:setWidth(236);
+    obj.layout213:setHeight(17.8);
+    obj.layout213:setName("layout213");
 
     obj.textEditor64 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor64:setParent(obj.layout212);
+    obj.textEditor64:setParent(obj.layout213);
     obj.textEditor64:setLeft(0);
     obj.textEditor64:setTop(0);
     obj.textEditor64:setWidth(236);
@@ -4644,16 +4662,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor64:setTransparent(true);
     obj.textEditor64:setName("textEditor64");
 
-    obj.layout213 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout213:setParent(obj.rectangle2);
-    obj.layout213:setLeft(1191);
-    obj.layout213:setTop(753);
-    obj.layout213:setWidth(203);
-    obj.layout213:setHeight(36);
-    obj.layout213:setName("layout213");
+    obj.layout214 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout214:setParent(obj.rectangle2);
+    obj.layout214:setLeft(1191);
+    obj.layout214:setTop(753);
+    obj.layout214:setWidth(203);
+    obj.layout214:setHeight(36);
+    obj.layout214:setName("layout214");
 
     obj.edit149 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit149:setParent(obj.layout213);
+    obj.edit149:setParent(obj.layout214);
     obj.edit149:setTransparent(true);
     obj.edit149:setFontSize(22.8);
     obj.edit149:setFontColor("#000000");
@@ -4666,16 +4684,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit149:setField("Valuables");
     obj.edit149:setName("edit149");
 
-    obj.layout214 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout214:setParent(obj.rectangle2);
-    obj.layout214:setLeft(96);
-    obj.layout214:setTop(784.2);
-    obj.layout214:setWidth(237);
-    obj.layout214:setHeight(17.8);
-    obj.layout214:setName("layout214");
+    obj.layout215 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout215:setParent(obj.rectangle2);
+    obj.layout215:setLeft(96);
+    obj.layout215:setTop(784.2);
+    obj.layout215:setWidth(237);
+    obj.layout215:setHeight(17.8);
+    obj.layout215:setName("layout215");
 
     obj.textEditor65 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor65:setParent(obj.layout214);
+    obj.textEditor65:setParent(obj.layout215);
     obj.textEditor65:setLeft(0);
     obj.textEditor65:setTop(0);
     obj.textEditor65:setWidth(237);
@@ -4686,16 +4704,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor65:setTransparent(true);
     obj.textEditor65:setName("textEditor65");
 
-    obj.layout215 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout215:setParent(obj.rectangle2);
-    obj.layout215:setLeft(96);
-    obj.layout215:setTop(823.2);
-    obj.layout215:setWidth(236);
-    obj.layout215:setHeight(18.8);
-    obj.layout215:setName("layout215");
+    obj.layout216 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout216:setParent(obj.rectangle2);
+    obj.layout216:setLeft(96);
+    obj.layout216:setTop(823.2);
+    obj.layout216:setWidth(236);
+    obj.layout216:setHeight(18.8);
+    obj.layout216:setName("layout216");
 
     obj.textEditor66 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor66:setParent(obj.layout215);
+    obj.textEditor66:setParent(obj.layout216);
     obj.textEditor66:setLeft(0);
     obj.textEditor66:setTop(0);
     obj.textEditor66:setWidth(236);
@@ -4706,16 +4724,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor66:setTransparent(true);
     obj.textEditor66:setName("textEditor66");
 
-    obj.layout216 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout216:setParent(obj.rectangle2);
-    obj.layout216:setLeft(337);
-    obj.layout216:setTop(1159);
-    obj.layout216:setWidth(556);
-    obj.layout216:setHeight(38);
-    obj.layout216:setName("layout216");
+    obj.layout217 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout217:setParent(obj.rectangle2);
+    obj.layout217:setLeft(337);
+    obj.layout217:setTop(1159);
+    obj.layout217:setWidth(556);
+    obj.layout217:setHeight(38);
+    obj.layout217:setName("layout217");
 
     obj.edit150 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit150:setParent(obj.layout216);
+    obj.edit150:setParent(obj.layout217);
     obj.edit150:setTransparent(true);
     obj.edit150:setFontSize(26.3);
     obj.edit150:setFontColor("#000000");
@@ -4728,16 +4746,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit150:setField("Gearnotes_0_9_0");
     obj.edit150:setName("edit150");
 
-    obj.layout217 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout217:setParent(obj.rectangle2);
-    obj.layout217:setLeft(337);
-    obj.layout217:setTop(1199);
-    obj.layout217:setWidth(556);
-    obj.layout217:setHeight(38);
-    obj.layout217:setName("layout217");
+    obj.layout218 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout218:setParent(obj.rectangle2);
+    obj.layout218:setLeft(337);
+    obj.layout218:setTop(1199);
+    obj.layout218:setWidth(556);
+    obj.layout218:setHeight(38);
+    obj.layout218:setName("layout218");
 
     obj.edit151 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit151:setParent(obj.layout217);
+    obj.edit151:setParent(obj.layout218);
     obj.edit151:setTransparent(true);
     obj.edit151:setFontSize(26.3);
     obj.edit151:setFontColor("#000000");
@@ -4750,16 +4768,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit151:setField("Gearnotes_01_9_0");
     obj.edit151:setName("edit151");
 
-    obj.layout218 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout218:setParent(obj.rectangle2);
-    obj.layout218:setLeft(893);
-    obj.layout218:setTop(787.2);
-    obj.layout218:setWidth(133);
-    obj.layout218:setHeight(15.8);
-    obj.layout218:setName("layout218");
+    obj.layout219 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout219:setParent(obj.rectangle2);
+    obj.layout219:setLeft(893);
+    obj.layout219:setTop(787.2);
+    obj.layout219:setWidth(133);
+    obj.layout219:setHeight(15.8);
+    obj.layout219:setName("layout219");
 
     obj.textEditor67 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor67:setParent(obj.layout218);
+    obj.textEditor67:setParent(obj.layout219);
     obj.textEditor67:setLeft(0);
     obj.textEditor67:setTop(0);
     obj.textEditor67:setWidth(133);
@@ -4770,16 +4788,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor67:setTransparent(true);
     obj.textEditor67:setName("textEditor67");
 
-    obj.layout219 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout219:setParent(obj.rectangle2);
-    obj.layout219:setLeft(1067);
-    obj.layout219:setTop(794);
-    obj.layout219:setWidth(328);
-    obj.layout219:setHeight(36);
-    obj.layout219:setName("layout219");
+    obj.layout220 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout220:setParent(obj.rectangle2);
+    obj.layout220:setLeft(1067);
+    obj.layout220:setTop(794);
+    obj.layout220:setWidth(328);
+    obj.layout220:setHeight(36);
+    obj.layout220:setName("layout220");
 
     obj.edit152 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit152:setParent(obj.layout219);
+    obj.edit152:setParent(obj.layout220);
     obj.edit152:setTransparent(true);
     obj.edit152:setFontSize(22.8);
     obj.edit152:setFontColor("#000000");
@@ -4792,16 +4810,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit152:setField("Valuables2");
     obj.edit152:setName("edit152");
 
-    obj.layout220 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout220:setParent(obj.rectangle2);
-    obj.layout220:setLeft(892);
-    obj.layout220:setTop(827.2);
-    obj.layout220:setWidth(133);
-    obj.layout220:setHeight(15.8);
-    obj.layout220:setName("layout220");
+    obj.layout221 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout221:setParent(obj.rectangle2);
+    obj.layout221:setLeft(892);
+    obj.layout221:setTop(827.2);
+    obj.layout221:setWidth(133);
+    obj.layout221:setHeight(15.8);
+    obj.layout221:setName("layout221");
 
     obj.textEditor68 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor68:setParent(obj.layout220);
+    obj.textEditor68:setParent(obj.layout221);
     obj.textEditor68:setLeft(0);
     obj.textEditor68:setTop(0);
     obj.textEditor68:setWidth(133);
@@ -4812,16 +4830,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor68:setTransparent(true);
     obj.textEditor68:setName("textEditor68");
 
-    obj.layout221 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout221:setParent(obj.rectangle2);
-    obj.layout221:setLeft(1065);
-    obj.layout221:setTop(832);
-    obj.layout221:setWidth(328);
-    obj.layout221:setHeight(36);
-    obj.layout221:setName("layout221");
+    obj.layout222 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout222:setParent(obj.rectangle2);
+    obj.layout222:setLeft(1065);
+    obj.layout222:setTop(832);
+    obj.layout222:setWidth(328);
+    obj.layout222:setHeight(36);
+    obj.layout222:setName("layout222");
 
     obj.edit153 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit153:setParent(obj.layout221);
+    obj.edit153:setParent(obj.layout222);
     obj.edit153:setTransparent(true);
     obj.edit153:setFontSize(22.8);
     obj.edit153:setFontColor("#000000");
@@ -4834,16 +4852,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit153:setField("Valuables3");
     obj.edit153:setName("edit153");
 
-    obj.layout222 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout222:setParent(obj.rectangle2);
-    obj.layout222:setLeft(96);
-    obj.layout222:setTop(863.2);
-    obj.layout222:setWidth(237);
-    obj.layout222:setHeight(17.8);
-    obj.layout222:setName("layout222");
+    obj.layout223 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout223:setParent(obj.rectangle2);
+    obj.layout223:setLeft(96);
+    obj.layout223:setTop(863.2);
+    obj.layout223:setWidth(237);
+    obj.layout223:setHeight(17.8);
+    obj.layout223:setName("layout223");
 
     obj.textEditor69 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor69:setParent(obj.layout222);
+    obj.textEditor69:setParent(obj.layout223);
     obj.textEditor69:setLeft(0);
     obj.textEditor69:setTop(0);
     obj.textEditor69:setWidth(237);
@@ -4854,16 +4872,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor69:setTransparent(true);
     obj.textEditor69:setName("textEditor69");
 
-    obj.layout223 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout223:setParent(obj.rectangle2);
-    obj.layout223:setLeft(893);
-    obj.layout223:setTop(864.2);
-    obj.layout223:setWidth(133);
-    obj.layout223:setHeight(15.8);
-    obj.layout223:setName("layout223");
+    obj.layout224 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout224:setParent(obj.rectangle2);
+    obj.layout224:setLeft(893);
+    obj.layout224:setTop(864.2);
+    obj.layout224:setWidth(133);
+    obj.layout224:setHeight(15.8);
+    obj.layout224:setName("layout224");
 
     obj.textEditor70 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor70:setParent(obj.layout223);
+    obj.textEditor70:setParent(obj.layout224);
     obj.textEditor70:setLeft(0);
     obj.textEditor70:setTop(0);
     obj.textEditor70:setWidth(133);
@@ -4874,16 +4892,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor70:setTransparent(true);
     obj.textEditor70:setName("textEditor70");
 
-    obj.layout224 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout224:setParent(obj.rectangle2);
-    obj.layout224:setLeft(97);
-    obj.layout224:setTop(903.2);
-    obj.layout224:setWidth(236);
-    obj.layout224:setHeight(17.8);
-    obj.layout224:setName("layout224");
+    obj.layout225 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout225:setParent(obj.rectangle2);
+    obj.layout225:setLeft(97);
+    obj.layout225:setTop(903.2);
+    obj.layout225:setWidth(236);
+    obj.layout225:setHeight(17.8);
+    obj.layout225:setName("layout225");
 
     obj.textEditor71 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor71:setParent(obj.layout224);
+    obj.textEditor71:setParent(obj.layout225);
     obj.textEditor71:setLeft(0);
     obj.textEditor71:setTop(0);
     obj.textEditor71:setWidth(236);
@@ -4894,16 +4912,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor71:setTransparent(true);
     obj.textEditor71:setName("textEditor71");
 
-    obj.layout225 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout225:setParent(obj.rectangle2);
-    obj.layout225:setLeft(895);
-    obj.layout225:setTop(907.2);
-    obj.layout225:setWidth(133);
-    obj.layout225:setHeight(15.8);
-    obj.layout225:setName("layout225");
+    obj.layout226 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout226:setParent(obj.rectangle2);
+    obj.layout226:setLeft(895);
+    obj.layout226:setTop(907.2);
+    obj.layout226:setWidth(133);
+    obj.layout226:setHeight(15.8);
+    obj.layout226:setName("layout226");
 
     obj.textEditor72 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor72:setParent(obj.layout225);
+    obj.textEditor72:setParent(obj.layout226);
     obj.textEditor72:setLeft(0);
     obj.textEditor72:setTop(0);
     obj.textEditor72:setWidth(133);
@@ -4914,16 +4932,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor72:setTransparent(true);
     obj.textEditor72:setName("textEditor72");
 
-    obj.layout226 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout226:setParent(obj.rectangle2);
-    obj.layout226:setLeft(96);
-    obj.layout226:setTop(943.2);
-    obj.layout226:setWidth(237);
-    obj.layout226:setHeight(17.8);
-    obj.layout226:setName("layout226");
+    obj.layout227 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout227:setParent(obj.rectangle2);
+    obj.layout227:setLeft(96);
+    obj.layout227:setTop(943.2);
+    obj.layout227:setWidth(237);
+    obj.layout227:setHeight(17.8);
+    obj.layout227:setName("layout227");
 
     obj.textEditor73 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor73:setParent(obj.layout226);
+    obj.textEditor73:setParent(obj.layout227);
     obj.textEditor73:setLeft(0);
     obj.textEditor73:setTop(0);
     obj.textEditor73:setWidth(237);
@@ -4934,16 +4952,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor73:setTransparent(true);
     obj.textEditor73:setName("textEditor73");
 
-    obj.layout227 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout227:setParent(obj.rectangle2);
-    obj.layout227:setLeft(893);
-    obj.layout227:setTop(943.2);
-    obj.layout227:setWidth(133);
-    obj.layout227:setHeight(15.8);
-    obj.layout227:setName("layout227");
+    obj.layout228 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout228:setParent(obj.rectangle2);
+    obj.layout228:setLeft(893);
+    obj.layout228:setTop(943.2);
+    obj.layout228:setWidth(133);
+    obj.layout228:setHeight(15.8);
+    obj.layout228:setName("layout228");
 
     obj.textEditor74 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor74:setParent(obj.layout227);
+    obj.textEditor74:setParent(obj.layout228);
     obj.textEditor74:setLeft(0);
     obj.textEditor74:setTop(0);
     obj.textEditor74:setWidth(133);
@@ -4954,16 +4972,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor74:setTransparent(true);
     obj.textEditor74:setName("textEditor74");
 
-    obj.layout228 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout228:setParent(obj.rectangle2);
-    obj.layout228:setLeft(96);
-    obj.layout228:setTop(982.2);
-    obj.layout228:setWidth(237);
-    obj.layout228:setHeight(16.8);
-    obj.layout228:setName("layout228");
+    obj.layout229 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout229:setParent(obj.rectangle2);
+    obj.layout229:setLeft(96);
+    obj.layout229:setTop(982.2);
+    obj.layout229:setWidth(237);
+    obj.layout229:setHeight(16.8);
+    obj.layout229:setName("layout229");
 
     obj.textEditor75 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor75:setParent(obj.layout228);
+    obj.textEditor75:setParent(obj.layout229);
     obj.textEditor75:setLeft(0);
     obj.textEditor75:setTop(0);
     obj.textEditor75:setWidth(237);
@@ -4974,16 +4992,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor75:setTransparent(true);
     obj.textEditor75:setName("textEditor75");
 
-    obj.layout229 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout229:setParent(obj.rectangle2);
-    obj.layout229:setLeft(97);
-    obj.layout229:setTop(1022.2);
-    obj.layout229:setWidth(236);
-    obj.layout229:setHeight(17.8);
-    obj.layout229:setName("layout229");
+    obj.layout230 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout230:setParent(obj.rectangle2);
+    obj.layout230:setLeft(97);
+    obj.layout230:setTop(1022.2);
+    obj.layout230:setWidth(236);
+    obj.layout230:setHeight(17.8);
+    obj.layout230:setName("layout230");
 
     obj.textEditor76 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor76:setParent(obj.layout229);
+    obj.textEditor76:setParent(obj.layout230);
     obj.textEditor76:setLeft(0);
     obj.textEditor76:setTop(0);
     obj.textEditor76:setWidth(236);
@@ -4994,16 +5012,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor76:setTransparent(true);
     obj.textEditor76:setName("textEditor76");
 
-    obj.layout230 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout230:setParent(obj.rectangle2);
-    obj.layout230:setLeft(96);
-    obj.layout230:setTop(1061.2);
-    obj.layout230:setWidth(237);
-    obj.layout230:setHeight(17.8);
-    obj.layout230:setName("layout230");
+    obj.layout231 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout231:setParent(obj.rectangle2);
+    obj.layout231:setLeft(96);
+    obj.layout231:setTop(1061.2);
+    obj.layout231:setWidth(237);
+    obj.layout231:setHeight(17.8);
+    obj.layout231:setName("layout231");
 
     obj.textEditor77 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor77:setParent(obj.layout230);
+    obj.textEditor77:setParent(obj.layout231);
     obj.textEditor77:setLeft(0);
     obj.textEditor77:setTop(0);
     obj.textEditor77:setWidth(237);
@@ -5014,16 +5032,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor77:setTransparent(true);
     obj.textEditor77:setName("textEditor77");
 
-    obj.layout231 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout231:setParent(obj.rectangle2);
-    obj.layout231:setLeft(96);
-    obj.layout231:setTop(1100.2);
-    obj.layout231:setWidth(237);
-    obj.layout231:setHeight(17.8);
-    obj.layout231:setName("layout231");
+    obj.layout232 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout232:setParent(obj.rectangle2);
+    obj.layout232:setLeft(96);
+    obj.layout232:setTop(1100.2);
+    obj.layout232:setWidth(237);
+    obj.layout232:setHeight(17.8);
+    obj.layout232:setName("layout232");
 
     obj.textEditor78 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor78:setParent(obj.layout231);
+    obj.textEditor78:setParent(obj.layout232);
     obj.textEditor78:setLeft(0);
     obj.textEditor78:setTop(0);
     obj.textEditor78:setWidth(237);
@@ -5034,16 +5052,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor78:setTransparent(true);
     obj.textEditor78:setName("textEditor78");
 
-    obj.layout232 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout232:setParent(obj.rectangle2);
-    obj.layout232:setLeft(339);
-    obj.layout232:setTop(1082);
-    obj.layout232:setWidth(556);
-    obj.layout232:setHeight(38);
-    obj.layout232:setName("layout232");
+    obj.layout233 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout233:setParent(obj.rectangle2);
+    obj.layout233:setLeft(339);
+    obj.layout233:setTop(1082);
+    obj.layout233:setWidth(556);
+    obj.layout233:setHeight(38);
+    obj.layout233:setName("layout233");
 
     obj.edit154 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit154:setParent(obj.layout232);
+    obj.edit154:setParent(obj.layout233);
     obj.edit154:setTransparent(true);
     obj.edit154:setFontSize(26.3);
     obj.edit154:setFontColor("#000000");
@@ -5056,16 +5074,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit154:setField("Gearnotes_0_8");
     obj.edit154:setName("edit154");
 
-    obj.layout233 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout233:setParent(obj.rectangle2);
-    obj.layout233:setLeft(340);
-    obj.layout233:setTop(1121);
-    obj.layout233:setWidth(556);
-    obj.layout233:setHeight(38);
-    obj.layout233:setName("layout233");
+    obj.layout234 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout234:setParent(obj.rectangle2);
+    obj.layout234:setLeft(340);
+    obj.layout234:setTop(1121);
+    obj.layout234:setWidth(556);
+    obj.layout234:setHeight(38);
+    obj.layout234:setName("layout234");
 
     obj.edit155 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit155:setParent(obj.layout233);
+    obj.edit155:setParent(obj.layout234);
     obj.edit155:setTransparent(true);
     obj.edit155:setFontSize(26.3);
     obj.edit155:setFontColor("#000000");
@@ -5078,16 +5096,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit155:setField("Gearnotes_01_8");
     obj.edit155:setName("edit155");
 
-    obj.layout234 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout234:setParent(obj.rectangle2);
-    obj.layout234:setLeft(892);
-    obj.layout234:setTop(984.2);
-    obj.layout234:setWidth(133);
-    obj.layout234:setHeight(15.8);
-    obj.layout234:setName("layout234");
+    obj.layout235 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout235:setParent(obj.rectangle2);
+    obj.layout235:setLeft(892);
+    obj.layout235:setTop(984.2);
+    obj.layout235:setWidth(133);
+    obj.layout235:setHeight(15.8);
+    obj.layout235:setName("layout235");
 
     obj.textEditor79 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor79:setParent(obj.layout234);
+    obj.textEditor79:setParent(obj.layout235);
     obj.textEditor79:setLeft(0);
     obj.textEditor79:setTop(0);
     obj.textEditor79:setWidth(133);
@@ -5098,16 +5116,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor79:setTransparent(true);
     obj.textEditor79:setName("textEditor79");
 
-    obj.layout235 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout235:setParent(obj.rectangle2);
-    obj.layout235:setLeft(893);
-    obj.layout235:setTop(1023.2);
-    obj.layout235:setWidth(133);
-    obj.layout235:setHeight(15.8);
-    obj.layout235:setName("layout235");
+    obj.layout236 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout236:setParent(obj.rectangle2);
+    obj.layout236:setLeft(893);
+    obj.layout236:setTop(1023.2);
+    obj.layout236:setWidth(133);
+    obj.layout236:setHeight(15.8);
+    obj.layout236:setName("layout236");
 
     obj.textEditor80 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor80:setParent(obj.layout235);
+    obj.textEditor80:setParent(obj.layout236);
     obj.textEditor80:setLeft(0);
     obj.textEditor80:setTop(0);
     obj.textEditor80:setWidth(133);
@@ -5118,16 +5136,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor80:setTransparent(true);
     obj.textEditor80:setName("textEditor80");
 
-    obj.layout236 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout236:setParent(obj.rectangle2);
-    obj.layout236:setLeft(1064);
-    obj.layout236:setTop(1002);
-    obj.layout236:setWidth(234);
-    obj.layout236:setHeight(36);
-    obj.layout236:setName("layout236");
+    obj.layout237 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout237:setParent(obj.rectangle2);
+    obj.layout237:setLeft(1064);
+    obj.layout237:setTop(1002);
+    obj.layout237:setWidth(234);
+    obj.layout237:setHeight(36);
+    obj.layout237:setName("layout237");
 
     obj.edit156 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit156:setParent(obj.layout236);
+    obj.edit156:setParent(obj.layout237);
     obj.edit156:setTransparent(true);
     obj.edit156:setFontSize(22.8);
     obj.edit156:setFontColor("#000000");
@@ -5140,16 +5158,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit156:setField("Row1");
     obj.edit156:setName("edit156");
 
-    obj.layout237 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout237:setParent(obj.rectangle2);
-    obj.layout237:setLeft(1303);
-    obj.layout237:setTop(1002);
-    obj.layout237:setWidth(92);
-    obj.layout237:setHeight(36);
-    obj.layout237:setName("layout237");
+    obj.layout238 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout238:setParent(obj.rectangle2);
+    obj.layout238:setLeft(1303);
+    obj.layout238:setTop(1002);
+    obj.layout238:setWidth(92);
+    obj.layout238:setHeight(36);
+    obj.layout238:setName("layout238");
 
     obj.edit157 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit157:setParent(obj.layout237);
+    obj.edit157:setParent(obj.layout238);
     obj.edit157:setTransparent(true);
     obj.edit157:setFontSize(22.8);
     obj.edit157:setFontColor("#000000");
@@ -5162,16 +5180,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit157:setField("Row1_2");
     obj.edit157:setName("edit157");
 
-    obj.layout238 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout238:setParent(obj.rectangle2);
-    obj.layout238:setLeft(892);
-    obj.layout238:setTop(1063.2);
-    obj.layout238:setWidth(133);
-    obj.layout238:setHeight(15.8);
-    obj.layout238:setName("layout238");
+    obj.layout239 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout239:setParent(obj.rectangle2);
+    obj.layout239:setLeft(892);
+    obj.layout239:setTop(1063.2);
+    obj.layout239:setWidth(133);
+    obj.layout239:setHeight(15.8);
+    obj.layout239:setName("layout239");
 
     obj.textEditor81 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor81:setParent(obj.layout238);
+    obj.textEditor81:setParent(obj.layout239);
     obj.textEditor81:setLeft(0);
     obj.textEditor81:setTop(0);
     obj.textEditor81:setWidth(133);
@@ -5182,16 +5200,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor81:setTransparent(true);
     obj.textEditor81:setName("textEditor81");
 
-    obj.layout239 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout239:setParent(obj.rectangle2);
-    obj.layout239:setLeft(892);
-    obj.layout239:setTop(1103.2);
-    obj.layout239:setWidth(133);
-    obj.layout239:setHeight(15.8);
-    obj.layout239:setName("layout239");
+    obj.layout240 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout240:setParent(obj.rectangle2);
+    obj.layout240:setLeft(892);
+    obj.layout240:setTop(1103.2);
+    obj.layout240:setWidth(133);
+    obj.layout240:setHeight(15.8);
+    obj.layout240:setName("layout240");
 
     obj.textEditor82 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor82:setParent(obj.layout239);
+    obj.textEditor82:setParent(obj.layout240);
     obj.textEditor82:setLeft(0);
     obj.textEditor82:setTop(0);
     obj.textEditor82:setWidth(133);
@@ -5202,16 +5220,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor82:setTransparent(true);
     obj.textEditor82:setName("textEditor82");
 
-    obj.layout240 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout240:setParent(obj.rectangle2);
-    obj.layout240:setLeft(892);
-    obj.layout240:setTop(1140.2);
-    obj.layout240:setWidth(133);
-    obj.layout240:setHeight(15.8);
-    obj.layout240:setName("layout240");
+    obj.layout241 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout241:setParent(obj.rectangle2);
+    obj.layout241:setLeft(892);
+    obj.layout241:setTop(1140.2);
+    obj.layout241:setWidth(133);
+    obj.layout241:setHeight(15.8);
+    obj.layout241:setName("layout241");
 
     obj.textEditor83 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor83:setParent(obj.layout240);
+    obj.textEditor83:setParent(obj.layout241);
     obj.textEditor83:setLeft(0);
     obj.textEditor83:setTop(0);
     obj.textEditor83:setWidth(133);
@@ -5222,16 +5240,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor83:setTransparent(true);
     obj.textEditor83:setName("textEditor83");
 
-    obj.layout241 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout241:setParent(obj.rectangle2);
-    obj.layout241:setLeft(892);
-    obj.layout241:setTop(1181.2);
-    obj.layout241:setWidth(133);
-    obj.layout241:setHeight(15.8);
-    obj.layout241:setName("layout241");
+    obj.layout242 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout242:setParent(obj.rectangle2);
+    obj.layout242:setLeft(892);
+    obj.layout242:setTop(1181.2);
+    obj.layout242:setWidth(133);
+    obj.layout242:setHeight(15.8);
+    obj.layout242:setName("layout242");
 
     obj.textEditor84 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor84:setParent(obj.layout241);
+    obj.textEditor84:setParent(obj.layout242);
     obj.textEditor84:setLeft(0);
     obj.textEditor84:setTop(0);
     obj.textEditor84:setWidth(133);
@@ -5242,16 +5260,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor84:setTransparent(true);
     obj.textEditor84:setName("textEditor84");
 
-    obj.layout242 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout242:setParent(obj.rectangle2);
-    obj.layout242:setLeft(1064);
-    obj.layout242:setTop(1043);
-    obj.layout242:setWidth(233);
-    obj.layout242:setHeight(36);
-    obj.layout242:setName("layout242");
+    obj.layout243 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout243:setParent(obj.rectangle2);
+    obj.layout243:setLeft(1064);
+    obj.layout243:setTop(1043);
+    obj.layout243:setWidth(233);
+    obj.layout243:setHeight(36);
+    obj.layout243:setName("layout243");
 
     obj.edit158 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit158:setParent(obj.layout242);
+    obj.edit158:setParent(obj.layout243);
     obj.edit158:setTransparent(true);
     obj.edit158:setFontSize(22.8);
     obj.edit158:setFontColor("#000000");
@@ -5264,16 +5282,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit158:setField("Row2");
     obj.edit158:setName("edit158");
 
-    obj.layout243 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout243:setParent(obj.rectangle2);
-    obj.layout243:setLeft(1304);
-    obj.layout243:setTop(1043);
-    obj.layout243:setWidth(91);
-    obj.layout243:setHeight(36);
-    obj.layout243:setName("layout243");
+    obj.layout244 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout244:setParent(obj.rectangle2);
+    obj.layout244:setLeft(1304);
+    obj.layout244:setTop(1043);
+    obj.layout244:setWidth(91);
+    obj.layout244:setHeight(36);
+    obj.layout244:setName("layout244");
 
     obj.edit159 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit159:setParent(obj.layout243);
+    obj.edit159:setParent(obj.layout244);
     obj.edit159:setTransparent(true);
     obj.edit159:setFontSize(22.8);
     obj.edit159:setFontColor("#000000");
@@ -5286,16 +5304,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit159:setField("Row2_2");
     obj.edit159:setName("edit159");
 
-    obj.layout244 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout244:setParent(obj.rectangle2);
-    obj.layout244:setLeft(1064);
-    obj.layout244:setTop(1081);
-    obj.layout244:setWidth(234);
-    obj.layout244:setHeight(36);
-    obj.layout244:setName("layout244");
+    obj.layout245 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout245:setParent(obj.rectangle2);
+    obj.layout245:setLeft(1064);
+    obj.layout245:setTop(1081);
+    obj.layout245:setWidth(234);
+    obj.layout245:setHeight(36);
+    obj.layout245:setName("layout245");
 
     obj.edit160 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit160:setParent(obj.layout244);
+    obj.edit160:setParent(obj.layout245);
     obj.edit160:setTransparent(true);
     obj.edit160:setFontSize(22.8);
     obj.edit160:setFontColor("#000000");
@@ -5308,16 +5326,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit160:setField("Row3");
     obj.edit160:setName("edit160");
 
-    obj.layout245 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout245:setParent(obj.rectangle2);
-    obj.layout245:setLeft(1303);
-    obj.layout245:setTop(1081);
-    obj.layout245:setWidth(92);
-    obj.layout245:setHeight(36);
-    obj.layout245:setName("layout245");
+    obj.layout246 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout246:setParent(obj.rectangle2);
+    obj.layout246:setLeft(1303);
+    obj.layout246:setTop(1081);
+    obj.layout246:setWidth(92);
+    obj.layout246:setHeight(36);
+    obj.layout246:setName("layout246");
 
     obj.edit161 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit161:setParent(obj.layout245);
+    obj.edit161:setParent(obj.layout246);
     obj.edit161:setTransparent(true);
     obj.edit161:setFontSize(22.8);
     obj.edit161:setFontColor("#000000");
@@ -5330,16 +5348,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit161:setField("Row3_2");
     obj.edit161:setName("edit161");
 
-    obj.layout246 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout246:setParent(obj.rectangle2);
-    obj.layout246:setLeft(96);
-    obj.layout246:setTop(1140.2);
-    obj.layout246:setWidth(237);
-    obj.layout246:setHeight(16.8);
-    obj.layout246:setName("layout246");
+    obj.layout247 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout247:setParent(obj.rectangle2);
+    obj.layout247:setLeft(96);
+    obj.layout247:setTop(1140.2);
+    obj.layout247:setWidth(237);
+    obj.layout247:setHeight(16.8);
+    obj.layout247:setName("layout247");
 
     obj.textEditor85 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor85:setParent(obj.layout246);
+    obj.textEditor85:setParent(obj.layout247);
     obj.textEditor85:setLeft(0);
     obj.textEditor85:setTop(0);
     obj.textEditor85:setWidth(237);
@@ -5350,16 +5368,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor85:setTransparent(true);
     obj.textEditor85:setName("textEditor85");
 
-    obj.layout247 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout247:setParent(obj.rectangle2);
-    obj.layout247:setLeft(1064);
-    obj.layout247:setTop(1121);
-    obj.layout247:setWidth(233);
-    obj.layout247:setHeight(36);
-    obj.layout247:setName("layout247");
+    obj.layout248 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout248:setParent(obj.rectangle2);
+    obj.layout248:setLeft(1064);
+    obj.layout248:setTop(1121);
+    obj.layout248:setWidth(233);
+    obj.layout248:setHeight(36);
+    obj.layout248:setName("layout248");
 
     obj.edit162 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit162:setParent(obj.layout247);
+    obj.edit162:setParent(obj.layout248);
     obj.edit162:setTransparent(true);
     obj.edit162:setFontSize(22.8);
     obj.edit162:setFontColor("#000000");
@@ -5372,16 +5390,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit162:setField("Row4");
     obj.edit162:setName("edit162");
 
-    obj.layout248 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout248:setParent(obj.rectangle2);
-    obj.layout248:setLeft(1304);
-    obj.layout248:setTop(1121);
-    obj.layout248:setWidth(91);
-    obj.layout248:setHeight(36);
-    obj.layout248:setName("layout248");
+    obj.layout249 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout249:setParent(obj.rectangle2);
+    obj.layout249:setLeft(1304);
+    obj.layout249:setTop(1121);
+    obj.layout249:setWidth(91);
+    obj.layout249:setHeight(36);
+    obj.layout249:setName("layout249");
 
     obj.edit163 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit163:setParent(obj.layout248);
+    obj.edit163:setParent(obj.layout249);
     obj.edit163:setTransparent(true);
     obj.edit163:setFontSize(22.8);
     obj.edit163:setFontColor("#000000");
@@ -5394,16 +5412,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit163:setField("Row4_2");
     obj.edit163:setName("edit163");
 
-    obj.layout249 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout249:setParent(obj.rectangle2);
-    obj.layout249:setLeft(96);
-    obj.layout249:setTop(1179.2);
-    obj.layout249:setWidth(237);
-    obj.layout249:setHeight(17.8);
-    obj.layout249:setName("layout249");
+    obj.layout250 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout250:setParent(obj.rectangle2);
+    obj.layout250:setLeft(96);
+    obj.layout250:setTop(1179.2);
+    obj.layout250:setWidth(237);
+    obj.layout250:setHeight(17.8);
+    obj.layout250:setName("layout250");
 
     obj.textEditor86 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor86:setParent(obj.layout249);
+    obj.textEditor86:setParent(obj.layout250);
     obj.textEditor86:setLeft(0);
     obj.textEditor86:setTop(0);
     obj.textEditor86:setWidth(237);
@@ -5414,16 +5432,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor86:setTransparent(true);
     obj.textEditor86:setName("textEditor86");
 
-    obj.layout250 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout250:setParent(obj.rectangle2);
-    obj.layout250:setLeft(1064);
-    obj.layout250:setTop(1160);
-    obj.layout250:setWidth(234);
-    obj.layout250:setHeight(36);
-    obj.layout250:setName("layout250");
+    obj.layout251 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout251:setParent(obj.rectangle2);
+    obj.layout251:setLeft(1064);
+    obj.layout251:setTop(1160);
+    obj.layout251:setWidth(234);
+    obj.layout251:setHeight(36);
+    obj.layout251:setName("layout251");
 
     obj.edit164 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit164:setParent(obj.layout250);
+    obj.edit164:setParent(obj.layout251);
     obj.edit164:setTransparent(true);
     obj.edit164:setFontSize(22.8);
     obj.edit164:setFontColor("#000000");
@@ -5436,16 +5454,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit164:setField("Row5");
     obj.edit164:setName("edit164");
 
-    obj.layout251 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout251:setParent(obj.rectangle2);
-    obj.layout251:setLeft(1303);
-    obj.layout251:setTop(1160);
-    obj.layout251:setWidth(92);
-    obj.layout251:setHeight(36);
-    obj.layout251:setName("layout251");
+    obj.layout252 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout252:setParent(obj.rectangle2);
+    obj.layout252:setLeft(1303);
+    obj.layout252:setTop(1160);
+    obj.layout252:setWidth(92);
+    obj.layout252:setHeight(36);
+    obj.layout252:setName("layout252");
 
     obj.edit165 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit165:setParent(obj.layout251);
+    obj.edit165:setParent(obj.layout252);
     obj.edit165:setTransparent(true);
     obj.edit165:setFontSize(22.8);
     obj.edit165:setFontColor("#000000");
@@ -5458,16 +5476,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit165:setField("Row5_2");
     obj.edit165:setName("edit165");
 
-    obj.layout252 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout252:setParent(obj.rectangle2);
-    obj.layout252:setLeft(97);
-    obj.layout252:setTop(1219.2);
-    obj.layout252:setWidth(237);
-    obj.layout252:setHeight(18.8);
-    obj.layout252:setName("layout252");
+    obj.layout253 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout253:setParent(obj.rectangle2);
+    obj.layout253:setLeft(97);
+    obj.layout253:setTop(1219.2);
+    obj.layout253:setWidth(237);
+    obj.layout253:setHeight(18.8);
+    obj.layout253:setName("layout253");
 
     obj.textEditor87 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor87:setParent(obj.layout252);
+    obj.textEditor87:setParent(obj.layout253);
     obj.textEditor87:setLeft(0);
     obj.textEditor87:setTop(0);
     obj.textEditor87:setWidth(237);
@@ -5478,16 +5496,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor87:setTransparent(true);
     obj.textEditor87:setName("textEditor87");
 
-    obj.layout253 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout253:setParent(obj.rectangle2);
-    obj.layout253:setLeft(892);
-    obj.layout253:setTop(1222.2);
-    obj.layout253:setWidth(133);
-    obj.layout253:setHeight(15.8);
-    obj.layout253:setName("layout253");
+    obj.layout254 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout254:setParent(obj.rectangle2);
+    obj.layout254:setLeft(892);
+    obj.layout254:setTop(1222.2);
+    obj.layout254:setWidth(133);
+    obj.layout254:setHeight(15.8);
+    obj.layout254:setName("layout254");
 
     obj.textEditor88 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor88:setParent(obj.layout253);
+    obj.textEditor88:setParent(obj.layout254);
     obj.textEditor88:setLeft(0);
     obj.textEditor88:setTop(0);
     obj.textEditor88:setWidth(133);
@@ -5498,16 +5516,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor88:setTransparent(true);
     obj.textEditor88:setName("textEditor88");
 
-    obj.layout254 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout254:setParent(obj.rectangle2);
-    obj.layout254:setLeft(1064);
-    obj.layout254:setTop(1200);
-    obj.layout254:setWidth(233);
-    obj.layout254:setHeight(36);
-    obj.layout254:setName("layout254");
+    obj.layout255 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout255:setParent(obj.rectangle2);
+    obj.layout255:setLeft(1064);
+    obj.layout255:setTop(1200);
+    obj.layout255:setWidth(233);
+    obj.layout255:setHeight(36);
+    obj.layout255:setName("layout255");
 
     obj.edit166 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit166:setParent(obj.layout254);
+    obj.edit166:setParent(obj.layout255);
     obj.edit166:setTransparent(true);
     obj.edit166:setFontSize(22.8);
     obj.edit166:setFontColor("#000000");
@@ -5520,16 +5538,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit166:setField("Row6");
     obj.edit166:setName("edit166");
 
-    obj.layout255 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout255:setParent(obj.rectangle2);
-    obj.layout255:setLeft(1304);
-    obj.layout255:setTop(1200);
-    obj.layout255:setWidth(91);
-    obj.layout255:setHeight(36);
-    obj.layout255:setName("layout255");
+    obj.layout256 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout256:setParent(obj.rectangle2);
+    obj.layout256:setLeft(1304);
+    obj.layout256:setTop(1200);
+    obj.layout256:setWidth(91);
+    obj.layout256:setHeight(36);
+    obj.layout256:setName("layout256");
 
     obj.edit167 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit167:setParent(obj.layout255);
+    obj.edit167:setParent(obj.layout256);
     obj.edit167:setTransparent(true);
     obj.edit167:setFontSize(22.8);
     obj.edit167:setFontColor("#000000");
@@ -5542,16 +5560,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit167:setField("Row6_2");
     obj.edit167:setName("edit167");
 
-    obj.layout256 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout256:setParent(obj.rectangle2);
-    obj.layout256:setLeft(96);
-    obj.layout256:setTop(1259.2);
-    obj.layout256:setWidth(237);
-    obj.layout256:setHeight(17.8);
-    obj.layout256:setName("layout256");
+    obj.layout257 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout257:setParent(obj.rectangle2);
+    obj.layout257:setLeft(96);
+    obj.layout257:setTop(1259.2);
+    obj.layout257:setWidth(237);
+    obj.layout257:setHeight(17.8);
+    obj.layout257:setName("layout257");
 
     obj.textEditor89 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor89:setParent(obj.layout256);
+    obj.textEditor89:setParent(obj.layout257);
     obj.textEditor89:setLeft(0);
     obj.textEditor89:setTop(0);
     obj.textEditor89:setWidth(237);
@@ -5562,16 +5580,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor89:setTransparent(true);
     obj.textEditor89:setName("textEditor89");
 
-    obj.layout257 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout257:setParent(obj.rectangle2);
-    obj.layout257:setLeft(892);
-    obj.layout257:setTop(1259.2);
-    obj.layout257:setWidth(133);
-    obj.layout257:setHeight(15.8);
-    obj.layout257:setName("layout257");
+    obj.layout258 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout258:setParent(obj.rectangle2);
+    obj.layout258:setLeft(892);
+    obj.layout258:setTop(1259.2);
+    obj.layout258:setWidth(133);
+    obj.layout258:setHeight(15.8);
+    obj.layout258:setName("layout258");
 
     obj.textEditor90 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor90:setParent(obj.layout257);
+    obj.textEditor90:setParent(obj.layout258);
     obj.textEditor90:setLeft(0);
     obj.textEditor90:setTop(0);
     obj.textEditor90:setWidth(133);
@@ -5582,16 +5600,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor90:setTransparent(true);
     obj.textEditor90:setName("textEditor90");
 
-    obj.layout258 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout258:setParent(obj.rectangle2);
-    obj.layout258:setLeft(1064);
-    obj.layout258:setTop(1240);
-    obj.layout258:setWidth(233);
-    obj.layout258:setHeight(36);
-    obj.layout258:setName("layout258");
+    obj.layout259 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout259:setParent(obj.rectangle2);
+    obj.layout259:setLeft(1064);
+    obj.layout259:setTop(1240);
+    obj.layout259:setWidth(233);
+    obj.layout259:setHeight(36);
+    obj.layout259:setName("layout259");
 
     obj.edit168 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit168:setParent(obj.layout258);
+    obj.edit168:setParent(obj.layout259);
     obj.edit168:setTransparent(true);
     obj.edit168:setFontSize(22.8);
     obj.edit168:setFontColor("#000000");
@@ -5604,16 +5622,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit168:setField("Row7");
     obj.edit168:setName("edit168");
 
-    obj.layout259 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout259:setParent(obj.rectangle2);
-    obj.layout259:setLeft(1304);
-    obj.layout259:setTop(1240);
-    obj.layout259:setWidth(91);
-    obj.layout259:setHeight(36);
-    obj.layout259:setName("layout259");
+    obj.layout260 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout260:setParent(obj.rectangle2);
+    obj.layout260:setLeft(1304);
+    obj.layout260:setTop(1240);
+    obj.layout260:setWidth(91);
+    obj.layout260:setHeight(36);
+    obj.layout260:setName("layout260");
 
     obj.edit169 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit169:setParent(obj.layout259);
+    obj.edit169:setParent(obj.layout260);
     obj.edit169:setTransparent(true);
     obj.edit169:setFontSize(22.8);
     obj.edit169:setFontColor("#000000");
@@ -5626,16 +5644,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit169:setField("Row7_2");
     obj.edit169:setName("edit169");
 
-    obj.layout260 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout260:setParent(obj.rectangle2);
-    obj.layout260:setLeft(96);
-    obj.layout260:setTop(1298.2);
-    obj.layout260:setWidth(237);
-    obj.layout260:setHeight(16.8);
-    obj.layout260:setName("layout260");
+    obj.layout261 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout261:setParent(obj.rectangle2);
+    obj.layout261:setLeft(96);
+    obj.layout261:setTop(1298.2);
+    obj.layout261:setWidth(237);
+    obj.layout261:setHeight(16.8);
+    obj.layout261:setName("layout261");
 
     obj.textEditor91 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor91:setParent(obj.layout260);
+    obj.textEditor91:setParent(obj.layout261);
     obj.textEditor91:setLeft(0);
     obj.textEditor91:setTop(0);
     obj.textEditor91:setWidth(237);
@@ -5646,16 +5664,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor91:setTransparent(true);
     obj.textEditor91:setName("textEditor91");
 
-    obj.layout261 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout261:setParent(obj.rectangle2);
-    obj.layout261:setLeft(893);
-    obj.layout261:setTop(1299.2);
-    obj.layout261:setWidth(133);
-    obj.layout261:setHeight(15.8);
-    obj.layout261:setName("layout261");
+    obj.layout262 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout262:setParent(obj.rectangle2);
+    obj.layout262:setLeft(893);
+    obj.layout262:setTop(1299.2);
+    obj.layout262:setWidth(133);
+    obj.layout262:setHeight(15.8);
+    obj.layout262:setName("layout262");
 
     obj.textEditor92 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor92:setParent(obj.layout261);
+    obj.textEditor92:setParent(obj.layout262);
     obj.textEditor92:setLeft(0);
     obj.textEditor92:setTop(0);
     obj.textEditor92:setWidth(133);
@@ -5666,16 +5684,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor92:setTransparent(true);
     obj.textEditor92:setName("textEditor92");
 
-    obj.layout262 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout262:setParent(obj.rectangle2);
-    obj.layout262:setLeft(1064);
-    obj.layout262:setTop(1279);
-    obj.layout262:setWidth(234);
-    obj.layout262:setHeight(36);
-    obj.layout262:setName("layout262");
+    obj.layout263 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout263:setParent(obj.rectangle2);
+    obj.layout263:setLeft(1064);
+    obj.layout263:setTop(1279);
+    obj.layout263:setWidth(234);
+    obj.layout263:setHeight(36);
+    obj.layout263:setName("layout263");
 
     obj.edit170 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit170:setParent(obj.layout262);
+    obj.edit170:setParent(obj.layout263);
     obj.edit170:setTransparent(true);
     obj.edit170:setFontSize(22.8);
     obj.edit170:setFontColor("#000000");
@@ -5688,16 +5706,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit170:setField("Row8");
     obj.edit170:setName("edit170");
 
-    obj.layout263 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout263:setParent(obj.rectangle2);
-    obj.layout263:setLeft(1303);
-    obj.layout263:setTop(1279);
-    obj.layout263:setWidth(92);
-    obj.layout263:setHeight(36);
-    obj.layout263:setName("layout263");
+    obj.layout264 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout264:setParent(obj.rectangle2);
+    obj.layout264:setLeft(1303);
+    obj.layout264:setTop(1279);
+    obj.layout264:setWidth(92);
+    obj.layout264:setHeight(36);
+    obj.layout264:setName("layout264");
 
     obj.edit171 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit171:setParent(obj.layout263);
+    obj.edit171:setParent(obj.layout264);
     obj.edit171:setTransparent(true);
     obj.edit171:setFontSize(22.8);
     obj.edit171:setFontColor("#000000");
@@ -5710,16 +5728,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit171:setField("Row8_2");
     obj.edit171:setName("edit171");
 
-    obj.layout264 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout264:setParent(obj.rectangle2);
-    obj.layout264:setLeft(96);
-    obj.layout264:setTop(1338.2);
-    obj.layout264:setWidth(237);
-    obj.layout264:setHeight(16.8);
-    obj.layout264:setName("layout264");
+    obj.layout265 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout265:setParent(obj.rectangle2);
+    obj.layout265:setLeft(96);
+    obj.layout265:setTop(1338.2);
+    obj.layout265:setWidth(237);
+    obj.layout265:setHeight(16.8);
+    obj.layout265:setName("layout265");
 
     obj.textEditor93 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor93:setParent(obj.layout264);
+    obj.textEditor93:setParent(obj.layout265);
     obj.textEditor93:setLeft(0);
     obj.textEditor93:setTop(0);
     obj.textEditor93:setWidth(237);
@@ -5730,16 +5748,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor93:setTransparent(true);
     obj.textEditor93:setName("textEditor93");
 
-    obj.layout265 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout265:setParent(obj.rectangle2);
-    obj.layout265:setLeft(892);
-    obj.layout265:setTop(1340.2);
-    obj.layout265:setWidth(133);
-    obj.layout265:setHeight(15.8);
-    obj.layout265:setName("layout265");
+    obj.layout266 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout266:setParent(obj.rectangle2);
+    obj.layout266:setLeft(892);
+    obj.layout266:setTop(1340.2);
+    obj.layout266:setWidth(133);
+    obj.layout266:setHeight(15.8);
+    obj.layout266:setName("layout266");
 
     obj.textEditor94 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor94:setParent(obj.layout265);
+    obj.textEditor94:setParent(obj.layout266);
     obj.textEditor94:setLeft(0);
     obj.textEditor94:setTop(0);
     obj.textEditor94:setWidth(133);
@@ -5750,16 +5768,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor94:setTransparent(true);
     obj.textEditor94:setName("textEditor94");
 
-    obj.layout266 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout266:setParent(obj.rectangle2);
-    obj.layout266:setLeft(1064);
-    obj.layout266:setTop(1319);
-    obj.layout266:setWidth(233);
-    obj.layout266:setHeight(36);
-    obj.layout266:setName("layout266");
+    obj.layout267 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout267:setParent(obj.rectangle2);
+    obj.layout267:setLeft(1064);
+    obj.layout267:setTop(1319);
+    obj.layout267:setWidth(233);
+    obj.layout267:setHeight(36);
+    obj.layout267:setName("layout267");
 
     obj.edit172 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit172:setParent(obj.layout266);
+    obj.edit172:setParent(obj.layout267);
     obj.edit172:setTransparent(true);
     obj.edit172:setFontSize(22.8);
     obj.edit172:setFontColor("#000000");
@@ -5772,16 +5790,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit172:setField("Row9");
     obj.edit172:setName("edit172");
 
-    obj.layout267 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout267:setParent(obj.rectangle2);
-    obj.layout267:setLeft(1304);
-    obj.layout267:setTop(1319);
-    obj.layout267:setWidth(91);
-    obj.layout267:setHeight(36);
-    obj.layout267:setName("layout267");
+    obj.layout268 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout268:setParent(obj.rectangle2);
+    obj.layout268:setLeft(1304);
+    obj.layout268:setTop(1319);
+    obj.layout268:setWidth(91);
+    obj.layout268:setHeight(36);
+    obj.layout268:setName("layout268");
 
     obj.edit173 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit173:setParent(obj.layout267);
+    obj.edit173:setParent(obj.layout268);
     obj.edit173:setTransparent(true);
     obj.edit173:setFontSize(22.8);
     obj.edit173:setFontColor("#000000");
@@ -5794,16 +5812,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit173:setField("Row9_2");
     obj.edit173:setName("edit173");
 
-    obj.layout268 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout268:setParent(obj.rectangle2);
-    obj.layout268:setLeft(96);
-    obj.layout268:setTop(1377.2);
-    obj.layout268:setWidth(237);
-    obj.layout268:setHeight(17.8);
-    obj.layout268:setName("layout268");
+    obj.layout269 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout269:setParent(obj.rectangle2);
+    obj.layout269:setLeft(96);
+    obj.layout269:setTop(1377.2);
+    obj.layout269:setWidth(237);
+    obj.layout269:setHeight(17.8);
+    obj.layout269:setName("layout269");
 
     obj.textEditor95 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor95:setParent(obj.layout268);
+    obj.textEditor95:setParent(obj.layout269);
     obj.textEditor95:setLeft(0);
     obj.textEditor95:setTop(0);
     obj.textEditor95:setWidth(237);
@@ -5814,16 +5832,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor95:setTransparent(true);
     obj.textEditor95:setName("textEditor95");
 
-    obj.layout269 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout269:setParent(obj.rectangle2);
-    obj.layout269:setLeft(892);
-    obj.layout269:setTop(1380.2);
-    obj.layout269:setWidth(133);
-    obj.layout269:setHeight(15.8);
-    obj.layout269:setName("layout269");
+    obj.layout270 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout270:setParent(obj.rectangle2);
+    obj.layout270:setLeft(892);
+    obj.layout270:setTop(1380.2);
+    obj.layout270:setWidth(133);
+    obj.layout270:setHeight(15.8);
+    obj.layout270:setName("layout270");
 
     obj.textEditor96 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor96:setParent(obj.layout269);
+    obj.textEditor96:setParent(obj.layout270);
     obj.textEditor96:setLeft(0);
     obj.textEditor96:setTop(0);
     obj.textEditor96:setWidth(133);
@@ -5834,16 +5852,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor96:setTransparent(true);
     obj.textEditor96:setName("textEditor96");
 
-    obj.layout270 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout270:setParent(obj.rectangle2);
-    obj.layout270:setLeft(1064);
-    obj.layout270:setTop(1358);
-    obj.layout270:setWidth(234);
-    obj.layout270:setHeight(36);
-    obj.layout270:setName("layout270");
+    obj.layout271 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout271:setParent(obj.rectangle2);
+    obj.layout271:setLeft(1064);
+    obj.layout271:setTop(1358);
+    obj.layout271:setWidth(234);
+    obj.layout271:setHeight(36);
+    obj.layout271:setName("layout271");
 
     obj.edit174 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit174:setParent(obj.layout270);
+    obj.edit174:setParent(obj.layout271);
     obj.edit174:setTransparent(true);
     obj.edit174:setFontSize(22.8);
     obj.edit174:setFontColor("#000000");
@@ -5856,16 +5874,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit174:setField("Row10");
     obj.edit174:setName("edit174");
 
-    obj.layout271 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout271:setParent(obj.rectangle2);
-    obj.layout271:setLeft(1303);
-    obj.layout271:setTop(1358);
-    obj.layout271:setWidth(92);
-    obj.layout271:setHeight(36);
-    obj.layout271:setName("layout271");
+    obj.layout272 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout272:setParent(obj.rectangle2);
+    obj.layout272:setLeft(1303);
+    obj.layout272:setTop(1358);
+    obj.layout272:setWidth(92);
+    obj.layout272:setHeight(36);
+    obj.layout272:setName("layout272");
 
     obj.edit175 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit175:setParent(obj.layout271);
+    obj.edit175:setParent(obj.layout272);
     obj.edit175:setTransparent(true);
     obj.edit175:setFontSize(22.8);
     obj.edit175:setFontColor("#000000");
@@ -5878,16 +5896,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit175:setField("Row10_2");
     obj.edit175:setName("edit175");
 
-    obj.layout272 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout272:setParent(obj.rectangle2);
-    obj.layout272:setLeft(96);
-    obj.layout272:setTop(1416.2);
-    obj.layout272:setWidth(237);
-    obj.layout272:setHeight(17.8);
-    obj.layout272:setName("layout272");
+    obj.layout273 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout273:setParent(obj.rectangle2);
+    obj.layout273:setLeft(96);
+    obj.layout273:setTop(1416.2);
+    obj.layout273:setWidth(237);
+    obj.layout273:setHeight(17.8);
+    obj.layout273:setName("layout273");
 
     obj.textEditor97 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor97:setParent(obj.layout272);
+    obj.textEditor97:setParent(obj.layout273);
     obj.textEditor97:setLeft(0);
     obj.textEditor97:setTop(0);
     obj.textEditor97:setWidth(237);
@@ -5898,16 +5916,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor97:setTransparent(true);
     obj.textEditor97:setName("textEditor97");
 
-    obj.layout273 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout273:setParent(obj.rectangle2);
-    obj.layout273:setLeft(892);
-    obj.layout273:setTop(1418.2);
-    obj.layout273:setWidth(133);
-    obj.layout273:setHeight(15.8);
-    obj.layout273:setName("layout273");
+    obj.layout274 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout274:setParent(obj.rectangle2);
+    obj.layout274:setLeft(892);
+    obj.layout274:setTop(1418.2);
+    obj.layout274:setWidth(133);
+    obj.layout274:setHeight(15.8);
+    obj.layout274:setName("layout274");
 
     obj.textEditor98 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor98:setParent(obj.layout273);
+    obj.textEditor98:setParent(obj.layout274);
     obj.textEditor98:setLeft(0);
     obj.textEditor98:setTop(0);
     obj.textEditor98:setWidth(133);
@@ -5918,16 +5936,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor98:setTransparent(true);
     obj.textEditor98:setName("textEditor98");
 
-    obj.layout274 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout274:setParent(obj.rectangle2);
-    obj.layout274:setLeft(892);
-    obj.layout274:setTop(1459.2);
-    obj.layout274:setWidth(133);
-    obj.layout274:setHeight(15.8);
-    obj.layout274:setName("layout274");
+    obj.layout275 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout275:setParent(obj.rectangle2);
+    obj.layout275:setLeft(892);
+    obj.layout275:setTop(1459.2);
+    obj.layout275:setWidth(133);
+    obj.layout275:setHeight(15.8);
+    obj.layout275:setName("layout275");
 
     obj.textEditor99 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor99:setParent(obj.layout274);
+    obj.textEditor99:setParent(obj.layout275);
     obj.textEditor99:setLeft(0);
     obj.textEditor99:setTop(0);
     obj.textEditor99:setWidth(133);
@@ -5938,16 +5956,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor99:setTransparent(true);
     obj.textEditor99:setName("textEditor99");
 
-    obj.layout275 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout275:setParent(obj.rectangle2);
-    obj.layout275:setLeft(894);
-    obj.layout275:setTop(1497.2);
-    obj.layout275:setWidth(133);
-    obj.layout275:setHeight(15.8);
-    obj.layout275:setName("layout275");
+    obj.layout276 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout276:setParent(obj.rectangle2);
+    obj.layout276:setLeft(894);
+    obj.layout276:setTop(1497.2);
+    obj.layout276:setWidth(133);
+    obj.layout276:setHeight(15.8);
+    obj.layout276:setName("layout276");
 
     obj.textEditor100 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor100:setParent(obj.layout275);
+    obj.textEditor100:setParent(obj.layout276);
     obj.textEditor100:setLeft(0);
     obj.textEditor100:setTop(0);
     obj.textEditor100:setWidth(133);
@@ -5958,16 +5976,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor100:setTransparent(true);
     obj.textEditor100:setName("textEditor100");
 
-    obj.layout276 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout276:setParent(obj.rectangle2);
-    obj.layout276:setLeft(893);
-    obj.layout276:setTop(1535.2);
-    obj.layout276:setWidth(133);
-    obj.layout276:setHeight(15.8);
-    obj.layout276:setName("layout276");
+    obj.layout277 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout277:setParent(obj.rectangle2);
+    obj.layout277:setLeft(893);
+    obj.layout277:setTop(1535.2);
+    obj.layout277:setWidth(133);
+    obj.layout277:setHeight(15.8);
+    obj.layout277:setName("layout277");
 
     obj.textEditor101 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor101:setParent(obj.layout276);
+    obj.textEditor101:setParent(obj.layout277);
     obj.textEditor101:setLeft(0);
     obj.textEditor101:setTop(0);
     obj.textEditor101:setWidth(133);
@@ -5978,16 +5996,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor101:setTransparent(true);
     obj.textEditor101:setName("textEditor101");
 
-    obj.layout277 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout277:setParent(obj.rectangle2);
-    obj.layout277:setLeft(1064);
-    obj.layout277:setTop(1398);
-    obj.layout277:setWidth(233);
-    obj.layout277:setHeight(36);
-    obj.layout277:setName("layout277");
+    obj.layout278 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout278:setParent(obj.rectangle2);
+    obj.layout278:setLeft(1064);
+    obj.layout278:setTop(1398);
+    obj.layout278:setWidth(233);
+    obj.layout278:setHeight(36);
+    obj.layout278:setName("layout278");
 
     obj.edit176 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit176:setParent(obj.layout277);
+    obj.edit176:setParent(obj.layout278);
     obj.edit176:setTransparent(true);
     obj.edit176:setFontSize(22.8);
     obj.edit176:setFontColor("#000000");
@@ -6000,16 +6018,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit176:setField("Row11");
     obj.edit176:setName("edit176");
 
-    obj.layout278 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout278:setParent(obj.rectangle2);
-    obj.layout278:setLeft(1304);
-    obj.layout278:setTop(1398);
-    obj.layout278:setWidth(91);
-    obj.layout278:setHeight(36);
-    obj.layout278:setName("layout278");
+    obj.layout279 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout279:setParent(obj.rectangle2);
+    obj.layout279:setLeft(1304);
+    obj.layout279:setTop(1398);
+    obj.layout279:setWidth(91);
+    obj.layout279:setHeight(36);
+    obj.layout279:setName("layout279");
 
     obj.edit177 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit177:setParent(obj.layout278);
+    obj.edit177:setParent(obj.layout279);
     obj.edit177:setTransparent(true);
     obj.edit177:setFontSize(22.8);
     obj.edit177:setFontColor("#000000");
@@ -6022,16 +6040,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit177:setField("Row11_2");
     obj.edit177:setName("edit177");
 
-    obj.layout279 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout279:setParent(obj.rectangle2);
-    obj.layout279:setLeft(1064);
-    obj.layout279:setTop(1437);
-    obj.layout279:setWidth(234);
-    obj.layout279:setHeight(36);
-    obj.layout279:setName("layout279");
+    obj.layout280 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout280:setParent(obj.rectangle2);
+    obj.layout280:setLeft(1064);
+    obj.layout280:setTop(1437);
+    obj.layout280:setWidth(234);
+    obj.layout280:setHeight(36);
+    obj.layout280:setName("layout280");
 
     obj.edit178 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit178:setParent(obj.layout279);
+    obj.edit178:setParent(obj.layout280);
     obj.edit178:setTransparent(true);
     obj.edit178:setFontSize(22.8);
     obj.edit178:setFontColor("#000000");
@@ -6044,16 +6062,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit178:setField("Row12");
     obj.edit178:setName("edit178");
 
-    obj.layout280 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout280:setParent(obj.rectangle2);
-    obj.layout280:setLeft(1303);
-    obj.layout280:setTop(1437);
-    obj.layout280:setWidth(92);
-    obj.layout280:setHeight(36);
-    obj.layout280:setName("layout280");
+    obj.layout281 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout281:setParent(obj.rectangle2);
+    obj.layout281:setLeft(1303);
+    obj.layout281:setTop(1437);
+    obj.layout281:setWidth(92);
+    obj.layout281:setHeight(36);
+    obj.layout281:setName("layout281");
 
     obj.edit179 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit179:setParent(obj.layout280);
+    obj.edit179:setParent(obj.layout281);
     obj.edit179:setTransparent(true);
     obj.edit179:setFontSize(22.8);
     obj.edit179:setFontColor("#000000");
@@ -6066,16 +6084,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit179:setField("Row12_2");
     obj.edit179:setName("edit179");
 
-    obj.layout281 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout281:setParent(obj.rectangle2);
-    obj.layout281:setLeft(1064);
-    obj.layout281:setTop(1477);
-    obj.layout281:setWidth(233);
-    obj.layout281:setHeight(36);
-    obj.layout281:setName("layout281");
+    obj.layout282 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout282:setParent(obj.rectangle2);
+    obj.layout282:setLeft(1064);
+    obj.layout282:setTop(1477);
+    obj.layout282:setWidth(233);
+    obj.layout282:setHeight(36);
+    obj.layout282:setName("layout282");
 
     obj.edit180 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit180:setParent(obj.layout281);
+    obj.edit180:setParent(obj.layout282);
     obj.edit180:setTransparent(true);
     obj.edit180:setFontSize(22.8);
     obj.edit180:setFontColor("#000000");
@@ -6088,16 +6106,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit180:setField("Row13");
     obj.edit180:setName("edit180");
 
-    obj.layout282 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout282:setParent(obj.rectangle2);
-    obj.layout282:setLeft(1304);
-    obj.layout282:setTop(1477);
-    obj.layout282:setWidth(91);
-    obj.layout282:setHeight(36);
-    obj.layout282:setName("layout282");
+    obj.layout283 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout283:setParent(obj.rectangle2);
+    obj.layout283:setLeft(1304);
+    obj.layout283:setTop(1477);
+    obj.layout283:setWidth(91);
+    obj.layout283:setHeight(36);
+    obj.layout283:setName("layout283");
 
     obj.edit181 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit181:setParent(obj.layout282);
+    obj.edit181:setParent(obj.layout283);
     obj.edit181:setTransparent(true);
     obj.edit181:setFontSize(22.8);
     obj.edit181:setFontColor("#000000");
@@ -6110,16 +6128,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit181:setField("Row13_2");
     obj.edit181:setName("edit181");
 
-    obj.layout283 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout283:setParent(obj.rectangle2);
-    obj.layout283:setLeft(1064);
-    obj.layout283:setTop(1515);
-    obj.layout283:setWidth(234);
-    obj.layout283:setHeight(36);
-    obj.layout283:setName("layout283");
+    obj.layout284 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout284:setParent(obj.rectangle2);
+    obj.layout284:setLeft(1064);
+    obj.layout284:setTop(1515);
+    obj.layout284:setWidth(234);
+    obj.layout284:setHeight(36);
+    obj.layout284:setName("layout284");
 
     obj.edit182 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit182:setParent(obj.layout283);
+    obj.edit182:setParent(obj.layout284);
     obj.edit182:setTransparent(true);
     obj.edit182:setFontSize(22.8);
     obj.edit182:setFontColor("#000000");
@@ -6132,16 +6150,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit182:setField("Row14");
     obj.edit182:setName("edit182");
 
-    obj.layout284 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout284:setParent(obj.rectangle2);
-    obj.layout284:setLeft(1303);
-    obj.layout284:setTop(1515);
-    obj.layout284:setWidth(92);
-    obj.layout284:setHeight(36);
-    obj.layout284:setName("layout284");
+    obj.layout285 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout285:setParent(obj.rectangle2);
+    obj.layout285:setLeft(1303);
+    obj.layout285:setTop(1515);
+    obj.layout285:setWidth(92);
+    obj.layout285:setHeight(36);
+    obj.layout285:setName("layout285");
 
     obj.edit183 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit183:setParent(obj.layout284);
+    obj.edit183:setParent(obj.layout285);
     obj.edit183:setTransparent(true);
     obj.edit183:setFontSize(22.8);
     obj.edit183:setFontColor("#000000");
@@ -6154,16 +6172,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit183:setField("Row14_2");
     obj.edit183:setName("edit183");
 
-    obj.layout285 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout285:setParent(obj.rectangle2);
-    obj.layout285:setLeft(893);
-    obj.layout285:setTop(1575.2);
-    obj.layout285:setWidth(133);
-    obj.layout285:setHeight(15.8);
-    obj.layout285:setName("layout285");
+    obj.layout286 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout286:setParent(obj.rectangle2);
+    obj.layout286:setLeft(893);
+    obj.layout286:setTop(1575.2);
+    obj.layout286:setWidth(133);
+    obj.layout286:setHeight(15.8);
+    obj.layout286:setName("layout286");
 
     obj.textEditor102 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor102:setParent(obj.layout285);
+    obj.textEditor102:setParent(obj.layout286);
     obj.textEditor102:setLeft(0);
     obj.textEditor102:setTop(0);
     obj.textEditor102:setWidth(133);
@@ -6174,16 +6192,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor102:setTransparent(true);
     obj.textEditor102:setName("textEditor102");
 
-    obj.layout286 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout286:setParent(obj.rectangle2);
-    obj.layout286:setLeft(1064);
-    obj.layout286:setTop(1555);
-    obj.layout286:setWidth(234);
-    obj.layout286:setHeight(36);
-    obj.layout286:setName("layout286");
+    obj.layout287 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout287:setParent(obj.rectangle2);
+    obj.layout287:setLeft(1064);
+    obj.layout287:setTop(1555);
+    obj.layout287:setWidth(234);
+    obj.layout287:setHeight(36);
+    obj.layout287:setName("layout287");
 
     obj.edit184 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit184:setParent(obj.layout286);
+    obj.edit184:setParent(obj.layout287);
     obj.edit184:setTransparent(true);
     obj.edit184:setFontSize(22.8);
     obj.edit184:setFontColor("#000000");
@@ -6196,16 +6214,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit184:setField("Row15");
     obj.edit184:setName("edit184");
 
-    obj.layout287 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout287:setParent(obj.rectangle2);
-    obj.layout287:setLeft(1303);
-    obj.layout287:setTop(1555);
-    obj.layout287:setWidth(92);
-    obj.layout287:setHeight(36);
-    obj.layout287:setName("layout287");
+    obj.layout288 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout288:setParent(obj.rectangle2);
+    obj.layout288:setLeft(1303);
+    obj.layout288:setTop(1555);
+    obj.layout288:setWidth(92);
+    obj.layout288:setHeight(36);
+    obj.layout288:setName("layout288");
 
     obj.edit185 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit185:setParent(obj.layout287);
+    obj.edit185:setParent(obj.layout288);
     obj.edit185:setTransparent(true);
     obj.edit185:setFontSize(22.8);
     obj.edit185:setFontColor("#000000");
@@ -6218,16 +6236,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit185:setField("Row15_2");
     obj.edit185:setName("edit185");
 
-    obj.layout288 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout288:setParent(obj.rectangle2);
-    obj.layout288:setLeft(894);
-    obj.layout288:setTop(1614.2);
-    obj.layout288:setWidth(133);
-    obj.layout288:setHeight(15.8);
-    obj.layout288:setName("layout288");
+    obj.layout289 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout289:setParent(obj.rectangle2);
+    obj.layout289:setLeft(894);
+    obj.layout289:setTop(1614.2);
+    obj.layout289:setWidth(133);
+    obj.layout289:setHeight(15.8);
+    obj.layout289:setName("layout289");
 
     obj.textEditor103 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor103:setParent(obj.layout288);
+    obj.textEditor103:setParent(obj.layout289);
     obj.textEditor103:setLeft(0);
     obj.textEditor103:setTop(0);
     obj.textEditor103:setWidth(133);
@@ -6238,16 +6256,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor103:setTransparent(true);
     obj.textEditor103:setName("textEditor103");
 
-    obj.layout289 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout289:setParent(obj.rectangle2);
-    obj.layout289:setLeft(1064);
-    obj.layout289:setTop(1596);
-    obj.layout289:setWidth(233);
-    obj.layout289:setHeight(36);
-    obj.layout289:setName("layout289");
+    obj.layout290 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout290:setParent(obj.rectangle2);
+    obj.layout290:setLeft(1064);
+    obj.layout290:setTop(1596);
+    obj.layout290:setWidth(233);
+    obj.layout290:setHeight(36);
+    obj.layout290:setName("layout290");
 
     obj.edit186 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit186:setParent(obj.layout289);
+    obj.edit186:setParent(obj.layout290);
     obj.edit186:setTransparent(true);
     obj.edit186:setFontSize(22.8);
     obj.edit186:setFontColor("#000000");
@@ -6260,16 +6278,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit186:setField("Row16");
     obj.edit186:setName("edit186");
 
-    obj.layout290 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout290:setParent(obj.rectangle2);
-    obj.layout290:setLeft(1304);
-    obj.layout290:setTop(1596);
-    obj.layout290:setWidth(91);
-    obj.layout290:setHeight(36);
-    obj.layout290:setName("layout290");
+    obj.layout291 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout291:setParent(obj.rectangle2);
+    obj.layout291:setLeft(1304);
+    obj.layout291:setTop(1596);
+    obj.layout291:setWidth(91);
+    obj.layout291:setHeight(36);
+    obj.layout291:setName("layout291");
 
     obj.edit187 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit187:setParent(obj.layout290);
+    obj.edit187:setParent(obj.layout291);
     obj.edit187:setTransparent(true);
     obj.edit187:setFontSize(22.8);
     obj.edit187:setFontColor("#000000");
@@ -6282,16 +6300,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit187:setField("Row16_2");
     obj.edit187:setName("edit187");
 
-    obj.layout291 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout291:setParent(obj.rectangle2);
-    obj.layout291:setLeft(895);
-    obj.layout291:setTop(1656.2);
-    obj.layout291:setWidth(133);
-    obj.layout291:setHeight(15.8);
-    obj.layout291:setName("layout291");
+    obj.layout292 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout292:setParent(obj.rectangle2);
+    obj.layout292:setLeft(895);
+    obj.layout292:setTop(1656.2);
+    obj.layout292:setWidth(133);
+    obj.layout292:setHeight(15.8);
+    obj.layout292:setName("layout292");
 
     obj.textEditor104 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor104:setParent(obj.layout291);
+    obj.textEditor104:setParent(obj.layout292);
     obj.textEditor104:setLeft(0);
     obj.textEditor104:setTop(0);
     obj.textEditor104:setWidth(133);
@@ -6302,16 +6320,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor104:setTransparent(true);
     obj.textEditor104:setName("textEditor104");
 
-    obj.layout292 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout292:setParent(obj.rectangle2);
-    obj.layout292:setLeft(1064);
-    obj.layout292:setTop(1634);
-    obj.layout292:setWidth(234);
-    obj.layout292:setHeight(36);
-    obj.layout292:setName("layout292");
+    obj.layout293 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout293:setParent(obj.rectangle2);
+    obj.layout293:setLeft(1064);
+    obj.layout293:setTop(1634);
+    obj.layout293:setWidth(234);
+    obj.layout293:setHeight(36);
+    obj.layout293:setName("layout293");
 
     obj.edit188 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit188:setParent(obj.layout292);
+    obj.edit188:setParent(obj.layout293);
     obj.edit188:setTransparent(true);
     obj.edit188:setFontSize(22.8);
     obj.edit188:setFontColor("#000000");
@@ -6324,16 +6342,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit188:setField("Row17");
     obj.edit188:setName("edit188");
 
-    obj.layout293 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout293:setParent(obj.rectangle2);
-    obj.layout293:setLeft(1303);
-    obj.layout293:setTop(1634);
-    obj.layout293:setWidth(92);
-    obj.layout293:setHeight(36);
-    obj.layout293:setName("layout293");
+    obj.layout294 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout294:setParent(obj.rectangle2);
+    obj.layout294:setLeft(1303);
+    obj.layout294:setTop(1634);
+    obj.layout294:setWidth(92);
+    obj.layout294:setHeight(36);
+    obj.layout294:setName("layout294");
 
     obj.edit189 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit189:setParent(obj.layout293);
+    obj.edit189:setParent(obj.layout294);
     obj.edit189:setTransparent(true);
     obj.edit189:setFontSize(22.8);
     obj.edit189:setFontColor("#000000");
@@ -6346,16 +6364,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit189:setField("Row17_2");
     obj.edit189:setName("edit189");
 
-    obj.layout294 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout294:setParent(obj.rectangle2);
-    obj.layout294:setLeft(893);
-    obj.layout294:setTop(1693.2);
-    obj.layout294:setWidth(133);
-    obj.layout294:setHeight(15.8);
-    obj.layout294:setName("layout294");
+    obj.layout295 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout295:setParent(obj.rectangle2);
+    obj.layout295:setLeft(893);
+    obj.layout295:setTop(1693.2);
+    obj.layout295:setWidth(133);
+    obj.layout295:setHeight(15.8);
+    obj.layout295:setName("layout295");
 
     obj.textEditor105 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor105:setParent(obj.layout294);
+    obj.textEditor105:setParent(obj.layout295);
     obj.textEditor105:setLeft(0);
     obj.textEditor105:setTop(0);
     obj.textEditor105:setWidth(133);
@@ -6366,16 +6384,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor105:setTransparent(true);
     obj.textEditor105:setName("textEditor105");
 
-    obj.layout295 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout295:setParent(obj.rectangle2);
-    obj.layout295:setLeft(1064);
-    obj.layout295:setTop(1674);
-    obj.layout295:setWidth(234);
-    obj.layout295:setHeight(35);
-    obj.layout295:setName("layout295");
+    obj.layout296 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout296:setParent(obj.rectangle2);
+    obj.layout296:setLeft(1064);
+    obj.layout296:setTop(1674);
+    obj.layout296:setWidth(234);
+    obj.layout296:setHeight(35);
+    obj.layout296:setName("layout296");
 
     obj.edit190 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit190:setParent(obj.layout295);
+    obj.edit190:setParent(obj.layout296);
     obj.edit190:setTransparent(true);
     obj.edit190:setFontSize(22.8);
     obj.edit190:setFontColor("#000000");
@@ -6388,16 +6406,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit190:setField("Row18");
     obj.edit190:setName("edit190");
 
-    obj.layout296 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout296:setParent(obj.rectangle2);
-    obj.layout296:setLeft(1303);
-    obj.layout296:setTop(1674);
-    obj.layout296:setWidth(92);
-    obj.layout296:setHeight(35);
-    obj.layout296:setName("layout296");
+    obj.layout297 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout297:setParent(obj.rectangle2);
+    obj.layout297:setLeft(1303);
+    obj.layout297:setTop(1674);
+    obj.layout297:setWidth(92);
+    obj.layout297:setHeight(35);
+    obj.layout297:setName("layout297");
 
     obj.edit191 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit191:setParent(obj.layout296);
+    obj.edit191:setParent(obj.layout297);
     obj.edit191:setTransparent(true);
     obj.edit191:setFontSize(22.8);
     obj.edit191:setFontColor("#000000");
@@ -6410,16 +6428,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit191:setField("Row18_2");
     obj.edit191:setName("edit191");
 
-    obj.layout297 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout297:setParent(obj.rectangle2);
-    obj.layout297:setLeft(896);
-    obj.layout297:setTop(1733.2);
-    obj.layout297:setWidth(133);
-    obj.layout297:setHeight(15.8);
-    obj.layout297:setName("layout297");
+    obj.layout298 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout298:setParent(obj.rectangle2);
+    obj.layout298:setLeft(896);
+    obj.layout298:setTop(1733.2);
+    obj.layout298:setWidth(133);
+    obj.layout298:setHeight(15.8);
+    obj.layout298:setName("layout298");
 
     obj.textEditor106 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor106:setParent(obj.layout297);
+    obj.textEditor106:setParent(obj.layout298);
     obj.textEditor106:setLeft(0);
     obj.textEditor106:setTop(0);
     obj.textEditor106:setWidth(133);
@@ -6430,16 +6448,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor106:setTransparent(true);
     obj.textEditor106:setName("textEditor106");
 
-    obj.layout298 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout298:setParent(obj.rectangle2);
-    obj.layout298:setLeft(1064);
-    obj.layout298:setTop(1713);
-    obj.layout298:setWidth(234);
-    obj.layout298:setHeight(36);
-    obj.layout298:setName("layout298");
+    obj.layout299 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout299:setParent(obj.rectangle2);
+    obj.layout299:setLeft(1064);
+    obj.layout299:setTop(1713);
+    obj.layout299:setWidth(234);
+    obj.layout299:setHeight(36);
+    obj.layout299:setName("layout299");
 
     obj.edit192 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit192:setParent(obj.layout298);
+    obj.edit192:setParent(obj.layout299);
     obj.edit192:setTransparent(true);
     obj.edit192:setFontSize(22.8);
     obj.edit192:setFontColor("#000000");
@@ -6452,16 +6470,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit192:setField("Row19");
     obj.edit192:setName("edit192");
 
-    obj.layout299 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout299:setParent(obj.rectangle2);
-    obj.layout299:setLeft(1303);
-    obj.layout299:setTop(1713);
-    obj.layout299:setWidth(92);
-    obj.layout299:setHeight(36);
-    obj.layout299:setName("layout299");
+    obj.layout300 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout300:setParent(obj.rectangle2);
+    obj.layout300:setLeft(1303);
+    obj.layout300:setTop(1713);
+    obj.layout300:setWidth(92);
+    obj.layout300:setHeight(36);
+    obj.layout300:setName("layout300");
 
     obj.edit193 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit193:setParent(obj.layout299);
+    obj.edit193:setParent(obj.layout300);
     obj.edit193:setTransparent(true);
     obj.edit193:setFontSize(22.8);
     obj.edit193:setFontColor("#000000");
@@ -6474,16 +6492,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit193:setField("Row19_2");
     obj.edit193:setName("edit193");
 
-    obj.layout300 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout300:setParent(obj.rectangle2);
-    obj.layout300:setLeft(893);
-    obj.layout300:setTop(1773.2);
-    obj.layout300:setWidth(133);
-    obj.layout300:setHeight(15.8);
-    obj.layout300:setName("layout300");
+    obj.layout301 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout301:setParent(obj.rectangle2);
+    obj.layout301:setLeft(893);
+    obj.layout301:setTop(1773.2);
+    obj.layout301:setWidth(133);
+    obj.layout301:setHeight(15.8);
+    obj.layout301:setName("layout301");
 
     obj.textEditor107 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor107:setParent(obj.layout300);
+    obj.textEditor107:setParent(obj.layout301);
     obj.textEditor107:setLeft(0);
     obj.textEditor107:setTop(0);
     obj.textEditor107:setWidth(133);
@@ -6494,16 +6512,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor107:setTransparent(true);
     obj.textEditor107:setName("textEditor107");
 
-    obj.layout301 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout301:setParent(obj.rectangle2);
-    obj.layout301:setLeft(1064);
-    obj.layout301:setTop(1753);
-    obj.layout301:setWidth(233);
-    obj.layout301:setHeight(36);
-    obj.layout301:setName("layout301");
+    obj.layout302 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout302:setParent(obj.rectangle2);
+    obj.layout302:setLeft(1064);
+    obj.layout302:setTop(1753);
+    obj.layout302:setWidth(233);
+    obj.layout302:setHeight(36);
+    obj.layout302:setName("layout302");
 
     obj.edit194 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit194:setParent(obj.layout301);
+    obj.edit194:setParent(obj.layout302);
     obj.edit194:setTransparent(true);
     obj.edit194:setFontSize(22.8);
     obj.edit194:setFontColor("#000000");
@@ -6516,16 +6534,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit194:setField("Row20");
     obj.edit194:setName("edit194");
 
-    obj.layout302 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout302:setParent(obj.rectangle2);
-    obj.layout302:setLeft(1304);
-    obj.layout302:setTop(1753);
-    obj.layout302:setWidth(91);
-    obj.layout302:setHeight(36);
-    obj.layout302:setName("layout302");
+    obj.layout303 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout303:setParent(obj.rectangle2);
+    obj.layout303:setLeft(1304);
+    obj.layout303:setTop(1753);
+    obj.layout303:setWidth(91);
+    obj.layout303:setHeight(36);
+    obj.layout303:setName("layout303");
 
     obj.edit195 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit195:setParent(obj.layout302);
+    obj.edit195:setParent(obj.layout303);
     obj.edit195:setTransparent(true);
     obj.edit195:setFontSize(22.8);
     obj.edit195:setFontColor("#000000");
@@ -6538,16 +6556,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit195:setField("Row20_2");
     obj.edit195:setName("edit195");
 
-    obj.layout303 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout303:setParent(obj.rectangle2);
-    obj.layout303:setLeft(893);
-    obj.layout303:setTop(1809.2);
-    obj.layout303:setWidth(133);
-    obj.layout303:setHeight(15.8);
-    obj.layout303:setName("layout303");
+    obj.layout304 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout304:setParent(obj.rectangle2);
+    obj.layout304:setLeft(893);
+    obj.layout304:setTop(1809.2);
+    obj.layout304:setWidth(133);
+    obj.layout304:setHeight(15.8);
+    obj.layout304:setName("layout304");
 
     obj.textEditor108 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor108:setParent(obj.layout303);
+    obj.textEditor108:setParent(obj.layout304);
     obj.textEditor108:setLeft(0);
     obj.textEditor108:setTop(0);
     obj.textEditor108:setWidth(133);
@@ -6558,16 +6576,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor108:setTransparent(true);
     obj.textEditor108:setName("textEditor108");
 
-    obj.layout304 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout304:setParent(obj.rectangle2);
-    obj.layout304:setLeft(1064);
-    obj.layout304:setTop(1792);
-    obj.layout304:setWidth(234);
-    obj.layout304:setHeight(35);
-    obj.layout304:setName("layout304");
+    obj.layout305 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout305:setParent(obj.rectangle2);
+    obj.layout305:setLeft(1064);
+    obj.layout305:setTop(1792);
+    obj.layout305:setWidth(234);
+    obj.layout305:setHeight(35);
+    obj.layout305:setName("layout305");
 
     obj.edit196 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit196:setParent(obj.layout304);
+    obj.edit196:setParent(obj.layout305);
     obj.edit196:setTransparent(true);
     obj.edit196:setFontSize(22.8);
     obj.edit196:setFontColor("#000000");
@@ -6580,16 +6598,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit196:setField("Row21");
     obj.edit196:setName("edit196");
 
-    obj.layout305 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout305:setParent(obj.rectangle2);
-    obj.layout305:setLeft(1303);
-    obj.layout305:setTop(1792);
-    obj.layout305:setWidth(92);
-    obj.layout305:setHeight(35);
-    obj.layout305:setName("layout305");
+    obj.layout306 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout306:setParent(obj.rectangle2);
+    obj.layout306:setLeft(1303);
+    obj.layout306:setTop(1792);
+    obj.layout306:setWidth(92);
+    obj.layout306:setHeight(35);
+    obj.layout306:setName("layout306");
 
     obj.edit197 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit197:setParent(obj.layout305);
+    obj.edit197:setParent(obj.layout306);
     obj.edit197:setTransparent(true);
     obj.edit197:setFontSize(22.8);
     obj.edit197:setFontColor("#000000");
@@ -6602,16 +6620,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit197:setField("Row21_2");
     obj.edit197:setName("edit197");
 
-    obj.layout306 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout306:setParent(obj.rectangle2);
-    obj.layout306:setLeft(337);
-    obj.layout306:setTop(528);
-    obj.layout306:setWidth(556);
-    obj.layout306:setHeight(38);
-    obj.layout306:setName("layout306");
+    obj.layout307 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout307:setParent(obj.rectangle2);
+    obj.layout307:setLeft(337);
+    obj.layout307:setTop(528);
+    obj.layout307:setWidth(556);
+    obj.layout307:setHeight(38);
+    obj.layout307:setName("layout307");
 
     obj.edit198 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit198:setParent(obj.layout306);
+    obj.edit198:setParent(obj.layout307);
     obj.edit198:setTransparent(true);
     obj.edit198:setFontSize(26.3);
     obj.edit198:setFontColor("#000000");
@@ -6624,16 +6642,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit198:setField("Gearnotes_0_1");
     obj.edit198:setName("edit198");
 
-    obj.layout307 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout307:setParent(obj.rectangle2);
-    obj.layout307:setLeft(337);
-    obj.layout307:setTop(606);
-    obj.layout307:setWidth(556);
-    obj.layout307:setHeight(38);
-    obj.layout307:setName("layout307");
+    obj.layout308 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout308:setParent(obj.rectangle2);
+    obj.layout308:setLeft(337);
+    obj.layout308:setTop(606);
+    obj.layout308:setWidth(556);
+    obj.layout308:setHeight(38);
+    obj.layout308:setName("layout308");
 
     obj.edit199 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit199:setParent(obj.layout307);
+    obj.edit199:setParent(obj.layout308);
     obj.edit199:setTransparent(true);
     obj.edit199:setFontSize(26.3);
     obj.edit199:setFontColor("#000000");
@@ -6646,16 +6664,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit199:setField("Gearnotes_0_2");
     obj.edit199:setName("edit199");
 
-    obj.layout308 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout308:setParent(obj.rectangle2);
-    obj.layout308:setLeft(337);
-    obj.layout308:setTop(685);
-    obj.layout308:setWidth(556);
-    obj.layout308:setHeight(38);
-    obj.layout308:setName("layout308");
+    obj.layout309 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout309:setParent(obj.rectangle2);
+    obj.layout309:setLeft(337);
+    obj.layout309:setTop(685);
+    obj.layout309:setWidth(556);
+    obj.layout309:setHeight(38);
+    obj.layout309:setName("layout309");
 
     obj.edit200 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit200:setParent(obj.layout308);
+    obj.edit200:setParent(obj.layout309);
     obj.edit200:setTransparent(true);
     obj.edit200:setFontSize(26.3);
     obj.edit200:setFontColor("#000000");
@@ -6668,16 +6686,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit200:setField("Gearnotes_0_3");
     obj.edit200:setName("edit200");
 
-    obj.layout309 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout309:setParent(obj.rectangle2);
-    obj.layout309:setLeft(337);
-    obj.layout309:setTop(763);
-    obj.layout309:setWidth(556);
-    obj.layout309:setHeight(38);
-    obj.layout309:setName("layout309");
+    obj.layout310 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout310:setParent(obj.rectangle2);
+    obj.layout310:setLeft(337);
+    obj.layout310:setTop(763);
+    obj.layout310:setWidth(556);
+    obj.layout310:setHeight(38);
+    obj.layout310:setName("layout310");
 
     obj.edit201 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit201:setParent(obj.layout309);
+    obj.edit201:setParent(obj.layout310);
     obj.edit201:setTransparent(true);
     obj.edit201:setFontSize(26.3);
     obj.edit201:setFontColor("#000000");
@@ -6690,16 +6708,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit201:setField("Gearnotes_0_4");
     obj.edit201:setName("edit201");
 
-    obj.layout310 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout310:setParent(obj.rectangle2);
-    obj.layout310:setLeft(337);
-    obj.layout310:setTop(842);
-    obj.layout310:setWidth(556);
-    obj.layout310:setHeight(38);
-    obj.layout310:setName("layout310");
+    obj.layout311 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout311:setParent(obj.rectangle2);
+    obj.layout311:setLeft(337);
+    obj.layout311:setTop(842);
+    obj.layout311:setWidth(556);
+    obj.layout311:setHeight(38);
+    obj.layout311:setName("layout311");
 
     obj.edit202 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit202:setParent(obj.layout310);
+    obj.edit202:setParent(obj.layout311);
     obj.edit202:setTransparent(true);
     obj.edit202:setFontSize(26.3);
     obj.edit202:setFontColor("#000000");
@@ -6712,16 +6730,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit202:setField("Gearnotes_0_5");
     obj.edit202:setName("edit202");
 
-    obj.layout311 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout311:setParent(obj.rectangle2);
-    obj.layout311:setLeft(337);
-    obj.layout311:setTop(921);
-    obj.layout311:setWidth(556);
-    obj.layout311:setHeight(38);
-    obj.layout311:setName("layout311");
+    obj.layout312 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout312:setParent(obj.rectangle2);
+    obj.layout312:setLeft(337);
+    obj.layout312:setTop(921);
+    obj.layout312:setWidth(556);
+    obj.layout312:setHeight(38);
+    obj.layout312:setName("layout312");
 
     obj.edit203 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit203:setParent(obj.layout311);
+    obj.edit203:setParent(obj.layout312);
     obj.edit203:setTransparent(true);
     obj.edit203:setFontSize(26.3);
     obj.edit203:setFontColor("#000000");
@@ -6734,16 +6752,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit203:setField("Gearnotes_0_6");
     obj.edit203:setName("edit203");
 
-    obj.layout312 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout312:setParent(obj.rectangle2);
-    obj.layout312:setLeft(337);
-    obj.layout312:setTop(999);
-    obj.layout312:setWidth(556);
-    obj.layout312:setHeight(38);
-    obj.layout312:setName("layout312");
+    obj.layout313 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout313:setParent(obj.rectangle2);
+    obj.layout313:setLeft(337);
+    obj.layout313:setTop(999);
+    obj.layout313:setWidth(556);
+    obj.layout313:setHeight(38);
+    obj.layout313:setName("layout313");
 
     obj.edit204 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit204:setParent(obj.layout312);
+    obj.edit204:setParent(obj.layout313);
     obj.edit204:setTransparent(true);
     obj.edit204:setFontSize(26.3);
     obj.edit204:setFontColor("#000000");
@@ -6756,16 +6774,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit204:setField("Gearnotes_0_7");
     obj.edit204:setName("edit204");
 
-    obj.layout313 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout313:setParent(obj.rectangle2);
-    obj.layout313:setLeft(337);
-    obj.layout313:setTop(567);
-    obj.layout313:setWidth(556);
-    obj.layout313:setHeight(38);
-    obj.layout313:setName("layout313");
+    obj.layout314 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout314:setParent(obj.rectangle2);
+    obj.layout314:setLeft(337);
+    obj.layout314:setTop(567);
+    obj.layout314:setWidth(556);
+    obj.layout314:setHeight(38);
+    obj.layout314:setName("layout314");
 
     obj.edit205 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit205:setParent(obj.layout313);
+    obj.edit205:setParent(obj.layout314);
     obj.edit205:setTransparent(true);
     obj.edit205:setFontSize(26.3);
     obj.edit205:setFontColor("#000000");
@@ -6778,16 +6796,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit205:setField("Gearnotes_01_1");
     obj.edit205:setName("edit205");
 
-    obj.layout314 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout314:setParent(obj.rectangle2);
-    obj.layout314:setLeft(337);
-    obj.layout314:setTop(646);
-    obj.layout314:setWidth(556);
-    obj.layout314:setHeight(38);
-    obj.layout314:setName("layout314");
+    obj.layout315 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout315:setParent(obj.rectangle2);
+    obj.layout315:setLeft(337);
+    obj.layout315:setTop(646);
+    obj.layout315:setWidth(556);
+    obj.layout315:setHeight(38);
+    obj.layout315:setName("layout315");
 
     obj.edit206 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit206:setParent(obj.layout314);
+    obj.edit206:setParent(obj.layout315);
     obj.edit206:setTransparent(true);
     obj.edit206:setFontSize(26.3);
     obj.edit206:setFontColor("#000000");
@@ -6800,16 +6818,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit206:setField("Gearnotes_01_2");
     obj.edit206:setName("edit206");
 
-    obj.layout315 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout315:setParent(obj.rectangle2);
-    obj.layout315:setLeft(337);
-    obj.layout315:setTop(724);
-    obj.layout315:setWidth(556);
-    obj.layout315:setHeight(38);
-    obj.layout315:setName("layout315");
+    obj.layout316 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout316:setParent(obj.rectangle2);
+    obj.layout316:setLeft(337);
+    obj.layout316:setTop(724);
+    obj.layout316:setWidth(556);
+    obj.layout316:setHeight(38);
+    obj.layout316:setName("layout316");
 
     obj.edit207 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit207:setParent(obj.layout315);
+    obj.edit207:setParent(obj.layout316);
     obj.edit207:setTransparent(true);
     obj.edit207:setFontSize(26.3);
     obj.edit207:setFontColor("#000000");
@@ -6822,16 +6840,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit207:setField("Gearnotes_01_3");
     obj.edit207:setName("edit207");
 
-    obj.layout316 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout316:setParent(obj.rectangle2);
-    obj.layout316:setLeft(337);
-    obj.layout316:setTop(803);
-    obj.layout316:setWidth(556);
-    obj.layout316:setHeight(38);
-    obj.layout316:setName("layout316");
+    obj.layout317 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout317:setParent(obj.rectangle2);
+    obj.layout317:setLeft(337);
+    obj.layout317:setTop(803);
+    obj.layout317:setWidth(556);
+    obj.layout317:setHeight(38);
+    obj.layout317:setName("layout317");
 
     obj.edit208 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit208:setParent(obj.layout316);
+    obj.edit208:setParent(obj.layout317);
     obj.edit208:setTransparent(true);
     obj.edit208:setFontSize(26.3);
     obj.edit208:setFontColor("#000000");
@@ -6844,16 +6862,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit208:setField("Gearnotes_01_4");
     obj.edit208:setName("edit208");
 
-    obj.layout317 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout317:setParent(obj.rectangle2);
-    obj.layout317:setLeft(337);
-    obj.layout317:setTop(881);
-    obj.layout317:setWidth(556);
-    obj.layout317:setHeight(38);
-    obj.layout317:setName("layout317");
+    obj.layout318 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout318:setParent(obj.rectangle2);
+    obj.layout318:setLeft(337);
+    obj.layout318:setTop(881);
+    obj.layout318:setWidth(556);
+    obj.layout318:setHeight(38);
+    obj.layout318:setName("layout318");
 
     obj.edit209 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit209:setParent(obj.layout317);
+    obj.edit209:setParent(obj.layout318);
     obj.edit209:setTransparent(true);
     obj.edit209:setFontSize(26.3);
     obj.edit209:setFontColor("#000000");
@@ -6866,16 +6884,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit209:setField("Gearnotes_01_5");
     obj.edit209:setName("edit209");
 
-    obj.layout318 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout318:setParent(obj.rectangle2);
-    obj.layout318:setLeft(337);
-    obj.layout318:setTop(960);
-    obj.layout318:setWidth(556);
-    obj.layout318:setHeight(38);
-    obj.layout318:setName("layout318");
+    obj.layout319 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout319:setParent(obj.rectangle2);
+    obj.layout319:setLeft(337);
+    obj.layout319:setTop(960);
+    obj.layout319:setWidth(556);
+    obj.layout319:setHeight(38);
+    obj.layout319:setName("layout319");
 
     obj.edit210 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit210:setParent(obj.layout318);
+    obj.edit210:setParent(obj.layout319);
     obj.edit210:setTransparent(true);
     obj.edit210:setFontSize(26.3);
     obj.edit210:setFontColor("#000000");
@@ -6888,16 +6906,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit210:setField("Gearnotes_01_6");
     obj.edit210:setName("edit210");
 
-    obj.layout319 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout319:setParent(obj.rectangle2);
-    obj.layout319:setLeft(337);
-    obj.layout319:setTop(1038);
-    obj.layout319:setWidth(556);
-    obj.layout319:setHeight(38);
-    obj.layout319:setName("layout319");
+    obj.layout320 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout320:setParent(obj.rectangle2);
+    obj.layout320:setLeft(337);
+    obj.layout320:setTop(1038);
+    obj.layout320:setWidth(556);
+    obj.layout320:setHeight(38);
+    obj.layout320:setName("layout320");
 
     obj.edit211 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit211:setParent(obj.layout319);
+    obj.edit211:setParent(obj.layout320);
     obj.edit211:setTransparent(true);
     obj.edit211:setFontSize(26.3);
     obj.edit211:setFontColor("#000000");
@@ -6910,16 +6928,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit211:setField("Gearnotes_01_7");
     obj.edit211:setName("edit211");
 
-    obj.layout320 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout320:setParent(obj.rectangle2);
-    obj.layout320:setLeft(337);
-    obj.layout320:setTop(1239);
-    obj.layout320:setWidth(556);
-    obj.layout320:setHeight(38);
-    obj.layout320:setName("layout320");
+    obj.layout321 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout321:setParent(obj.rectangle2);
+    obj.layout321:setLeft(337);
+    obj.layout321:setTop(1239);
+    obj.layout321:setWidth(556);
+    obj.layout321:setHeight(38);
+    obj.layout321:setName("layout321");
 
     obj.edit212 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit212:setParent(obj.layout320);
+    obj.edit212:setParent(obj.layout321);
     obj.edit212:setTransparent(true);
     obj.edit212:setFontSize(26.3);
     obj.edit212:setFontColor("#000000");
@@ -6932,16 +6950,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit212:setField("Gearnotes_0_9_1");
     obj.edit212:setName("edit212");
 
-    obj.layout321 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout321:setParent(obj.rectangle2);
-    obj.layout321:setLeft(337);
-    obj.layout321:setTop(1318);
-    obj.layout321:setWidth(556);
-    obj.layout321:setHeight(38);
-    obj.layout321:setName("layout321");
+    obj.layout322 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout322:setParent(obj.rectangle2);
+    obj.layout322:setLeft(337);
+    obj.layout322:setTop(1318);
+    obj.layout322:setWidth(556);
+    obj.layout322:setHeight(38);
+    obj.layout322:setName("layout322");
 
     obj.edit213 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit213:setParent(obj.layout321);
+    obj.edit213:setParent(obj.layout322);
     obj.edit213:setTransparent(true);
     obj.edit213:setFontSize(26.3);
     obj.edit213:setFontColor("#000000");
@@ -6954,16 +6972,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit213:setField("Gearnotes_0_9_2");
     obj.edit213:setName("edit213");
 
-    obj.layout322 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout322:setParent(obj.rectangle2);
-    obj.layout322:setLeft(337);
-    obj.layout322:setTop(1397);
-    obj.layout322:setWidth(556);
-    obj.layout322:setHeight(38);
-    obj.layout322:setName("layout322");
+    obj.layout323 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout323:setParent(obj.rectangle2);
+    obj.layout323:setLeft(337);
+    obj.layout323:setTop(1397);
+    obj.layout323:setWidth(556);
+    obj.layout323:setHeight(38);
+    obj.layout323:setName("layout323");
 
     obj.edit214 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit214:setParent(obj.layout322);
+    obj.edit214:setParent(obj.layout323);
     obj.edit214:setTransparent(true);
     obj.edit214:setFontSize(26.3);
     obj.edit214:setFontColor("#000000");
@@ -6976,16 +6994,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit214:setField("Gearnotes_0_9_3_0");
     obj.edit214:setName("edit214");
 
-    obj.layout323 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout323:setParent(obj.rectangle2);
-    obj.layout323:setLeft(337);
-    obj.layout323:setTop(1279);
-    obj.layout323:setWidth(556);
-    obj.layout323:setHeight(38);
-    obj.layout323:setName("layout323");
+    obj.layout324 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout324:setParent(obj.rectangle2);
+    obj.layout324:setLeft(337);
+    obj.layout324:setTop(1279);
+    obj.layout324:setWidth(556);
+    obj.layout324:setHeight(38);
+    obj.layout324:setName("layout324");
 
     obj.edit215 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit215:setParent(obj.layout323);
+    obj.edit215:setParent(obj.layout324);
     obj.edit215:setTransparent(true);
     obj.edit215:setFontSize(26.3);
     obj.edit215:setFontColor("#000000");
@@ -6998,16 +7016,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit215:setField("Gearnotes_01_9_1");
     obj.edit215:setName("edit215");
 
-    obj.layout324 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout324:setParent(obj.rectangle2);
-    obj.layout324:setLeft(337);
-    obj.layout324:setTop(1358);
-    obj.layout324:setWidth(556);
-    obj.layout324:setHeight(38);
-    obj.layout324:setName("layout324");
+    obj.layout325 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout325:setParent(obj.rectangle2);
+    obj.layout325:setLeft(337);
+    obj.layout325:setTop(1358);
+    obj.layout325:setWidth(556);
+    obj.layout325:setHeight(38);
+    obj.layout325:setName("layout325");
 
     obj.edit216 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit216:setParent(obj.layout324);
+    obj.edit216:setParent(obj.layout325);
     obj.edit216:setTransparent(true);
     obj.edit216:setFontSize(26.3);
     obj.edit216:setFontColor("#000000");
@@ -7020,16 +7038,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit216:setField("Gearnotes_01_9_2_0");
     obj.edit216:setName("edit216");
 
-    obj.layout325 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout325:setParent(obj.rectangle2);
-    obj.layout325:setLeft(337);
-    obj.layout325:setTop(1437);
-    obj.layout325:setWidth(556);
-    obj.layout325:setHeight(38);
-    obj.layout325:setName("layout325");
+    obj.layout326 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout326:setParent(obj.rectangle2);
+    obj.layout326:setLeft(337);
+    obj.layout326:setTop(1437);
+    obj.layout326:setWidth(556);
+    obj.layout326:setHeight(38);
+    obj.layout326:setName("layout326");
 
     obj.edit217 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit217:setParent(obj.layout325);
+    obj.edit217:setParent(obj.layout326);
     obj.edit217:setTransparent(true);
     obj.edit217:setFontSize(26.3);
     obj.edit217:setFontColor("#000000");
@@ -7042,16 +7060,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit217:setField("Gearnotes_01_9_3_0");
     obj.edit217:setName("edit217");
 
-    obj.layout326 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout326:setParent(obj.rectangle2);
-    obj.layout326:setLeft(337);
-    obj.layout326:setTop(1516);
-    obj.layout326:setWidth(556);
-    obj.layout326:setHeight(38);
-    obj.layout326:setName("layout326");
+    obj.layout327 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout327:setParent(obj.rectangle2);
+    obj.layout327:setLeft(337);
+    obj.layout327:setTop(1516);
+    obj.layout327:setWidth(556);
+    obj.layout327:setHeight(38);
+    obj.layout327:setName("layout327");
 
     obj.edit218 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit218:setParent(obj.layout326);
+    obj.edit218:setParent(obj.layout327);
     obj.edit218:setTransparent(true);
     obj.edit218:setFontSize(26.3);
     obj.edit218:setFontColor("#000000");
@@ -7064,16 +7082,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit218:setField("Gearnotes_0_9_3_1");
     obj.edit218:setName("edit218");
 
-    obj.layout327 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout327:setParent(obj.rectangle2);
-    obj.layout327:setLeft(337);
-    obj.layout327:setTop(1635);
-    obj.layout327:setWidth(556);
-    obj.layout327:setHeight(38);
-    obj.layout327:setName("layout327");
+    obj.layout328 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout328:setParent(obj.rectangle2);
+    obj.layout328:setLeft(337);
+    obj.layout328:setTop(1635);
+    obj.layout328:setWidth(556);
+    obj.layout328:setHeight(38);
+    obj.layout328:setName("layout328");
 
     obj.edit219 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit219:setParent(obj.layout327);
+    obj.edit219:setParent(obj.layout328);
     obj.edit219:setTransparent(true);
     obj.edit219:setFontSize(26.3);
     obj.edit219:setFontColor("#000000");
@@ -7086,16 +7104,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit219:setField("Gearnotes_0_9_3_2");
     obj.edit219:setName("edit219");
 
-    obj.layout328 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout328:setParent(obj.rectangle2);
-    obj.layout328:setLeft(337);
-    obj.layout328:setTop(1753);
-    obj.layout328:setWidth(556);
-    obj.layout328:setHeight(38);
-    obj.layout328:setName("layout328");
+    obj.layout329 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout329:setParent(obj.rectangle2);
+    obj.layout329:setLeft(337);
+    obj.layout329:setTop(1753);
+    obj.layout329:setWidth(556);
+    obj.layout329:setHeight(38);
+    obj.layout329:setName("layout329");
 
     obj.edit220 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit220:setParent(obj.layout328);
+    obj.edit220:setParent(obj.layout329);
     obj.edit220:setTransparent(true);
     obj.edit220:setFontSize(26.3);
     obj.edit220:setFontColor("#000000");
@@ -7108,16 +7126,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit220:setField("Gearnotes_0_9_3_3");
     obj.edit220:setName("edit220");
 
-    obj.layout329 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout329:setParent(obj.rectangle2);
-    obj.layout329:setLeft(337);
-    obj.layout329:setTop(1477);
-    obj.layout329:setWidth(556);
-    obj.layout329:setHeight(38);
-    obj.layout329:setName("layout329");
+    obj.layout330 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout330:setParent(obj.rectangle2);
+    obj.layout330:setLeft(337);
+    obj.layout330:setTop(1477);
+    obj.layout330:setWidth(556);
+    obj.layout330:setHeight(38);
+    obj.layout330:setName("layout330");
 
     obj.edit221 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit221:setParent(obj.layout329);
+    obj.edit221:setParent(obj.layout330);
     obj.edit221:setTransparent(true);
     obj.edit221:setFontSize(26.3);
     obj.edit221:setFontColor("#000000");
@@ -7130,16 +7148,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit221:setField("Gearnotes_01_9_2_1");
     obj.edit221:setName("edit221");
 
-    obj.layout330 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout330:setParent(obj.rectangle2);
-    obj.layout330:setLeft(337);
-    obj.layout330:setTop(1595);
-    obj.layout330:setWidth(556);
-    obj.layout330:setHeight(38);
-    obj.layout330:setName("layout330");
+    obj.layout331 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout331:setParent(obj.rectangle2);
+    obj.layout331:setLeft(337);
+    obj.layout331:setTop(1595);
+    obj.layout331:setWidth(556);
+    obj.layout331:setHeight(38);
+    obj.layout331:setName("layout331");
 
     obj.edit222 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit222:setParent(obj.layout330);
+    obj.edit222:setParent(obj.layout331);
     obj.edit222:setTransparent(true);
     obj.edit222:setFontSize(26.3);
     obj.edit222:setFontColor("#000000");
@@ -7152,16 +7170,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit222:setField("Gearnotes_01_9_2_2");
     obj.edit222:setName("edit222");
 
-    obj.layout331 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout331:setParent(obj.rectangle2);
-    obj.layout331:setLeft(337);
-    obj.layout331:setTop(1714);
-    obj.layout331:setWidth(556);
-    obj.layout331:setHeight(38);
-    obj.layout331:setName("layout331");
+    obj.layout332 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout332:setParent(obj.rectangle2);
+    obj.layout332:setLeft(337);
+    obj.layout332:setTop(1714);
+    obj.layout332:setWidth(556);
+    obj.layout332:setHeight(38);
+    obj.layout332:setName("layout332");
 
     obj.edit223 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit223:setParent(obj.layout331);
+    obj.edit223:setParent(obj.layout332);
     obj.edit223:setTransparent(true);
     obj.edit223:setFontSize(26.3);
     obj.edit223:setFontColor("#000000");
@@ -7174,16 +7192,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit223:setField("Gearnotes_01_9_2_3");
     obj.edit223:setName("edit223");
 
-    obj.layout332 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout332:setParent(obj.rectangle2);
-    obj.layout332:setLeft(337);
-    obj.layout332:setTop(1556);
-    obj.layout332:setWidth(556);
-    obj.layout332:setHeight(38);
-    obj.layout332:setName("layout332");
+    obj.layout333 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout333:setParent(obj.rectangle2);
+    obj.layout333:setLeft(337);
+    obj.layout333:setTop(1556);
+    obj.layout333:setWidth(556);
+    obj.layout333:setHeight(38);
+    obj.layout333:setName("layout333");
 
     obj.edit224 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit224:setParent(obj.layout332);
+    obj.edit224:setParent(obj.layout333);
     obj.edit224:setTransparent(true);
     obj.edit224:setFontSize(26.3);
     obj.edit224:setFontColor("#000000");
@@ -7196,16 +7214,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit224:setField("Gearnotes_01_9_3_1");
     obj.edit224:setName("edit224");
 
-    obj.layout333 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout333:setParent(obj.rectangle2);
-    obj.layout333:setLeft(337);
-    obj.layout333:setTop(1675);
-    obj.layout333:setWidth(556);
-    obj.layout333:setHeight(38);
-    obj.layout333:setName("layout333");
+    obj.layout334 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout334:setParent(obj.rectangle2);
+    obj.layout334:setLeft(337);
+    obj.layout334:setTop(1675);
+    obj.layout334:setWidth(556);
+    obj.layout334:setHeight(38);
+    obj.layout334:setName("layout334");
 
     obj.edit225 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit225:setParent(obj.layout333);
+    obj.edit225:setParent(obj.layout334);
     obj.edit225:setTransparent(true);
     obj.edit225:setFontSize(26.3);
     obj.edit225:setFontColor("#000000");
@@ -7218,16 +7236,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit225:setField("Gearnotes_01_9_3_2");
     obj.edit225:setName("edit225");
 
-    obj.layout334 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout334:setParent(obj.rectangle2);
-    obj.layout334:setLeft(337);
-    obj.layout334:setTop(1793);
-    obj.layout334:setWidth(556);
-    obj.layout334:setHeight(38);
-    obj.layout334:setName("layout334");
+    obj.layout335 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout335:setParent(obj.rectangle2);
+    obj.layout335:setLeft(337);
+    obj.layout335:setTop(1793);
+    obj.layout335:setWidth(556);
+    obj.layout335:setHeight(38);
+    obj.layout335:setName("layout335");
 
     obj.edit226 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit226:setParent(obj.layout334);
+    obj.edit226:setParent(obj.layout335);
     obj.edit226:setTransparent(true);
     obj.edit226:setFontSize(26.3);
     obj.edit226:setFontColor("#000000");
@@ -7240,16 +7258,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit226:setField("Gearnotes_01_9_3_3");
     obj.edit226:setName("edit226");
 
-    obj.layout335 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout335:setParent(obj.rectangle2);
-    obj.layout335:setLeft(96);
-    obj.layout335:setTop(1456.2);
-    obj.layout335:setWidth(237);
-    obj.layout335:setHeight(16.8);
-    obj.layout335:setName("layout335");
+    obj.layout336 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout336:setParent(obj.rectangle2);
+    obj.layout336:setLeft(96);
+    obj.layout336:setTop(1456.2);
+    obj.layout336:setWidth(237);
+    obj.layout336:setHeight(16.8);
+    obj.layout336:setName("layout336");
 
     obj.textEditor109 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor109:setParent(obj.layout335);
+    obj.textEditor109:setParent(obj.layout336);
     obj.textEditor109:setLeft(0);
     obj.textEditor109:setTop(0);
     obj.textEditor109:setWidth(237);
@@ -7260,16 +7278,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor109:setTransparent(true);
     obj.textEditor109:setName("textEditor109");
 
-    obj.layout336 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout336:setParent(obj.rectangle2);
-    obj.layout336:setLeft(96);
-    obj.layout336:setTop(1495.2);
-    obj.layout336:setWidth(236);
-    obj.layout336:setHeight(17.8);
-    obj.layout336:setName("layout336");
+    obj.layout337 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout337:setParent(obj.rectangle2);
+    obj.layout337:setLeft(96);
+    obj.layout337:setTop(1495.2);
+    obj.layout337:setWidth(236);
+    obj.layout337:setHeight(17.8);
+    obj.layout337:setName("layout337");
 
     obj.textEditor110 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor110:setParent(obj.layout336);
+    obj.textEditor110:setParent(obj.layout337);
     obj.textEditor110:setLeft(0);
     obj.textEditor110:setTop(0);
     obj.textEditor110:setWidth(236);
@@ -7280,16 +7298,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor110:setTransparent(true);
     obj.textEditor110:setName("textEditor110");
 
-    obj.layout337 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout337:setParent(obj.rectangle2);
-    obj.layout337:setLeft(96);
-    obj.layout337:setTop(1535.2);
-    obj.layout337:setWidth(237);
-    obj.layout337:setHeight(17.8);
-    obj.layout337:setName("layout337");
+    obj.layout338 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout338:setParent(obj.rectangle2);
+    obj.layout338:setLeft(96);
+    obj.layout338:setTop(1535.2);
+    obj.layout338:setWidth(237);
+    obj.layout338:setHeight(17.8);
+    obj.layout338:setName("layout338");
 
     obj.textEditor111 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor111:setParent(obj.layout337);
+    obj.textEditor111:setParent(obj.layout338);
     obj.textEditor111:setLeft(0);
     obj.textEditor111:setTop(0);
     obj.textEditor111:setWidth(237);
@@ -7300,16 +7318,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor111:setTransparent(true);
     obj.textEditor111:setName("textEditor111");
 
-    obj.layout338 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout338:setParent(obj.rectangle2);
-    obj.layout338:setLeft(96);
-    obj.layout338:setTop(1574.2);
-    obj.layout338:setWidth(236);
-    obj.layout338:setHeight(17.8);
-    obj.layout338:setName("layout338");
+    obj.layout339 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout339:setParent(obj.rectangle2);
+    obj.layout339:setLeft(96);
+    obj.layout339:setTop(1574.2);
+    obj.layout339:setWidth(236);
+    obj.layout339:setHeight(17.8);
+    obj.layout339:setName("layout339");
 
     obj.textEditor112 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor112:setParent(obj.layout338);
+    obj.textEditor112:setParent(obj.layout339);
     obj.textEditor112:setLeft(0);
     obj.textEditor112:setTop(0);
     obj.textEditor112:setWidth(236);
@@ -7320,16 +7338,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor112:setTransparent(true);
     obj.textEditor112:setName("textEditor112");
 
-    obj.layout339 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout339:setParent(obj.rectangle2);
-    obj.layout339:setLeft(96);
-    obj.layout339:setTop(1614.2);
-    obj.layout339:setWidth(237);
-    obj.layout339:setHeight(17.8);
-    obj.layout339:setName("layout339");
+    obj.layout340 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout340:setParent(obj.rectangle2);
+    obj.layout340:setLeft(96);
+    obj.layout340:setTop(1614.2);
+    obj.layout340:setWidth(237);
+    obj.layout340:setHeight(17.8);
+    obj.layout340:setName("layout340");
 
     obj.textEditor113 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor113:setParent(obj.layout339);
+    obj.textEditor113:setParent(obj.layout340);
     obj.textEditor113:setLeft(0);
     obj.textEditor113:setTop(0);
     obj.textEditor113:setWidth(237);
@@ -7340,16 +7358,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor113:setTransparent(true);
     obj.textEditor113:setName("textEditor113");
 
-    obj.layout340 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout340:setParent(obj.rectangle2);
-    obj.layout340:setLeft(96);
-    obj.layout340:setTop(1653.2);
-    obj.layout340:setWidth(237);
-    obj.layout340:setHeight(17.8);
-    obj.layout340:setName("layout340");
+    obj.layout341 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout341:setParent(obj.rectangle2);
+    obj.layout341:setLeft(96);
+    obj.layout341:setTop(1653.2);
+    obj.layout341:setWidth(237);
+    obj.layout341:setHeight(17.8);
+    obj.layout341:setName("layout341");
 
     obj.textEditor114 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor114:setParent(obj.layout340);
+    obj.textEditor114:setParent(obj.layout341);
     obj.textEditor114:setLeft(0);
     obj.textEditor114:setTop(0);
     obj.textEditor114:setWidth(237);
@@ -7360,16 +7378,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor114:setTransparent(true);
     obj.textEditor114:setName("textEditor114");
 
-    obj.layout341 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout341:setParent(obj.rectangle2);
-    obj.layout341:setLeft(96);
-    obj.layout341:setTop(1693.2);
-    obj.layout341:setWidth(237);
-    obj.layout341:setHeight(17.8);
-    obj.layout341:setName("layout341");
+    obj.layout342 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout342:setParent(obj.rectangle2);
+    obj.layout342:setLeft(96);
+    obj.layout342:setTop(1693.2);
+    obj.layout342:setWidth(237);
+    obj.layout342:setHeight(17.8);
+    obj.layout342:setName("layout342");
 
     obj.textEditor115 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor115:setParent(obj.layout341);
+    obj.textEditor115:setParent(obj.layout342);
     obj.textEditor115:setLeft(0);
     obj.textEditor115:setTop(0);
     obj.textEditor115:setWidth(237);
@@ -7380,16 +7398,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor115:setTransparent(true);
     obj.textEditor115:setName("textEditor115");
 
-    obj.layout342 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout342:setParent(obj.rectangle2);
-    obj.layout342:setLeft(97);
-    obj.layout342:setTop(1732.2);
-    obj.layout342:setWidth(237);
-    obj.layout342:setHeight(17.8);
-    obj.layout342:setName("layout342");
+    obj.layout343 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout343:setParent(obj.rectangle2);
+    obj.layout343:setLeft(97);
+    obj.layout343:setTop(1732.2);
+    obj.layout343:setWidth(237);
+    obj.layout343:setHeight(17.8);
+    obj.layout343:setName("layout343");
 
     obj.textEditor116 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor116:setParent(obj.layout342);
+    obj.textEditor116:setParent(obj.layout343);
     obj.textEditor116:setLeft(0);
     obj.textEditor116:setTop(0);
     obj.textEditor116:setWidth(237);
@@ -7400,16 +7418,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor116:setTransparent(true);
     obj.textEditor116:setName("textEditor116");
 
-    obj.layout343 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout343:setParent(obj.rectangle2);
-    obj.layout343:setLeft(96);
-    obj.layout343:setTop(1771.2);
-    obj.layout343:setWidth(237);
-    obj.layout343:setHeight(17.8);
-    obj.layout343:setName("layout343");
+    obj.layout344 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout344:setParent(obj.rectangle2);
+    obj.layout344:setLeft(96);
+    obj.layout344:setTop(1771.2);
+    obj.layout344:setWidth(237);
+    obj.layout344:setHeight(17.8);
+    obj.layout344:setName("layout344");
 
     obj.textEditor117 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor117:setParent(obj.layout343);
+    obj.textEditor117:setParent(obj.layout344);
     obj.textEditor117:setLeft(0);
     obj.textEditor117:setTop(0);
     obj.textEditor117:setWidth(237);
@@ -7420,16 +7438,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor117:setTransparent(true);
     obj.textEditor117:setName("textEditor117");
 
-    obj.layout344 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout344:setParent(obj.rectangle2);
-    obj.layout344:setLeft(96);
-    obj.layout344:setTop(1811.2);
-    obj.layout344:setWidth(237);
-    obj.layout344:setHeight(14.8);
-    obj.layout344:setName("layout344");
+    obj.layout345 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout345:setParent(obj.rectangle2);
+    obj.layout345:setLeft(96);
+    obj.layout345:setTop(1811.2);
+    obj.layout345:setWidth(237);
+    obj.layout345:setHeight(14.8);
+    obj.layout345:setName("layout345");
 
     obj.textEditor118 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor118:setParent(obj.layout344);
+    obj.textEditor118:setParent(obj.layout345);
     obj.textEditor118:setLeft(0);
     obj.textEditor118:setTop(0);
     obj.textEditor118:setWidth(237);
@@ -7464,27 +7482,27 @@ local function constructNew_frmWitcherRPG()
     obj.rectangle3:setColor("white");
     obj.rectangle3:setName("rectangle3");
 
-    obj.image3 = GUI.fromHandle(_obj_newObject("image"));
-    obj.image3:setParent(obj.rectangle3);
-    obj.image3:setLeft(0);
-    obj.image3:setTop(0);
-    obj.image3:setWidth(1469);
-    obj.image3:setHeight(1901);
-    obj.image3:setSRC("/WitcherRPG/images/3.png");
-    obj.image3:setStyle("stretch");
-    obj.image3:setOptimize(true);
-    obj.image3:setName("image3");
+    obj.image4 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image4:setParent(obj.rectangle3);
+    obj.image4:setLeft(0);
+    obj.image4:setTop(0);
+    obj.image4:setWidth(1469);
+    obj.image4:setHeight(1901);
+    obj.image4:setSRC("/WitcherRPG/images/3.png");
+    obj.image4:setStyle("stretch");
+    obj.image4:setOptimize(true);
+    obj.image4:setName("image4");
 
-    obj.layout345 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout345:setParent(obj.rectangle3);
-    obj.layout345:setLeft(1170);
-    obj.layout345:setTop(73);
-    obj.layout345:setWidth(203);
-    obj.layout345:setHeight(35);
-    obj.layout345:setName("layout345");
+    obj.layout346 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout346:setParent(obj.rectangle3);
+    obj.layout346:setLeft(1170);
+    obj.layout346:setTop(73);
+    obj.layout346:setWidth(203);
+    obj.layout346:setHeight(35);
+    obj.layout346:setName("layout346");
 
     obj.edit227 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit227:setParent(obj.layout345);
+    obj.edit227:setParent(obj.layout346);
     obj.edit227:setTransparent(true);
     obj.edit227:setFontSize(22.8);
     obj.edit227:setFontColor("#000000");
@@ -7497,16 +7515,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit227:setField("Vigor");
     obj.edit227:setName("edit227");
 
-    obj.layout346 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout346:setParent(obj.rectangle3);
-    obj.layout346:setLeft(74);
-    obj.layout346:setTop(170.2);
-    obj.layout346:setWidth(238);
-    obj.layout346:setHeight(49.8);
-    obj.layout346:setName("layout346");
+    obj.layout347 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout347:setParent(obj.rectangle3);
+    obj.layout347:setLeft(74);
+    obj.layout347:setTop(170.2);
+    obj.layout347:setWidth(238);
+    obj.layout347:setHeight(49.8);
+    obj.layout347:setName("layout347");
 
     obj.textEditor119 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor119:setParent(obj.layout346);
+    obj.textEditor119:setParent(obj.layout347);
     obj.textEditor119:setLeft(0);
     obj.textEditor119:setTop(0);
     obj.textEditor119:setWidth(238);
@@ -7517,16 +7535,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor119:setTransparent(true);
     obj.textEditor119:setName("textEditor119");
 
-    obj.layout347 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout347:setParent(obj.rectangle3);
-    obj.layout347:setLeft(75);
-    obj.layout347:setTop(313.2);
-    obj.layout347:setWidth(238);
-    obj.layout347:setHeight(49.8);
-    obj.layout347:setName("layout347");
+    obj.layout348 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout348:setParent(obj.rectangle3);
+    obj.layout348:setLeft(75);
+    obj.layout348:setTop(313.2);
+    obj.layout348:setWidth(238);
+    obj.layout348:setHeight(49.8);
+    obj.layout348:setName("layout348");
 
     obj.textEditor120 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor120:setParent(obj.layout347);
+    obj.textEditor120:setParent(obj.layout348);
     obj.textEditor120:setLeft(0);
     obj.textEditor120:setTop(0);
     obj.textEditor120:setWidth(238);
@@ -7537,16 +7555,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor120:setTransparent(true);
     obj.textEditor120:setName("textEditor120");
 
-    obj.layout348 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout348:setParent(obj.rectangle3);
-    obj.layout348:setLeft(75);
-    obj.layout348:setTop(385.2);
-    obj.layout348:setWidth(238);
-    obj.layout348:setHeight(49.8);
-    obj.layout348:setName("layout348");
+    obj.layout349 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout349:setParent(obj.rectangle3);
+    obj.layout349:setLeft(75);
+    obj.layout349:setTop(385.2);
+    obj.layout349:setWidth(238);
+    obj.layout349:setHeight(49.8);
+    obj.layout349:setName("layout349");
 
     obj.textEditor121 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor121:setParent(obj.layout348);
+    obj.textEditor121:setParent(obj.layout349);
     obj.textEditor121:setLeft(0);
     obj.textEditor121:setTop(0);
     obj.textEditor121:setWidth(238);
@@ -7557,16 +7575,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor121:setTransparent(true);
     obj.textEditor121:setName("textEditor121");
 
-    obj.layout349 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout349:setParent(obj.rectangle3);
-    obj.layout349:setLeft(75);
-    obj.layout349:setTop(456.2);
-    obj.layout349:setWidth(238);
-    obj.layout349:setHeight(49.8);
-    obj.layout349:setName("layout349");
+    obj.layout350 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout350:setParent(obj.rectangle3);
+    obj.layout350:setLeft(75);
+    obj.layout350:setTop(456.2);
+    obj.layout350:setWidth(238);
+    obj.layout350:setHeight(49.8);
+    obj.layout350:setName("layout350");
 
     obj.textEditor122 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor122:setParent(obj.layout349);
+    obj.textEditor122:setParent(obj.layout350);
     obj.textEditor122:setLeft(0);
     obj.textEditor122:setTop(0);
     obj.textEditor122:setWidth(238);
@@ -7577,16 +7595,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor122:setTransparent(true);
     obj.textEditor122:setName("textEditor122");
 
-    obj.layout350 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout350:setParent(obj.rectangle3);
-    obj.layout350:setLeft(75);
-    obj.layout350:setTop(528.2);
-    obj.layout350:setWidth(238);
-    obj.layout350:setHeight(49.8);
-    obj.layout350:setName("layout350");
+    obj.layout351 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout351:setParent(obj.rectangle3);
+    obj.layout351:setLeft(75);
+    obj.layout351:setTop(528.2);
+    obj.layout351:setWidth(238);
+    obj.layout351:setHeight(49.8);
+    obj.layout351:setName("layout351");
 
     obj.textEditor123 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor123:setParent(obj.layout350);
+    obj.textEditor123:setParent(obj.layout351);
     obj.textEditor123:setLeft(0);
     obj.textEditor123:setTop(0);
     obj.textEditor123:setWidth(238);
@@ -7597,16 +7615,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor123:setTransparent(true);
     obj.textEditor123:setName("textEditor123");
 
-    obj.layout351 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout351:setParent(obj.rectangle3);
-    obj.layout351:setLeft(75);
-    obj.layout351:setTop(600.2);
-    obj.layout351:setWidth(238);
-    obj.layout351:setHeight(49.8);
-    obj.layout351:setName("layout351");
+    obj.layout352 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout352:setParent(obj.rectangle3);
+    obj.layout352:setLeft(75);
+    obj.layout352:setTop(600.2);
+    obj.layout352:setWidth(238);
+    obj.layout352:setHeight(49.8);
+    obj.layout352:setName("layout352");
 
     obj.textEditor124 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor124:setParent(obj.layout351);
+    obj.textEditor124:setParent(obj.layout352);
     obj.textEditor124:setLeft(0);
     obj.textEditor124:setTop(0);
     obj.textEditor124:setWidth(238);
@@ -7617,16 +7635,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor124:setTransparent(true);
     obj.textEditor124:setName("textEditor124");
 
-    obj.layout352 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout352:setParent(obj.rectangle3);
-    obj.layout352:setLeft(75);
-    obj.layout352:setTop(672.2);
-    obj.layout352:setWidth(238);
-    obj.layout352:setHeight(49.8);
-    obj.layout352:setName("layout352");
+    obj.layout353 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout353:setParent(obj.rectangle3);
+    obj.layout353:setLeft(75);
+    obj.layout353:setTop(672.2);
+    obj.layout353:setWidth(238);
+    obj.layout353:setHeight(49.8);
+    obj.layout353:setName("layout353");
 
     obj.textEditor125 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor125:setParent(obj.layout352);
+    obj.textEditor125:setParent(obj.layout353);
     obj.textEditor125:setLeft(0);
     obj.textEditor125:setTop(0);
     obj.textEditor125:setWidth(238);
@@ -7637,16 +7655,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor125:setTransparent(true);
     obj.textEditor125:setName("textEditor125");
 
-    obj.layout353 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout353:setParent(obj.rectangle3);
-    obj.layout353:setLeft(75);
-    obj.layout353:setTop(743.2);
-    obj.layout353:setWidth(238);
-    obj.layout353:setHeight(49.8);
-    obj.layout353:setName("layout353");
+    obj.layout354 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout354:setParent(obj.rectangle3);
+    obj.layout354:setLeft(75);
+    obj.layout354:setTop(743.2);
+    obj.layout354:setWidth(238);
+    obj.layout354:setHeight(49.8);
+    obj.layout354:setName("layout354");
 
     obj.textEditor126 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor126:setParent(obj.layout353);
+    obj.textEditor126:setParent(obj.layout354);
     obj.textEditor126:setLeft(0);
     obj.textEditor126:setTop(0);
     obj.textEditor126:setWidth(238);
@@ -7657,16 +7675,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor126:setTransparent(true);
     obj.textEditor126:setName("textEditor126");
 
-    obj.layout354 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout354:setParent(obj.rectangle3);
-    obj.layout354:setLeft(75);
-    obj.layout354:setTop(815.2);
-    obj.layout354:setWidth(238);
-    obj.layout354:setHeight(49.8);
-    obj.layout354:setName("layout354");
+    obj.layout355 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout355:setParent(obj.rectangle3);
+    obj.layout355:setLeft(75);
+    obj.layout355:setTop(815.2);
+    obj.layout355:setWidth(238);
+    obj.layout355:setHeight(49.8);
+    obj.layout355:setName("layout355");
 
     obj.textEditor127 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor127:setParent(obj.layout354);
+    obj.textEditor127:setParent(obj.layout355);
     obj.textEditor127:setLeft(0);
     obj.textEditor127:setTop(0);
     obj.textEditor127:setWidth(238);
@@ -7677,16 +7695,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor127:setTransparent(true);
     obj.textEditor127:setName("textEditor127");
 
-    obj.layout355 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout355:setParent(obj.rectangle3);
-    obj.layout355:setLeft(75);
-    obj.layout355:setTop(886.2);
-    obj.layout355:setWidth(238);
-    obj.layout355:setHeight(49.8);
-    obj.layout355:setName("layout355");
+    obj.layout356 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout356:setParent(obj.rectangle3);
+    obj.layout356:setLeft(75);
+    obj.layout356:setTop(886.2);
+    obj.layout356:setWidth(238);
+    obj.layout356:setHeight(49.8);
+    obj.layout356:setName("layout356");
 
     obj.textEditor128 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor128:setParent(obj.layout355);
+    obj.textEditor128:setParent(obj.layout356);
     obj.textEditor128:setLeft(0);
     obj.textEditor128:setTop(0);
     obj.textEditor128:setWidth(238);
@@ -7697,16 +7715,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor128:setTransparent(true);
     obj.textEditor128:setName("textEditor128");
 
-    obj.layout356 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout356:setParent(obj.rectangle3);
-    obj.layout356:setLeft(75);
-    obj.layout356:setTop(958.2);
-    obj.layout356:setWidth(238);
-    obj.layout356:setHeight(49.8);
-    obj.layout356:setName("layout356");
+    obj.layout357 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout357:setParent(obj.rectangle3);
+    obj.layout357:setLeft(75);
+    obj.layout357:setTop(958.2);
+    obj.layout357:setWidth(238);
+    obj.layout357:setHeight(49.8);
+    obj.layout357:setName("layout357");
 
     obj.textEditor129 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor129:setParent(obj.layout356);
+    obj.textEditor129:setParent(obj.layout357);
     obj.textEditor129:setLeft(0);
     obj.textEditor129:setTop(0);
     obj.textEditor129:setWidth(238);
@@ -7717,16 +7735,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor129:setTransparent(true);
     obj.textEditor129:setName("textEditor129");
 
-    obj.layout357 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout357:setParent(obj.rectangle3);
-    obj.layout357:setLeft(75);
-    obj.layout357:setTop(1030.2);
-    obj.layout357:setWidth(238);
-    obj.layout357:setHeight(49.8);
-    obj.layout357:setName("layout357");
+    obj.layout358 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout358:setParent(obj.rectangle3);
+    obj.layout358:setLeft(75);
+    obj.layout358:setTop(1030.2);
+    obj.layout358:setWidth(238);
+    obj.layout358:setHeight(49.8);
+    obj.layout358:setName("layout358");
 
     obj.textEditor130 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor130:setParent(obj.layout357);
+    obj.textEditor130:setParent(obj.layout358);
     obj.textEditor130:setLeft(0);
     obj.textEditor130:setTop(0);
     obj.textEditor130:setWidth(238);
@@ -7737,16 +7755,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor130:setTransparent(true);
     obj.textEditor130:setName("textEditor130");
 
-    obj.layout358 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout358:setParent(obj.rectangle3);
-    obj.layout358:setLeft(75);
-    obj.layout358:setTop(1101.2);
-    obj.layout358:setWidth(238);
-    obj.layout358:setHeight(49.8);
-    obj.layout358:setName("layout358");
+    obj.layout359 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout359:setParent(obj.rectangle3);
+    obj.layout359:setLeft(75);
+    obj.layout359:setTop(1101.2);
+    obj.layout359:setWidth(238);
+    obj.layout359:setHeight(49.8);
+    obj.layout359:setName("layout359");
 
     obj.textEditor131 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor131:setParent(obj.layout358);
+    obj.textEditor131:setParent(obj.layout359);
     obj.textEditor131:setLeft(0);
     obj.textEditor131:setTop(0);
     obj.textEditor131:setWidth(238);
@@ -7757,16 +7775,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor131:setTransparent(true);
     obj.textEditor131:setName("textEditor131");
 
-    obj.layout359 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout359:setParent(obj.rectangle3);
-    obj.layout359:setLeft(75);
-    obj.layout359:setTop(1173.2);
-    obj.layout359:setWidth(238);
-    obj.layout359:setHeight(49.8);
-    obj.layout359:setName("layout359");
+    obj.layout360 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout360:setParent(obj.rectangle3);
+    obj.layout360:setLeft(75);
+    obj.layout360:setTop(1173.2);
+    obj.layout360:setWidth(238);
+    obj.layout360:setHeight(49.8);
+    obj.layout360:setName("layout360");
 
     obj.textEditor132 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor132:setParent(obj.layout359);
+    obj.textEditor132:setParent(obj.layout360);
     obj.textEditor132:setLeft(0);
     obj.textEditor132:setTop(0);
     obj.textEditor132:setWidth(238);
@@ -7777,16 +7795,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor132:setTransparent(true);
     obj.textEditor132:setName("textEditor132");
 
-    obj.layout360 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout360:setParent(obj.rectangle3);
-    obj.layout360:setLeft(75);
-    obj.layout360:setTop(1244.2);
-    obj.layout360:setWidth(238);
-    obj.layout360:setHeight(47.8);
-    obj.layout360:setName("layout360");
+    obj.layout361 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout361:setParent(obj.rectangle3);
+    obj.layout361:setLeft(75);
+    obj.layout361:setTop(1244.2);
+    obj.layout361:setWidth(238);
+    obj.layout361:setHeight(47.8);
+    obj.layout361:setName("layout361");
 
     obj.textEditor133 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor133:setParent(obj.layout360);
+    obj.textEditor133:setParent(obj.layout361);
     obj.textEditor133:setLeft(0);
     obj.textEditor133:setTop(0);
     obj.textEditor133:setWidth(238);
@@ -7797,16 +7815,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor133:setTransparent(true);
     obj.textEditor133:setName("textEditor133");
 
-    obj.layout361 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout361:setParent(obj.rectangle3);
-    obj.layout361:setLeft(74);
-    obj.layout361:setTop(241.2);
-    obj.layout361:setWidth(238);
-    obj.layout361:setHeight(49.8);
-    obj.layout361:setName("layout361");
+    obj.layout362 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout362:setParent(obj.rectangle3);
+    obj.layout362:setLeft(74);
+    obj.layout362:setTop(241.2);
+    obj.layout362:setWidth(238);
+    obj.layout362:setHeight(49.8);
+    obj.layout362:setName("layout362");
 
     obj.textEditor134 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor134:setParent(obj.layout361);
+    obj.textEditor134:setParent(obj.layout362);
     obj.textEditor134:setLeft(0);
     obj.textEditor134:setTop(0);
     obj.textEditor134:setWidth(238);
@@ -7817,16 +7835,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor134:setTransparent(true);
     obj.textEditor134:setName("textEditor134");
 
-    obj.layout362 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout362:setParent(obj.rectangle3);
-    obj.layout362:setLeft(316);
-    obj.layout362:setTop(170.2);
-    obj.layout362:setWidth(79);
-    obj.layout362:setHeight(50.8);
-    obj.layout362:setName("layout362");
+    obj.layout363 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout363:setParent(obj.rectangle3);
+    obj.layout363:setLeft(316);
+    obj.layout363:setTop(170.2);
+    obj.layout363:setWidth(79);
+    obj.layout363:setHeight(50.8);
+    obj.layout363:setName("layout363");
 
     obj.textEditor135 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor135:setParent(obj.layout362);
+    obj.textEditor135:setParent(obj.layout363);
     obj.textEditor135:setLeft(0);
     obj.textEditor135:setTop(0);
     obj.textEditor135:setWidth(79);
@@ -7837,16 +7855,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor135:setTransparent(true);
     obj.textEditor135:setName("textEditor135");
 
-    obj.layout363 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout363:setParent(obj.rectangle3);
-    obj.layout363:setLeft(315);
-    obj.layout363:setTop(312.2);
-    obj.layout363:setWidth(79);
-    obj.layout363:setHeight(50.8);
-    obj.layout363:setName("layout363");
+    obj.layout364 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout364:setParent(obj.rectangle3);
+    obj.layout364:setLeft(315);
+    obj.layout364:setTop(312.2);
+    obj.layout364:setWidth(79);
+    obj.layout364:setHeight(50.8);
+    obj.layout364:setName("layout364");
 
     obj.textEditor136 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor136:setParent(obj.layout363);
+    obj.textEditor136:setParent(obj.layout364);
     obj.textEditor136:setLeft(0);
     obj.textEditor136:setTop(0);
     obj.textEditor136:setWidth(79);
@@ -7857,16 +7875,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor136:setTransparent(true);
     obj.textEditor136:setName("textEditor136");
 
-    obj.layout364 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout364:setParent(obj.rectangle3);
-    obj.layout364:setLeft(315);
-    obj.layout364:setTop(384.2);
-    obj.layout364:setWidth(79);
-    obj.layout364:setHeight(50.8);
-    obj.layout364:setName("layout364");
+    obj.layout365 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout365:setParent(obj.rectangle3);
+    obj.layout365:setLeft(315);
+    obj.layout365:setTop(384.2);
+    obj.layout365:setWidth(79);
+    obj.layout365:setHeight(50.8);
+    obj.layout365:setName("layout365");
 
     obj.textEditor137 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor137:setParent(obj.layout364);
+    obj.textEditor137:setParent(obj.layout365);
     obj.textEditor137:setLeft(0);
     obj.textEditor137:setTop(0);
     obj.textEditor137:setWidth(79);
@@ -7877,16 +7895,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor137:setTransparent(true);
     obj.textEditor137:setName("textEditor137");
 
-    obj.layout365 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout365:setParent(obj.rectangle3);
-    obj.layout365:setLeft(315);
-    obj.layout365:setTop(456.2);
-    obj.layout365:setWidth(79);
-    obj.layout365:setHeight(50.8);
-    obj.layout365:setName("layout365");
+    obj.layout366 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout366:setParent(obj.rectangle3);
+    obj.layout366:setLeft(315);
+    obj.layout366:setTop(456.2);
+    obj.layout366:setWidth(79);
+    obj.layout366:setHeight(50.8);
+    obj.layout366:setName("layout366");
 
     obj.textEditor138 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor138:setParent(obj.layout365);
+    obj.textEditor138:setParent(obj.layout366);
     obj.textEditor138:setLeft(0);
     obj.textEditor138:setTop(0);
     obj.textEditor138:setWidth(79);
@@ -7897,16 +7915,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor138:setTransparent(true);
     obj.textEditor138:setName("textEditor138");
 
-    obj.layout366 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout366:setParent(obj.rectangle3);
-    obj.layout366:setLeft(315);
-    obj.layout366:setTop(527.2);
-    obj.layout366:setWidth(79);
-    obj.layout366:setHeight(50.8);
-    obj.layout366:setName("layout366");
+    obj.layout367 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout367:setParent(obj.rectangle3);
+    obj.layout367:setLeft(315);
+    obj.layout367:setTop(527.2);
+    obj.layout367:setWidth(79);
+    obj.layout367:setHeight(50.8);
+    obj.layout367:setName("layout367");
 
     obj.textEditor139 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor139:setParent(obj.layout366);
+    obj.textEditor139:setParent(obj.layout367);
     obj.textEditor139:setLeft(0);
     obj.textEditor139:setTop(0);
     obj.textEditor139:setWidth(79);
@@ -7917,16 +7935,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor139:setTransparent(true);
     obj.textEditor139:setName("textEditor139");
 
-    obj.layout367 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout367:setParent(obj.rectangle3);
-    obj.layout367:setLeft(315);
-    obj.layout367:setTop(599.2);
-    obj.layout367:setWidth(79);
-    obj.layout367:setHeight(50.8);
-    obj.layout367:setName("layout367");
+    obj.layout368 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout368:setParent(obj.rectangle3);
+    obj.layout368:setLeft(315);
+    obj.layout368:setTop(599.2);
+    obj.layout368:setWidth(79);
+    obj.layout368:setHeight(50.8);
+    obj.layout368:setName("layout368");
 
     obj.textEditor140 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor140:setParent(obj.layout367);
+    obj.textEditor140:setParent(obj.layout368);
     obj.textEditor140:setLeft(0);
     obj.textEditor140:setTop(0);
     obj.textEditor140:setWidth(79);
@@ -7937,16 +7955,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor140:setTransparent(true);
     obj.textEditor140:setName("textEditor140");
 
-    obj.layout368 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout368:setParent(obj.rectangle3);
-    obj.layout368:setLeft(315);
-    obj.layout368:setTop(671.2);
-    obj.layout368:setWidth(79);
-    obj.layout368:setHeight(50.8);
-    obj.layout368:setName("layout368");
+    obj.layout369 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout369:setParent(obj.rectangle3);
+    obj.layout369:setLeft(315);
+    obj.layout369:setTop(671.2);
+    obj.layout369:setWidth(79);
+    obj.layout369:setHeight(50.8);
+    obj.layout369:setName("layout369");
 
     obj.textEditor141 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor141:setParent(obj.layout368);
+    obj.textEditor141:setParent(obj.layout369);
     obj.textEditor141:setLeft(0);
     obj.textEditor141:setTop(0);
     obj.textEditor141:setWidth(79);
@@ -7957,16 +7975,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor141:setTransparent(true);
     obj.textEditor141:setName("textEditor141");
 
-    obj.layout369 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout369:setParent(obj.rectangle3);
-    obj.layout369:setLeft(315);
-    obj.layout369:setTop(742.2);
-    obj.layout369:setWidth(79);
-    obj.layout369:setHeight(50.8);
-    obj.layout369:setName("layout369");
+    obj.layout370 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout370:setParent(obj.rectangle3);
+    obj.layout370:setLeft(315);
+    obj.layout370:setTop(742.2);
+    obj.layout370:setWidth(79);
+    obj.layout370:setHeight(50.8);
+    obj.layout370:setName("layout370");
 
     obj.textEditor142 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor142:setParent(obj.layout369);
+    obj.textEditor142:setParent(obj.layout370);
     obj.textEditor142:setLeft(0);
     obj.textEditor142:setTop(0);
     obj.textEditor142:setWidth(79);
@@ -7977,16 +7995,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor142:setTransparent(true);
     obj.textEditor142:setName("textEditor142");
 
-    obj.layout370 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout370:setParent(obj.rectangle3);
-    obj.layout370:setLeft(315);
-    obj.layout370:setTop(814.2);
-    obj.layout370:setWidth(79);
-    obj.layout370:setHeight(50.8);
-    obj.layout370:setName("layout370");
+    obj.layout371 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout371:setParent(obj.rectangle3);
+    obj.layout371:setLeft(315);
+    obj.layout371:setTop(814.2);
+    obj.layout371:setWidth(79);
+    obj.layout371:setHeight(50.8);
+    obj.layout371:setName("layout371");
 
     obj.textEditor143 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor143:setParent(obj.layout370);
+    obj.textEditor143:setParent(obj.layout371);
     obj.textEditor143:setLeft(0);
     obj.textEditor143:setTop(0);
     obj.textEditor143:setWidth(79);
@@ -7997,16 +8015,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor143:setTransparent(true);
     obj.textEditor143:setName("textEditor143");
 
-    obj.layout371 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout371:setParent(obj.rectangle3);
-    obj.layout371:setLeft(315);
-    obj.layout371:setTop(886.2);
-    obj.layout371:setWidth(79);
-    obj.layout371:setHeight(50.8);
-    obj.layout371:setName("layout371");
+    obj.layout372 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout372:setParent(obj.rectangle3);
+    obj.layout372:setLeft(315);
+    obj.layout372:setTop(886.2);
+    obj.layout372:setWidth(79);
+    obj.layout372:setHeight(50.8);
+    obj.layout372:setName("layout372");
 
     obj.textEditor144 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor144:setParent(obj.layout371);
+    obj.textEditor144:setParent(obj.layout372);
     obj.textEditor144:setLeft(0);
     obj.textEditor144:setTop(0);
     obj.textEditor144:setWidth(79);
@@ -8017,16 +8035,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor144:setTransparent(true);
     obj.textEditor144:setName("textEditor144");
 
-    obj.layout372 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout372:setParent(obj.rectangle3);
-    obj.layout372:setLeft(316);
-    obj.layout372:setTop(957.2);
-    obj.layout372:setWidth(79);
-    obj.layout372:setHeight(50.8);
-    obj.layout372:setName("layout372");
+    obj.layout373 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout373:setParent(obj.rectangle3);
+    obj.layout373:setLeft(316);
+    obj.layout373:setTop(957.2);
+    obj.layout373:setWidth(79);
+    obj.layout373:setHeight(50.8);
+    obj.layout373:setName("layout373");
 
     obj.textEditor145 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor145:setParent(obj.layout372);
+    obj.textEditor145:setParent(obj.layout373);
     obj.textEditor145:setLeft(0);
     obj.textEditor145:setTop(0);
     obj.textEditor145:setWidth(79);
@@ -8037,16 +8055,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor145:setTransparent(true);
     obj.textEditor145:setName("textEditor145");
 
-    obj.layout373 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout373:setParent(obj.rectangle3);
-    obj.layout373:setLeft(315);
-    obj.layout373:setTop(1029.2);
-    obj.layout373:setWidth(79);
-    obj.layout373:setHeight(50.8);
-    obj.layout373:setName("layout373");
+    obj.layout374 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout374:setParent(obj.rectangle3);
+    obj.layout374:setLeft(315);
+    obj.layout374:setTop(1029.2);
+    obj.layout374:setWidth(79);
+    obj.layout374:setHeight(50.8);
+    obj.layout374:setName("layout374");
 
     obj.textEditor146 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor146:setParent(obj.layout373);
+    obj.textEditor146:setParent(obj.layout374);
     obj.textEditor146:setLeft(0);
     obj.textEditor146:setTop(0);
     obj.textEditor146:setWidth(79);
@@ -8057,16 +8075,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor146:setTransparent(true);
     obj.textEditor146:setName("textEditor146");
 
-    obj.layout374 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout374:setParent(obj.rectangle3);
-    obj.layout374:setLeft(315);
-    obj.layout374:setTop(1100.2);
-    obj.layout374:setWidth(79);
-    obj.layout374:setHeight(50.8);
-    obj.layout374:setName("layout374");
+    obj.layout375 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout375:setParent(obj.rectangle3);
+    obj.layout375:setLeft(315);
+    obj.layout375:setTop(1100.2);
+    obj.layout375:setWidth(79);
+    obj.layout375:setHeight(50.8);
+    obj.layout375:setName("layout375");
 
     obj.textEditor147 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor147:setParent(obj.layout374);
+    obj.textEditor147:setParent(obj.layout375);
     obj.textEditor147:setLeft(0);
     obj.textEditor147:setTop(0);
     obj.textEditor147:setWidth(79);
@@ -8077,16 +8095,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor147:setTransparent(true);
     obj.textEditor147:setName("textEditor147");
 
-    obj.layout375 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout375:setParent(obj.rectangle3);
-    obj.layout375:setLeft(315);
-    obj.layout375:setTop(1173.2);
-    obj.layout375:setWidth(79);
-    obj.layout375:setHeight(50.8);
-    obj.layout375:setName("layout375");
+    obj.layout376 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout376:setParent(obj.rectangle3);
+    obj.layout376:setLeft(315);
+    obj.layout376:setTop(1173.2);
+    obj.layout376:setWidth(79);
+    obj.layout376:setHeight(50.8);
+    obj.layout376:setName("layout376");
 
     obj.textEditor148 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor148:setParent(obj.layout375);
+    obj.textEditor148:setParent(obj.layout376);
     obj.textEditor148:setLeft(0);
     obj.textEditor148:setTop(0);
     obj.textEditor148:setWidth(79);
@@ -8097,16 +8115,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor148:setTransparent(true);
     obj.textEditor148:setName("textEditor148");
 
-    obj.layout376 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout376:setParent(obj.rectangle3);
-    obj.layout376:setLeft(315);
-    obj.layout376:setTop(1245.2);
-    obj.layout376:setWidth(79);
-    obj.layout376:setHeight(47.8);
-    obj.layout376:setName("layout376");
+    obj.layout377 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout377:setParent(obj.rectangle3);
+    obj.layout377:setLeft(315);
+    obj.layout377:setTop(1245.2);
+    obj.layout377:setWidth(79);
+    obj.layout377:setHeight(47.8);
+    obj.layout377:setName("layout377");
 
     obj.textEditor149 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor149:setParent(obj.layout376);
+    obj.textEditor149:setParent(obj.layout377);
     obj.textEditor149:setLeft(0);
     obj.textEditor149:setTop(0);
     obj.textEditor149:setWidth(79);
@@ -8117,16 +8135,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor149:setTransparent(true);
     obj.textEditor149:setName("textEditor149");
 
-    obj.layout377 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout377:setParent(obj.rectangle3);
-    obj.layout377:setLeft(315);
-    obj.layout377:setTop(241.2);
-    obj.layout377:setWidth(79);
-    obj.layout377:setHeight(50.8);
-    obj.layout377:setName("layout377");
+    obj.layout378 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout378:setParent(obj.rectangle3);
+    obj.layout378:setLeft(315);
+    obj.layout378:setTop(241.2);
+    obj.layout378:setWidth(79);
+    obj.layout378:setHeight(50.8);
+    obj.layout378:setName("layout378");
 
     obj.textEditor150 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor150:setParent(obj.layout377);
+    obj.textEditor150:setParent(obj.layout378);
     obj.textEditor150:setLeft(0);
     obj.textEditor150:setTop(0);
     obj.textEditor150:setWidth(79);
@@ -8137,16 +8155,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor150:setTransparent(true);
     obj.textEditor150:setName("textEditor150");
 
-    obj.layout378 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout378:setParent(obj.rectangle3);
-    obj.layout378:setLeft(399);
-    obj.layout378:setTop(170.2);
-    obj.layout378:setWidth(311);
-    obj.layout378:setHeight(49.8);
-    obj.layout378:setName("layout378");
+    obj.layout379 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout379:setParent(obj.rectangle3);
+    obj.layout379:setLeft(399);
+    obj.layout379:setTop(170.2);
+    obj.layout379:setWidth(311);
+    obj.layout379:setHeight(49.8);
+    obj.layout379:setName("layout379");
 
     obj.textEditor151 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor151:setParent(obj.layout378);
+    obj.textEditor151:setParent(obj.layout379);
     obj.textEditor151:setLeft(0);
     obj.textEditor151:setTop(0);
     obj.textEditor151:setWidth(311);
@@ -8157,16 +8175,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor151:setTransparent(true);
     obj.textEditor151:setName("textEditor151");
 
-    obj.layout379 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout379:setParent(obj.rectangle3);
-    obj.layout379:setLeft(399);
-    obj.layout379:setTop(313.2);
-    obj.layout379:setWidth(311);
-    obj.layout379:setHeight(49.8);
-    obj.layout379:setName("layout379");
+    obj.layout380 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout380:setParent(obj.rectangle3);
+    obj.layout380:setLeft(399);
+    obj.layout380:setTop(313.2);
+    obj.layout380:setWidth(311);
+    obj.layout380:setHeight(49.8);
+    obj.layout380:setName("layout380");
 
     obj.textEditor152 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor152:setParent(obj.layout379);
+    obj.textEditor152:setParent(obj.layout380);
     obj.textEditor152:setLeft(0);
     obj.textEditor152:setTop(0);
     obj.textEditor152:setWidth(311);
@@ -8177,16 +8195,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor152:setTransparent(true);
     obj.textEditor152:setName("textEditor152");
 
-    obj.layout380 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout380:setParent(obj.rectangle3);
-    obj.layout380:setLeft(399);
-    obj.layout380:setTop(385.2);
-    obj.layout380:setWidth(311);
-    obj.layout380:setHeight(49.8);
-    obj.layout380:setName("layout380");
+    obj.layout381 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout381:setParent(obj.rectangle3);
+    obj.layout381:setLeft(399);
+    obj.layout381:setTop(385.2);
+    obj.layout381:setWidth(311);
+    obj.layout381:setHeight(49.8);
+    obj.layout381:setName("layout381");
 
     obj.textEditor153 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor153:setParent(obj.layout380);
+    obj.textEditor153:setParent(obj.layout381);
     obj.textEditor153:setLeft(0);
     obj.textEditor153:setTop(0);
     obj.textEditor153:setWidth(311);
@@ -8197,16 +8215,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor153:setTransparent(true);
     obj.textEditor153:setName("textEditor153");
 
-    obj.layout381 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout381:setParent(obj.rectangle3);
-    obj.layout381:setLeft(399);
-    obj.layout381:setTop(456.2);
-    obj.layout381:setWidth(311);
-    obj.layout381:setHeight(49.8);
-    obj.layout381:setName("layout381");
+    obj.layout382 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout382:setParent(obj.rectangle3);
+    obj.layout382:setLeft(399);
+    obj.layout382:setTop(456.2);
+    obj.layout382:setWidth(311);
+    obj.layout382:setHeight(49.8);
+    obj.layout382:setName("layout382");
 
     obj.textEditor154 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor154:setParent(obj.layout381);
+    obj.textEditor154:setParent(obj.layout382);
     obj.textEditor154:setLeft(0);
     obj.textEditor154:setTop(0);
     obj.textEditor154:setWidth(311);
@@ -8217,16 +8235,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor154:setTransparent(true);
     obj.textEditor154:setName("textEditor154");
 
-    obj.layout382 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout382:setParent(obj.rectangle3);
-    obj.layout382:setLeft(398);
-    obj.layout382:setTop(528.2);
-    obj.layout382:setWidth(311);
-    obj.layout382:setHeight(49.8);
-    obj.layout382:setName("layout382");
+    obj.layout383 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout383:setParent(obj.rectangle3);
+    obj.layout383:setLeft(398);
+    obj.layout383:setTop(528.2);
+    obj.layout383:setWidth(311);
+    obj.layout383:setHeight(49.8);
+    obj.layout383:setName("layout383");
 
     obj.textEditor155 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor155:setParent(obj.layout382);
+    obj.textEditor155:setParent(obj.layout383);
     obj.textEditor155:setLeft(0);
     obj.textEditor155:setTop(0);
     obj.textEditor155:setWidth(311);
@@ -8237,16 +8255,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor155:setTransparent(true);
     obj.textEditor155:setName("textEditor155");
 
-    obj.layout383 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout383:setParent(obj.rectangle3);
-    obj.layout383:setLeft(398);
-    obj.layout383:setTop(600.2);
-    obj.layout383:setWidth(311);
-    obj.layout383:setHeight(49.8);
-    obj.layout383:setName("layout383");
+    obj.layout384 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout384:setParent(obj.rectangle3);
+    obj.layout384:setLeft(398);
+    obj.layout384:setTop(600.2);
+    obj.layout384:setWidth(311);
+    obj.layout384:setHeight(49.8);
+    obj.layout384:setName("layout384");
 
     obj.textEditor156 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor156:setParent(obj.layout383);
+    obj.textEditor156:setParent(obj.layout384);
     obj.textEditor156:setLeft(0);
     obj.textEditor156:setTop(0);
     obj.textEditor156:setWidth(311);
@@ -8257,16 +8275,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor156:setTransparent(true);
     obj.textEditor156:setName("textEditor156");
 
-    obj.layout384 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout384:setParent(obj.rectangle3);
-    obj.layout384:setLeft(399);
-    obj.layout384:setTop(671.2);
-    obj.layout384:setWidth(311);
-    obj.layout384:setHeight(49.8);
-    obj.layout384:setName("layout384");
+    obj.layout385 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout385:setParent(obj.rectangle3);
+    obj.layout385:setLeft(399);
+    obj.layout385:setTop(671.2);
+    obj.layout385:setWidth(311);
+    obj.layout385:setHeight(49.8);
+    obj.layout385:setName("layout385");
 
     obj.textEditor157 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor157:setParent(obj.layout384);
+    obj.textEditor157:setParent(obj.layout385);
     obj.textEditor157:setLeft(0);
     obj.textEditor157:setTop(0);
     obj.textEditor157:setWidth(311);
@@ -8277,16 +8295,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor157:setTransparent(true);
     obj.textEditor157:setName("textEditor157");
 
-    obj.layout385 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout385:setParent(obj.rectangle3);
-    obj.layout385:setLeft(399);
-    obj.layout385:setTop(743.2);
-    obj.layout385:setWidth(311);
-    obj.layout385:setHeight(49.8);
-    obj.layout385:setName("layout385");
+    obj.layout386 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout386:setParent(obj.rectangle3);
+    obj.layout386:setLeft(399);
+    obj.layout386:setTop(743.2);
+    obj.layout386:setWidth(311);
+    obj.layout386:setHeight(49.8);
+    obj.layout386:setName("layout386");
 
     obj.textEditor158 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor158:setParent(obj.layout385);
+    obj.textEditor158:setParent(obj.layout386);
     obj.textEditor158:setLeft(0);
     obj.textEditor158:setTop(0);
     obj.textEditor158:setWidth(311);
@@ -8297,16 +8315,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor158:setTransparent(true);
     obj.textEditor158:setName("textEditor158");
 
-    obj.layout386 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout386:setParent(obj.rectangle3);
-    obj.layout386:setLeft(399);
-    obj.layout386:setTop(815.2);
-    obj.layout386:setWidth(311);
-    obj.layout386:setHeight(49.8);
-    obj.layout386:setName("layout386");
+    obj.layout387 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout387:setParent(obj.rectangle3);
+    obj.layout387:setLeft(399);
+    obj.layout387:setTop(815.2);
+    obj.layout387:setWidth(311);
+    obj.layout387:setHeight(49.8);
+    obj.layout387:setName("layout387");
 
     obj.textEditor159 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor159:setParent(obj.layout386);
+    obj.textEditor159:setParent(obj.layout387);
     obj.textEditor159:setLeft(0);
     obj.textEditor159:setTop(0);
     obj.textEditor159:setWidth(311);
@@ -8317,16 +8335,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor159:setTransparent(true);
     obj.textEditor159:setName("textEditor159");
 
-    obj.layout387 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout387:setParent(obj.rectangle3);
-    obj.layout387:setLeft(399);
-    obj.layout387:setTop(886.2);
-    obj.layout387:setWidth(311);
-    obj.layout387:setHeight(49.8);
-    obj.layout387:setName("layout387");
+    obj.layout388 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout388:setParent(obj.rectangle3);
+    obj.layout388:setLeft(399);
+    obj.layout388:setTop(886.2);
+    obj.layout388:setWidth(311);
+    obj.layout388:setHeight(49.8);
+    obj.layout388:setName("layout388");
 
     obj.textEditor160 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor160:setParent(obj.layout387);
+    obj.textEditor160:setParent(obj.layout388);
     obj.textEditor160:setLeft(0);
     obj.textEditor160:setTop(0);
     obj.textEditor160:setWidth(311);
@@ -8337,16 +8355,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor160:setTransparent(true);
     obj.textEditor160:setName("textEditor160");
 
-    obj.layout388 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout388:setParent(obj.rectangle3);
-    obj.layout388:setLeft(399);
-    obj.layout388:setTop(958.2);
-    obj.layout388:setWidth(311);
-    obj.layout388:setHeight(49.8);
-    obj.layout388:setName("layout388");
+    obj.layout389 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout389:setParent(obj.rectangle3);
+    obj.layout389:setLeft(399);
+    obj.layout389:setTop(958.2);
+    obj.layout389:setWidth(311);
+    obj.layout389:setHeight(49.8);
+    obj.layout389:setName("layout389");
 
     obj.textEditor161 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor161:setParent(obj.layout388);
+    obj.textEditor161:setParent(obj.layout389);
     obj.textEditor161:setLeft(0);
     obj.textEditor161:setTop(0);
     obj.textEditor161:setWidth(311);
@@ -8357,16 +8375,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor161:setTransparent(true);
     obj.textEditor161:setName("textEditor161");
 
-    obj.layout389 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout389:setParent(obj.rectangle3);
-    obj.layout389:setLeft(399);
-    obj.layout389:setTop(1029.2);
-    obj.layout389:setWidth(311);
-    obj.layout389:setHeight(49.8);
-    obj.layout389:setName("layout389");
+    obj.layout390 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout390:setParent(obj.rectangle3);
+    obj.layout390:setLeft(399);
+    obj.layout390:setTop(1029.2);
+    obj.layout390:setWidth(311);
+    obj.layout390:setHeight(49.8);
+    obj.layout390:setName("layout390");
 
     obj.textEditor162 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor162:setParent(obj.layout389);
+    obj.textEditor162:setParent(obj.layout390);
     obj.textEditor162:setLeft(0);
     obj.textEditor162:setTop(0);
     obj.textEditor162:setWidth(311);
@@ -8377,16 +8395,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor162:setTransparent(true);
     obj.textEditor162:setName("textEditor162");
 
-    obj.layout390 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout390:setParent(obj.rectangle3);
-    obj.layout390:setLeft(399);
-    obj.layout390:setTop(1101.2);
-    obj.layout390:setWidth(311);
-    obj.layout390:setHeight(49.8);
-    obj.layout390:setName("layout390");
+    obj.layout391 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout391:setParent(obj.rectangle3);
+    obj.layout391:setLeft(399);
+    obj.layout391:setTop(1101.2);
+    obj.layout391:setWidth(311);
+    obj.layout391:setHeight(49.8);
+    obj.layout391:setName("layout391");
 
     obj.textEditor163 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor163:setParent(obj.layout390);
+    obj.textEditor163:setParent(obj.layout391);
     obj.textEditor163:setLeft(0);
     obj.textEditor163:setTop(0);
     obj.textEditor163:setWidth(311);
@@ -8397,16 +8415,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor163:setTransparent(true);
     obj.textEditor163:setName("textEditor163");
 
-    obj.layout391 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout391:setParent(obj.rectangle3);
-    obj.layout391:setLeft(399);
-    obj.layout391:setTop(1173.2);
-    obj.layout391:setWidth(311);
-    obj.layout391:setHeight(49.8);
-    obj.layout391:setName("layout391");
+    obj.layout392 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout392:setParent(obj.rectangle3);
+    obj.layout392:setLeft(399);
+    obj.layout392:setTop(1173.2);
+    obj.layout392:setWidth(311);
+    obj.layout392:setHeight(49.8);
+    obj.layout392:setName("layout392");
 
     obj.textEditor164 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor164:setParent(obj.layout391);
+    obj.textEditor164:setParent(obj.layout392);
     obj.textEditor164:setLeft(0);
     obj.textEditor164:setTop(0);
     obj.textEditor164:setWidth(311);
@@ -8417,16 +8435,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor164:setTransparent(true);
     obj.textEditor164:setName("textEditor164");
 
-    obj.layout392 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout392:setParent(obj.rectangle3);
-    obj.layout392:setLeft(399);
-    obj.layout392:setTop(1244.2);
-    obj.layout392:setWidth(311);
-    obj.layout392:setHeight(47.8);
-    obj.layout392:setName("layout392");
+    obj.layout393 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout393:setParent(obj.rectangle3);
+    obj.layout393:setLeft(399);
+    obj.layout393:setTop(1244.2);
+    obj.layout393:setWidth(311);
+    obj.layout393:setHeight(47.8);
+    obj.layout393:setName("layout393");
 
     obj.textEditor165 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor165:setParent(obj.layout392);
+    obj.textEditor165:setParent(obj.layout393);
     obj.textEditor165:setLeft(0);
     obj.textEditor165:setTop(0);
     obj.textEditor165:setWidth(311);
@@ -8437,16 +8455,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor165:setTransparent(true);
     obj.textEditor165:setName("textEditor165");
 
-    obj.layout393 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout393:setParent(obj.rectangle3);
-    obj.layout393:setLeft(399);
-    obj.layout393:setTop(241.2);
-    obj.layout393:setWidth(311);
-    obj.layout393:setHeight(49.8);
-    obj.layout393:setName("layout393");
+    obj.layout394 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout394:setParent(obj.rectangle3);
+    obj.layout394:setLeft(399);
+    obj.layout394:setTop(241.2);
+    obj.layout394:setWidth(311);
+    obj.layout394:setHeight(49.8);
+    obj.layout394:setName("layout394");
 
     obj.textEditor166 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor166:setParent(obj.layout393);
+    obj.textEditor166:setParent(obj.layout394);
     obj.textEditor166:setLeft(0);
     obj.textEditor166:setTop(0);
     obj.textEditor166:setWidth(311);
@@ -8457,16 +8475,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor166:setTransparent(true);
     obj.textEditor166:setName("textEditor166");
 
-    obj.layout394 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout394:setParent(obj.rectangle3);
-    obj.layout394:setLeft(713);
-    obj.layout394:setTop(169.2);
-    obj.layout394:setWidth(76);
-    obj.layout394:setHeight(50.8);
-    obj.layout394:setName("layout394");
+    obj.layout395 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout395:setParent(obj.rectangle3);
+    obj.layout395:setLeft(713);
+    obj.layout395:setTop(169.2);
+    obj.layout395:setWidth(76);
+    obj.layout395:setHeight(50.8);
+    obj.layout395:setName("layout395");
 
     obj.textEditor167 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor167:setParent(obj.layout394);
+    obj.textEditor167:setParent(obj.layout395);
     obj.textEditor167:setLeft(0);
     obj.textEditor167:setTop(0);
     obj.textEditor167:setWidth(76);
@@ -8477,16 +8495,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor167:setTransparent(true);
     obj.textEditor167:setName("textEditor167");
 
-    obj.layout395 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout395:setParent(obj.rectangle3);
-    obj.layout395:setLeft(713);
-    obj.layout395:setTop(241.2);
-    obj.layout395:setWidth(76);
-    obj.layout395:setHeight(50.8);
-    obj.layout395:setName("layout395");
+    obj.layout396 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout396:setParent(obj.rectangle3);
+    obj.layout396:setLeft(713);
+    obj.layout396:setTop(241.2);
+    obj.layout396:setWidth(76);
+    obj.layout396:setHeight(50.8);
+    obj.layout396:setName("layout396");
 
     obj.textEditor168 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor168:setParent(obj.layout395);
+    obj.textEditor168:setParent(obj.layout396);
     obj.textEditor168:setLeft(0);
     obj.textEditor168:setTop(0);
     obj.textEditor168:setWidth(76);
@@ -8497,16 +8515,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor168:setTransparent(true);
     obj.textEditor168:setName("textEditor168");
 
-    obj.layout396 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout396:setParent(obj.rectangle3);
-    obj.layout396:setLeft(714);
-    obj.layout396:setTop(313.2);
-    obj.layout396:setWidth(76);
-    obj.layout396:setHeight(50.8);
-    obj.layout396:setName("layout396");
+    obj.layout397 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout397:setParent(obj.rectangle3);
+    obj.layout397:setLeft(714);
+    obj.layout397:setTop(313.2);
+    obj.layout397:setWidth(76);
+    obj.layout397:setHeight(50.8);
+    obj.layout397:setName("layout397");
 
     obj.textEditor169 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor169:setParent(obj.layout396);
+    obj.textEditor169:setParent(obj.layout397);
     obj.textEditor169:setLeft(0);
     obj.textEditor169:setTop(0);
     obj.textEditor169:setWidth(76);
@@ -8517,16 +8535,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor169:setTransparent(true);
     obj.textEditor169:setName("textEditor169");
 
-    obj.layout397 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout397:setParent(obj.rectangle3);
-    obj.layout397:setLeft(713);
-    obj.layout397:setTop(385.2);
-    obj.layout397:setWidth(76);
-    obj.layout397:setHeight(50.8);
-    obj.layout397:setName("layout397");
+    obj.layout398 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout398:setParent(obj.rectangle3);
+    obj.layout398:setLeft(713);
+    obj.layout398:setTop(385.2);
+    obj.layout398:setWidth(76);
+    obj.layout398:setHeight(50.8);
+    obj.layout398:setName("layout398");
 
     obj.textEditor170 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor170:setParent(obj.layout397);
+    obj.textEditor170:setParent(obj.layout398);
     obj.textEditor170:setLeft(0);
     obj.textEditor170:setTop(0);
     obj.textEditor170:setWidth(76);
@@ -8537,16 +8555,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor170:setTransparent(true);
     obj.textEditor170:setName("textEditor170");
 
-    obj.layout398 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout398:setParent(obj.rectangle3);
-    obj.layout398:setLeft(713);
-    obj.layout398:setTop(456.2);
-    obj.layout398:setWidth(76);
-    obj.layout398:setHeight(50.8);
-    obj.layout398:setName("layout398");
+    obj.layout399 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout399:setParent(obj.rectangle3);
+    obj.layout399:setLeft(713);
+    obj.layout399:setTop(456.2);
+    obj.layout399:setWidth(76);
+    obj.layout399:setHeight(50.8);
+    obj.layout399:setName("layout399");
 
     obj.textEditor171 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor171:setParent(obj.layout398);
+    obj.textEditor171:setParent(obj.layout399);
     obj.textEditor171:setLeft(0);
     obj.textEditor171:setTop(0);
     obj.textEditor171:setWidth(76);
@@ -8557,16 +8575,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor171:setTransparent(true);
     obj.textEditor171:setName("textEditor171");
 
-    obj.layout399 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout399:setParent(obj.rectangle3);
-    obj.layout399:setLeft(714);
-    obj.layout399:setTop(528.2);
-    obj.layout399:setWidth(76);
-    obj.layout399:setHeight(50.8);
-    obj.layout399:setName("layout399");
+    obj.layout400 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout400:setParent(obj.rectangle3);
+    obj.layout400:setLeft(714);
+    obj.layout400:setTop(528.2);
+    obj.layout400:setWidth(76);
+    obj.layout400:setHeight(50.8);
+    obj.layout400:setName("layout400");
 
     obj.textEditor172 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor172:setParent(obj.layout399);
+    obj.textEditor172:setParent(obj.layout400);
     obj.textEditor172:setLeft(0);
     obj.textEditor172:setTop(0);
     obj.textEditor172:setWidth(76);
@@ -8577,16 +8595,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor172:setTransparent(true);
     obj.textEditor172:setName("textEditor172");
 
-    obj.layout400 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout400:setParent(obj.rectangle3);
-    obj.layout400:setLeft(714);
-    obj.layout400:setTop(599.2);
-    obj.layout400:setWidth(76);
-    obj.layout400:setHeight(50.8);
-    obj.layout400:setName("layout400");
+    obj.layout401 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout401:setParent(obj.rectangle3);
+    obj.layout401:setLeft(714);
+    obj.layout401:setTop(599.2);
+    obj.layout401:setWidth(76);
+    obj.layout401:setHeight(50.8);
+    obj.layout401:setName("layout401");
 
     obj.textEditor173 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor173:setParent(obj.layout400);
+    obj.textEditor173:setParent(obj.layout401);
     obj.textEditor173:setLeft(0);
     obj.textEditor173:setTop(0);
     obj.textEditor173:setWidth(76);
@@ -8597,16 +8615,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor173:setTransparent(true);
     obj.textEditor173:setName("textEditor173");
 
-    obj.layout401 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout401:setParent(obj.rectangle3);
-    obj.layout401:setLeft(713);
-    obj.layout401:setTop(671.2);
-    obj.layout401:setWidth(76);
-    obj.layout401:setHeight(50.8);
-    obj.layout401:setName("layout401");
+    obj.layout402 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout402:setParent(obj.rectangle3);
+    obj.layout402:setLeft(713);
+    obj.layout402:setTop(671.2);
+    obj.layout402:setWidth(76);
+    obj.layout402:setHeight(50.8);
+    obj.layout402:setName("layout402");
 
     obj.textEditor174 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor174:setParent(obj.layout401);
+    obj.textEditor174:setParent(obj.layout402);
     obj.textEditor174:setLeft(0);
     obj.textEditor174:setTop(0);
     obj.textEditor174:setWidth(76);
@@ -8617,16 +8635,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor174:setTransparent(true);
     obj.textEditor174:setName("textEditor174");
 
-    obj.layout402 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout402:setParent(obj.rectangle3);
-    obj.layout402:setLeft(713);
-    obj.layout402:setTop(743.2);
-    obj.layout402:setWidth(76);
-    obj.layout402:setHeight(50.8);
-    obj.layout402:setName("layout402");
+    obj.layout403 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout403:setParent(obj.rectangle3);
+    obj.layout403:setLeft(713);
+    obj.layout403:setTop(743.2);
+    obj.layout403:setWidth(76);
+    obj.layout403:setHeight(50.8);
+    obj.layout403:setName("layout403");
 
     obj.textEditor175 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor175:setParent(obj.layout402);
+    obj.textEditor175:setParent(obj.layout403);
     obj.textEditor175:setLeft(0);
     obj.textEditor175:setTop(0);
     obj.textEditor175:setWidth(76);
@@ -8637,16 +8655,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor175:setTransparent(true);
     obj.textEditor175:setName("textEditor175");
 
-    obj.layout403 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout403:setParent(obj.rectangle3);
-    obj.layout403:setLeft(714);
-    obj.layout403:setTop(814.2);
-    obj.layout403:setWidth(76);
-    obj.layout403:setHeight(50.8);
-    obj.layout403:setName("layout403");
+    obj.layout404 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout404:setParent(obj.rectangle3);
+    obj.layout404:setLeft(714);
+    obj.layout404:setTop(814.2);
+    obj.layout404:setWidth(76);
+    obj.layout404:setHeight(50.8);
+    obj.layout404:setName("layout404");
 
     obj.textEditor176 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor176:setParent(obj.layout403);
+    obj.textEditor176:setParent(obj.layout404);
     obj.textEditor176:setLeft(0);
     obj.textEditor176:setTop(0);
     obj.textEditor176:setWidth(76);
@@ -8657,16 +8675,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor176:setTransparent(true);
     obj.textEditor176:setName("textEditor176");
 
-    obj.layout404 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout404:setParent(obj.rectangle3);
-    obj.layout404:setLeft(713);
-    obj.layout404:setTop(886.2);
-    obj.layout404:setWidth(76);
-    obj.layout404:setHeight(50.8);
-    obj.layout404:setName("layout404");
+    obj.layout405 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout405:setParent(obj.rectangle3);
+    obj.layout405:setLeft(713);
+    obj.layout405:setTop(886.2);
+    obj.layout405:setWidth(76);
+    obj.layout405:setHeight(50.8);
+    obj.layout405:setName("layout405");
 
     obj.textEditor177 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor177:setParent(obj.layout404);
+    obj.textEditor177:setParent(obj.layout405);
     obj.textEditor177:setLeft(0);
     obj.textEditor177:setTop(0);
     obj.textEditor177:setWidth(76);
@@ -8677,16 +8695,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor177:setTransparent(true);
     obj.textEditor177:setName("textEditor177");
 
-    obj.layout405 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout405:setParent(obj.rectangle3);
-    obj.layout405:setLeft(714);
-    obj.layout405:setTop(958.2);
-    obj.layout405:setWidth(76);
-    obj.layout405:setHeight(50.8);
-    obj.layout405:setName("layout405");
+    obj.layout406 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout406:setParent(obj.rectangle3);
+    obj.layout406:setLeft(714);
+    obj.layout406:setTop(958.2);
+    obj.layout406:setWidth(76);
+    obj.layout406:setHeight(50.8);
+    obj.layout406:setName("layout406");
 
     obj.textEditor178 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor178:setParent(obj.layout405);
+    obj.textEditor178:setParent(obj.layout406);
     obj.textEditor178:setLeft(0);
     obj.textEditor178:setTop(0);
     obj.textEditor178:setWidth(76);
@@ -8697,16 +8715,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor178:setTransparent(true);
     obj.textEditor178:setName("textEditor178");
 
-    obj.layout406 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout406:setParent(obj.rectangle3);
-    obj.layout406:setLeft(713);
-    obj.layout406:setTop(1029.2);
-    obj.layout406:setWidth(76);
-    obj.layout406:setHeight(50.8);
-    obj.layout406:setName("layout406");
+    obj.layout407 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout407:setParent(obj.rectangle3);
+    obj.layout407:setLeft(713);
+    obj.layout407:setTop(1029.2);
+    obj.layout407:setWidth(76);
+    obj.layout407:setHeight(50.8);
+    obj.layout407:setName("layout407");
 
     obj.textEditor179 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor179:setParent(obj.layout406);
+    obj.textEditor179:setParent(obj.layout407);
     obj.textEditor179:setLeft(0);
     obj.textEditor179:setTop(0);
     obj.textEditor179:setWidth(76);
@@ -8717,16 +8735,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor179:setTransparent(true);
     obj.textEditor179:setName("textEditor179");
 
-    obj.layout407 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout407:setParent(obj.rectangle3);
-    obj.layout407:setLeft(713);
-    obj.layout407:setTop(1101.2);
-    obj.layout407:setWidth(76);
-    obj.layout407:setHeight(50.8);
-    obj.layout407:setName("layout407");
+    obj.layout408 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout408:setParent(obj.rectangle3);
+    obj.layout408:setLeft(713);
+    obj.layout408:setTop(1101.2);
+    obj.layout408:setWidth(76);
+    obj.layout408:setHeight(50.8);
+    obj.layout408:setName("layout408");
 
     obj.textEditor180 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor180:setParent(obj.layout407);
+    obj.textEditor180:setParent(obj.layout408);
     obj.textEditor180:setLeft(0);
     obj.textEditor180:setTop(0);
     obj.textEditor180:setWidth(76);
@@ -8737,16 +8755,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor180:setTransparent(true);
     obj.textEditor180:setName("textEditor180");
 
-    obj.layout408 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout408:setParent(obj.rectangle3);
-    obj.layout408:setLeft(713);
-    obj.layout408:setTop(1172.2);
-    obj.layout408:setWidth(76);
-    obj.layout408:setHeight(50.8);
-    obj.layout408:setName("layout408");
+    obj.layout409 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout409:setParent(obj.rectangle3);
+    obj.layout409:setLeft(713);
+    obj.layout409:setTop(1172.2);
+    obj.layout409:setWidth(76);
+    obj.layout409:setHeight(50.8);
+    obj.layout409:setName("layout409");
 
     obj.textEditor181 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor181:setParent(obj.layout408);
+    obj.textEditor181:setParent(obj.layout409);
     obj.textEditor181:setLeft(0);
     obj.textEditor181:setTop(0);
     obj.textEditor181:setWidth(76);
@@ -8757,16 +8775,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor181:setTransparent(true);
     obj.textEditor181:setName("textEditor181");
 
-    obj.layout409 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout409:setParent(obj.rectangle3);
-    obj.layout409:setLeft(713);
-    obj.layout409:setTop(1244.2);
-    obj.layout409:setWidth(76);
-    obj.layout409:setHeight(47.8);
-    obj.layout409:setName("layout409");
+    obj.layout410 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout410:setParent(obj.rectangle3);
+    obj.layout410:setLeft(713);
+    obj.layout410:setTop(1244.2);
+    obj.layout410:setWidth(76);
+    obj.layout410:setHeight(47.8);
+    obj.layout410:setName("layout410");
 
     obj.textEditor182 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor182:setParent(obj.layout409);
+    obj.textEditor182:setParent(obj.layout410);
     obj.textEditor182:setLeft(0);
     obj.textEditor182:setTop(0);
     obj.textEditor182:setWidth(76);
@@ -8777,16 +8795,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor182:setTransparent(true);
     obj.textEditor182:setName("textEditor182");
 
-    obj.layout410 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout410:setParent(obj.rectangle3);
-    obj.layout410:setLeft(793);
-    obj.layout410:setTop(170.2);
-    obj.layout410:setWidth(118);
-    obj.layout410:setHeight(49.8);
-    obj.layout410:setName("layout410");
+    obj.layout411 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout411:setParent(obj.rectangle3);
+    obj.layout411:setLeft(793);
+    obj.layout411:setTop(170.2);
+    obj.layout411:setWidth(118);
+    obj.layout411:setHeight(49.8);
+    obj.layout411:setName("layout411");
 
     obj.textEditor183 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor183:setParent(obj.layout410);
+    obj.textEditor183:setParent(obj.layout411);
     obj.textEditor183:setLeft(0);
     obj.textEditor183:setTop(0);
     obj.textEditor183:setWidth(118);
@@ -8797,16 +8815,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor183:setTransparent(true);
     obj.textEditor183:setName("textEditor183");
 
-    obj.layout411 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout411:setParent(obj.rectangle3);
-    obj.layout411:setLeft(794);
-    obj.layout411:setTop(240.2);
-    obj.layout411:setWidth(118);
-    obj.layout411:setHeight(49.8);
-    obj.layout411:setName("layout411");
+    obj.layout412 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout412:setParent(obj.rectangle3);
+    obj.layout412:setLeft(794);
+    obj.layout412:setTop(240.2);
+    obj.layout412:setWidth(118);
+    obj.layout412:setHeight(49.8);
+    obj.layout412:setName("layout412");
 
     obj.textEditor184 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor184:setParent(obj.layout411);
+    obj.textEditor184:setParent(obj.layout412);
     obj.textEditor184:setLeft(0);
     obj.textEditor184:setTop(0);
     obj.textEditor184:setWidth(118);
@@ -8817,16 +8835,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor184:setTransparent(true);
     obj.textEditor184:setName("textEditor184");
 
-    obj.layout412 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout412:setParent(obj.rectangle3);
-    obj.layout412:setLeft(793);
-    obj.layout412:setTop(313.2);
-    obj.layout412:setWidth(118);
-    obj.layout412:setHeight(49.8);
-    obj.layout412:setName("layout412");
+    obj.layout413 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout413:setParent(obj.rectangle3);
+    obj.layout413:setLeft(793);
+    obj.layout413:setTop(313.2);
+    obj.layout413:setWidth(118);
+    obj.layout413:setHeight(49.8);
+    obj.layout413:setName("layout413");
 
     obj.textEditor185 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor185:setParent(obj.layout412);
+    obj.textEditor185:setParent(obj.layout413);
     obj.textEditor185:setLeft(0);
     obj.textEditor185:setTop(0);
     obj.textEditor185:setWidth(118);
@@ -8837,16 +8855,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor185:setTransparent(true);
     obj.textEditor185:setName("textEditor185");
 
-    obj.layout413 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout413:setParent(obj.rectangle3);
-    obj.layout413:setLeft(794);
-    obj.layout413:setTop(385.2);
-    obj.layout413:setWidth(118);
-    obj.layout413:setHeight(49.8);
-    obj.layout413:setName("layout413");
+    obj.layout414 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout414:setParent(obj.rectangle3);
+    obj.layout414:setLeft(794);
+    obj.layout414:setTop(385.2);
+    obj.layout414:setWidth(118);
+    obj.layout414:setHeight(49.8);
+    obj.layout414:setName("layout414");
 
     obj.textEditor186 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor186:setParent(obj.layout413);
+    obj.textEditor186:setParent(obj.layout414);
     obj.textEditor186:setLeft(0);
     obj.textEditor186:setTop(0);
     obj.textEditor186:setWidth(118);
@@ -8857,16 +8875,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor186:setTransparent(true);
     obj.textEditor186:setName("textEditor186");
 
-    obj.layout414 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout414:setParent(obj.rectangle3);
-    obj.layout414:setLeft(794);
-    obj.layout414:setTop(456.2);
-    obj.layout414:setWidth(118);
-    obj.layout414:setHeight(49.8);
-    obj.layout414:setName("layout414");
+    obj.layout415 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout415:setParent(obj.rectangle3);
+    obj.layout415:setLeft(794);
+    obj.layout415:setTop(456.2);
+    obj.layout415:setWidth(118);
+    obj.layout415:setHeight(49.8);
+    obj.layout415:setName("layout415");
 
     obj.textEditor187 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor187:setParent(obj.layout414);
+    obj.textEditor187:setParent(obj.layout415);
     obj.textEditor187:setLeft(0);
     obj.textEditor187:setTop(0);
     obj.textEditor187:setWidth(118);
@@ -8877,16 +8895,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor187:setTransparent(true);
     obj.textEditor187:setName("textEditor187");
 
-    obj.layout415 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout415:setParent(obj.rectangle3);
-    obj.layout415:setLeft(794);
-    obj.layout415:setTop(528.2);
-    obj.layout415:setWidth(118);
-    obj.layout415:setHeight(49.8);
-    obj.layout415:setName("layout415");
+    obj.layout416 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout416:setParent(obj.rectangle3);
+    obj.layout416:setLeft(794);
+    obj.layout416:setTop(528.2);
+    obj.layout416:setWidth(118);
+    obj.layout416:setHeight(49.8);
+    obj.layout416:setName("layout416");
 
     obj.textEditor188 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor188:setParent(obj.layout415);
+    obj.textEditor188:setParent(obj.layout416);
     obj.textEditor188:setLeft(0);
     obj.textEditor188:setTop(0);
     obj.textEditor188:setWidth(118);
@@ -8897,16 +8915,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor188:setTransparent(true);
     obj.textEditor188:setName("textEditor188");
 
-    obj.layout416 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout416:setParent(obj.rectangle3);
-    obj.layout416:setLeft(794);
-    obj.layout416:setTop(600.2);
-    obj.layout416:setWidth(118);
-    obj.layout416:setHeight(49.8);
-    obj.layout416:setName("layout416");
+    obj.layout417 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout417:setParent(obj.rectangle3);
+    obj.layout417:setLeft(794);
+    obj.layout417:setTop(600.2);
+    obj.layout417:setWidth(118);
+    obj.layout417:setHeight(49.8);
+    obj.layout417:setName("layout417");
 
     obj.textEditor189 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor189:setParent(obj.layout416);
+    obj.textEditor189:setParent(obj.layout417);
     obj.textEditor189:setLeft(0);
     obj.textEditor189:setTop(0);
     obj.textEditor189:setWidth(118);
@@ -8917,16 +8935,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor189:setTransparent(true);
     obj.textEditor189:setName("textEditor189");
 
-    obj.layout417 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout417:setParent(obj.rectangle3);
-    obj.layout417:setLeft(793);
-    obj.layout417:setTop(671.2);
-    obj.layout417:setWidth(118);
-    obj.layout417:setHeight(49.8);
-    obj.layout417:setName("layout417");
+    obj.layout418 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout418:setParent(obj.rectangle3);
+    obj.layout418:setLeft(793);
+    obj.layout418:setTop(671.2);
+    obj.layout418:setWidth(118);
+    obj.layout418:setHeight(49.8);
+    obj.layout418:setName("layout418");
 
     obj.textEditor190 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor190:setParent(obj.layout417);
+    obj.textEditor190:setParent(obj.layout418);
     obj.textEditor190:setLeft(0);
     obj.textEditor190:setTop(0);
     obj.textEditor190:setWidth(118);
@@ -8937,16 +8955,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor190:setTransparent(true);
     obj.textEditor190:setName("textEditor190");
 
-    obj.layout418 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout418:setParent(obj.rectangle3);
-    obj.layout418:setLeft(793);
-    obj.layout418:setTop(744.2);
-    obj.layout418:setWidth(118);
-    obj.layout418:setHeight(49.8);
-    obj.layout418:setName("layout418");
+    obj.layout419 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout419:setParent(obj.rectangle3);
+    obj.layout419:setLeft(793);
+    obj.layout419:setTop(744.2);
+    obj.layout419:setWidth(118);
+    obj.layout419:setHeight(49.8);
+    obj.layout419:setName("layout419");
 
     obj.textEditor191 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor191:setParent(obj.layout418);
+    obj.textEditor191:setParent(obj.layout419);
     obj.textEditor191:setLeft(0);
     obj.textEditor191:setTop(0);
     obj.textEditor191:setWidth(118);
@@ -8957,16 +8975,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor191:setTransparent(true);
     obj.textEditor191:setName("textEditor191");
 
-    obj.layout419 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout419:setParent(obj.rectangle3);
-    obj.layout419:setLeft(793);
-    obj.layout419:setTop(814.2);
-    obj.layout419:setWidth(118);
-    obj.layout419:setHeight(49.8);
-    obj.layout419:setName("layout419");
+    obj.layout420 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout420:setParent(obj.rectangle3);
+    obj.layout420:setLeft(793);
+    obj.layout420:setTop(814.2);
+    obj.layout420:setWidth(118);
+    obj.layout420:setHeight(49.8);
+    obj.layout420:setName("layout420");
 
     obj.textEditor192 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor192:setParent(obj.layout419);
+    obj.textEditor192:setParent(obj.layout420);
     obj.textEditor192:setLeft(0);
     obj.textEditor192:setTop(0);
     obj.textEditor192:setWidth(118);
@@ -8977,16 +8995,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor192:setTransparent(true);
     obj.textEditor192:setName("textEditor192");
 
-    obj.layout420 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout420:setParent(obj.rectangle3);
-    obj.layout420:setLeft(794);
-    obj.layout420:setTop(886.2);
-    obj.layout420:setWidth(118);
-    obj.layout420:setHeight(49.8);
-    obj.layout420:setName("layout420");
+    obj.layout421 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout421:setParent(obj.rectangle3);
+    obj.layout421:setLeft(794);
+    obj.layout421:setTop(886.2);
+    obj.layout421:setWidth(118);
+    obj.layout421:setHeight(49.8);
+    obj.layout421:setName("layout421");
 
     obj.textEditor193 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor193:setParent(obj.layout420);
+    obj.textEditor193:setParent(obj.layout421);
     obj.textEditor193:setLeft(0);
     obj.textEditor193:setTop(0);
     obj.textEditor193:setWidth(118);
@@ -8997,16 +9015,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor193:setTransparent(true);
     obj.textEditor193:setName("textEditor193");
 
-    obj.layout421 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout421:setParent(obj.rectangle3);
-    obj.layout421:setLeft(793);
-    obj.layout421:setTop(958.2);
-    obj.layout421:setWidth(118);
-    obj.layout421:setHeight(49.8);
-    obj.layout421:setName("layout421");
+    obj.layout422 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout422:setParent(obj.rectangle3);
+    obj.layout422:setLeft(793);
+    obj.layout422:setTop(958.2);
+    obj.layout422:setWidth(118);
+    obj.layout422:setHeight(49.8);
+    obj.layout422:setName("layout422");
 
     obj.textEditor194 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor194:setParent(obj.layout421);
+    obj.textEditor194:setParent(obj.layout422);
     obj.textEditor194:setLeft(0);
     obj.textEditor194:setTop(0);
     obj.textEditor194:setWidth(118);
@@ -9017,16 +9035,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor194:setTransparent(true);
     obj.textEditor194:setName("textEditor194");
 
-    obj.layout422 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout422:setParent(obj.rectangle3);
-    obj.layout422:setLeft(794);
-    obj.layout422:setTop(1029.2);
-    obj.layout422:setWidth(118);
-    obj.layout422:setHeight(49.8);
-    obj.layout422:setName("layout422");
+    obj.layout423 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout423:setParent(obj.rectangle3);
+    obj.layout423:setLeft(794);
+    obj.layout423:setTop(1029.2);
+    obj.layout423:setWidth(118);
+    obj.layout423:setHeight(49.8);
+    obj.layout423:setName("layout423");
 
     obj.textEditor195 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor195:setParent(obj.layout422);
+    obj.textEditor195:setParent(obj.layout423);
     obj.textEditor195:setLeft(0);
     obj.textEditor195:setTop(0);
     obj.textEditor195:setWidth(118);
@@ -9037,16 +9055,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor195:setTransparent(true);
     obj.textEditor195:setName("textEditor195");
 
-    obj.layout423 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout423:setParent(obj.rectangle3);
-    obj.layout423:setLeft(794);
-    obj.layout423:setTop(1101.2);
-    obj.layout423:setWidth(118);
-    obj.layout423:setHeight(49.8);
-    obj.layout423:setName("layout423");
+    obj.layout424 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout424:setParent(obj.rectangle3);
+    obj.layout424:setLeft(794);
+    obj.layout424:setTop(1101.2);
+    obj.layout424:setWidth(118);
+    obj.layout424:setHeight(49.8);
+    obj.layout424:setName("layout424");
 
     obj.textEditor196 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor196:setParent(obj.layout423);
+    obj.textEditor196:setParent(obj.layout424);
     obj.textEditor196:setLeft(0);
     obj.textEditor196:setTop(0);
     obj.textEditor196:setWidth(118);
@@ -9057,16 +9075,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor196:setTransparent(true);
     obj.textEditor196:setName("textEditor196");
 
-    obj.layout424 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout424:setParent(obj.rectangle3);
-    obj.layout424:setLeft(794);
-    obj.layout424:setTop(1173.2);
-    obj.layout424:setWidth(118);
-    obj.layout424:setHeight(49.8);
-    obj.layout424:setName("layout424");
+    obj.layout425 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout425:setParent(obj.rectangle3);
+    obj.layout425:setLeft(794);
+    obj.layout425:setTop(1173.2);
+    obj.layout425:setWidth(118);
+    obj.layout425:setHeight(49.8);
+    obj.layout425:setName("layout425");
 
     obj.textEditor197 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor197:setParent(obj.layout424);
+    obj.textEditor197:setParent(obj.layout425);
     obj.textEditor197:setLeft(0);
     obj.textEditor197:setTop(0);
     obj.textEditor197:setWidth(118);
@@ -9077,16 +9095,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor197:setTransparent(true);
     obj.textEditor197:setName("textEditor197");
 
-    obj.layout425 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout425:setParent(obj.rectangle3);
-    obj.layout425:setLeft(793);
-    obj.layout425:setTop(1245.2);
-    obj.layout425:setWidth(118);
-    obj.layout425:setHeight(47.8);
-    obj.layout425:setName("layout425");
+    obj.layout426 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout426:setParent(obj.rectangle3);
+    obj.layout426:setLeft(793);
+    obj.layout426:setTop(1245.2);
+    obj.layout426:setWidth(118);
+    obj.layout426:setHeight(47.8);
+    obj.layout426:setName("layout426");
 
     obj.textEditor198 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor198:setParent(obj.layout425);
+    obj.textEditor198:setParent(obj.layout426);
     obj.textEditor198:setLeft(0);
     obj.textEditor198:setTop(0);
     obj.textEditor198:setWidth(118);
@@ -9097,16 +9115,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor198:setTransparent(true);
     obj.textEditor198:setName("textEditor198");
 
-    obj.layout426 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout426:setParent(obj.rectangle3);
-    obj.layout426:setLeft(961);
-    obj.layout426:setTop(211.2);
-    obj.layout426:setWidth(201);
-    obj.layout426:setHeight(110.8);
-    obj.layout426:setName("layout426");
+    obj.layout427 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout427:setParent(obj.rectangle3);
+    obj.layout427:setLeft(961);
+    obj.layout427:setTop(211.2);
+    obj.layout427:setWidth(201);
+    obj.layout427:setHeight(110.8);
+    obj.layout427:setName("layout427");
 
     obj.textEditor199 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor199:setParent(obj.layout426);
+    obj.textEditor199:setParent(obj.layout427);
     obj.textEditor199:setLeft(0);
     obj.textEditor199:setTop(0);
     obj.textEditor199:setWidth(201);
@@ -9117,16 +9135,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor199:setTransparent(true);
     obj.textEditor199:setName("textEditor199");
 
-    obj.layout427 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout427:setParent(obj.rectangle3);
-    obj.layout427:setLeft(1170);
-    obj.layout427:setTop(211.2);
-    obj.layout427:setWidth(201);
-    obj.layout427:setHeight(110.8);
-    obj.layout427:setName("layout427");
+    obj.layout428 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout428:setParent(obj.rectangle3);
+    obj.layout428:setLeft(1170);
+    obj.layout428:setTop(211.2);
+    obj.layout428:setWidth(201);
+    obj.layout428:setHeight(110.8);
+    obj.layout428:setName("layout428");
 
     obj.textEditor200 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor200:setParent(obj.layout427);
+    obj.textEditor200:setParent(obj.layout428);
     obj.textEditor200:setLeft(0);
     obj.textEditor200:setTop(0);
     obj.textEditor200:setWidth(201);
@@ -9137,16 +9155,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor200:setTransparent(true);
     obj.textEditor200:setName("textEditor200");
 
-    obj.layout428 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout428:setParent(obj.rectangle3);
-    obj.layout428:setLeft(1169);
-    obj.layout428:setTop(363);
-    obj.layout428:setWidth(204);
-    obj.layout428:setHeight(33);
-    obj.layout428:setName("layout428");
+    obj.layout429 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout429:setParent(obj.rectangle3);
+    obj.layout429:setLeft(1169);
+    obj.layout429:setTop(363);
+    obj.layout429:setWidth(204);
+    obj.layout429:setHeight(33);
+    obj.layout429:setName("layout429");
 
     obj.edit228 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit228:setParent(obj.layout428);
+    obj.edit228:setParent(obj.layout429);
     obj.edit228:setTransparent(true);
     obj.edit228:setFontSize(22.6);
     obj.edit228:setFontColor("#000000");
@@ -9159,16 +9177,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit228:setField("Focus");
     obj.edit228:setName("edit228");
 
-    obj.layout429 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout429:setParent(obj.rectangle3);
-    obj.layout429:setLeft(1170);
-    obj.layout429:setTop(401);
-    obj.layout429:setWidth(203);
-    obj.layout429:setHeight(36);
-    obj.layout429:setName("layout429");
+    obj.layout430 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout430:setParent(obj.rectangle3);
+    obj.layout430:setLeft(1170);
+    obj.layout430:setTop(401);
+    obj.layout430:setWidth(203);
+    obj.layout430:setHeight(36);
+    obj.layout430:setName("layout430");
 
     obj.edit229 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit229:setParent(obj.layout429);
+    obj.edit229:setParent(obj.layout430);
     obj.edit229:setTransparent(true);
     obj.edit229:setFontSize(22.8);
     obj.edit229:setFontColor("#000000");
@@ -9181,16 +9199,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit229:setField("Vigor_Modifier");
     obj.edit229:setName("edit229");
 
-    obj.layout430 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout430:setParent(obj.rectangle3);
-    obj.layout430:setLeft(960);
-    obj.layout430:setTop(480);
-    obj.layout430:setWidth(412);
-    obj.layout430:setHeight(36);
-    obj.layout430:setName("layout430");
+    obj.layout431 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout431:setParent(obj.rectangle3);
+    obj.layout431:setLeft(960);
+    obj.layout431:setTop(480);
+    obj.layout431:setWidth(412);
+    obj.layout431:setHeight(36);
+    obj.layout431:setName("layout431");
 
     obj.edit230 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit230:setParent(obj.layout430);
+    obj.edit230:setParent(obj.layout431);
     obj.edit230:setTransparent(true);
     obj.edit230:setFontSize(22.8);
     obj.edit230:setFontColor("#000000");
@@ -9203,16 +9221,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit230:setField("NotesRow1");
     obj.edit230:setName("edit230");
 
-    obj.layout431 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout431:setParent(obj.rectangle3);
-    obj.layout431:setLeft(960);
-    obj.layout431:setTop(519);
-    obj.layout431:setWidth(412);
-    obj.layout431:setHeight(36);
-    obj.layout431:setName("layout431");
+    obj.layout432 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout432:setParent(obj.rectangle3);
+    obj.layout432:setLeft(960);
+    obj.layout432:setTop(519);
+    obj.layout432:setWidth(412);
+    obj.layout432:setHeight(36);
+    obj.layout432:setName("layout432");
 
     obj.edit231 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit231:setParent(obj.layout431);
+    obj.edit231:setParent(obj.layout432);
     obj.edit231:setTransparent(true);
     obj.edit231:setFontSize(22.8);
     obj.edit231:setFontColor("#000000");
@@ -9225,16 +9243,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit231:setField("NotesRow2");
     obj.edit231:setName("edit231");
 
-    obj.layout432 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout432:setParent(obj.rectangle3);
-    obj.layout432:setLeft(960);
-    obj.layout432:setTop(558);
-    obj.layout432:setWidth(414);
-    obj.layout432:setHeight(36);
-    obj.layout432:setName("layout432");
+    obj.layout433 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout433:setParent(obj.rectangle3);
+    obj.layout433:setLeft(960);
+    obj.layout433:setTop(558);
+    obj.layout433:setWidth(414);
+    obj.layout433:setHeight(36);
+    obj.layout433:setName("layout433");
 
     obj.edit232 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit232:setParent(obj.layout432);
+    obj.edit232:setParent(obj.layout433);
     obj.edit232:setTransparent(true);
     obj.edit232:setFontSize(22.8);
     obj.edit232:setFontColor("#000000");
@@ -9247,16 +9265,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit232:setField("NotesRow3");
     obj.edit232:setName("edit232");
 
-    obj.layout433 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout433:setParent(obj.rectangle3);
-    obj.layout433:setLeft(960);
-    obj.layout433:setTop(598);
-    obj.layout433:setWidth(414);
-    obj.layout433:setHeight(35);
-    obj.layout433:setName("layout433");
+    obj.layout434 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout434:setParent(obj.rectangle3);
+    obj.layout434:setLeft(960);
+    obj.layout434:setTop(598);
+    obj.layout434:setWidth(414);
+    obj.layout434:setHeight(35);
+    obj.layout434:setName("layout434");
 
     obj.edit233 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit233:setParent(obj.layout433);
+    obj.edit233:setParent(obj.layout434);
     obj.edit233:setTransparent(true);
     obj.edit233:setFontSize(22.8);
     obj.edit233:setFontColor("#000000");
@@ -9269,16 +9287,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit233:setField("NotesRow4");
     obj.edit233:setName("edit233");
 
-    obj.layout434 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout434:setParent(obj.rectangle3);
-    obj.layout434:setLeft(961);
-    obj.layout434:setTop(772.2);
-    obj.layout434:setWidth(135);
-    obj.layout434:setHeight(112.8);
-    obj.layout434:setName("layout434");
+    obj.layout435 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout435:setParent(obj.rectangle3);
+    obj.layout435:setLeft(961);
+    obj.layout435:setTop(772.2);
+    obj.layout435:setWidth(135);
+    obj.layout435:setHeight(112.8);
+    obj.layout435:setName("layout435");
 
     obj.textEditor201 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor201:setParent(obj.layout434);
+    obj.textEditor201:setParent(obj.layout435);
     obj.textEditor201:setLeft(0);
     obj.textEditor201:setTop(0);
     obj.textEditor201:setWidth(135);
@@ -9289,16 +9307,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor201:setTransparent(true);
     obj.textEditor201:setName("textEditor201");
 
-    obj.layout435 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout435:setParent(obj.rectangle3);
-    obj.layout435:setLeft(1103);
-    obj.layout435:setTop(771.2);
-    obj.layout435:setWidth(64);
-    obj.layout435:setHeight(112.8);
-    obj.layout435:setName("layout435");
+    obj.layout436 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout436:setParent(obj.rectangle3);
+    obj.layout436:setLeft(1103);
+    obj.layout436:setTop(771.2);
+    obj.layout436:setWidth(64);
+    obj.layout436:setHeight(112.8);
+    obj.layout436:setName("layout436");
 
     obj.textEditor202 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor202:setParent(obj.layout435);
+    obj.textEditor202:setParent(obj.layout436);
     obj.textEditor202:setLeft(0);
     obj.textEditor202:setTop(0);
     obj.textEditor202:setWidth(64);
@@ -9309,16 +9327,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor202:setTransparent(true);
     obj.textEditor202:setName("textEditor202");
 
-    obj.layout436 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout436:setParent(obj.rectangle3);
-    obj.layout436:setLeft(1176);
-    obj.layout436:setTop(772.2);
-    obj.layout436:setWidth(196);
-    obj.layout436:setHeight(112.8);
-    obj.layout436:setName("layout436");
+    obj.layout437 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout437:setParent(obj.rectangle3);
+    obj.layout437:setLeft(1176);
+    obj.layout437:setTop(772.2);
+    obj.layout437:setWidth(196);
+    obj.layout437:setHeight(112.8);
+    obj.layout437:setName("layout437");
 
     obj.textEditor203 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor203:setParent(obj.layout436);
+    obj.textEditor203:setParent(obj.layout437);
     obj.textEditor203:setLeft(0);
     obj.textEditor203:setTop(0);
     obj.textEditor203:setWidth(196);
@@ -9329,16 +9347,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor203:setTransparent(true);
     obj.textEditor203:setName("textEditor203");
 
-    obj.layout437 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout437:setParent(obj.rectangle3);
-    obj.layout437:setLeft(961);
-    obj.layout437:setTop(908.2);
-    obj.layout437:setWidth(135);
-    obj.layout437:setHeight(112.8);
-    obj.layout437:setName("layout437");
+    obj.layout438 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout438:setParent(obj.rectangle3);
+    obj.layout438:setLeft(961);
+    obj.layout438:setTop(908.2);
+    obj.layout438:setWidth(135);
+    obj.layout438:setHeight(112.8);
+    obj.layout438:setName("layout438");
 
     obj.textEditor204 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor204:setParent(obj.layout437);
+    obj.textEditor204:setParent(obj.layout438);
     obj.textEditor204:setLeft(0);
     obj.textEditor204:setTop(0);
     obj.textEditor204:setWidth(135);
@@ -9349,16 +9367,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor204:setTransparent(true);
     obj.textEditor204:setName("textEditor204");
 
-    obj.layout438 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout438:setParent(obj.rectangle3);
-    obj.layout438:setLeft(1103);
-    obj.layout438:setTop(908.2);
-    obj.layout438:setWidth(64);
-    obj.layout438:setHeight(112.8);
-    obj.layout438:setName("layout438");
+    obj.layout439 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout439:setParent(obj.rectangle3);
+    obj.layout439:setLeft(1103);
+    obj.layout439:setTop(908.2);
+    obj.layout439:setWidth(64);
+    obj.layout439:setHeight(112.8);
+    obj.layout439:setName("layout439");
 
     obj.textEditor205 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor205:setParent(obj.layout438);
+    obj.textEditor205:setParent(obj.layout439);
     obj.textEditor205:setLeft(0);
     obj.textEditor205:setTop(0);
     obj.textEditor205:setWidth(64);
@@ -9369,16 +9387,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor205:setTransparent(true);
     obj.textEditor205:setName("textEditor205");
 
-    obj.layout439 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout439:setParent(obj.rectangle3);
-    obj.layout439:setLeft(1176);
-    obj.layout439:setTop(908.2);
-    obj.layout439:setWidth(196);
-    obj.layout439:setHeight(112.8);
-    obj.layout439:setName("layout439");
+    obj.layout440 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout440:setParent(obj.rectangle3);
+    obj.layout440:setLeft(1176);
+    obj.layout440:setTop(908.2);
+    obj.layout440:setWidth(196);
+    obj.layout440:setHeight(112.8);
+    obj.layout440:setName("layout440");
 
     obj.textEditor206 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor206:setParent(obj.layout439);
+    obj.textEditor206:setParent(obj.layout440);
     obj.textEditor206:setLeft(0);
     obj.textEditor206:setTop(0);
     obj.textEditor206:setWidth(196);
@@ -9389,16 +9407,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor206:setTransparent(true);
     obj.textEditor206:setName("textEditor206");
 
-    obj.layout440 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout440:setParent(obj.rectangle3);
-    obj.layout440:setLeft(961);
-    obj.layout440:setTop(1045.2);
-    obj.layout440:setWidth(135);
-    obj.layout440:setHeight(112.8);
-    obj.layout440:setName("layout440");
+    obj.layout441 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout441:setParent(obj.rectangle3);
+    obj.layout441:setLeft(961);
+    obj.layout441:setTop(1045.2);
+    obj.layout441:setWidth(135);
+    obj.layout441:setHeight(112.8);
+    obj.layout441:setName("layout441");
 
     obj.textEditor207 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor207:setParent(obj.layout440);
+    obj.textEditor207:setParent(obj.layout441);
     obj.textEditor207:setLeft(0);
     obj.textEditor207:setTop(0);
     obj.textEditor207:setWidth(135);
@@ -9409,16 +9427,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor207:setTransparent(true);
     obj.textEditor207:setName("textEditor207");
 
-    obj.layout441 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout441:setParent(obj.rectangle3);
-    obj.layout441:setLeft(1103);
-    obj.layout441:setTop(1044.2);
-    obj.layout441:setWidth(64);
-    obj.layout441:setHeight(112.8);
-    obj.layout441:setName("layout441");
+    obj.layout442 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout442:setParent(obj.rectangle3);
+    obj.layout442:setLeft(1103);
+    obj.layout442:setTop(1044.2);
+    obj.layout442:setWidth(64);
+    obj.layout442:setHeight(112.8);
+    obj.layout442:setName("layout442");
 
     obj.textEditor208 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor208:setParent(obj.layout441);
+    obj.textEditor208:setParent(obj.layout442);
     obj.textEditor208:setLeft(0);
     obj.textEditor208:setTop(0);
     obj.textEditor208:setWidth(64);
@@ -9429,16 +9447,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor208:setTransparent(true);
     obj.textEditor208:setName("textEditor208");
 
-    obj.layout442 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout442:setParent(obj.rectangle3);
-    obj.layout442:setLeft(1176);
-    obj.layout442:setTop(1045.2);
-    obj.layout442:setWidth(196);
-    obj.layout442:setHeight(112.8);
-    obj.layout442:setName("layout442");
+    obj.layout443 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout443:setParent(obj.rectangle3);
+    obj.layout443:setLeft(1176);
+    obj.layout443:setTop(1045.2);
+    obj.layout443:setWidth(196);
+    obj.layout443:setHeight(112.8);
+    obj.layout443:setName("layout443");
 
     obj.textEditor209 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor209:setParent(obj.layout442);
+    obj.textEditor209:setParent(obj.layout443);
     obj.textEditor209:setLeft(0);
     obj.textEditor209:setTop(0);
     obj.textEditor209:setWidth(196);
@@ -9449,16 +9467,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor209:setTransparent(true);
     obj.textEditor209:setName("textEditor209");
 
-    obj.layout443 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout443:setParent(obj.rectangle3);
-    obj.layout443:setLeft(961);
-    obj.layout443:setTop(1181.2);
-    obj.layout443:setWidth(135);
-    obj.layout443:setHeight(110.8);
-    obj.layout443:setName("layout443");
+    obj.layout444 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout444:setParent(obj.rectangle3);
+    obj.layout444:setLeft(961);
+    obj.layout444:setTop(1181.2);
+    obj.layout444:setWidth(135);
+    obj.layout444:setHeight(110.8);
+    obj.layout444:setName("layout444");
 
     obj.textEditor210 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor210:setParent(obj.layout443);
+    obj.textEditor210:setParent(obj.layout444);
     obj.textEditor210:setLeft(0);
     obj.textEditor210:setTop(0);
     obj.textEditor210:setWidth(135);
@@ -9469,16 +9487,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor210:setTransparent(true);
     obj.textEditor210:setName("textEditor210");
 
-    obj.layout444 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout444:setParent(obj.rectangle3);
-    obj.layout444:setLeft(1103);
-    obj.layout444:setTop(1181.2);
-    obj.layout444:setWidth(64);
-    obj.layout444:setHeight(110.8);
-    obj.layout444:setName("layout444");
+    obj.layout445 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout445:setParent(obj.rectangle3);
+    obj.layout445:setLeft(1103);
+    obj.layout445:setTop(1181.2);
+    obj.layout445:setWidth(64);
+    obj.layout445:setHeight(110.8);
+    obj.layout445:setName("layout445");
 
     obj.textEditor211 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor211:setParent(obj.layout444);
+    obj.textEditor211:setParent(obj.layout445);
     obj.textEditor211:setLeft(0);
     obj.textEditor211:setTop(0);
     obj.textEditor211:setWidth(64);
@@ -9489,16 +9507,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor211:setTransparent(true);
     obj.textEditor211:setName("textEditor211");
 
-    obj.layout445 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout445:setParent(obj.rectangle3);
-    obj.layout445:setLeft(1176);
-    obj.layout445:setTop(1181.2);
-    obj.layout445:setWidth(196);
-    obj.layout445:setHeight(110.8);
-    obj.layout445:setName("layout445");
+    obj.layout446 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout446:setParent(obj.rectangle3);
+    obj.layout446:setLeft(1176);
+    obj.layout446:setTop(1181.2);
+    obj.layout446:setWidth(196);
+    obj.layout446:setHeight(110.8);
+    obj.layout446:setName("layout446");
 
     obj.textEditor212 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor212:setParent(obj.layout445);
+    obj.textEditor212:setParent(obj.layout446);
     obj.textEditor212:setLeft(0);
     obj.textEditor212:setTop(0);
     obj.textEditor212:setWidth(196);
@@ -9509,16 +9527,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor212:setTransparent(true);
     obj.textEditor212:setName("textEditor212");
 
-    obj.layout446 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout446:setParent(obj.rectangle3);
-    obj.layout446:setLeft(75);
-    obj.layout446:setTop(1435.2);
-    obj.layout446:setWidth(135);
-    obj.layout446:setHeight(80.8);
-    obj.layout446:setName("layout446");
+    obj.layout447 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout447:setParent(obj.rectangle3);
+    obj.layout447:setLeft(75);
+    obj.layout447:setTop(1435.2);
+    obj.layout447:setWidth(135);
+    obj.layout447:setHeight(80.8);
+    obj.layout447:setName("layout447");
 
     obj.textEditor213 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor213:setParent(obj.layout446);
+    obj.textEditor213:setParent(obj.layout447);
     obj.textEditor213:setLeft(0);
     obj.textEditor213:setTop(0);
     obj.textEditor213:setWidth(135);
@@ -9529,16 +9547,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor213:setTransparent(true);
     obj.textEditor213:setName("textEditor213");
 
-    obj.layout447 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout447:setParent(obj.rectangle3);
-    obj.layout447:setLeft(218);
-    obj.layout447:setTop(1433.2);
-    obj.layout447:setWidth(63);
-    obj.layout447:setHeight(83.8);
-    obj.layout447:setName("layout447");
+    obj.layout448 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout448:setParent(obj.rectangle3);
+    obj.layout448:setLeft(218);
+    obj.layout448:setTop(1433.2);
+    obj.layout448:setWidth(63);
+    obj.layout448:setHeight(83.8);
+    obj.layout448:setName("layout448");
 
     obj.textEditor214 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor214:setParent(obj.layout447);
+    obj.textEditor214:setParent(obj.layout448);
     obj.textEditor214:setLeft(0);
     obj.textEditor214:setTop(0);
     obj.textEditor214:setWidth(63);
@@ -9549,16 +9567,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor214:setTransparent(true);
     obj.textEditor214:setName("textEditor214");
 
-    obj.layout448 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout448:setParent(obj.rectangle3);
-    obj.layout448:setLeft(288);
-    obj.layout448:setTop(1435.2);
-    obj.layout448:setWidth(527);
-    obj.layout448:setHeight(82.8);
-    obj.layout448:setName("layout448");
+    obj.layout449 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout449:setParent(obj.rectangle3);
+    obj.layout449:setLeft(288);
+    obj.layout449:setTop(1435.2);
+    obj.layout449:setWidth(527);
+    obj.layout449:setHeight(82.8);
+    obj.layout449:setName("layout449");
 
     obj.textEditor215 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor215:setParent(obj.layout448);
+    obj.textEditor215:setParent(obj.layout449);
     obj.textEditor215:setLeft(0);
     obj.textEditor215:setTop(0);
     obj.textEditor215:setWidth(527);
@@ -9569,16 +9587,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor215:setTransparent(true);
     obj.textEditor215:setName("textEditor215");
 
-    obj.layout449 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout449:setParent(obj.rectangle3);
-    obj.layout449:setLeft(822);
-    obj.layout449:setTop(1434.2);
-    obj.layout449:setWidth(71);
-    obj.layout449:setHeight(82.8);
-    obj.layout449:setName("layout449");
+    obj.layout450 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout450:setParent(obj.rectangle3);
+    obj.layout450:setLeft(822);
+    obj.layout450:setTop(1434.2);
+    obj.layout450:setWidth(71);
+    obj.layout450:setHeight(82.8);
+    obj.layout450:setName("layout450");
 
     obj.textEditor216 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor216:setParent(obj.layout449);
+    obj.textEditor216:setParent(obj.layout450);
     obj.textEditor216:setLeft(0);
     obj.textEditor216:setTop(0);
     obj.textEditor216:setWidth(71);
@@ -9589,16 +9607,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor216:setTransparent(true);
     obj.textEditor216:setName("textEditor216");
 
-    obj.layout450 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout450:setParent(obj.rectangle3);
-    obj.layout450:setLeft(902);
-    obj.layout450:setTop(1434.2);
-    obj.layout450:setWidth(54);
-    obj.layout450:setHeight(82.8);
-    obj.layout450:setName("layout450");
+    obj.layout451 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout451:setParent(obj.rectangle3);
+    obj.layout451:setLeft(902);
+    obj.layout451:setTop(1434.2);
+    obj.layout451:setWidth(54);
+    obj.layout451:setHeight(82.8);
+    obj.layout451:setName("layout451");
 
     obj.textEditor217 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor217:setParent(obj.layout450);
+    obj.textEditor217:setParent(obj.layout451);
     obj.textEditor217:setLeft(0);
     obj.textEditor217:setTop(0);
     obj.textEditor217:setWidth(54);
@@ -9609,16 +9627,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor217:setTransparent(true);
     obj.textEditor217:setName("textEditor217");
 
-    obj.layout451 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout451:setParent(obj.rectangle3);
-    obj.layout451:setLeft(965);
-    obj.layout451:setTop(1434.2);
-    obj.layout451:setWidth(111);
-    obj.layout451:setHeight(83.8);
-    obj.layout451:setName("layout451");
+    obj.layout452 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout452:setParent(obj.rectangle3);
+    obj.layout452:setLeft(965);
+    obj.layout452:setTop(1434.2);
+    obj.layout452:setWidth(111);
+    obj.layout452:setHeight(83.8);
+    obj.layout452:setName("layout452");
 
     obj.textEditor218 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor218:setParent(obj.layout451);
+    obj.textEditor218:setParent(obj.layout452);
     obj.textEditor218:setLeft(0);
     obj.textEditor218:setTop(0);
     obj.textEditor218:setWidth(111);
@@ -9629,16 +9647,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor218:setTransparent(true);
     obj.textEditor218:setName("textEditor218");
 
-    obj.layout452 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout452:setParent(obj.rectangle3);
-    obj.layout452:setLeft(1085);
-    obj.layout452:setTop(1433.2);
-    obj.layout452:setWidth(290);
-    obj.layout452:setHeight(83.8);
-    obj.layout452:setName("layout452");
+    obj.layout453 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout453:setParent(obj.rectangle3);
+    obj.layout453:setLeft(1085);
+    obj.layout453:setTop(1433.2);
+    obj.layout453:setWidth(290);
+    obj.layout453:setHeight(83.8);
+    obj.layout453:setName("layout453");
 
     obj.textEditor219 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor219:setParent(obj.layout452);
+    obj.textEditor219:setParent(obj.layout453);
     obj.textEditor219:setLeft(0);
     obj.textEditor219:setTop(0);
     obj.textEditor219:setWidth(290);
@@ -9649,16 +9667,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor219:setTransparent(true);
     obj.textEditor219:setName("textEditor219");
 
-    obj.layout453 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout453:setParent(obj.rectangle3);
-    obj.layout453:setLeft(76);
-    obj.layout453:setTop(1541.2);
-    obj.layout453:setWidth(135);
-    obj.layout453:setHeight(80.8);
-    obj.layout453:setName("layout453");
+    obj.layout454 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout454:setParent(obj.rectangle3);
+    obj.layout454:setLeft(76);
+    obj.layout454:setTop(1541.2);
+    obj.layout454:setWidth(135);
+    obj.layout454:setHeight(80.8);
+    obj.layout454:setName("layout454");
 
     obj.textEditor220 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor220:setParent(obj.layout453);
+    obj.textEditor220:setParent(obj.layout454);
     obj.textEditor220:setLeft(0);
     obj.textEditor220:setTop(0);
     obj.textEditor220:setWidth(135);
@@ -9669,16 +9687,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor220:setTransparent(true);
     obj.textEditor220:setName("textEditor220");
 
-    obj.layout454 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout454:setParent(obj.rectangle3);
-    obj.layout454:setLeft(219);
-    obj.layout454:setTop(1538.2);
-    obj.layout454:setWidth(63);
-    obj.layout454:setHeight(83.8);
-    obj.layout454:setName("layout454");
+    obj.layout455 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout455:setParent(obj.rectangle3);
+    obj.layout455:setLeft(219);
+    obj.layout455:setTop(1538.2);
+    obj.layout455:setWidth(63);
+    obj.layout455:setHeight(83.8);
+    obj.layout455:setName("layout455");
 
     obj.textEditor221 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor221:setParent(obj.layout454);
+    obj.textEditor221:setParent(obj.layout455);
     obj.textEditor221:setLeft(0);
     obj.textEditor221:setTop(0);
     obj.textEditor221:setWidth(63);
@@ -9689,16 +9707,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor221:setTransparent(true);
     obj.textEditor221:setName("textEditor221");
 
-    obj.layout455 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout455:setParent(obj.rectangle3);
-    obj.layout455:setLeft(290);
-    obj.layout455:setTop(1535.2);
-    obj.layout455:setWidth(527);
-    obj.layout455:setHeight(82.8);
-    obj.layout455:setName("layout455");
+    obj.layout456 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout456:setParent(obj.rectangle3);
+    obj.layout456:setLeft(290);
+    obj.layout456:setTop(1535.2);
+    obj.layout456:setWidth(527);
+    obj.layout456:setHeight(82.8);
+    obj.layout456:setName("layout456");
 
     obj.textEditor222 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor222:setParent(obj.layout455);
+    obj.textEditor222:setParent(obj.layout456);
     obj.textEditor222:setLeft(0);
     obj.textEditor222:setTop(0);
     obj.textEditor222:setWidth(527);
@@ -9709,16 +9727,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor222:setTransparent(true);
     obj.textEditor222:setName("textEditor222");
 
-    obj.layout456 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout456:setParent(obj.rectangle3);
-    obj.layout456:setLeft(823);
-    obj.layout456:setTop(1538.2);
-    obj.layout456:setWidth(71);
-    obj.layout456:setHeight(82.8);
-    obj.layout456:setName("layout456");
+    obj.layout457 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout457:setParent(obj.rectangle3);
+    obj.layout457:setLeft(823);
+    obj.layout457:setTop(1538.2);
+    obj.layout457:setWidth(71);
+    obj.layout457:setHeight(82.8);
+    obj.layout457:setName("layout457");
 
     obj.textEditor223 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor223:setParent(obj.layout456);
+    obj.textEditor223:setParent(obj.layout457);
     obj.textEditor223:setLeft(0);
     obj.textEditor223:setTop(0);
     obj.textEditor223:setWidth(71);
@@ -9729,16 +9747,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor223:setTransparent(true);
     obj.textEditor223:setName("textEditor223");
 
-    obj.layout457 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout457:setParent(obj.rectangle3);
-    obj.layout457:setLeft(903);
-    obj.layout457:setTop(1539.2);
-    obj.layout457:setWidth(54);
-    obj.layout457:setHeight(82.8);
-    obj.layout457:setName("layout457");
+    obj.layout458 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout458:setParent(obj.rectangle3);
+    obj.layout458:setLeft(903);
+    obj.layout458:setTop(1539.2);
+    obj.layout458:setWidth(54);
+    obj.layout458:setHeight(82.8);
+    obj.layout458:setName("layout458");
 
     obj.textEditor224 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor224:setParent(obj.layout457);
+    obj.textEditor224:setParent(obj.layout458);
     obj.textEditor224:setLeft(0);
     obj.textEditor224:setTop(0);
     obj.textEditor224:setWidth(54);
@@ -9749,16 +9767,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor224:setTransparent(true);
     obj.textEditor224:setName("textEditor224");
 
-    obj.layout458 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout458:setParent(obj.rectangle3);
-    obj.layout458:setLeft(963);
-    obj.layout458:setTop(1538.2);
-    obj.layout458:setWidth(111);
-    obj.layout458:setHeight(83.8);
-    obj.layout458:setName("layout458");
+    obj.layout459 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout459:setParent(obj.rectangle3);
+    obj.layout459:setLeft(963);
+    obj.layout459:setTop(1538.2);
+    obj.layout459:setWidth(111);
+    obj.layout459:setHeight(83.8);
+    obj.layout459:setName("layout459");
 
     obj.textEditor225 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor225:setParent(obj.layout458);
+    obj.textEditor225:setParent(obj.layout459);
     obj.textEditor225:setLeft(0);
     obj.textEditor225:setTop(0);
     obj.textEditor225:setWidth(111);
@@ -9769,16 +9787,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor225:setTransparent(true);
     obj.textEditor225:setName("textEditor225");
 
-    obj.layout459 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout459:setParent(obj.rectangle3);
-    obj.layout459:setLeft(1083);
-    obj.layout459:setTop(1538.2);
-    obj.layout459:setWidth(290);
-    obj.layout459:setHeight(83.8);
-    obj.layout459:setName("layout459");
+    obj.layout460 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout460:setParent(obj.rectangle3);
+    obj.layout460:setLeft(1083);
+    obj.layout460:setTop(1538.2);
+    obj.layout460:setWidth(290);
+    obj.layout460:setHeight(83.8);
+    obj.layout460:setName("layout460");
 
     obj.textEditor226 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor226:setParent(obj.layout459);
+    obj.textEditor226:setParent(obj.layout460);
     obj.textEditor226:setLeft(0);
     obj.textEditor226:setTop(0);
     obj.textEditor226:setWidth(290);
@@ -9789,16 +9807,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor226:setTransparent(true);
     obj.textEditor226:setName("textEditor226");
 
-    obj.layout460 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout460:setParent(obj.rectangle3);
-    obj.layout460:setLeft(78);
-    obj.layout460:setTop(1641.2);
-    obj.layout460:setWidth(135);
-    obj.layout460:setHeight(80.8);
-    obj.layout460:setName("layout460");
+    obj.layout461 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout461:setParent(obj.rectangle3);
+    obj.layout461:setLeft(78);
+    obj.layout461:setTop(1641.2);
+    obj.layout461:setWidth(135);
+    obj.layout461:setHeight(80.8);
+    obj.layout461:setName("layout461");
 
     obj.textEditor227 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor227:setParent(obj.layout460);
+    obj.textEditor227:setParent(obj.layout461);
     obj.textEditor227:setLeft(0);
     obj.textEditor227:setTop(0);
     obj.textEditor227:setWidth(135);
@@ -9809,16 +9827,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor227:setTransparent(true);
     obj.textEditor227:setName("textEditor227");
 
-    obj.layout461 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout461:setParent(obj.rectangle3);
-    obj.layout461:setLeft(217);
-    obj.layout461:setTop(1641.2);
-    obj.layout461:setWidth(63);
-    obj.layout461:setHeight(83.8);
-    obj.layout461:setName("layout461");
+    obj.layout462 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout462:setParent(obj.rectangle3);
+    obj.layout462:setLeft(217);
+    obj.layout462:setTop(1641.2);
+    obj.layout462:setWidth(63);
+    obj.layout462:setHeight(83.8);
+    obj.layout462:setName("layout462");
 
     obj.textEditor228 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor228:setParent(obj.layout461);
+    obj.textEditor228:setParent(obj.layout462);
     obj.textEditor228:setLeft(0);
     obj.textEditor228:setTop(0);
     obj.textEditor228:setWidth(63);
@@ -9829,16 +9847,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor228:setTransparent(true);
     obj.textEditor228:setName("textEditor228");
 
-    obj.layout462 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout462:setParent(obj.rectangle3);
-    obj.layout462:setLeft(822);
-    obj.layout462:setTop(1640.2);
-    obj.layout462:setWidth(71);
-    obj.layout462:setHeight(82.8);
-    obj.layout462:setName("layout462");
+    obj.layout463 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout463:setParent(obj.rectangle3);
+    obj.layout463:setLeft(822);
+    obj.layout463:setTop(1640.2);
+    obj.layout463:setWidth(71);
+    obj.layout463:setHeight(82.8);
+    obj.layout463:setName("layout463");
 
     obj.textEditor229 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor229:setParent(obj.layout462);
+    obj.textEditor229:setParent(obj.layout463);
     obj.textEditor229:setLeft(0);
     obj.textEditor229:setTop(0);
     obj.textEditor229:setWidth(71);
@@ -9849,16 +9867,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor229:setTransparent(true);
     obj.textEditor229:setName("textEditor229");
 
-    obj.layout463 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout463:setParent(obj.rectangle3);
-    obj.layout463:setLeft(903);
-    obj.layout463:setTop(1642.2);
-    obj.layout463:setWidth(54);
-    obj.layout463:setHeight(82.8);
-    obj.layout463:setName("layout463");
+    obj.layout464 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout464:setParent(obj.rectangle3);
+    obj.layout464:setLeft(903);
+    obj.layout464:setTop(1642.2);
+    obj.layout464:setWidth(54);
+    obj.layout464:setHeight(82.8);
+    obj.layout464:setName("layout464");
 
     obj.textEditor230 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor230:setParent(obj.layout463);
+    obj.textEditor230:setParent(obj.layout464);
     obj.textEditor230:setLeft(0);
     obj.textEditor230:setTop(0);
     obj.textEditor230:setWidth(54);
@@ -9869,16 +9887,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor230:setTransparent(true);
     obj.textEditor230:setName("textEditor230");
 
-    obj.layout464 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout464:setParent(obj.rectangle3);
-    obj.layout464:setLeft(967);
-    obj.layout464:setTop(1642.2);
-    obj.layout464:setWidth(111);
-    obj.layout464:setHeight(83.8);
-    obj.layout464:setName("layout464");
+    obj.layout465 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout465:setParent(obj.rectangle3);
+    obj.layout465:setLeft(967);
+    obj.layout465:setTop(1642.2);
+    obj.layout465:setWidth(111);
+    obj.layout465:setHeight(83.8);
+    obj.layout465:setName("layout465");
 
     obj.textEditor231 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor231:setParent(obj.layout464);
+    obj.textEditor231:setParent(obj.layout465);
     obj.textEditor231:setLeft(0);
     obj.textEditor231:setTop(0);
     obj.textEditor231:setWidth(111);
@@ -9889,16 +9907,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor231:setTransparent(true);
     obj.textEditor231:setName("textEditor231");
 
-    obj.layout465 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout465:setParent(obj.rectangle3);
-    obj.layout465:setLeft(1084);
-    obj.layout465:setTop(1641.2);
-    obj.layout465:setWidth(290);
-    obj.layout465:setHeight(83.8);
-    obj.layout465:setName("layout465");
+    obj.layout466 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout466:setParent(obj.rectangle3);
+    obj.layout466:setLeft(1084);
+    obj.layout466:setTop(1641.2);
+    obj.layout466:setWidth(290);
+    obj.layout466:setHeight(83.8);
+    obj.layout466:setName("layout466");
 
     obj.textEditor232 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor232:setParent(obj.layout465);
+    obj.textEditor232:setParent(obj.layout466);
     obj.textEditor232:setLeft(0);
     obj.textEditor232:setTop(0);
     obj.textEditor232:setWidth(290);
@@ -9909,16 +9927,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor232:setTransparent(true);
     obj.textEditor232:setName("textEditor232");
 
-    obj.layout466 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout466:setParent(obj.rectangle3);
-    obj.layout466:setLeft(76);
-    obj.layout466:setTop(1745.2);
-    obj.layout466:setWidth(135);
-    obj.layout466:setHeight(80.8);
-    obj.layout466:setName("layout466");
+    obj.layout467 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout467:setParent(obj.rectangle3);
+    obj.layout467:setLeft(76);
+    obj.layout467:setTop(1745.2);
+    obj.layout467:setWidth(135);
+    obj.layout467:setHeight(80.8);
+    obj.layout467:setName("layout467");
 
     obj.textEditor233 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor233:setParent(obj.layout466);
+    obj.textEditor233:setParent(obj.layout467);
     obj.textEditor233:setLeft(0);
     obj.textEditor233:setTop(0);
     obj.textEditor233:setWidth(135);
@@ -9929,16 +9947,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor233:setTransparent(true);
     obj.textEditor233:setName("textEditor233");
 
-    obj.layout467 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout467:setParent(obj.rectangle3);
-    obj.layout467:setLeft(218);
-    obj.layout467:setTop(1742.2);
-    obj.layout467:setWidth(63);
-    obj.layout467:setHeight(83.8);
-    obj.layout467:setName("layout467");
+    obj.layout468 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout468:setParent(obj.rectangle3);
+    obj.layout468:setLeft(218);
+    obj.layout468:setTop(1742.2);
+    obj.layout468:setWidth(63);
+    obj.layout468:setHeight(83.8);
+    obj.layout468:setName("layout468");
 
     obj.textEditor234 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor234:setParent(obj.layout467);
+    obj.textEditor234:setParent(obj.layout468);
     obj.textEditor234:setLeft(0);
     obj.textEditor234:setTop(0);
     obj.textEditor234:setWidth(63);
@@ -9949,16 +9967,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor234:setTransparent(true);
     obj.textEditor234:setName("textEditor234");
 
-    obj.layout468 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout468:setParent(obj.rectangle3);
-    obj.layout468:setLeft(291);
-    obj.layout468:setTop(1639.2);
-    obj.layout468:setWidth(527);
-    obj.layout468:setHeight(82.8);
-    obj.layout468:setName("layout468");
+    obj.layout469 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout469:setParent(obj.rectangle3);
+    obj.layout469:setLeft(291);
+    obj.layout469:setTop(1639.2);
+    obj.layout469:setWidth(527);
+    obj.layout469:setHeight(82.8);
+    obj.layout469:setName("layout469");
 
     obj.textEditor235 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor235:setParent(obj.layout468);
+    obj.textEditor235:setParent(obj.layout469);
     obj.textEditor235:setLeft(0);
     obj.textEditor235:setTop(0);
     obj.textEditor235:setWidth(527);
@@ -9969,16 +9987,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor235:setTransparent(true);
     obj.textEditor235:setName("textEditor235");
 
-    obj.layout469 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout469:setParent(obj.rectangle3);
-    obj.layout469:setLeft(290);
-    obj.layout469:setTop(1746.2);
-    obj.layout469:setWidth(527);
-    obj.layout469:setHeight(82.8);
-    obj.layout469:setName("layout469");
+    obj.layout470 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout470:setParent(obj.rectangle3);
+    obj.layout470:setLeft(290);
+    obj.layout470:setTop(1746.2);
+    obj.layout470:setWidth(527);
+    obj.layout470:setHeight(82.8);
+    obj.layout470:setName("layout470");
 
     obj.textEditor236 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor236:setParent(obj.layout469);
+    obj.textEditor236:setParent(obj.layout470);
     obj.textEditor236:setLeft(0);
     obj.textEditor236:setTop(0);
     obj.textEditor236:setWidth(527);
@@ -9989,16 +10007,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor236:setTransparent(true);
     obj.textEditor236:setName("textEditor236");
 
-    obj.layout470 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout470:setParent(obj.rectangle3);
-    obj.layout470:setLeft(822);
-    obj.layout470:setTop(1745.2);
-    obj.layout470:setWidth(71);
-    obj.layout470:setHeight(82.8);
-    obj.layout470:setName("layout470");
+    obj.layout471 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout471:setParent(obj.rectangle3);
+    obj.layout471:setLeft(822);
+    obj.layout471:setTop(1745.2);
+    obj.layout471:setWidth(71);
+    obj.layout471:setHeight(82.8);
+    obj.layout471:setName("layout471");
 
     obj.textEditor237 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor237:setParent(obj.layout470);
+    obj.textEditor237:setParent(obj.layout471);
     obj.textEditor237:setLeft(0);
     obj.textEditor237:setTop(0);
     obj.textEditor237:setWidth(71);
@@ -10009,16 +10027,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor237:setTransparent(true);
     obj.textEditor237:setName("textEditor237");
 
-    obj.layout471 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout471:setParent(obj.rectangle3);
-    obj.layout471:setLeft(901);
-    obj.layout471:setTop(1744.2);
-    obj.layout471:setWidth(54);
-    obj.layout471:setHeight(82.8);
-    obj.layout471:setName("layout471");
+    obj.layout472 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout472:setParent(obj.rectangle3);
+    obj.layout472:setLeft(901);
+    obj.layout472:setTop(1744.2);
+    obj.layout472:setWidth(54);
+    obj.layout472:setHeight(82.8);
+    obj.layout472:setName("layout472");
 
     obj.textEditor238 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor238:setParent(obj.layout471);
+    obj.textEditor238:setParent(obj.layout472);
     obj.textEditor238:setLeft(0);
     obj.textEditor238:setTop(0);
     obj.textEditor238:setWidth(54);
@@ -10029,16 +10047,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor238:setTransparent(true);
     obj.textEditor238:setName("textEditor238");
 
-    obj.layout472 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout472:setParent(obj.rectangle3);
-    obj.layout472:setLeft(963);
-    obj.layout472:setTop(1747.2);
-    obj.layout472:setWidth(111);
-    obj.layout472:setHeight(78.8);
-    obj.layout472:setName("layout472");
+    obj.layout473 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout473:setParent(obj.rectangle3);
+    obj.layout473:setLeft(963);
+    obj.layout473:setTop(1747.2);
+    obj.layout473:setWidth(111);
+    obj.layout473:setHeight(78.8);
+    obj.layout473:setName("layout473");
 
     obj.textEditor239 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor239:setParent(obj.layout472);
+    obj.textEditor239:setParent(obj.layout473);
     obj.textEditor239:setLeft(0);
     obj.textEditor239:setTop(0);
     obj.textEditor239:setWidth(111);
@@ -10049,16 +10067,16 @@ local function constructNew_frmWitcherRPG()
     obj.textEditor239:setTransparent(true);
     obj.textEditor239:setName("textEditor239");
 
-    obj.layout473 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout473:setParent(obj.rectangle3);
-    obj.layout473:setLeft(1083);
-    obj.layout473:setTop(1747.2);
-    obj.layout473:setWidth(290);
-    obj.layout473:setHeight(76.8);
-    obj.layout473:setName("layout473");
+    obj.layout474 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout474:setParent(obj.rectangle3);
+    obj.layout474:setLeft(1083);
+    obj.layout474:setTop(1747.2);
+    obj.layout474:setWidth(290);
+    obj.layout474:setHeight(76.8);
+    obj.layout474:setName("layout474");
 
     obj.textEditor240 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor240:setParent(obj.layout473);
+    obj.textEditor240:setParent(obj.layout474);
     obj.textEditor240:setLeft(0);
     obj.textEditor240:setTop(0);
     obj.textEditor240:setWidth(290);
@@ -10093,27 +10111,27 @@ local function constructNew_frmWitcherRPG()
     obj.rectangle4:setColor("white");
     obj.rectangle4:setName("rectangle4");
 
-    obj.image4 = GUI.fromHandle(_obj_newObject("image"));
-    obj.image4:setParent(obj.rectangle4);
-    obj.image4:setLeft(0);
-    obj.image4:setTop(0);
-    obj.image4:setWidth(1469);
-    obj.image4:setHeight(1901);
-    obj.image4:setSRC("/WitcherRPG/images/4.png");
-    obj.image4:setStyle("stretch");
-    obj.image4:setOptimize(true);
-    obj.image4:setName("image4");
+    obj.image5 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image5:setParent(obj.rectangle4);
+    obj.image5:setLeft(0);
+    obj.image5:setTop(0);
+    obj.image5:setWidth(1469);
+    obj.image5:setHeight(1901);
+    obj.image5:setSRC("/WitcherRPG/images/4.png");
+    obj.image5:setStyle("stretch");
+    obj.image5:setOptimize(true);
+    obj.image5:setName("image5");
 
-    obj.layout474 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout474:setParent(obj.rectangle4);
-    obj.layout474:setLeft(248);
-    obj.layout474:setTop(75);
-    obj.layout474:setWidth(231);
-    obj.layout474:setHeight(58);
-    obj.layout474:setName("layout474");
+    obj.layout475 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout475:setParent(obj.rectangle4);
+    obj.layout475:setLeft(248);
+    obj.layout475:setTop(75);
+    obj.layout475:setWidth(231);
+    obj.layout475:setHeight(58);
+    obj.layout475:setName("layout475");
 
     obj.edit234 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit234:setParent(obj.layout474);
+    obj.edit234:setParent(obj.layout475);
     obj.edit234:setTransparent(true);
     obj.edit234:setFontSize(22.8);
     obj.edit234:setFontColor("#000000");
@@ -10126,16 +10144,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit234:setField("Clothing");
     obj.edit234:setName("edit234");
 
-    obj.layout475 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout475:setParent(obj.rectangle4);
-    obj.layout475:setLeft(521);
-    obj.layout475:setTop(112);
-    obj.layout475:setWidth(873);
-    obj.layout475:setHeight(42);
-    obj.layout475:setName("layout475");
+    obj.layout476 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout476:setParent(obj.rectangle4);
+    obj.layout476:setLeft(521);
+    obj.layout476:setTop(112);
+    obj.layout476:setWidth(873);
+    obj.layout476:setHeight(42);
+    obj.layout476:setName("layout476");
 
     obj.edit235 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit235:setParent(obj.layout475);
+    obj.edit235:setParent(obj.layout476);
     obj.edit235:setTransparent(true);
     obj.edit235:setFontSize(22.8);
     obj.edit235:setFontColor("#000000");
@@ -10148,16 +10166,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit235:setField("Early_LifeRow1");
     obj.edit235:setName("edit235");
 
-    obj.layout476 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout476:setParent(obj.rectangle4);
-    obj.layout476:setLeft(246);
-    obj.layout476:setTop(137);
-    obj.layout476:setWidth(234);
-    obj.layout476:setHeight(63);
-    obj.layout476:setName("layout476");
+    obj.layout477 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout477:setParent(obj.rectangle4);
+    obj.layout477:setLeft(246);
+    obj.layout477:setTop(137);
+    obj.layout477:setWidth(234);
+    obj.layout477:setHeight(63);
+    obj.layout477:setName("layout477");
 
     obj.edit236 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit236:setParent(obj.layout476);
+    obj.edit236:setParent(obj.layout477);
     obj.edit236:setTransparent(true);
     obj.edit236:setFontSize(22.8);
     obj.edit236:setFontColor("#000000");
@@ -10170,16 +10188,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit236:setField("Personality");
     obj.edit236:setName("edit236");
 
-    obj.layout477 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout477:setParent(obj.rectangle4);
-    obj.layout477:setLeft(521);
-    obj.layout477:setTop(158);
-    obj.layout477:setWidth(873);
-    obj.layout477:setHeight(43);
-    obj.layout477:setName("layout477");
+    obj.layout478 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout478:setParent(obj.rectangle4);
+    obj.layout478:setLeft(521);
+    obj.layout478:setTop(158);
+    obj.layout478:setWidth(873);
+    obj.layout478:setHeight(43);
+    obj.layout478:setName("layout478");
 
     obj.edit237 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit237:setParent(obj.layout477);
+    obj.edit237:setParent(obj.layout478);
     obj.edit237:setTransparent(true);
     obj.edit237:setFontSize(22.8);
     obj.edit237:setFontColor("#000000");
@@ -10192,16 +10210,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit237:setField("Early_LifeRow2");
     obj.edit237:setName("edit237");
 
-    obj.layout478 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout478:setParent(obj.rectangle4);
-    obj.layout478:setLeft(246);
-    obj.layout478:setTop(204);
-    obj.layout478:setWidth(237);
-    obj.layout478:setHeight(63);
-    obj.layout478:setName("layout478");
+    obj.layout479 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout479:setParent(obj.rectangle4);
+    obj.layout479:setLeft(246);
+    obj.layout479:setTop(204);
+    obj.layout479:setWidth(237);
+    obj.layout479:setHeight(63);
+    obj.layout479:setName("layout479");
 
     obj.edit238 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit238:setParent(obj.layout478);
+    obj.edit238:setParent(obj.layout479);
     obj.edit238:setTransparent(true);
     obj.edit238:setFontSize(22.8);
     obj.edit238:setFontColor("#000000");
@@ -10214,16 +10232,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit238:setField("Hair_Style");
     obj.edit238:setName("edit238");
 
-    obj.layout479 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout479:setParent(obj.rectangle4);
-    obj.layout479:setLeft(521);
-    obj.layout479:setTop(204);
-    obj.layout479:setWidth(873);
-    obj.layout479:setHeight(44);
-    obj.layout479:setName("layout479");
+    obj.layout480 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout480:setParent(obj.rectangle4);
+    obj.layout480:setLeft(521);
+    obj.layout480:setTop(204);
+    obj.layout480:setWidth(873);
+    obj.layout480:setHeight(44);
+    obj.layout480:setName("layout480");
 
     obj.edit239 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit239:setParent(obj.layout479);
+    obj.edit239:setParent(obj.layout480);
     obj.edit239:setTransparent(true);
     obj.edit239:setFontSize(22.8);
     obj.edit239:setFontColor("#000000");
@@ -10236,16 +10254,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit239:setField("Early_LifeRow3");
     obj.edit239:setName("edit239");
 
-    obj.layout480 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout480:setParent(obj.rectangle4);
-    obj.layout480:setLeft(521);
-    obj.layout480:setTop(252);
-    obj.layout480:setWidth(873);
-    obj.layout480:setHeight(43);
-    obj.layout480:setName("layout480");
+    obj.layout481 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout481:setParent(obj.rectangle4);
+    obj.layout481:setLeft(521);
+    obj.layout481:setTop(252);
+    obj.layout481:setWidth(873);
+    obj.layout481:setHeight(43);
+    obj.layout481:setName("layout481");
 
     obj.edit240 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit240:setParent(obj.layout480);
+    obj.edit240:setParent(obj.layout481);
     obj.edit240:setTransparent(true);
     obj.edit240:setFontSize(22.8);
     obj.edit240:setFontColor("#000000");
@@ -10258,16 +10276,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit240:setField("Early_LifeRow4");
     obj.edit240:setName("edit240");
 
-    obj.layout481 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout481:setParent(obj.rectangle4);
-    obj.layout481:setLeft(247);
-    obj.layout481:setTop(270);
-    obj.layout481:setWidth(233);
-    obj.layout481:setHeight(65);
-    obj.layout481:setName("layout481");
+    obj.layout482 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout482:setParent(obj.rectangle4);
+    obj.layout482:setLeft(247);
+    obj.layout482:setTop(270);
+    obj.layout482:setWidth(233);
+    obj.layout482:setHeight(65);
+    obj.layout482:setName("layout482");
 
     obj.edit241 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit241:setParent(obj.layout481);
+    obj.edit241:setParent(obj.layout482);
     obj.edit241:setTransparent(true);
     obj.edit241:setFontSize(22.8);
     obj.edit241:setFontColor("#000000");
@@ -10280,16 +10298,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit241:setField("Affectations");
     obj.edit241:setName("edit241");
 
-    obj.layout482 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout482:setParent(obj.rectangle4);
-    obj.layout482:setLeft(521);
-    obj.layout482:setTop(298);
-    obj.layout482:setWidth(873);
-    obj.layout482:setHeight(43);
-    obj.layout482:setName("layout482");
+    obj.layout483 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout483:setParent(obj.rectangle4);
+    obj.layout483:setLeft(521);
+    obj.layout483:setTop(298);
+    obj.layout483:setWidth(873);
+    obj.layout483:setHeight(43);
+    obj.layout483:setName("layout483");
 
     obj.edit242 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit242:setParent(obj.layout482);
+    obj.edit242:setParent(obj.layout483);
     obj.edit242:setTransparent(true);
     obj.edit242:setFontSize(22.8);
     obj.edit242:setFontColor("#000000");
@@ -10302,16 +10320,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit242:setField("Early_LifeRow5");
     obj.edit242:setName("edit242");
 
-    obj.layout483 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout483:setParent(obj.rectangle4);
-    obj.layout483:setLeft(247);
-    obj.layout483:setTop(339);
-    obj.layout483:setWidth(233);
-    obj.layout483:setHeight(63);
-    obj.layout483:setName("layout483");
+    obj.layout484 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout484:setParent(obj.rectangle4);
+    obj.layout484:setLeft(247);
+    obj.layout484:setTop(339);
+    obj.layout484:setWidth(233);
+    obj.layout484:setHeight(63);
+    obj.layout484:setName("layout484");
 
     obj.edit243 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit243:setParent(obj.layout483);
+    obj.edit243:setParent(obj.layout484);
     obj.edit243:setTransparent(true);
     obj.edit243:setFontSize(22.8);
     obj.edit243:setFontColor("#000000");
@@ -10324,16 +10342,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit243:setField("Valued_Person");
     obj.edit243:setName("edit243");
 
-    obj.layout484 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout484:setParent(obj.rectangle4);
-    obj.layout484:setLeft(521);
-    obj.layout484:setTop(345);
-    obj.layout484:setWidth(873);
-    obj.layout484:setHeight(42);
-    obj.layout484:setName("layout484");
+    obj.layout485 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout485:setParent(obj.rectangle4);
+    obj.layout485:setLeft(521);
+    obj.layout485:setTop(345);
+    obj.layout485:setWidth(873);
+    obj.layout485:setHeight(42);
+    obj.layout485:setName("layout485");
 
     obj.edit244 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit244:setParent(obj.layout484);
+    obj.edit244:setParent(obj.layout485);
     obj.edit244:setTransparent(true);
     obj.edit244:setFontSize(22.8);
     obj.edit244:setFontColor("#000000");
@@ -10346,16 +10364,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit244:setField("Early_LifeRow6");
     obj.edit244:setName("edit244");
 
-    obj.layout485 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout485:setParent(obj.rectangle4);
-    obj.layout485:setLeft(521);
-    obj.layout485:setTop(392);
-    obj.layout485:setWidth(873);
-    obj.layout485:setHeight(43);
-    obj.layout485:setName("layout485");
+    obj.layout486 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout486:setParent(obj.rectangle4);
+    obj.layout486:setLeft(521);
+    obj.layout486:setTop(392);
+    obj.layout486:setWidth(873);
+    obj.layout486:setHeight(43);
+    obj.layout486:setName("layout486");
 
     obj.edit245 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit245:setParent(obj.layout485);
+    obj.edit245:setParent(obj.layout486);
     obj.edit245:setTransparent(true);
     obj.edit245:setFontSize(22.8);
     obj.edit245:setFontColor("#000000");
@@ -10368,16 +10386,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit245:setField("Early_LifeRow7");
     obj.edit245:setName("edit245");
 
-    obj.layout486 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout486:setParent(obj.rectangle4);
-    obj.layout486:setLeft(246);
-    obj.layout486:setTop(406);
-    obj.layout486:setWidth(232);
-    obj.layout486:setHeight(63);
-    obj.layout486:setName("layout486");
+    obj.layout487 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout487:setParent(obj.rectangle4);
+    obj.layout487:setLeft(246);
+    obj.layout487:setTop(406);
+    obj.layout487:setWidth(232);
+    obj.layout487:setHeight(63);
+    obj.layout487:setName("layout487");
 
     obj.edit246 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit246:setParent(obj.layout486);
+    obj.edit246:setParent(obj.layout487);
     obj.edit246:setTransparent(true);
     obj.edit246:setFontSize(22.8);
     obj.edit246:setFontColor("#000000");
@@ -10390,16 +10408,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit246:setField("Value");
     obj.edit246:setName("edit246");
 
-    obj.layout487 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout487:setParent(obj.rectangle4);
-    obj.layout487:setLeft(521);
-    obj.layout487:setTop(438);
-    obj.layout487:setWidth(873);
-    obj.layout487:setHeight(42);
-    obj.layout487:setName("layout487");
+    obj.layout488 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout488:setParent(obj.rectangle4);
+    obj.layout488:setLeft(521);
+    obj.layout488:setTop(438);
+    obj.layout488:setWidth(873);
+    obj.layout488:setHeight(42);
+    obj.layout488:setName("layout488");
 
     obj.edit247 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit247:setParent(obj.layout487);
+    obj.edit247:setParent(obj.layout488);
     obj.edit247:setTransparent(true);
     obj.edit247:setFontSize(22.8);
     obj.edit247:setFontColor("#000000");
@@ -10412,16 +10430,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit247:setField("Early_LifeRow8");
     obj.edit247:setName("edit247");
 
-    obj.layout488 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout488:setParent(obj.rectangle4);
-    obj.layout488:setLeft(247);
-    obj.layout488:setTop(475);
-    obj.layout488:setWidth(233);
-    obj.layout488:setHeight(63);
-    obj.layout488:setName("layout488");
+    obj.layout489 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout489:setParent(obj.rectangle4);
+    obj.layout489:setLeft(247);
+    obj.layout489:setTop(475);
+    obj.layout489:setWidth(233);
+    obj.layout489:setHeight(63);
+    obj.layout489:setName("layout489");
 
     obj.edit248 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit248:setParent(obj.layout488);
+    obj.edit248:setParent(obj.layout489);
     obj.edit248:setTransparent(true);
     obj.edit248:setFontSize(22.8);
     obj.edit248:setFontColor("#000000");
@@ -10434,16 +10452,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit248:setField("Feelings_on_People");
     obj.edit248:setName("edit248");
 
-    obj.layout489 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout489:setParent(obj.rectangle4);
-    obj.layout489:setLeft(96);
-    obj.layout489:setTop(619);
-    obj.layout489:setWidth(380);
-    obj.layout489:setHeight(42);
-    obj.layout489:setName("layout489");
+    obj.layout490 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout490:setParent(obj.rectangle4);
+    obj.layout490:setLeft(96);
+    obj.layout490:setTop(619);
+    obj.layout490:setWidth(380);
+    obj.layout490:setHeight(42);
+    obj.layout490:setName("layout490");
 
     obj.edit249 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit249:setParent(obj.layout489);
+    obj.edit249:setParent(obj.layout490);
     obj.edit249:setTransparent(true);
     obj.edit249:setFontSize(22.8);
     obj.edit249:setFontColor("#000000");
@@ -10456,16 +10474,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit249:setField("Campaign_NotesRow1");
     obj.edit249:setName("edit249");
 
-    obj.layout490 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout490:setParent(obj.rectangle4);
-    obj.layout490:setLeft(671);
-    obj.layout490:setTop(631);
-    obj.layout490:setWidth(723);
-    obj.layout490:setHeight(58);
-    obj.layout490:setName("layout490");
+    obj.layout491 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout491:setParent(obj.rectangle4);
+    obj.layout491:setLeft(671);
+    obj.layout491:setTop(631);
+    obj.layout491:setWidth(723);
+    obj.layout491:setHeight(58);
+    obj.layout491:setName("layout491");
 
     obj.edit250 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit250:setParent(obj.layout490);
+    obj.edit250:setParent(obj.layout491);
     obj.edit250:setTransparent(true);
     obj.edit250:setFontSize(22.8);
     obj.edit250:setFontColor("#000000");
@@ -10478,16 +10496,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit250:setField("_10");
     obj.edit250:setName("edit250");
 
-    obj.layout491 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout491:setParent(obj.rectangle4);
-    obj.layout491:setLeft(96);
-    obj.layout491:setTop(665);
-    obj.layout491:setWidth(380);
-    obj.layout491:setHeight(42);
-    obj.layout491:setName("layout491");
+    obj.layout492 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout492:setParent(obj.rectangle4);
+    obj.layout492:setLeft(96);
+    obj.layout492:setTop(665);
+    obj.layout492:setWidth(380);
+    obj.layout492:setHeight(42);
+    obj.layout492:setName("layout492");
 
     obj.edit251 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit251:setParent(obj.layout491);
+    obj.edit251:setParent(obj.layout492);
     obj.edit251:setTransparent(true);
     obj.edit251:setFontSize(22.8);
     obj.edit251:setFontColor("#000000");
@@ -10500,16 +10518,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit251:setField("Campaign_NotesRow2");
     obj.edit251:setName("edit251");
 
-    obj.layout492 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout492:setParent(obj.rectangle4);
-    obj.layout492:setLeft(96);
-    obj.layout492:setTop(712);
-    obj.layout492:setWidth(380);
-    obj.layout492:setHeight(43);
-    obj.layout492:setName("layout492");
+    obj.layout493 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout493:setParent(obj.rectangle4);
+    obj.layout493:setLeft(96);
+    obj.layout493:setTop(712);
+    obj.layout493:setWidth(380);
+    obj.layout493:setHeight(43);
+    obj.layout493:setName("layout493");
 
     obj.edit252 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit252:setParent(obj.layout492);
+    obj.edit252:setParent(obj.layout493);
     obj.edit252:setTransparent(true);
     obj.edit252:setFontSize(22.8);
     obj.edit252:setFontColor("#000000");
@@ -10522,16 +10540,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit252:setField("Campaign_NotesRow3");
     obj.edit252:setName("edit252");
 
-    obj.layout493 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout493:setParent(obj.rectangle4);
-    obj.layout493:setLeft(673);
-    obj.layout493:setTop(691);
-    obj.layout493:setWidth(721);
-    obj.layout493:setHeight(57);
-    obj.layout493:setName("layout493");
+    obj.layout494 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout494:setParent(obj.rectangle4);
+    obj.layout494:setLeft(673);
+    obj.layout494:setTop(691);
+    obj.layout494:setWidth(721);
+    obj.layout494:setHeight(57);
+    obj.layout494:setName("layout494");
 
     obj.edit253 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit253:setParent(obj.layout493);
+    obj.edit253:setParent(obj.layout494);
     obj.edit253:setTransparent(true);
     obj.edit253:setFontSize(22.8);
     obj.edit253:setFontColor("#000000");
@@ -10544,16 +10562,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit253:setField("_20");
     obj.edit253:setName("edit253");
 
-    obj.layout494 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout494:setParent(obj.rectangle4);
-    obj.layout494:setLeft(96);
-    obj.layout494:setTop(758);
-    obj.layout494:setWidth(380);
-    obj.layout494:setHeight(43);
-    obj.layout494:setName("layout494");
+    obj.layout495 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout495:setParent(obj.rectangle4);
+    obj.layout495:setLeft(96);
+    obj.layout495:setTop(758);
+    obj.layout495:setWidth(380);
+    obj.layout495:setHeight(43);
+    obj.layout495:setName("layout495");
 
     obj.edit254 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit254:setParent(obj.layout494);
+    obj.edit254:setParent(obj.layout495);
     obj.edit254:setTransparent(true);
     obj.edit254:setFontSize(22.8);
     obj.edit254:setFontColor("#000000");
@@ -10566,16 +10584,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit254:setField("Campaign_NotesRow4");
     obj.edit254:setName("edit254");
 
-    obj.layout495 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout495:setParent(obj.rectangle4);
-    obj.layout495:setLeft(676);
-    obj.layout495:setTop(751);
-    obj.layout495:setWidth(721);
-    obj.layout495:setHeight(57);
-    obj.layout495:setName("layout495");
+    obj.layout496 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout496:setParent(obj.rectangle4);
+    obj.layout496:setLeft(676);
+    obj.layout496:setTop(751);
+    obj.layout496:setWidth(721);
+    obj.layout496:setHeight(57);
+    obj.layout496:setName("layout496");
 
     obj.edit255 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit255:setParent(obj.layout495);
+    obj.edit255:setParent(obj.layout496);
     obj.edit255:setTransparent(true);
     obj.edit255:setFontSize(22.8);
     obj.edit255:setFontColor("#000000");
@@ -10588,16 +10606,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit255:setField("_30");
     obj.edit255:setName("edit255");
 
-    obj.layout496 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout496:setParent(obj.rectangle4);
-    obj.layout496:setLeft(96);
-    obj.layout496:setTop(805);
-    obj.layout496:setWidth(380);
-    obj.layout496:setHeight(43);
-    obj.layout496:setName("layout496");
+    obj.layout497 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout497:setParent(obj.rectangle4);
+    obj.layout497:setLeft(96);
+    obj.layout497:setTop(805);
+    obj.layout497:setWidth(380);
+    obj.layout497:setHeight(43);
+    obj.layout497:setName("layout497");
 
     obj.edit256 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit256:setParent(obj.layout496);
+    obj.edit256:setParent(obj.layout497);
     obj.edit256:setTransparent(true);
     obj.edit256:setFontSize(22.8);
     obj.edit256:setFontColor("#000000");
@@ -10610,16 +10628,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit256:setField("Campaign_NotesRow5");
     obj.edit256:setName("edit256");
 
-    obj.layout497 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout497:setParent(obj.rectangle4);
-    obj.layout497:setLeft(673);
-    obj.layout497:setTop(811);
-    obj.layout497:setWidth(723);
-    obj.layout497:setHeight(58);
-    obj.layout497:setName("layout497");
+    obj.layout498 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout498:setParent(obj.rectangle4);
+    obj.layout498:setLeft(673);
+    obj.layout498:setTop(811);
+    obj.layout498:setWidth(723);
+    obj.layout498:setHeight(58);
+    obj.layout498:setName("layout498");
 
     obj.edit257 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit257:setParent(obj.layout497);
+    obj.edit257:setParent(obj.layout498);
     obj.edit257:setTransparent(true);
     obj.edit257:setFontSize(22.8);
     obj.edit257:setFontColor("#000000");
@@ -10632,16 +10650,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit257:setField("_40");
     obj.edit257:setName("edit257");
 
-    obj.layout498 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout498:setParent(obj.rectangle4);
-    obj.layout498:setLeft(96);
-    obj.layout498:setTop(851);
-    obj.layout498:setWidth(380);
-    obj.layout498:setHeight(43);
-    obj.layout498:setName("layout498");
+    obj.layout499 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout499:setParent(obj.rectangle4);
+    obj.layout499:setLeft(96);
+    obj.layout499:setTop(851);
+    obj.layout499:setWidth(380);
+    obj.layout499:setHeight(43);
+    obj.layout499:setName("layout499");
 
     obj.edit258 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit258:setParent(obj.layout498);
+    obj.edit258:setParent(obj.layout499);
     obj.edit258:setTransparent(true);
     obj.edit258:setFontSize(22.8);
     obj.edit258:setFontColor("#000000");
@@ -10654,16 +10672,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit258:setField("Campaign_NotesRow6");
     obj.edit258:setName("edit258");
 
-    obj.layout499 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout499:setParent(obj.rectangle4);
-    obj.layout499:setLeft(674);
-    obj.layout499:setTop(871);
-    obj.layout499:setWidth(721);
-    obj.layout499:setHeight(57);
-    obj.layout499:setName("layout499");
+    obj.layout500 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout500:setParent(obj.rectangle4);
+    obj.layout500:setLeft(674);
+    obj.layout500:setTop(871);
+    obj.layout500:setWidth(721);
+    obj.layout500:setHeight(57);
+    obj.layout500:setName("layout500");
 
     obj.edit259 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit259:setParent(obj.layout499);
+    obj.edit259:setParent(obj.layout500);
     obj.edit259:setTransparent(true);
     obj.edit259:setFontSize(22.8);
     obj.edit259:setFontColor("#000000");
@@ -10676,16 +10694,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit259:setField("_50");
     obj.edit259:setName("edit259");
 
-    obj.layout500 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout500:setParent(obj.rectangle4);
-    obj.layout500:setLeft(96);
-    obj.layout500:setTop(898);
-    obj.layout500:setWidth(380);
-    obj.layout500:setHeight(44);
-    obj.layout500:setName("layout500");
+    obj.layout501 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout501:setParent(obj.rectangle4);
+    obj.layout501:setLeft(96);
+    obj.layout501:setTop(898);
+    obj.layout501:setWidth(380);
+    obj.layout501:setHeight(44);
+    obj.layout501:setName("layout501");
 
     obj.edit260 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit260:setParent(obj.layout500);
+    obj.edit260:setParent(obj.layout501);
     obj.edit260:setTransparent(true);
     obj.edit260:setFontSize(22.8);
     obj.edit260:setFontColor("#000000");
@@ -10698,16 +10716,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit260:setField("Campaign_NotesRow7");
     obj.edit260:setName("edit260");
 
-    obj.layout501 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout501:setParent(obj.rectangle4);
-    obj.layout501:setLeft(96);
-    obj.layout501:setTop(945);
-    obj.layout501:setWidth(380);
-    obj.layout501:setHeight(43);
-    obj.layout501:setName("layout501");
+    obj.layout502 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout502:setParent(obj.rectangle4);
+    obj.layout502:setLeft(96);
+    obj.layout502:setTop(945);
+    obj.layout502:setWidth(380);
+    obj.layout502:setHeight(43);
+    obj.layout502:setName("layout502");
 
     obj.edit261 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit261:setParent(obj.layout501);
+    obj.edit261:setParent(obj.layout502);
     obj.edit261:setTransparent(true);
     obj.edit261:setFontSize(22.8);
     obj.edit261:setFontColor("#000000");
@@ -10720,16 +10738,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit261:setField("Campaign_NotesRow8");
     obj.edit261:setName("edit261");
 
-    obj.layout502 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout502:setParent(obj.rectangle4);
-    obj.layout502:setLeft(671);
-    obj.layout502:setTop(931);
-    obj.layout502:setWidth(724);
-    obj.layout502:setHeight(58);
-    obj.layout502:setName("layout502");
+    obj.layout503 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout503:setParent(obj.rectangle4);
+    obj.layout503:setLeft(671);
+    obj.layout503:setTop(931);
+    obj.layout503:setWidth(724);
+    obj.layout503:setHeight(58);
+    obj.layout503:setName("layout503");
 
     obj.edit262 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit262:setParent(obj.layout502);
+    obj.edit262:setParent(obj.layout503);
     obj.edit262:setTransparent(true);
     obj.edit262:setFontSize(22.8);
     obj.edit262:setFontColor("#000000");
@@ -10742,16 +10760,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit262:setField("_60");
     obj.edit262:setName("edit262");
 
-    obj.layout503 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout503:setParent(obj.rectangle4);
-    obj.layout503:setLeft(96);
-    obj.layout503:setTop(991);
-    obj.layout503:setWidth(380);
-    obj.layout503:setHeight(43);
-    obj.layout503:setName("layout503");
+    obj.layout504 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout504:setParent(obj.rectangle4);
+    obj.layout504:setLeft(96);
+    obj.layout504:setTop(991);
+    obj.layout504:setWidth(380);
+    obj.layout504:setHeight(43);
+    obj.layout504:setName("layout504");
 
     obj.edit263 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit263:setParent(obj.layout503);
+    obj.edit263:setParent(obj.layout504);
     obj.edit263:setTransparent(true);
     obj.edit263:setFontSize(22.8);
     obj.edit263:setFontColor("#000000");
@@ -10764,16 +10782,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit263:setField("Campaign_NotesRow9");
     obj.edit263:setName("edit263");
 
-    obj.layout504 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout504:setParent(obj.rectangle4);
-    obj.layout504:setLeft(671);
-    obj.layout504:setTop(992);
-    obj.layout504:setWidth(723);
-    obj.layout504:setHeight(56);
-    obj.layout504:setName("layout504");
+    obj.layout505 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout505:setParent(obj.rectangle4);
+    obj.layout505:setLeft(671);
+    obj.layout505:setTop(992);
+    obj.layout505:setWidth(723);
+    obj.layout505:setHeight(56);
+    obj.layout505:setName("layout505");
 
     obj.edit264 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit264:setParent(obj.layout504);
+    obj.edit264:setParent(obj.layout505);
     obj.edit264:setTransparent(true);
     obj.edit264:setFontSize(22.8);
     obj.edit264:setFontColor("#000000");
@@ -10786,16 +10804,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit264:setField("_70");
     obj.edit264:setName("edit264");
 
-    obj.layout505 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout505:setParent(obj.rectangle4);
-    obj.layout505:setLeft(96);
-    obj.layout505:setTop(1039);
-    obj.layout505:setWidth(380);
-    obj.layout505:setHeight(42);
-    obj.layout505:setName("layout505");
+    obj.layout506 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout506:setParent(obj.rectangle4);
+    obj.layout506:setLeft(96);
+    obj.layout506:setTop(1039);
+    obj.layout506:setWidth(380);
+    obj.layout506:setHeight(42);
+    obj.layout506:setName("layout506");
 
     obj.edit265 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit265:setParent(obj.layout505);
+    obj.edit265:setParent(obj.layout506);
     obj.edit265:setTransparent(true);
     obj.edit265:setFontSize(22.8);
     obj.edit265:setFontColor("#000000");
@@ -10808,16 +10826,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit265:setField("Campaign_NotesRow10");
     obj.edit265:setName("edit265");
 
-    obj.layout506 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout506:setParent(obj.rectangle4);
-    obj.layout506:setLeft(676);
-    obj.layout506:setTop(1052);
-    obj.layout506:setWidth(719);
-    obj.layout506:setHeight(58);
-    obj.layout506:setName("layout506");
+    obj.layout507 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout507:setParent(obj.rectangle4);
+    obj.layout507:setLeft(676);
+    obj.layout507:setTop(1052);
+    obj.layout507:setWidth(719);
+    obj.layout507:setHeight(58);
+    obj.layout507:setName("layout507");
 
     obj.edit266 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit266:setParent(obj.layout506);
+    obj.edit266:setParent(obj.layout507);
     obj.edit266:setTransparent(true);
     obj.edit266:setFontSize(22.8);
     obj.edit266:setFontColor("#000000");
@@ -10830,16 +10848,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit266:setField("_80");
     obj.edit266:setName("edit266");
 
-    obj.layout507 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout507:setParent(obj.rectangle4);
-    obj.layout507:setLeft(96);
-    obj.layout507:setTop(1086);
-    obj.layout507:setWidth(380);
-    obj.layout507:setHeight(42);
-    obj.layout507:setName("layout507");
+    obj.layout508 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout508:setParent(obj.rectangle4);
+    obj.layout508:setLeft(96);
+    obj.layout508:setTop(1086);
+    obj.layout508:setWidth(380);
+    obj.layout508:setHeight(42);
+    obj.layout508:setName("layout508");
 
     obj.edit267 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit267:setParent(obj.layout507);
+    obj.edit267:setParent(obj.layout508);
     obj.edit267:setTransparent(true);
     obj.edit267:setFontSize(22.8);
     obj.edit267:setFontColor("#000000");
@@ -10852,16 +10870,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit267:setField("Campaign_NotesRow11");
     obj.edit267:setName("edit267");
 
-    obj.layout508 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout508:setParent(obj.rectangle4);
-    obj.layout508:setLeft(96);
-    obj.layout508:setTop(1132);
-    obj.layout508:setWidth(380);
-    obj.layout508:setHeight(41);
-    obj.layout508:setName("layout508");
+    obj.layout509 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout509:setParent(obj.rectangle4);
+    obj.layout509:setLeft(96);
+    obj.layout509:setTop(1132);
+    obj.layout509:setWidth(380);
+    obj.layout509:setHeight(41);
+    obj.layout509:setName("layout509");
 
     obj.edit268 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit268:setParent(obj.layout508);
+    obj.edit268:setParent(obj.layout509);
     obj.edit268:setTransparent(true);
     obj.edit268:setFontSize(22.8);
     obj.edit268:setFontColor("#000000");
@@ -10874,16 +10892,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit268:setField("Campaign_NotesRow12");
     obj.edit268:setName("edit268");
 
-    obj.layout509 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout509:setParent(obj.rectangle4);
-    obj.layout509:setLeft(671);
-    obj.layout509:setTop(1112);
-    obj.layout509:setWidth(722);
-    obj.layout509:setHeight(56);
-    obj.layout509:setName("layout509");
+    obj.layout510 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout510:setParent(obj.rectangle4);
+    obj.layout510:setLeft(671);
+    obj.layout510:setTop(1112);
+    obj.layout510:setWidth(722);
+    obj.layout510:setHeight(56);
+    obj.layout510:setName("layout510");
 
     obj.edit269 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit269:setParent(obj.layout509);
+    obj.edit269:setParent(obj.layout510);
     obj.edit269:setTransparent(true);
     obj.edit269:setFontSize(22.8);
     obj.edit269:setFontColor("#000000");
@@ -10896,16 +10914,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit269:setField("_90");
     obj.edit269:setName("edit269");
 
-    obj.layout510 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout510:setParent(obj.rectangle4);
-    obj.layout510:setLeft(96);
-    obj.layout510:setTop(1178);
-    obj.layout510:setWidth(380);
-    obj.layout510:setHeight(43);
-    obj.layout510:setName("layout510");
+    obj.layout511 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout511:setParent(obj.rectangle4);
+    obj.layout511:setLeft(96);
+    obj.layout511:setTop(1178);
+    obj.layout511:setWidth(380);
+    obj.layout511:setHeight(43);
+    obj.layout511:setName("layout511");
 
     obj.edit270 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit270:setParent(obj.layout510);
+    obj.edit270:setParent(obj.layout511);
     obj.edit270:setTransparent(true);
     obj.edit270:setFontSize(22.8);
     obj.edit270:setFontColor("#000000");
@@ -10918,16 +10936,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit270:setField("Campaign_NotesRow13");
     obj.edit270:setName("edit270");
 
-    obj.layout511 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout511:setParent(obj.rectangle4);
-    obj.layout511:setLeft(672);
-    obj.layout511:setTop(1172);
-    obj.layout511:setWidth(723);
-    obj.layout511:setHeight(57);
-    obj.layout511:setName("layout511");
+    obj.layout512 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout512:setParent(obj.rectangle4);
+    obj.layout512:setLeft(672);
+    obj.layout512:setTop(1172);
+    obj.layout512:setWidth(723);
+    obj.layout512:setHeight(57);
+    obj.layout512:setName("layout512");
 
     obj.edit271 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit271:setParent(obj.layout511);
+    obj.edit271:setParent(obj.layout512);
     obj.edit271:setTransparent(true);
     obj.edit271:setFontSize(22.8);
     obj.edit271:setFontColor("#000000");
@@ -10940,16 +10958,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit271:setField("_100");
     obj.edit271:setName("edit271");
 
-    obj.layout512 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout512:setParent(obj.rectangle4);
-    obj.layout512:setLeft(96);
-    obj.layout512:setTop(1226);
-    obj.layout512:setWidth(380);
-    obj.layout512:setHeight(42);
-    obj.layout512:setName("layout512");
+    obj.layout513 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout513:setParent(obj.rectangle4);
+    obj.layout513:setLeft(96);
+    obj.layout513:setTop(1226);
+    obj.layout513:setWidth(380);
+    obj.layout513:setHeight(42);
+    obj.layout513:setName("layout513");
 
     obj.edit272 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit272:setParent(obj.layout512);
+    obj.edit272:setParent(obj.layout513);
     obj.edit272:setTransparent(true);
     obj.edit272:setFontSize(22.8);
     obj.edit272:setFontColor("#000000");
@@ -10962,16 +10980,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit272:setField("Campaign_NotesRow14");
     obj.edit272:setName("edit272");
 
-    obj.layout513 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout513:setParent(obj.rectangle4);
-    obj.layout513:setLeft(677);
-    obj.layout513:setTop(1232);
-    obj.layout513:setWidth(719);
-    obj.layout513:setHeight(58);
-    obj.layout513:setName("layout513");
+    obj.layout514 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout514:setParent(obj.rectangle4);
+    obj.layout514:setLeft(677);
+    obj.layout514:setTop(1232);
+    obj.layout514:setWidth(719);
+    obj.layout514:setHeight(58);
+    obj.layout514:setName("layout514");
 
     obj.edit273 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit273:setParent(obj.layout513);
+    obj.edit273:setParent(obj.layout514);
     obj.edit273:setTransparent(true);
     obj.edit273:setFontSize(22.8);
     obj.edit273:setFontColor("#000000");
@@ -10984,16 +11002,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit273:setField("llO");
     obj.edit273:setName("edit273");
 
-    obj.layout514 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout514:setParent(obj.rectangle4);
-    obj.layout514:setLeft(96);
-    obj.layout514:setTop(1272);
-    obj.layout514:setWidth(380);
-    obj.layout514:setHeight(43);
-    obj.layout514:setName("layout514");
+    obj.layout515 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout515:setParent(obj.rectangle4);
+    obj.layout515:setLeft(96);
+    obj.layout515:setTop(1272);
+    obj.layout515:setWidth(380);
+    obj.layout515:setHeight(43);
+    obj.layout515:setName("layout515");
 
     obj.edit274 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit274:setParent(obj.layout514);
+    obj.edit274:setParent(obj.layout515);
     obj.edit274:setTransparent(true);
     obj.edit274:setFontSize(22.8);
     obj.edit274:setFontColor("#000000");
@@ -11006,16 +11024,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit274:setField("Campaign_NotesRow15");
     obj.edit274:setName("edit274");
 
-    obj.layout515 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout515:setParent(obj.rectangle4);
-    obj.layout515:setLeft(675);
-    obj.layout515:setTop(1293);
-    obj.layout515:setWidth(723);
-    obj.layout515:setHeight(56);
-    obj.layout515:setName("layout515");
+    obj.layout516 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout516:setParent(obj.rectangle4);
+    obj.layout516:setLeft(675);
+    obj.layout516:setTop(1293);
+    obj.layout516:setWidth(723);
+    obj.layout516:setHeight(56);
+    obj.layout516:setName("layout516");
 
     obj.edit275 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit275:setParent(obj.layout515);
+    obj.edit275:setParent(obj.layout516);
     obj.edit275:setTransparent(true);
     obj.edit275:setFontSize(22.8);
     obj.edit275:setFontColor("#000000");
@@ -11028,16 +11046,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit275:setField("_120");
     obj.edit275:setName("edit275");
 
-    obj.layout516 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout516:setParent(obj.rectangle4);
-    obj.layout516:setLeft(96);
-    obj.layout516:setTop(1318);
-    obj.layout516:setWidth(380);
-    obj.layout516:setHeight(43);
-    obj.layout516:setName("layout516");
+    obj.layout517 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout517:setParent(obj.rectangle4);
+    obj.layout517:setLeft(96);
+    obj.layout517:setTop(1318);
+    obj.layout517:setWidth(380);
+    obj.layout517:setHeight(43);
+    obj.layout517:setName("layout517");
 
     obj.edit276 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit276:setParent(obj.layout516);
+    obj.edit276:setParent(obj.layout517);
     obj.edit276:setTransparent(true);
     obj.edit276:setFontSize(22.8);
     obj.edit276:setFontColor("#000000");
@@ -11050,16 +11068,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit276:setField("Campaign_NotesRow16");
     obj.edit276:setName("edit276");
 
-    obj.layout517 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout517:setParent(obj.rectangle4);
-    obj.layout517:setLeft(96);
-    obj.layout517:setTop(1366);
-    obj.layout517:setWidth(380);
-    obj.layout517:setHeight(42);
-    obj.layout517:setName("layout517");
+    obj.layout518 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout518:setParent(obj.rectangle4);
+    obj.layout518:setLeft(96);
+    obj.layout518:setTop(1366);
+    obj.layout518:setWidth(380);
+    obj.layout518:setHeight(42);
+    obj.layout518:setName("layout518");
 
     obj.edit277 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit277:setParent(obj.layout517);
+    obj.edit277:setParent(obj.layout518);
     obj.edit277:setTransparent(true);
     obj.edit277:setFontSize(22.8);
     obj.edit277:setFontColor("#000000");
@@ -11072,16 +11090,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit277:setField("Campaign_NotesRow17");
     obj.edit277:setName("edit277");
 
-    obj.layout518 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout518:setParent(obj.rectangle4);
-    obj.layout518:setLeft(671);
-    obj.layout518:setTop(1352);
-    obj.layout518:setWidth(722);
-    obj.layout518:setHeight(58);
-    obj.layout518:setName("layout518");
+    obj.layout519 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout519:setParent(obj.rectangle4);
+    obj.layout519:setLeft(671);
+    obj.layout519:setTop(1352);
+    obj.layout519:setWidth(722);
+    obj.layout519:setHeight(58);
+    obj.layout519:setName("layout519");
 
     obj.edit278 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit278:setParent(obj.layout518);
+    obj.edit278:setParent(obj.layout519);
     obj.edit278:setTransparent(true);
     obj.edit278:setFontSize(22.8);
     obj.edit278:setFontColor("#000000");
@@ -11094,16 +11112,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit278:setField("_130");
     obj.edit278:setName("edit278");
 
-    obj.layout519 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout519:setParent(obj.rectangle4);
-    obj.layout519:setLeft(96);
-    obj.layout519:setTop(1412);
-    obj.layout519:setWidth(380);
-    obj.layout519:setHeight(43);
-    obj.layout519:setName("layout519");
+    obj.layout520 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout520:setParent(obj.rectangle4);
+    obj.layout520:setLeft(96);
+    obj.layout520:setTop(1412);
+    obj.layout520:setWidth(380);
+    obj.layout520:setHeight(43);
+    obj.layout520:setName("layout520");
 
     obj.edit279 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit279:setParent(obj.layout519);
+    obj.edit279:setParent(obj.layout520);
     obj.edit279:setTransparent(true);
     obj.edit279:setFontSize(22.8);
     obj.edit279:setFontColor("#000000");
@@ -11116,16 +11134,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit279:setField("Campaign_NotesRow18");
     obj.edit279:setName("edit279");
 
-    obj.layout520 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout520:setParent(obj.rectangle4);
-    obj.layout520:setLeft(671);
-    obj.layout520:setTop(1413);
-    obj.layout520:setWidth(725);
-    obj.layout520:setHeight(56);
-    obj.layout520:setName("layout520");
+    obj.layout521 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout521:setParent(obj.rectangle4);
+    obj.layout521:setLeft(671);
+    obj.layout521:setTop(1413);
+    obj.layout521:setWidth(725);
+    obj.layout521:setHeight(56);
+    obj.layout521:setName("layout521");
 
     obj.edit280 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit280:setParent(obj.layout520);
+    obj.edit280:setParent(obj.layout521);
     obj.edit280:setTransparent(true);
     obj.edit280:setFontSize(22.8);
     obj.edit280:setFontColor("#000000");
@@ -11138,16 +11156,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit280:setField("_140");
     obj.edit280:setName("edit280");
 
-    obj.layout521 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout521:setParent(obj.rectangle4);
-    obj.layout521:setLeft(96);
-    obj.layout521:setTop(1458);
-    obj.layout521:setWidth(380);
-    obj.layout521:setHeight(43);
-    obj.layout521:setName("layout521");
+    obj.layout522 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout522:setParent(obj.rectangle4);
+    obj.layout522:setLeft(96);
+    obj.layout522:setTop(1458);
+    obj.layout522:setWidth(380);
+    obj.layout522:setHeight(43);
+    obj.layout522:setName("layout522");
 
     obj.edit281 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit281:setParent(obj.layout521);
+    obj.edit281:setParent(obj.layout522);
     obj.edit281:setTransparent(true);
     obj.edit281:setFontSize(22.8);
     obj.edit281:setFontColor("#000000");
@@ -11160,16 +11178,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit281:setField("Campaign_NotesRow19");
     obj.edit281:setName("edit281");
 
-    obj.layout522 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout522:setParent(obj.rectangle4);
-    obj.layout522:setLeft(671);
-    obj.layout522:setTop(1472);
-    obj.layout522:setWidth(737);
-    obj.layout522:setHeight(57);
-    obj.layout522:setName("layout522");
+    obj.layout523 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout523:setParent(obj.rectangle4);
+    obj.layout523:setLeft(671);
+    obj.layout523:setTop(1472);
+    obj.layout523:setWidth(737);
+    obj.layout523:setHeight(57);
+    obj.layout523:setName("layout523");
 
     obj.edit282 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit282:setParent(obj.layout522);
+    obj.edit282:setParent(obj.layout523);
     obj.edit282:setTransparent(true);
     obj.edit282:setFontSize(22.8);
     obj.edit282:setFontColor("#000000");
@@ -11182,16 +11200,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit282:setField("_150");
     obj.edit282:setName("edit282");
 
-    obj.layout523 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout523:setParent(obj.rectangle4);
-    obj.layout523:setLeft(96);
-    obj.layout523:setTop(1505);
-    obj.layout523:setWidth(380);
-    obj.layout523:setHeight(43);
-    obj.layout523:setName("layout523");
+    obj.layout524 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout524:setParent(obj.rectangle4);
+    obj.layout524:setLeft(96);
+    obj.layout524:setTop(1505);
+    obj.layout524:setWidth(380);
+    obj.layout524:setHeight(43);
+    obj.layout524:setName("layout524");
 
     obj.edit283 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit283:setParent(obj.layout523);
+    obj.edit283:setParent(obj.layout524);
     obj.edit283:setTransparent(true);
     obj.edit283:setFontSize(22.8);
     obj.edit283:setFontColor("#000000");
@@ -11204,16 +11222,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit283:setField("Campaign_NotesRow20");
     obj.edit283:setName("edit283");
 
-    obj.layout524 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout524:setParent(obj.rectangle4);
-    obj.layout524:setLeft(96);
-    obj.layout524:setTop(1552);
-    obj.layout524:setWidth(380);
-    obj.layout524:setHeight(43);
-    obj.layout524:setName("layout524");
+    obj.layout525 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout525:setParent(obj.rectangle4);
+    obj.layout525:setLeft(96);
+    obj.layout525:setTop(1552);
+    obj.layout525:setWidth(380);
+    obj.layout525:setHeight(43);
+    obj.layout525:setName("layout525");
 
     obj.edit284 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit284:setParent(obj.layout524);
+    obj.edit284:setParent(obj.layout525);
     obj.edit284:setTransparent(true);
     obj.edit284:setFontSize(22.8);
     obj.edit284:setFontColor("#000000");
@@ -11226,16 +11244,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit284:setField("Campaign_NotesRow21");
     obj.edit284:setName("edit284");
 
-    obj.layout525 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout525:setParent(obj.rectangle4);
-    obj.layout525:setLeft(671);
-    obj.layout525:setTop(1532);
-    obj.layout525:setWidth(737);
-    obj.layout525:setHeight(57);
-    obj.layout525:setName("layout525");
+    obj.layout526 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout526:setParent(obj.rectangle4);
+    obj.layout526:setLeft(671);
+    obj.layout526:setTop(1532);
+    obj.layout526:setWidth(737);
+    obj.layout526:setHeight(57);
+    obj.layout526:setName("layout526");
 
     obj.edit285 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit285:setParent(obj.layout525);
+    obj.edit285:setParent(obj.layout526);
     obj.edit285:setTransparent(true);
     obj.edit285:setFontSize(22.8);
     obj.edit285:setFontColor("#000000");
@@ -11248,16 +11266,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit285:setField("_160");
     obj.edit285:setName("edit285");
 
-    obj.layout526 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout526:setParent(obj.rectangle4);
-    obj.layout526:setLeft(96);
-    obj.layout526:setTop(1598);
-    obj.layout526:setWidth(380);
-    obj.layout526:setHeight(43);
-    obj.layout526:setName("layout526");
+    obj.layout527 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout527:setParent(obj.rectangle4);
+    obj.layout527:setLeft(96);
+    obj.layout527:setTop(1598);
+    obj.layout527:setWidth(380);
+    obj.layout527:setHeight(43);
+    obj.layout527:setName("layout527");
 
     obj.edit286 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit286:setParent(obj.layout526);
+    obj.edit286:setParent(obj.layout527);
     obj.edit286:setTransparent(true);
     obj.edit286:setFontSize(22.8);
     obj.edit286:setFontColor("#000000");
@@ -11270,16 +11288,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit286:setField("Campaign_NotesRow22");
     obj.edit286:setName("edit286");
 
-    obj.layout527 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout527:setParent(obj.rectangle4);
-    obj.layout527:setLeft(671);
-    obj.layout527:setTop(1591);
-    obj.layout527:setWidth(737);
-    obj.layout527:setHeight(58);
-    obj.layout527:setName("layout527");
+    obj.layout528 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout528:setParent(obj.rectangle4);
+    obj.layout528:setLeft(671);
+    obj.layout528:setTop(1591);
+    obj.layout528:setWidth(737);
+    obj.layout528:setHeight(58);
+    obj.layout528:setName("layout528");
 
     obj.edit287 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit287:setParent(obj.layout527);
+    obj.edit287:setParent(obj.layout528);
     obj.edit287:setTransparent(true);
     obj.edit287:setFontSize(22.8);
     obj.edit287:setFontColor("#000000");
@@ -11292,16 +11310,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit287:setField("_170");
     obj.edit287:setName("edit287");
 
-    obj.layout528 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout528:setParent(obj.rectangle4);
-    obj.layout528:setLeft(96);
-    obj.layout528:setTop(1646);
-    obj.layout528:setWidth(380);
-    obj.layout528:setHeight(42);
-    obj.layout528:setName("layout528");
+    obj.layout529 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout529:setParent(obj.rectangle4);
+    obj.layout529:setLeft(96);
+    obj.layout529:setTop(1646);
+    obj.layout529:setWidth(380);
+    obj.layout529:setHeight(42);
+    obj.layout529:setName("layout529");
 
     obj.edit288 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit288:setParent(obj.layout528);
+    obj.edit288:setParent(obj.layout529);
     obj.edit288:setTransparent(true);
     obj.edit288:setFontSize(22.8);
     obj.edit288:setFontColor("#000000");
@@ -11314,16 +11332,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit288:setField("Campaign_NotesRow23");
     obj.edit288:setName("edit288");
 
-    obj.layout529 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout529:setParent(obj.rectangle4);
-    obj.layout529:setLeft(671);
-    obj.layout529:setTop(1652);
-    obj.layout529:setWidth(737);
-    obj.layout529:setHeight(56);
-    obj.layout529:setName("layout529");
+    obj.layout530 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout530:setParent(obj.rectangle4);
+    obj.layout530:setLeft(671);
+    obj.layout530:setTop(1652);
+    obj.layout530:setWidth(737);
+    obj.layout530:setHeight(56);
+    obj.layout530:setName("layout530");
 
     obj.edit289 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit289:setParent(obj.layout529);
+    obj.edit289:setParent(obj.layout530);
     obj.edit289:setTransparent(true);
     obj.edit289:setFontSize(22.8);
     obj.edit289:setFontColor("#000000");
@@ -11336,16 +11354,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit289:setField("_180");
     obj.edit289:setName("edit289");
 
-    obj.layout530 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout530:setParent(obj.rectangle4);
-    obj.layout530:setLeft(96);
-    obj.layout530:setTop(1692);
-    obj.layout530:setWidth(380);
-    obj.layout530:setHeight(43);
-    obj.layout530:setName("layout530");
+    obj.layout531 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout531:setParent(obj.rectangle4);
+    obj.layout531:setLeft(96);
+    obj.layout531:setTop(1692);
+    obj.layout531:setWidth(380);
+    obj.layout531:setHeight(43);
+    obj.layout531:setName("layout531");
 
     obj.edit290 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit290:setParent(obj.layout530);
+    obj.edit290:setParent(obj.layout531);
     obj.edit290:setTransparent(true);
     obj.edit290:setFontSize(22.8);
     obj.edit290:setFontColor("#000000");
@@ -11358,16 +11376,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit290:setField("Campaign_NotesRow24");
     obj.edit290:setName("edit290");
 
-    obj.layout531 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout531:setParent(obj.rectangle4);
-    obj.layout531:setLeft(96);
-    obj.layout531:setTop(1740);
-    obj.layout531:setWidth(380);
-    obj.layout531:setHeight(42);
-    obj.layout531:setName("layout531");
+    obj.layout532 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout532:setParent(obj.rectangle4);
+    obj.layout532:setLeft(96);
+    obj.layout532:setTop(1740);
+    obj.layout532:setWidth(380);
+    obj.layout532:setHeight(42);
+    obj.layout532:setName("layout532");
 
     obj.edit291 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit291:setParent(obj.layout531);
+    obj.edit291:setParent(obj.layout532);
     obj.edit291:setTransparent(true);
     obj.edit291:setFontSize(22.8);
     obj.edit291:setFontColor("#000000");
@@ -11380,16 +11398,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit291:setField("Campaign_NotesRow25");
     obj.edit291:setName("edit291");
 
-    obj.layout532 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout532:setParent(obj.rectangle4);
-    obj.layout532:setLeft(671);
-    obj.layout532:setTop(1711);
-    obj.layout532:setWidth(737);
-    obj.layout532:setHeight(57);
-    obj.layout532:setName("layout532");
+    obj.layout533 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout533:setParent(obj.rectangle4);
+    obj.layout533:setLeft(671);
+    obj.layout533:setTop(1711);
+    obj.layout533:setWidth(737);
+    obj.layout533:setHeight(57);
+    obj.layout533:setName("layout533");
 
     obj.edit292 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit292:setParent(obj.layout532);
+    obj.edit292:setParent(obj.layout533);
     obj.edit292:setTransparent(true);
     obj.edit292:setFontSize(22.8);
     obj.edit292:setFontColor("#000000");
@@ -11402,16 +11420,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit292:setField("_190");
     obj.edit292:setName("edit292");
 
-    obj.layout533 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout533:setParent(obj.rectangle4);
-    obj.layout533:setLeft(96);
-    obj.layout533:setTop(1786);
-    obj.layout533:setWidth(380);
-    obj.layout533:setHeight(41);
-    obj.layout533:setName("layout533");
+    obj.layout534 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout534:setParent(obj.rectangle4);
+    obj.layout534:setLeft(96);
+    obj.layout534:setTop(1786);
+    obj.layout534:setWidth(380);
+    obj.layout534:setHeight(41);
+    obj.layout534:setName("layout534");
 
     obj.edit293 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit293:setParent(obj.layout533);
+    obj.edit293:setParent(obj.layout534);
     obj.edit293:setTransparent(true);
     obj.edit293:setFontSize(22.8);
     obj.edit293:setFontColor("#000000");
@@ -11424,16 +11442,16 @@ local function constructNew_frmWitcherRPG()
     obj.edit293:setField("Campaign_NotesRow26");
     obj.edit293:setName("edit293");
 
-    obj.layout534 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout534:setParent(obj.rectangle4);
-    obj.layout534:setLeft(671);
-    obj.layout534:setTop(1769);
-    obj.layout534:setWidth(737);
-    obj.layout534:setHeight(57);
-    obj.layout534:setName("layout534");
+    obj.layout535 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout535:setParent(obj.rectangle4);
+    obj.layout535:setLeft(671);
+    obj.layout535:setTop(1769);
+    obj.layout535:setWidth(737);
+    obj.layout535:setHeight(57);
+    obj.layout535:setName("layout535");
 
     obj.edit294 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit294:setParent(obj.layout534);
+    obj.edit294:setParent(obj.layout535);
     obj.edit294:setTransparent(true);
     obj.edit294:setFontSize(22.8);
     obj.edit294:setFontColor("#000000");
@@ -11728,6 +11746,7 @@ local function constructNew_frmWitcherRPG()
         if self.layout295 ~= nil then self.layout295:destroy(); self.layout295 = nil; end;
         if self.layout110 ~= nil then self.layout110:destroy(); self.layout110 = nil; end;
         if self.textEditor201 ~= nil then self.textEditor201:destroy(); self.textEditor201 = nil; end;
+        if self.image5 ~= nil then self.image5:destroy(); self.image5 = nil; end;
         if self.textEditor32 ~= nil then self.textEditor32:destroy(); self.textEditor32 = nil; end;
         if self.layout114 ~= nil then self.layout114:destroy(); self.layout114 = nil; end;
         if self.edit28 ~= nil then self.edit28:destroy(); self.edit28 = nil; end;
@@ -11803,6 +11822,7 @@ local function constructNew_frmWitcherRPG()
         if self.edit264 ~= nil then self.edit264:destroy(); self.edit264 = nil; end;
         if self.edit231 ~= nil then self.edit231:destroy(); self.edit231 = nil; end;
         if self.edit164 ~= nil then self.edit164:destroy(); self.edit164 = nil; end;
+        if self.layout535 ~= nil then self.layout535:destroy(); self.layout535 = nil; end;
         if self.layout20 ~= nil then self.layout20:destroy(); self.layout20 = nil; end;
         if self.textEditor202 ~= nil then self.textEditor202:destroy(); self.textEditor202 = nil; end;
         if self.layout497 ~= nil then self.layout497:destroy(); self.layout497 = nil; end;
