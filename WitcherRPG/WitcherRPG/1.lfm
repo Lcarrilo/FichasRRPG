@@ -8,6 +8,11 @@
             <layout left="179" top="74" width="340" height="35" compilerOrder="1">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="340" height="36" field="Name" compilerOrder="2"/>
             </layout>&#xD;
+
+<layout left="970" top="92" width="380" height="500">
+		<image align="client" style="autoFit" field="imagens.aparencia" class="transparente" margins="{top=2}" editable="true" animate="true"/>
+</layout>&#xD;
+
             <layout left="663" top="75" width="233" height="67" compilerOrder="5">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="233" height="68" field="Social_Standing" compilerOrder="6"/>
             </layout>&#xD;
