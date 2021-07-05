@@ -9,7 +9,7 @@
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="340" height="36" field="Name" compilerOrder="2"/>
             </layout>&#xD;
 
-<layout left="970" top="92" width="380" height="500">
+<layout left="965" top="92" width="390" height="502">
 		<image align="client" style="autoFit" field="imagens.aparencia" class="transparente" margins="{top=2}" editable="true" animate="true"/>
 </layout>&#xD;
 
@@ -305,7 +305,7 @@
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="134" height="38" field="SPRArm" compilerOrder="196"/>
             </layout>&#xD;
             <layout left="1243" top="1477" width="131" height="37" compilerOrder="197">
-                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_R_ARM" compilerOrder="198"/>
+                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_R_ARM" compilerOrder="198"/>
             </layout>&#xD;
             <layout left="536" top="1494" width="72" height="34" compilerOrder="199">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="72" height="35" field="Gambling" compilerOrder="200"/>
@@ -314,7 +314,7 @@
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="71" height="35" field="Resist_Coercion" compilerOrder="202"/>
             </layout>&#xD;
             <layout left="1243" top="1516" width="131" height="37" compilerOrder="205">
-                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_L_ARM" compilerOrder="206"/>
+                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_L_ARM" compilerOrder="206"/>
             </layout>&#xD;
             <layout left="1106" top="1517" width="134" height="37" compilerOrder="203">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="134" height="38" field="SPLArm" compilerOrder="204"/>
@@ -332,7 +332,7 @@
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="134" height="38" field="SPR_Leg" compilerOrder="216"/>
             </layout>&#xD;
             <layout left="1243" top="1556" width="131" height="37" compilerOrder="217">
-                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_R_LEG" compilerOrder="218"/>
+                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_R_LEG" compilerOrder="218"/>
             </layout>&#xD;
             <layout left="536" top="1566" width="71" height="33" compilerOrder="213">
                 <edit transparent="true" fontSize="22.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="71" height="34" field="Human_Perception" compilerOrder="214"/>
@@ -344,7 +344,7 @@
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="134" height="38" field="SPLLeg" compilerOrder="224"/>
             </layout>&#xD;
             <layout left="1243" top="1595" width="131" height="37" compilerOrder="225">
-                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_L_LEG" compilerOrder="226"/>
+                <edit transparent="true" fontSize="25.6" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="131" height="38" field="Damage_L_LEG" compilerOrder="226"/>
             </layout>&#xD;
             <layout left="536" top="1602" width="72" height="34" compilerOrder="221">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="72" height="35" field="Leadership" compilerOrder="222"/>
@@ -382,8 +382,8 @@
             <layout left="825" top="1688" width="71" height="34" compilerOrder="247">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="71" height="35" field="Training_LPRow2_2__1" compilerOrder="248"/>
             </layout>&#xD;
-            <layout left="947" top="1693.2" width="430" height="19.8" compilerOrder="243">
-                <textEditor left="0" top="0" width="430" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes" transparent="true" compilerOrder="244"/>
+            <layout left="947" top="1675" width="430" height="37" compilerOrder="243">
+                <textEditor left="0" top="0" width="430" height="37" fontSize="22.8" fontColor="#000000" field="Notes" transparent="true" compilerOrder="244"/>
             </layout>&#xD;
             <layout left="536" top="1709" width="71" height="32" compilerOrder="251">
                 <edit transparent="true" fontSize="21.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="71" height="33" field="Seduction" compilerOrder="252"/>
@@ -400,8 +400,8 @@
             <layout left="825" top="1724" width="71" height="34" compilerOrder="257">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="71" height="35" field="Training_LPRow3_2__1" compilerOrder="258"/>
             </layout>&#xD;
-            <layout left="946" top="1731.2" width="431" height="19.8" compilerOrder="261">
-                <textEditor left="0" top="0" width="431" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes2" transparent="true" compilerOrder="262"/>
+            <layout left="946" top="1713" width="431" height="37" compilerOrder="261">
+                <textEditor left="0" top="0" width="431" height="37" fontSize="22.8" fontColor="#000000" field="Notes2" transparent="true" compilerOrder="262"/>
             </layout>&#xD;
             <layout left="825" top="1759" width="71" height="34" compilerOrder="267">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="71" height="35" field="Training_LPRow4_2__1" compilerOrder="268"/>
@@ -415,8 +415,8 @@
             <layout left="825" top="1760" width="70" height="33" compilerOrder="269">
                 <edit transparent="true" fontSize="22.6" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="70" height="34" field="Training_LPRow4_2__0" compilerOrder="270"/>
             </layout>&#xD;
-            <layout left="945" top="1771.2" width="431" height="19.8" compilerOrder="271">
-                <textEditor left="0" top="0" width="431" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes3" transparent="true" compilerOrder="272"/>
+            <layout left="945" top="1753" width="431" height="37" compilerOrder="271">
+                <textEditor left="0" top="0" width="431" height="37" fontSize="22.8" fontColor="#000000" field="Notes3" transparent="true" compilerOrder="272"/>
             </layout>&#xD;
             <layout left="250" top="1795" width="71" height="32" compilerOrder="273">
                 <edit transparent="true" fontSize="21.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="71" height="33" field="Swordsmanship" compilerOrder="274"/>
@@ -430,8 +430,8 @@
             <layout left="825" top="1795" width="70" height="31" compilerOrder="277">
                 <edit transparent="true" fontSize="21.1" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="70" height="32" field="Training_LPRow5_2__0" compilerOrder="278"/>
             </layout>&#xD;
-            <layout left="945" top="1808.2" width="431" height="19.8" compilerOrder="281">
-                <textEditor left="0" top="0" width="431" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes4" transparent="true" compilerOrder="282"/>
+            <layout left="945" top="1790" width="431" height="37" compilerOrder="281">
+                <textEditor left="0" top="0" width="431" height="37" fontSize="22.8" fontColor="#000000" field="Notes4" transparent="true" compilerOrder="282"/>
             </layout>&#xD;
         </rectangle>
     </scrollBox>

@@ -23,11 +23,11 @@
             <layout left="793" top="170.2" width="118" height="49.8" compilerOrder="131">
                 <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_0" transparent="true" compilerOrder="132"/>
             </layout>&#xD;
-            <layout left="961" top="211.2" width="201" height="110.8" compilerOrder="163">
-                <textEditor left="0" top="0" width="201" height="110.8" fontSize="22.8" fontColor="#000000" field="CurrentRow1" transparent="true" compilerOrder="164"/>
+            <layout left="961" top="200" width="201" height="180" compilerOrder="163">
+                <textEditor left="0" top="0" width="201" height="180" fontSize="50" fontColor="#000000" horzTextAlign="center" field="CurrentRow1" transparent="true" compilerOrder="164"/>
             </layout>&#xD;
-            <layout left="1170" top="211.2" width="201" height="110.8" compilerOrder="165">
-                <textEditor left="0" top="0" width="201" height="110.8" fontSize="22.8" fontColor="#000000" field="UsedRow1" transparent="true" compilerOrder="166"/>
+            <layout left="1170" top="200" width="201" height="180" compilerOrder="165">
+                <textEditor left="0" top="0" width="201" height="180" fontSize="50" fontColor="#000000" horzTextAlign="center" field="UsedRow1" transparent="true" compilerOrder="166"/>
             </layout>&#xD;
             <layout left="794" top="240.2" width="118" height="49.8" compilerOrder="133">
                 <textEditor left="0" top="0" width="118" height="49.8" fontSize="22.8" fontColor="#000000" field="Duration_1" transparent="true" compilerOrder="134"/>

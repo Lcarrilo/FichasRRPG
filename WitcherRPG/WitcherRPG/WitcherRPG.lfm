@@ -13,5 +13,8 @@
         <tab title="Página 4">
             <import file="4.lfm"/>
         </tab>
+	<tab title="Anotações">
+            <import file="5.lfm"/>
+        </tab>
     </tabControl>
 </form>

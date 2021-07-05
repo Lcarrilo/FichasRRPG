@@ -1679,9 +1679,9 @@ local function constructNew_frmWitcherRPG3_svg()
     obj.layout82 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout82:setParent(obj.rectangle1);
     obj.layout82:setLeft(961);
-    obj.layout82:setTop(211.2);
+    obj.layout82:setTop(200);
     obj.layout82:setWidth(201);
-    obj.layout82:setHeight(110.8);
+    obj.layout82:setHeight(180);
     obj.layout82:setName("layout82");
 
     obj.textEditor81 = GUI.fromHandle(_obj_newObject("textEditor"));
@@ -1689,9 +1689,10 @@ local function constructNew_frmWitcherRPG3_svg()
     obj.textEditor81:setLeft(0);
     obj.textEditor81:setTop(0);
     obj.textEditor81:setWidth(201);
-    obj.textEditor81:setHeight(110.8);
-    obj.textEditor81:setFontSize(22.8);
+    obj.textEditor81:setHeight(180);
+    obj.textEditor81:setFontSize(50);
     obj.textEditor81:setFontColor("#000000");
+    obj.textEditor81:setHorzTextAlign("center");
     obj.textEditor81:setField("CurrentRow1");
     obj.textEditor81:setTransparent(true);
     obj.textEditor81:setName("textEditor81");
@@ -1699,9 +1700,9 @@ local function constructNew_frmWitcherRPG3_svg()
     obj.layout83 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout83:setParent(obj.rectangle1);
     obj.layout83:setLeft(1170);
-    obj.layout83:setTop(211.2);
+    obj.layout83:setTop(200);
     obj.layout83:setWidth(201);
-    obj.layout83:setHeight(110.8);
+    obj.layout83:setHeight(180);
     obj.layout83:setName("layout83");
 
     obj.textEditor82 = GUI.fromHandle(_obj_newObject("textEditor"));
@@ -1709,9 +1710,10 @@ local function constructNew_frmWitcherRPG3_svg()
     obj.textEditor82:setLeft(0);
     obj.textEditor82:setTop(0);
     obj.textEditor82:setWidth(201);
-    obj.textEditor82:setHeight(110.8);
-    obj.textEditor82:setFontSize(22.8);
+    obj.textEditor82:setHeight(180);
+    obj.textEditor82:setFontSize(50);
     obj.textEditor82:setFontColor("#000000");
+    obj.textEditor82:setHorzTextAlign("center");
     obj.textEditor82:setField("UsedRow1");
     obj.textEditor82:setTransparent(true);
     obj.textEditor82:setName("textEditor82");

@@ -11,149 +11,150 @@
             <layout left="1313" top="151" width="82" height="38" compilerOrder="23">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="82" height="39" field="DMGHeld" compilerOrder="24"/>
             </layout>&#xD;
-            <layout left="94" top="167.2" width="174" height="20.8" compilerOrder="1">
-                <textEditor left="0" top="0" width="174" height="20.8" fontSize="22.8" fontColor="#000000" field="Name_2a" transparent="true" compilerOrder="2"/>
+            <layout left="94" top="152" width="174" height="37" compilerOrder="1">
+                <textEditor left="0" top="0" width="174" height="37" fontSize="22.8" fontColor="#000000" field="Name_2a" transparent="true" compilerOrder="2"/>
             </layout>&#xD;
-            <layout left="272" top="169.2" width="70" height="17.8" compilerOrder="3">
-                <textEditor left="0" top="0" width="70" height="17.8" fontSize="22.8" fontColor="#000000" field="WA" transparent="true" compilerOrder="4"/>
+            <layout left="272" top="152" width="70" height="37" compilerOrder="3">
+                <textEditor left="0" top="0" width="70" height="37" fontSize="22.8" fontColor="#000000" field="WA" transparent="true" compilerOrder="4"/>
             </layout>&#xD;
-            <layout left="796" top="169.2" width="82" height="17.8" compilerOrder="15">
-                <textEditor left="0" top="0" width="82" height="17.8" fontSize="22.8" fontColor="#000000" field="Conea" transparent="true" compilerOrder="16"/>
+            <layout left="796" top="152" width="82" height="37" compilerOrder="15">
+                <textEditor left="0" top="0" width="82" height="37" fontSize="22.8" fontColor="#000000" field="Conea" transparent="true" compilerOrder="16"/>
             </layout>&#xD;
-            <layout left="345" top="170.2" width="100" height="17.8" compilerOrder="5">
-                <textEditor left="0" top="0" width="100" height="17.8" fontSize="22.8" fontColor="#000000" field="DMG" transparent="true" compilerOrder="6"/>
+            <layout left="345" top="152" width="100" height="37" compilerOrder="5">
+                <textEditor left="0" top="0" width="100" height="37" fontSize="22.8" fontColor="#000000" field="DMG" transparent="true" compilerOrder="6"/>
             </layout>&#xD;
-            <layout left="449" top="170.2" width="72" height="16.8" compilerOrder="7">
-                <textEditor left="0" top="0" width="72" height="16.8" fontSize="22.8" fontColor="#000000" field="REL" transparent="true" compilerOrder="8"/>
+            <layout left="449" top="152" width="72" height="37" compilerOrder="7">
+                <textEditor left="0" top="0" width="72" height="37" fontSize="22.8" fontColor="#000000" field="REL" transparent="true" compilerOrder="8"/>
             </layout>&#xD;
-            <layout left="525" top="170.2" width="88" height="16.8" compilerOrder="9">
-                <textEditor left="0" top="0" width="88" height="16.8" fontSize="22.8" fontColor="#000000" field="Hands_2" transparent="true" compilerOrder="10"/>
+            <layout left="525" top="152" width="88" height="37" compilerOrder="9">
+                <textEditor left="0" top="0" width="88" height="37" fontSize="22.8" fontColor="#000000" field="Hands_2" transparent="true" compilerOrder="10"/>
             </layout>&#xD;
-            <layout left="617" top="170.2" width="79" height="16.8" compilerOrder="11">
-                <textEditor left="0" top="0" width="79" height="16.8" fontSize="22.8" fontColor="#000000" field="RNG" transparent="true" compilerOrder="12"/>
+            <layout left="617" top="152" width="79" height="37" compilerOrder="11">
+                <textEditor left="0" top="0" width="79" height="37" fontSize="22.8" fontColor="#000000" field="RNG" transparent="true" compilerOrder="12"/>
             </layout>&#xD;
-            <layout left="700" top="170.2" width="92" height="17.8" compilerOrder="13">
-                <textEditor left="0" top="0" width="92" height="17.8" fontSize="22.8" fontColor="#000000" field="Effect_2" transparent="true" compilerOrder="14"/>
+            <layout left="700" top="152" width="92" height="37" compilerOrder="13">
+                <textEditor left="0" top="0" width="92" height="37" fontSize="22.8" fontColor="#000000" field="Effect_2" transparent="true" compilerOrder="14"/>
             </layout>&#xD;
-            <layout left="882" top="170.2" width="55" height="17.8" compilerOrder="17">
-                <textEditor left="0" top="0" width="55" height="17.8" fontSize="22.8" fontColor="#000000" field="ENa" transparent="true" compilerOrder="18"/>
+            <layout left="882" top="152" width="55" height="37" compilerOrder="17">
+                <textEditor left="0" top="0" width="55" height="37" fontSize="22.8" fontColor="#000000" field="ENa" transparent="true" compilerOrder="18"/>
             </layout>&#xD;
-            <layout left="940" top="170.2" width="84" height="17.8" compilerOrder="19">
-                <textEditor left="0" top="0" width="84" height="17.8" fontSize="22.8" fontColor="#000000" field="Weight_2a" transparent="true" compilerOrder="20"/>
+            <layout left="940" top="152" width="84" height="37" compilerOrder="19">
+                <textEditor left="0" top="0" width="84" height="37" fontSize="22.8" fontColor="#000000" field="Weight_2a" transparent="true" compilerOrder="20"/>
             </layout>&#xD;
-            <layout left="95" top="209.2" width="174" height="20.8" compilerOrder="25">
-                <textEditor left="0" top="0" width="174" height="20.8" fontSize="22.8" fontColor="#000000" field="Name_3b" transparent="true" compilerOrder="26"/>
+            <layout left="95" top="190" width="174" height="37" compilerOrder="25">
+                <textEditor left="0" top="0" width="174" height="37" fontSize="22.8" fontColor="#000000" field="Name_3b" transparent="true" compilerOrder="26"/>
             </layout>&#xD;
-            <layout left="272" top="209.2" width="70" height="17.8" compilerOrder="27">
-                <textEditor left="0" top="0" width="70" height="17.8" fontSize="22.8" fontColor="#000000" field="WA2" transparent="true" compilerOrder="28"/>
+            <layout left="272" top="190" width="70" height="37" compilerOrder="27">
+                <textEditor left="0" top="0" width="70" height="37" fontSize="22.8" fontColor="#000000" field="WA2" transparent="true" compilerOrder="28"/>
             </layout>&#xD;
-            <layout left="346" top="209.2" width="100" height="17.8" compilerOrder="29">
-                <textEditor left="0" top="0" width="100" height="17.8" fontSize="22.8" fontColor="#000000" field="DMG2" transparent="true" compilerOrder="30"/>
+            <layout left="346" top="190" width="100" height="37" compilerOrder="29">
+                <textEditor left="0" top="0" width="100" height="37" fontSize="22.8" fontColor="#000000" field="DMG2" transparent="true" compilerOrder="30"/>
             </layout>&#xD;
-            <layout left="449" top="209.2" width="72" height="17.8" compilerOrder="31">
-                <textEditor left="0" top="0" width="72" height="17.8" fontSize="22.8" fontColor="#000000" field="REL2" transparent="true" compilerOrder="32"/>
+            <layout left="449" top="190" width="72" height="37" compilerOrder="31">
+                <textEditor left="0" top="0" width="72" height="37" fontSize="22.8" fontColor="#000000" field="REL2" transparent="true" compilerOrder="32"/>
             </layout>&#xD;
-            <layout left="525" top="209.2" width="88" height="17.8" compilerOrder="33">
-                <textEditor left="0" top="0" width="88" height="17.8" fontSize="22.8" fontColor="#000000" field="Hands_3" transparent="true" compilerOrder="34"/>
+            <layout left="525" top="190" width="88" height="37" compilerOrder="33">
+                <textEditor left="0" top="0" width="88" height="37" fontSize="22.8" fontColor="#000000" field="Hands_3" transparent="true" compilerOrder="34"/>
             </layout>&#xD;
-            <layout left="617" top="209.2" width="79" height="17.8" compilerOrder="35">
-                <textEditor left="0" top="0" width="79" height="17.8" fontSize="22.8" fontColor="#000000" field="RNGa" transparent="true" compilerOrder="36"/>
+            <layout left="617" top="190" width="79" height="37" compilerOrder="35">
+                <textEditor left="0" top="0" width="79" height="37" fontSize="22.8" fontColor="#000000" field="RNGa" transparent="true" compilerOrder="36"/>
             </layout>&#xD;
-            <layout left="700" top="209.2" width="92" height="17.8" compilerOrder="37">
-                <textEditor left="0" top="0" width="92" height="17.8" fontSize="22.8" fontColor="#000000" field="Effect_2a" transparent="true" compilerOrder="38"/>
+            <layout left="700" top="190" width="92" height="37" compilerOrder="37">
+                <textEditor left="0" top="0" width="92" height="37" fontSize="22.8" fontColor="#000000" field="Effect_2a" transparent="true" compilerOrder="38"/>
             </layout>&#xD;
-            <layout left="796" top="209.2" width="82" height="17.8" compilerOrder="39">
-                <textEditor left="0" top="0" width="82" height="17.8" fontSize="22.8" fontColor="#000000" field="Coneb" transparent="true" compilerOrder="40"/>
+            <layout left="796" top="190" width="82" height="37" compilerOrder="39">
+                <textEditor left="0" top="0" width="82" height="37" fontSize="22.8" fontColor="#000000" field="Coneb" transparent="true" compilerOrder="40"/>
             </layout>&#xD;
-            <layout left="882" top="209.2" width="54" height="17.8" compilerOrder="41">
-                <textEditor left="0" top="0" width="54" height="17.8" fontSize="22.8" fontColor="#000000" field="ENb" transparent="true" compilerOrder="42"/>
+            <layout left="882" top="190" width="54" height="37" compilerOrder="41">
+                <textEditor left="0" top="0" width="54" height="37" fontSize="22.8" fontColor="#000000" field="ENb" transparent="true" compilerOrder="42"/>
             </layout>&#xD;
-            <layout left="940" top="209.2" width="84" height="17.8" compilerOrder="43">
-                <textEditor left="0" top="0" width="84" height="17.8" fontSize="22.8" fontColor="#000000" field="Weight_2b" transparent="true" compilerOrder="44"/>
+            <layout left="940" top="190" width="84" height="37" compilerOrder="43">
+                <textEditor left="0" top="0" width="84" height="37" fontSize="22.8" fontColor="#000000" field="Weight_2b" transparent="true" compilerOrder="44"/>
             </layout>&#xD;
-            <layout left="96" top="247.2" width="174" height="20.8" compilerOrder="45">
-                <textEditor left="0" top="0" width="174" height="20.8" fontSize="22.8" fontColor="#000000" field="Name_4c" transparent="true" compilerOrder="46"/>
+            <layout left="96" top="230" width="174" height="37" compilerOrder="45">
+                <textEditor left="0" top="0" width="174" height="37" fontSize="22.8" fontColor="#000000" field="Name_4c" transparent="true" compilerOrder="46"/>
             </layout>&#xD;
-            <layout left="449" top="248.2" width="72" height="17.8" compilerOrder="51">
-                <textEditor left="0" top="0" width="72" height="17.8" fontSize="22.8" fontColor="#000000" field="REL3" transparent="true" compilerOrder="52"/>
+            <layout left="449" top="230" width="72" height="37" compilerOrder="51">
+                <textEditor left="0" top="0" width="72" height="37" fontSize="22.8" fontColor="#000000" field="REL3" transparent="true" compilerOrder="52"/>
             </layout>&#xD;
-            <layout left="796" top="248.2" width="82" height="18.8" compilerOrder="59">
-                <textEditor left="0" top="0" width="82" height="18.8" fontSize="22.8" fontColor="#000000" field="Conec" transparent="true" compilerOrder="60"/>
+            <layout left="796" top="230" width="82" height="37" compilerOrder="59">
+                <textEditor left="0" top="0" width="82" height="37" fontSize="22.8" fontColor="#000000" field="Conec" transparent="true" compilerOrder="60"/>
             </layout>&#xD;
-            <layout left="940" top="248.2" width="84" height="17.8" compilerOrder="63">
-                <textEditor left="0" top="0" width="84" height="17.8" fontSize="22.8" fontColor="#000000" field="Weight_2c" transparent="true" compilerOrder="64"/>
+            <layout left="940" top="230" width="84" height="37" compilerOrder="63">
+                <textEditor left="0" top="0" width="84" height="37" fontSize="22.8" fontColor="#000000" field="Weight_2c" transparent="true" compilerOrder="64"/>
             </layout>&#xD;
-            <layout left="271" top="249.2" width="70" height="17.8" compilerOrder="47">
-                <textEditor left="0" top="0" width="70" height="17.8" fontSize="22.8" fontColor="#000000" field="WA3" transparent="true" compilerOrder="48"/>
+            <layout left="271" top="230" width="70" height="37" compilerOrder="47">
+                <textEditor left="0" top="0" width="70" height="37" fontSize="22.8" fontColor="#000000" field="WA3" transparent="true" compilerOrder="48"/>
             </layout>&#xD;
-            <layout left="345" top="249.2" width="103" height="17.8" compilerOrder="49">
-                <textEditor left="0" top="0" width="103" height="17.8" fontSize="22.8" fontColor="#000000" field="DMG3" transparent="true" compilerOrder="50"/>
+            <layout left="345" top="230" width="103" height="37" compilerOrder="49">
+                <textEditor left="0" top="0" width="103" height="37" fontSize="22.8" fontColor="#000000" field="DMG3" transparent="true" compilerOrder="50"/>
             </layout>&#xD;
-            <layout left="525" top="249.2" width="88" height="17.8" compilerOrder="53">
-                <textEditor left="0" top="0" width="88" height="17.8" fontSize="22.8" fontColor="#000000" field="Hands_4" transparent="true" compilerOrder="54"/>
+            <layout left="525" top="230" width="88" height="37" compilerOrder="53">
+                <textEditor left="0" top="0" width="88" height="37" fontSize="22.8" fontColor="#000000" field="Hands_4" transparent="true" compilerOrder="54"/>
             </layout>&#xD;
-            <layout left="617" top="249.2" width="79" height="17.8" compilerOrder="55">
-                <textEditor left="0" top="0" width="79" height="17.8" fontSize="22.8" fontColor="#000000" field="RNGb" transparent="true" compilerOrder="56"/>
+            <layout left="617" top="230" width="79" height="37" compilerOrder="55">
+                <textEditor left="0" top="0" width="79" height="37" fontSize="22.8" fontColor="#000000" field="RNGb" transparent="true" compilerOrder="56"/>
             </layout>&#xD;
-            <layout left="700" top="249.2" width="92" height="17.8" compilerOrder="57">
-                <textEditor left="0" top="0" width="92" height="17.8" fontSize="22.8" fontColor="#000000" field="Effect_2b" transparent="true" compilerOrder="58"/>
+            <layout left="700" top="230" width="92" height="37" compilerOrder="57">
+                <textEditor left="0" top="0" width="92" height="37" fontSize="22.8" fontColor="#000000" field="Effect_2b" transparent="true" compilerOrder="58"/>
             </layout>&#xD;
-            <layout left="882" top="249.2" width="55" height="17.8" compilerOrder="61">
-                <textEditor left="0" top="0" width="55" height="17.8" fontSize="22.8" fontColor="#000000" field="ENc" transparent="true" compilerOrder="62"/>
+            <layout left="882" top="230" width="55" height="37" compilerOrder="61">
+                <textEditor left="0" top="0" width="55" height="37" fontSize="22.8" fontColor="#000000" field="ENc" transparent="true" compilerOrder="62"/>
             </layout>&#xD;
-            <layout left="1064" top="249.2" width="332" height="19.8" compilerOrder="65">
-                <textEditor left="0" top="0" width="332" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes_5" transparent="true" compilerOrder="66"/>
+            <layout left="1064" top="230" width="332" height="37" compilerOrder="65">
+                <textEditor left="0" top="0" width="332" height="37" fontSize="22.8" fontColor="#000000" field="Notes_5" transparent="true" compilerOrder="66"/>
             </layout>&#xD;
-            <layout left="95" top="285.2" width="174" height="20.8" compilerOrder="67">
-                <textEditor left="0" top="0" width="174" height="20.8" fontSize="22.8" fontColor="#000000" field="Name_5d__1" transparent="true" compilerOrder="68"/>
+            <layout left="95" top="270" width="174" height="37" compilerOrder="67">
+                <textEditor left="0" top="0" width="174" height="37" fontSize="22.8" fontColor="#000000" field="Name_5d__1" transparent="true" compilerOrder="68"/>
             </layout>&#xD;
-            <layout left="1066" top="286.2" width="332" height="19.8" compilerOrder="87">
-                <textEditor left="0" top="0" width="332" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes_6" transparent="true" compilerOrder="88"/>
+            <layout left="1066" top="270" width="332" height="37" compilerOrder="87">
+                <textEditor left="0" top="0" width="332" height="37" fontSize="22.8" fontColor="#000000" field="Notes_6" transparent="true" compilerOrder="88"/>
             </layout>&#xD;
-            <layout left="271" top="287.2" width="70" height="17.8" compilerOrder="69">
-                <textEditor left="0" top="0" width="70" height="17.8" fontSize="22.8" fontColor="#000000" field="WA4" transparent="true" compilerOrder="70"/>
+            <layout left="271" top="270" width="70" height="37" compilerOrder="69">
+                <textEditor left="0" top="0" width="70" height="37" fontSize="22.8" fontColor="#000000" field="WA4" transparent="true" compilerOrder="70"/>
             </layout>&#xD;
-            <layout left="345" top="288.2" width="100" height="15.8" compilerOrder="71">
-                <textEditor left="0" top="0" width="100" height="15.8" fontSize="22.8" fontColor="#000000" field="DMG4" transparent="true" compilerOrder="72"/>
+            <layout left="345" top="270" width="100" height="37" compilerOrder="71">
+                <textEditor left="0" top="0" width="100" height="37" fontSize="22.8" fontColor="#000000" field="DMG4" transparent="true" compilerOrder="72"/>
             </layout>&#xD;
-            <layout left="449" top="288.2" width="72" height="14.8" compilerOrder="73">
-                <textEditor left="0" top="0" width="72" height="14.8" fontSize="22.8" fontColor="#000000" field="REL4" transparent="true" compilerOrder="74"/>
+            <layout left="449" top="270" width="72" height="37" compilerOrder="73">
+                <textEditor left="0" top="0" width="72" height="37" fontSize="22.8" fontColor="#000000" field="REL4" transparent="true" compilerOrder="74"/>
             </layout>&#xD;
-            <layout left="525" top="288.2" width="88" height="14.8" compilerOrder="75">
-                <textEditor left="0" top="0" width="88" height="14.8" fontSize="22.8" fontColor="#000000" field="Hands_5" transparent="true" compilerOrder="76"/>
+            <layout left="525" top="270" width="88" height="37" compilerOrder="75">
+                <textEditor left="0" top="0" width="88" height="37" fontSize="22.8" fontColor="#000000" field="Hands_5" transparent="true" compilerOrder="76"/>
             </layout>&#xD;
-            <layout left="617" top="288.2" width="79" height="14.8" compilerOrder="77">
-                <textEditor left="0" top="0" width="79" height="14.8" fontSize="22.8" fontColor="#000000" field="RNGc" transparent="true" compilerOrder="78"/>
+            <layout left="617" top="270" width="79" height="37" compilerOrder="77">
+                <textEditor left="0" top="0" width="79" height="37" fontSize="22.8" fontColor="#000000" field="RNGc" transparent="true" compilerOrder="78"/>
             </layout>&#xD;
-            <layout left="700" top="288.2" width="93" height="14.8" compilerOrder="79">
-                <textEditor left="0" top="0" width="93" height="14.8" fontSize="22.8" fontColor="#000000" field="Effect_2c" transparent="true" compilerOrder="80"/>
+            <layout left="700" top="270" width="93" height="37" compilerOrder="79">
+                <textEditor left="0" top="0" width="93" height="37" fontSize="22.8" fontColor="#000000" field="Effect_2c" transparent="true" compilerOrder="80"/>
             </layout>&#xD;
-            <layout left="796" top="288.2" width="82" height="15.8" compilerOrder="81">
-                <textEditor left="0" top="0" width="82" height="15.8" fontSize="22.8" fontColor="#000000" field="Coned" transparent="true" compilerOrder="82"/>
+            <layout left="796" top="270" width="82" height="37" compilerOrder="81">
+                <textEditor left="0" top="0" width="82" height="37" fontSize="22.8" fontColor="#000000" field="Coned" transparent="true" compilerOrder="82"/>
             </layout>&#xD;
-            <layout left="882" top="288.2" width="55" height="15.8" compilerOrder="83">
-                <textEditor left="0" top="0" width="55" height="15.8" fontSize="22.8" fontColor="#000000" field="ENd" transparent="true" compilerOrder="84"/>
+            <layout left="882" top="270" width="55" height="37" compilerOrder="83">
+                <textEditor left="0" top="0" width="55" height="37" fontSize="22.8" fontColor="#000000" field="ENd" transparent="true" compilerOrder="84"/>
             </layout>&#xD;
-            <layout left="940" top="288.2" width="84" height="15.8" compilerOrder="85">
-                <textEditor left="0" top="0" width="84" height="15.8" fontSize="22.8" fontColor="#000000" field="Weight_2d" transparent="true" compilerOrder="86"/>
+            <layout left="940" top="270" width="84" height="37" compilerOrder="85">
+                <textEditor left="0" top="0" width="84" height="37" fontSize="22.8" fontColor="#000000" field="Weight_2d" transparent="true" compilerOrder="86"/>
             </layout>&#xD;
-            <layout left="1066" top="327.2" width="332" height="19.8" compilerOrder="89">
-                <textEditor left="0" top="0" width="332" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes_7" transparent="true" compilerOrder="90"/>
+            <layout left="1066" top="310" width="332" height="37" compilerOrder="89">
+                <textEditor left="0" top="0" width="332" height="37" fontSize="22.8" fontColor="#000000" field="Notes_7" transparent="true" compilerOrder="90"/>
             </layout>&#xD;
-            <layout left="1066" top="366.2" width="332" height="19.8" compilerOrder="91">
-                <textEditor left="0" top="0" width="332" height="19.8" fontSize="22.8" fontColor="#000000" field="Notes_8" transparent="true" compilerOrder="92"/>
+            <layout left="1066" top="348" width="332" height="37" compilerOrder="91">
+                <textEditor left="0" top="0" width="332" height="37" fontSize="22.8" fontColor="#000000" field="Notes_8" transparent="true" compilerOrder="92"/>
             </layout>&#xD;
+
             <layout left="1241" top="441" width="154" height="34" compilerOrder="123">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="35" field="Encumbrance" compilerOrder="124"/>
             </layout>&#xD;
             <layout left="337" top="449" width="556" height="38" compilerOrder="99">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_0" compilerOrder="100"/>
             </layout>&#xD;
-            <layout left="96" top="468.2" width="237" height="17.8" compilerOrder="93">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6a" transparent="true" compilerOrder="94"/>
+            <layout left="96" top="450" width="237" height="37" compilerOrder="93">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6a" transparent="true" compilerOrder="94"/>
             </layout>&#xD;
-            <layout left="895" top="469.2" width="129" height="15.8" compilerOrder="101">
-                <textEditor left="0" top="0" width="129" height="15.8" fontSize="22.8" fontColor="#000000" field="aName_6a" transparent="true" compilerOrder="102"/>
+            <layout left="895" top="450" width="129" height="37" compilerOrder="101">
+                <textEditor left="0" top="0" width="129" height="37" fontSize="22.8" fontColor="#000000" field="aName_6a" transparent="true" compilerOrder="102"/>
             </layout>&#xD;
             <layout left="1241" top="480" width="153" height="36" compilerOrder="125">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="153" height="37" field="Penalties" compilerOrder="126"/>
@@ -161,11 +162,11 @@
             <layout left="337" top="489" width="556" height="38" compilerOrder="103">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_0" compilerOrder="104"/>
             </layout>&#xD;
-            <layout left="96" top="508.2" width="236" height="17.8" compilerOrder="95">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6b" transparent="true" compilerOrder="96"/>
+            <layout left="96" top="490" width="236" height="37" compilerOrder="95">
+                <textEditor left="0" top="0" width="236" height="137" fontSize="22.8" fontColor="#000000" field="Name_6b" transparent="true" compilerOrder="96"/>
             </layout>&#xD;
-            <layout left="896" top="509.2" width="130" height="15.8" compilerOrder="105">
-                <textEditor left="0" top="0" width="130" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6b" transparent="true" compilerOrder="106"/>
+            <layout left="896" top="490" width="130" height="37" compilerOrder="105">
+                <textEditor left="0" top="0" width="130" height="37" fontSize="22.8" fontColor="#000000" field="bName_6b" transparent="true" compilerOrder="106"/>
             </layout>&#xD;
             <layout left="1065" top="514" width="331" height="42" compilerOrder="127">
                 <edit transparent="true" fontSize="28.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="331" height="43" field="Penalties2" compilerOrder="128"/>
@@ -173,11 +174,11 @@
             <layout left="337" top="528" width="556" height="38" compilerOrder="329">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_1" compilerOrder="330"/>
             </layout>&#xD;
-            <layout left="96" top="548.2" width="236" height="18.8" compilerOrder="97">
-                <textEditor left="0" top="0" width="236" height="18.8" fontSize="22.8" fontColor="#000000" field="Name_6c" transparent="true" compilerOrder="98"/>
+            <layout left="96" top="530" width="236" height="37" compilerOrder="97">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6c" transparent="true" compilerOrder="98"/>
             </layout>&#xD;
-            <layout left="893" top="549.2" width="133" height="15.8" compilerOrder="107">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6c" transparent="true" compilerOrder="108"/>
+            <layout left="893" top="530" width="133" height="37" compilerOrder="107">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6c" transparent="true" compilerOrder="108"/>
             </layout>&#xD;
             <layout left="1065" top="559" width="331" height="35" compilerOrder="129">
                 <edit transparent="true" fontSize="24.1" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="331" height="36" field="Penalties3" compilerOrder="130"/>
@@ -185,11 +186,11 @@
             <layout left="337" top="567" width="556" height="38" compilerOrder="343">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_1" compilerOrder="344"/>
             </layout>&#xD;
-            <layout left="96" top="587.2" width="236" height="17.8" compilerOrder="109">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6d" transparent="true" compilerOrder="110"/>
+            <layout left="96" top="568.2" width="236" height="37" compilerOrder="109">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6d" transparent="true" compilerOrder="110"/>
             </layout>&#xD;
-            <layout left="895" top="588.2" width="133" height="15.8" compilerOrder="111">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6d" transparent="true" compilerOrder="112"/>
+            <layout left="895" top="568" width="133" height="37" compilerOrder="111">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6d" transparent="true" compilerOrder="112"/>
             </layout>&#xD;
             <layout left="1065" top="599" width="331" height="35" compilerOrder="131">
                 <edit transparent="true" fontSize="24.1" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="331" height="36" field="Penalties4" compilerOrder="132"/>
@@ -197,11 +198,11 @@
             <layout left="337" top="606" width="556" height="38" compilerOrder="331">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_2" compilerOrder="332"/>
             </layout>&#xD;
-            <layout left="96" top="626.2" width="236" height="17.8" compilerOrder="113">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6e" transparent="true" compilerOrder="114"/>
+            <layout left="96" top="607" width="236" height="37" compilerOrder="113">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6e" transparent="true" compilerOrder="114"/>
             </layout>&#xD;
-            <layout left="892" top="630.2" width="133" height="15.8" compilerOrder="115">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6e" transparent="true" compilerOrder="116"/>
+            <layout left="892" top="607" width="133" height="37" compilerOrder="115">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6e" transparent="true" compilerOrder="116"/>
             </layout>&#xD;
             <layout left="1065" top="639" width="331" height="35" compilerOrder="135">
                 <edit transparent="true" fontSize="24.1" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="331" height="36" field="Penalties5" compilerOrder="136"/>
@@ -209,20 +210,20 @@
             <layout left="337" top="646" width="556" height="38" compilerOrder="345">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_2" compilerOrder="346"/>
             </layout>&#xD;
-            <layout left="96" top="666.2" width="237" height="17.8" compilerOrder="133">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6f" transparent="true" compilerOrder="134"/>
+            <layout left="96" top="648" width="237" height="37" compilerOrder="133">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6f" transparent="true" compilerOrder="134"/>
             </layout>&#xD;
-            <layout left="893" top="669.2" width="133" height="15.8" compilerOrder="117">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6f" transparent="true" compilerOrder="118"/>
+            <layout left="893" top="648" width="133" height="37" compilerOrder="117">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6f" transparent="true" compilerOrder="118"/>
             </layout>&#xD;
             <layout left="337" top="685" width="556" height="38" compilerOrder="333">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_3" compilerOrder="334"/>
             </layout>&#xD;
-            <layout left="97" top="705.2" width="236" height="18.8" compilerOrder="137">
-                <textEditor left="0" top="0" width="236" height="18.8" fontSize="22.8" fontColor="#000000" field="Name_6g" transparent="true" compilerOrder="138"/>
+            <layout left="97" top="686" width="236" height="37" compilerOrder="137">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6g" transparent="true" compilerOrder="138"/>
             </layout>&#xD;
-            <layout left="895" top="709.2" width="133" height="15.8" compilerOrder="119">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6g" transparent="true" compilerOrder="120"/>
+            <layout left="895" top="686" width="133" height="37" compilerOrder="119">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6g" transparent="true" compilerOrder="120"/>
             </layout>&#xD;
             <layout left="1190" top="715" width="204" height="34" compilerOrder="139">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="204" height="35" field="Crowns" compilerOrder="140"/>
@@ -230,11 +231,11 @@
             <layout left="337" top="724" width="556" height="38" compilerOrder="347">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_3" compilerOrder="348"/>
             </layout>&#xD;
-            <layout left="96" top="745.2" width="236" height="17.8" compilerOrder="141">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6h" transparent="true" compilerOrder="142"/>
+            <layout left="96" top="725" width="236" height="37" compilerOrder="141">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6h" transparent="true" compilerOrder="142"/>
             </layout>&#xD;
-            <layout left="895" top="747.2" width="133" height="15.8" compilerOrder="121">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6h" transparent="true" compilerOrder="122"/>
+            <layout left="895" top="725" width="133" height="37" compilerOrder="121">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6h" transparent="true" compilerOrder="122"/>
             </layout>&#xD;
             <layout left="1191" top="753" width="203" height="36" compilerOrder="143">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="203" height="37" field="Valuables" compilerOrder="144"/>
@@ -242,11 +243,11 @@
             <layout left="337" top="763" width="556" height="38" compilerOrder="335">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_4" compilerOrder="336"/>
             </layout>&#xD;
-            <layout left="96" top="784.2" width="237" height="17.8" compilerOrder="145">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6i" transparent="true" compilerOrder="146"/>
+            <layout left="96" top="764.2" width="237" height="37" compilerOrder="145">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6i" transparent="true" compilerOrder="146"/>
             </layout>&#xD;
-            <layout left="893" top="787.2" width="133" height="15.8" compilerOrder="153">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6i" transparent="true" compilerOrder="154"/>
+            <layout left="893" top="764" width="133" height="37" compilerOrder="153">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6i" transparent="true" compilerOrder="154"/>
             </layout>&#xD;
             <layout left="1067" top="794" width="328" height="36" compilerOrder="155">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="328" height="37" field="Valuables2" compilerOrder="156"/>
@@ -254,11 +255,11 @@
             <layout left="337" top="803" width="556" height="38" compilerOrder="349">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_4" compilerOrder="350"/>
             </layout>&#xD;
-            <layout left="96" top="823.2" width="236" height="18.8" compilerOrder="147">
-                <textEditor left="0" top="0" width="236" height="18.8" fontSize="22.8" fontColor="#000000" field="Name_6j" transparent="true" compilerOrder="148"/>
+            <layout left="96" top="804" width="236" height="37" compilerOrder="147">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6j" transparent="true" compilerOrder="148"/>
             </layout>&#xD;
-            <layout left="892" top="827.2" width="133" height="15.8" compilerOrder="157">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6j" transparent="true" compilerOrder="158"/>
+            <layout left="892" top="804" width="133" height="37" compilerOrder="157">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6j" transparent="true" compilerOrder="158"/>
             </layout>&#xD;
             <layout left="1065" top="832" width="328" height="36" compilerOrder="159">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="328" height="37" field="Valuables3" compilerOrder="160"/>
@@ -266,38 +267,38 @@
             <layout left="337" top="842" width="556" height="38" compilerOrder="337">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_5" compilerOrder="338"/>
             </layout>&#xD;
-            <layout left="96" top="863.2" width="237" height="17.8" compilerOrder="161">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6k" transparent="true" compilerOrder="162"/>
+            <layout left="96" top="843" width="237" height="37" compilerOrder="161">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6k" transparent="true" compilerOrder="162"/>
             </layout>&#xD;
-            <layout left="893" top="864.2" width="133" height="15.8" compilerOrder="163">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6k" transparent="true" compilerOrder="164"/>
+            <layout left="893" top="843" width="133" height="37" compilerOrder="163">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6k" transparent="true" compilerOrder="164"/>
             </layout>&#xD;
             <layout left="337" top="881" width="556" height="38" compilerOrder="351">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_5" compilerOrder="352"/>
             </layout>&#xD;
-            <layout left="97" top="903.2" width="236" height="17.8" compilerOrder="165">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6l" transparent="true" compilerOrder="166"/>
+            <layout left="97" top="882" width="236" height="37" compilerOrder="165">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6l" transparent="true" compilerOrder="166"/>
             </layout>&#xD;
-            <layout left="895" top="907.2" width="133" height="15.8" compilerOrder="167">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6l" transparent="true" compilerOrder="168"/>
+            <layout left="895" top="882" width="133" height="37" compilerOrder="167">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6l" transparent="true" compilerOrder="168"/>
             </layout>&#xD;
             <layout left="337" top="921" width="556" height="38" compilerOrder="339">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_6" compilerOrder="340"/>
             </layout>&#xD;
-            <layout left="96" top="943.2" width="237" height="17.8" compilerOrder="169">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6m" transparent="true" compilerOrder="170"/>
+            <layout left="96" top="922" width="237" height="37" compilerOrder="169">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6m" transparent="true" compilerOrder="170"/>
             </layout>&#xD;
-            <layout left="893" top="943.2" width="133" height="15.8" compilerOrder="171">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6m" transparent="true" compilerOrder="172"/>
+            <layout left="893" top="943.2" width="133" height="37" compilerOrder="171">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6m" transparent="true" compilerOrder="172"/>
             </layout>&#xD;
             <layout left="337" top="960" width="556" height="38" compilerOrder="353">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_6" compilerOrder="354"/>
             </layout>&#xD;
-            <layout left="96" top="982.2" width="237" height="16.8" compilerOrder="173">
-                <textEditor left="0" top="0" width="237" height="16.8" fontSize="22.8" fontColor="#000000" field="Name_6n" transparent="true" compilerOrder="174"/>
+            <layout left="96" top="962" width="237" height="37" compilerOrder="173">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6n" transparent="true" compilerOrder="174"/>
             </layout>&#xD;
-            <layout left="892" top="984.2" width="133" height="15.8" compilerOrder="185">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6n" transparent="true" compilerOrder="186"/>
+            <layout left="892" top="962" width="133" height="37" compilerOrder="185">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6n" transparent="true" compilerOrder="186"/>
             </layout>&#xD;
             <layout left="337" top="999" width="556" height="38" compilerOrder="341">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_7" compilerOrder="342"/>
@@ -308,11 +309,11 @@
             <layout left="1303" top="1002" width="92" height="36" compilerOrder="191">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="92" height="37" field="Row1_2" compilerOrder="192"/>
             </layout>&#xD;
-            <layout left="97" top="1022.2" width="236" height="17.8" compilerOrder="175">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6o" transparent="true" compilerOrder="176"/>
+            <layout left="97" top="1000" width="236" height="37" compilerOrder="175">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6o" transparent="true" compilerOrder="176"/>
             </layout>&#xD;
-            <layout left="893" top="1023.2" width="133" height="15.8" compilerOrder="187">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6o" transparent="true" compilerOrder="188"/>
+            <layout left="893" top="1000" width="133" height="37" compilerOrder="187">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6o" transparent="true" compilerOrder="188"/>
             </layout>&#xD;
             <layout left="337" top="1038" width="556" height="38" compilerOrder="355">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_7" compilerOrder="356"/>
@@ -323,11 +324,11 @@
             <layout left="1304" top="1043" width="91" height="36" compilerOrder="203">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row2_2" compilerOrder="204"/>
             </layout>&#xD;
-            <layout left="96" top="1061.2" width="237" height="17.8" compilerOrder="177">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6p" transparent="true" compilerOrder="178"/>
+            <layout left="96" top="1040" width="237" height="37" compilerOrder="177">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6p" transparent="true" compilerOrder="178"/>
             </layout>&#xD;
-            <layout left="892" top="1063.2" width="133" height="15.8" compilerOrder="193">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6p" transparent="true" compilerOrder="194"/>
+            <layout left="892" top="1040" width="133" height="37" compilerOrder="193">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6p" transparent="true" compilerOrder="194"/>
             </layout>&#xD;
             <layout left="1064" top="1081" width="234" height="36" compilerOrder="205">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="37" field="Row3" compilerOrder="206"/>
@@ -338,11 +339,11 @@
             <layout left="339" top="1082" width="556" height="38" compilerOrder="181">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_8" compilerOrder="182"/>
             </layout>&#xD;
-            <layout left="96" top="1100.2" width="237" height="17.8" compilerOrder="179">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6q" transparent="true" compilerOrder="180"/>
+            <layout left="96" top="1082" width="237" height="37" compilerOrder="179">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6q" transparent="true" compilerOrder="180"/>
             </layout>&#xD;
-            <layout left="892" top="1103.2" width="133" height="15.8" compilerOrder="195">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6q" transparent="true" compilerOrder="196"/>
+            <layout left="892" top="1082" width="133" height="37" compilerOrder="195">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6q" transparent="true" compilerOrder="196"/>
             </layout>&#xD;
             <layout left="340" top="1121" width="556" height="38" compilerOrder="183">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_8" compilerOrder="184"/>
@@ -353,11 +354,11 @@
             <layout left="1304" top="1121" width="91" height="36" compilerOrder="213">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row4_2" compilerOrder="214"/>
             </layout>&#xD;
-            <layout left="96" top="1140.2" width="237" height="16.8" compilerOrder="209">
-                <textEditor left="0" top="0" width="237" height="16.8" fontSize="22.8" fontColor="#000000" field="Name_6r" transparent="true" compilerOrder="210"/>
+            <layout left="96" top="1122" width="237" height="37" compilerOrder="209">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6r" transparent="true" compilerOrder="210"/>
             </layout>&#xD;
-            <layout left="892" top="1140.2" width="133" height="15.8" compilerOrder="197">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6r" transparent="true" compilerOrder="198"/>
+            <layout left="892" top="1122" width="133" height="37" compilerOrder="197">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6r" transparent="true" compilerOrder="198"/>
             </layout>&#xD;
             <layout left="337" top="1159" width="556" height="38" compilerOrder="149">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_0" compilerOrder="150"/>
@@ -368,11 +369,11 @@
             <layout left="1303" top="1160" width="92" height="36" compilerOrder="219">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="92" height="37" field="Row5_2" compilerOrder="220"/>
             </layout>&#xD;
-            <layout left="96" top="1179.2" width="237" height="17.8" compilerOrder="215">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6s" transparent="true" compilerOrder="216"/>
+            <layout left="96" top="1160" width="237" height="37" compilerOrder="215">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6s" transparent="true" compilerOrder="216"/>
             </layout>&#xD;
-            <layout left="892" top="1181.2" width="133" height="15.8" compilerOrder="199">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6s" transparent="true" compilerOrder="200"/>
+            <layout left="892" top="1160" width="133" height="37" compilerOrder="199">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6s" transparent="true" compilerOrder="200"/>
             </layout>&#xD;
             <layout left="337" top="1199" width="556" height="38" compilerOrder="151">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_0" compilerOrder="152"/>
@@ -383,11 +384,11 @@
             <layout left="1304" top="1200" width="91" height="36" compilerOrder="227">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row6_2" compilerOrder="228"/>
             </layout>&#xD;
-            <layout left="97" top="1219.2" width="237" height="18.8" compilerOrder="221">
-                <textEditor left="0" top="0" width="237" height="18.8" fontSize="22.8" fontColor="#000000" field="Name_6t" transparent="true" compilerOrder="222"/>
+            <layout left="97" top="1200" width="237" height="37" compilerOrder="221">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6t" transparent="true" compilerOrder="222"/>
             </layout>&#xD;
-            <layout left="892" top="1222.2" width="133" height="15.8" compilerOrder="223">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6t" transparent="true" compilerOrder="224"/>
+            <layout left="892" top="1200" width="133" height="37" compilerOrder="223">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6t" transparent="true" compilerOrder="224"/>
             </layout>&#xD;
             <layout left="337" top="1239" width="556" height="38" compilerOrder="357">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_1" compilerOrder="358"/>
@@ -398,11 +399,11 @@
             <layout left="1304" top="1240" width="91" height="36" compilerOrder="235">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row7_2" compilerOrder="236"/>
             </layout>&#xD;
-            <layout left="96" top="1259.2" width="237" height="17.8" compilerOrder="229">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6u" transparent="true" compilerOrder="230"/>
+            <layout left="96" top="1240" width="237" height="37" compilerOrder="229">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6u" transparent="true" compilerOrder="230"/>
             </layout>&#xD;
-            <layout left="892" top="1259.2" width="133" height="15.8" compilerOrder="231">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6u" transparent="true" compilerOrder="232"/>
+            <layout left="892" top="1240" width="133" height="37" compilerOrder="231">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6u" transparent="true" compilerOrder="232"/>
             </layout>&#xD;
             <layout left="337" top="1279" width="556" height="38" compilerOrder="363">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_1" compilerOrder="364"/>
@@ -413,11 +414,11 @@
             <layout left="1303" top="1279" width="92" height="36" compilerOrder="243">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="92" height="37" field="Row8_2" compilerOrder="244"/>
             </layout>&#xD;
-            <layout left="96" top="1298.2" width="237" height="16.8" compilerOrder="237">
-                <textEditor left="0" top="0" width="237" height="16.8" fontSize="22.8" fontColor="#000000" field="Name_6v" transparent="true" compilerOrder="238"/>
+            <layout left="96" top="1280" width="237" height="37" compilerOrder="237">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6v" transparent="true" compilerOrder="238"/>
             </layout>&#xD;
-            <layout left="893" top="1299.2" width="133" height="15.8" compilerOrder="239">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6v" transparent="true" compilerOrder="240"/>
+            <layout left="893" top="1280" width="133" height="37" compilerOrder="239">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6v" transparent="true" compilerOrder="240"/>
             </layout>&#xD;
             <layout left="337" top="1318" width="556" height="38" compilerOrder="359">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_2" compilerOrder="360"/>
@@ -428,11 +429,11 @@
             <layout left="1304" top="1319" width="91" height="36" compilerOrder="251">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row9_2" compilerOrder="252"/>
             </layout>&#xD;
-            <layout left="96" top="1338.2" width="237" height="16.8" compilerOrder="245">
-                <textEditor left="0" top="0" width="237" height="16.8" fontSize="22.8" fontColor="#000000" field="Name_6w" transparent="true" compilerOrder="246"/>
+            <layout left="96" top="1319" width="237" height="37" compilerOrder="245">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6w" transparent="true" compilerOrder="246"/>
             </layout>&#xD;
-            <layout left="892" top="1340.2" width="133" height="15.8" compilerOrder="247">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6w" transparent="true" compilerOrder="248"/>
+            <layout left="892" top="1319" width="133" height="37" compilerOrder="247">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6w" transparent="true" compilerOrder="248"/>
             </layout>&#xD;
             <layout left="337" top="1358" width="556" height="38" compilerOrder="365">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_2_0" compilerOrder="366"/>
@@ -443,11 +444,11 @@
             <layout left="1303" top="1358" width="92" height="36" compilerOrder="259">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="92" height="37" field="Row10_2" compilerOrder="260"/>
             </layout>&#xD;
-            <layout left="96" top="1377.2" width="237" height="17.8" compilerOrder="253">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6x" transparent="true" compilerOrder="254"/>
+            <layout left="96" top="1359" width="237" height="37" compilerOrder="253">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6x" transparent="true" compilerOrder="254"/>
             </layout>&#xD;
-            <layout left="892" top="1380.2" width="133" height="15.8" compilerOrder="255">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6x" transparent="true" compilerOrder="256"/>
+            <layout left="892" top="1359" width="133" height="37" compilerOrder="255">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6x" transparent="true" compilerOrder="256"/>
             </layout>&#xD;
             <layout left="337" top="1397" width="556" height="38" compilerOrder="361">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_3_0" compilerOrder="362"/>
@@ -458,11 +459,11 @@
             <layout left="1304" top="1398" width="91" height="36" compilerOrder="273">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row11_2" compilerOrder="274"/>
             </layout>&#xD;
-            <layout left="96" top="1416.2" width="237" height="17.8" compilerOrder="261">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6y" transparent="true" compilerOrder="262"/>
+            <layout left="96" top="1400" width="237" height="37" compilerOrder="261">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6y" transparent="true" compilerOrder="262"/>
             </layout>&#xD;
-            <layout left="892" top="1418.2" width="133" height="15.8" compilerOrder="263">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6y" transparent="true" compilerOrder="264"/>
+            <layout left="892" top="1400" width="133" height="37" compilerOrder="263">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6y" transparent="true" compilerOrder="264"/>
             </layout>&#xD;
             <layout left="337" top="1437" width="556" height="38" compilerOrder="367">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_3_0" compilerOrder="368"/>
@@ -473,11 +474,11 @@
             <layout left="1303" top="1437" width="92" height="36" compilerOrder="277">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="92" height="37" field="Row12_2" compilerOrder="278"/>
             </layout>&#xD;
-            <layout left="96" top="1456.2" width="237" height="16.8" compilerOrder="387">
-                <textEditor left="0" top="0" width="237" height="16.8" fontSize="22.8" fontColor="#000000" field="Name_6z" transparent="true" compilerOrder="388"/>
+            <layout left="96" top="1439" width="237" height="37" compilerOrder="387">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6z" transparent="true" compilerOrder="388"/>
             </layout>&#xD;
-            <layout left="892" top="1459.2" width="133" height="15.8" compilerOrder="265">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6z" transparent="true" compilerOrder="266"/>
+            <layout left="892" top="1439" width="133" height="37" compilerOrder="265">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6z" transparent="true" compilerOrder="266"/>
             </layout>&#xD;
             <layout left="337" top="1477" width="556" height="38" compilerOrder="375">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_2_1" compilerOrder="376"/>
@@ -488,11 +489,11 @@
             <layout left="1304" top="1477" width="91" height="36" compilerOrder="281">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row13_2" compilerOrder="282"/>
             </layout>&#xD;
-            <layout left="96" top="1495.2" width="236" height="17.8" compilerOrder="389">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6aa" transparent="true" compilerOrder="390"/>
+            <layout left="96" top="1479" width="236" height="37" compilerOrder="389">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6aa" transparent="true" compilerOrder="390"/>
             </layout>&#xD;
-            <layout left="894" top="1497.2" width="133" height="15.8" compilerOrder="267">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6aa" transparent="true" compilerOrder="268"/>
+            <layout left="894" top="1479" width="133" height="37" compilerOrder="267">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6aa" transparent="true" compilerOrder="268"/>
             </layout>&#xD;
             <layout left="1064" top="1515" width="234" height="36" compilerOrder="283">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="37" field="Row14" compilerOrder="284"/>
@@ -503,11 +504,11 @@
             <layout left="337" top="1516" width="556" height="38" compilerOrder="369">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_3_1" compilerOrder="370"/>
             </layout>&#xD;
-            <layout left="96" top="1535.2" width="237" height="17.8" compilerOrder="391">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ab" transparent="true" compilerOrder="392"/>
+            <layout left="96" top="1520" width="237" height="37" compilerOrder="391">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ab" transparent="true" compilerOrder="392"/>
             </layout>&#xD;
-            <layout left="893" top="1535.2" width="133" height="15.8" compilerOrder="269">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ab" transparent="true" compilerOrder="270"/>
+            <layout left="893" top="1520" width="133" height="37" compilerOrder="269">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ab" transparent="true" compilerOrder="270"/>
             </layout>&#xD;
             <layout left="1064" top="1555" width="234" height="36" compilerOrder="289">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="37" field="Row15" compilerOrder="290"/>
@@ -518,11 +519,11 @@
             <layout left="337" top="1556" width="556" height="38" compilerOrder="381">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_3_1" compilerOrder="382"/>
             </layout>&#xD;
-            <layout left="96" top="1574.2" width="236" height="17.8" compilerOrder="393">
-                <textEditor left="0" top="0" width="236" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ac" transparent="true" compilerOrder="394"/>
+            <layout left="96" top="1555" width="236" height="37" compilerOrder="393">
+                <textEditor left="0" top="0" width="236" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ac" transparent="true" compilerOrder="394"/>
             </layout>&#xD;
-            <layout left="893" top="1575.2" width="133" height="15.8" compilerOrder="287">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ac" transparent="true" compilerOrder="288"/>
+            <layout left="893" top="1555" width="133" height="37" compilerOrder="287">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ac" transparent="true" compilerOrder="288"/>
             </layout>&#xD;
             <layout left="337" top="1595" width="556" height="38" compilerOrder="377">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_2_2" compilerOrder="378"/>
@@ -533,11 +534,11 @@
             <layout left="1304" top="1596" width="91" height="36" compilerOrder="297">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row16_2" compilerOrder="298"/>
             </layout>&#xD;
-            <layout left="96" top="1614.2" width="237" height="17.8" compilerOrder="395">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ad" transparent="true" compilerOrder="396"/>
+            <layout left="96" top="1595" width="237" height="37" compilerOrder="395">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ad" transparent="true" compilerOrder="396"/>
             </layout>&#xD;
-            <layout left="894" top="1614.2" width="133" height="15.8" compilerOrder="293">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ad" transparent="true" compilerOrder="294"/>
+            <layout left="894" top="1595" width="133" height="37" compilerOrder="293">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ad" transparent="true" compilerOrder="294"/>
             </layout>&#xD;
             <layout left="1064" top="1634" width="234" height="36" compilerOrder="301">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="37" field="Row17" compilerOrder="302"/>
@@ -548,11 +549,11 @@
             <layout left="337" top="1635" width="556" height="38" compilerOrder="371">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_3_2" compilerOrder="372"/>
             </layout>&#xD;
-            <layout left="96" top="1653.2" width="237" height="17.8" compilerOrder="397">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ae" transparent="true" compilerOrder="398"/>
+            <layout left="96" top="1635" width="237" height="37" compilerOrder="397">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ae" transparent="true" compilerOrder="398"/>
             </layout>&#xD;
-            <layout left="895" top="1656.2" width="133" height="15.8" compilerOrder="299">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ae" transparent="true" compilerOrder="300"/>
+            <layout left="895" top="1635" width="133" height="37" compilerOrder="299">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ae" transparent="true" compilerOrder="300"/>
             </layout>&#xD;
             <layout left="1064" top="1674" width="234" height="35" compilerOrder="307">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="36" field="Row18" compilerOrder="308"/>
@@ -563,11 +564,11 @@
             <layout left="337" top="1675" width="556" height="38" compilerOrder="383">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_3_2" compilerOrder="384"/>
             </layout>&#xD;
-            <layout left="96" top="1693.2" width="237" height="17.8" compilerOrder="399">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6af" transparent="true" compilerOrder="400"/>
+            <layout left="96" top="1675" width="237" height="37" compilerOrder="399">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6af" transparent="true" compilerOrder="400"/>
             </layout>&#xD;
-            <layout left="893" top="1693.2" width="133" height="15.8" compilerOrder="305">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6af" transparent="true" compilerOrder="306"/>
+            <layout left="893" top="1675" width="133" height="37" compilerOrder="305">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6af" transparent="true" compilerOrder="306"/>
             </layout>&#xD;
             <layout left="1064" top="1713" width="234" height="36" compilerOrder="313">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="37" field="Row19" compilerOrder="314"/>
@@ -578,11 +579,11 @@
             <layout left="337" top="1714" width="556" height="38" compilerOrder="379">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_2_3" compilerOrder="380"/>
             </layout>&#xD;
-            <layout left="97" top="1732.2" width="237" height="17.8" compilerOrder="401">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ag" transparent="true" compilerOrder="402"/>
+            <layout left="97" top="1714" width="237" height="37" compilerOrder="401">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ag" transparent="true" compilerOrder="402"/>
             </layout>&#xD;
-            <layout left="896" top="1733.2" width="133" height="15.8" compilerOrder="311">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ag" transparent="true" compilerOrder="312"/>
+            <layout left="896" top="1714" width="133" height="37" compilerOrder="311">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ag" transparent="true" compilerOrder="312"/>
             </layout>&#xD;
             <layout left="337" top="1753" width="556" height="38" compilerOrder="373">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_0_9_3_3" compilerOrder="374"/>
@@ -593,11 +594,11 @@
             <layout left="1304" top="1753" width="91" height="36" compilerOrder="321">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="91" height="37" field="Row20_2" compilerOrder="322"/>
             </layout>&#xD;
-            <layout left="96" top="1771.2" width="237" height="17.8" compilerOrder="403">
-                <textEditor left="0" top="0" width="237" height="17.8" fontSize="22.8" fontColor="#000000" field="Name_6ah" transparent="true" compilerOrder="404"/>
+            <layout left="96" top="1753" width="237" height="37" compilerOrder="403">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ah" transparent="true" compilerOrder="404"/>
             </layout>&#xD;
-            <layout left="893" top="1773.2" width="133" height="15.8" compilerOrder="317">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ah" transparent="true" compilerOrder="318"/>
+            <layout left="893" top="1753" width="133" height="37" compilerOrder="317">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ah" transparent="true" compilerOrder="318"/>
             </layout>&#xD;
             <layout left="1064" top="1792" width="234" height="35" compilerOrder="325">
                 <edit transparent="true" fontSize="22.8" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="234" height="36" field="Row21" compilerOrder="326"/>
@@ -608,11 +609,11 @@
             <layout left="337" top="1793" width="556" height="38" compilerOrder="385">
                 <edit transparent="true" fontSize="26.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="556" height="39" field="Gearnotes_01_9_3_3" compilerOrder="386"/>
             </layout>&#xD;
-            <layout left="893" top="1809.2" width="133" height="15.8" compilerOrder="323">
-                <textEditor left="0" top="0" width="133" height="15.8" fontSize="22.8" fontColor="#000000" field="bName_6ai" transparent="true" compilerOrder="324"/>
+            <layout left="893" top="1792" width="133" height="37" compilerOrder="323">
+                <textEditor left="0" top="0" width="133" height="37" fontSize="22.8" fontColor="#000000" field="bName_6ai" transparent="true" compilerOrder="324"/>
             </layout>&#xD;
-            <layout left="96" top="1811.2" width="237" height="14.8" compilerOrder="405">
-                <textEditor left="0" top="0" width="237" height="14.8" fontSize="22.8" fontColor="#000000" field="Name_6ai" transparent="true" compilerOrder="406"/>
+            <layout left="96" top="1792" width="237" height="37" compilerOrder="405">
+                <textEditor left="0" top="0" width="237" height="37" fontSize="22.8" fontColor="#000000" field="Name_6ai" transparent="true" compilerOrder="406"/>
             </layout>&#xD;
         </rectangle>
     </scrollBox>
