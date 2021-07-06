@@ -99,7 +99,7 @@
                 <textEditor left="0" top="0" width="92" height="37" fontSize="22.8" fontColor="#000000" field="Effect_2b" transparent="true" compilerOrder="58"/>
             </layout>&#xD;
             <layout left="882" top="230" width="55" height="37" compilerOrder="61">
-                <textEditor left="0" top="0" width="55" height="37" fontSize="22.8" fontColor="#000000" field="ENc" transparent="true" compilerOrder="62"/>
+                <textEditor left="0" top="0" width="55" height="37" fontSize="22.8" fontColor="#000000" field="ENcc" transparent="true" compilerOrder="62"/>
             </layout>&#xD;
             <layout left="1064" top="230" width="332" height="37" compilerOrder="65">
                 <textEditor left="0" top="0" width="332" height="37" fontSize="22.8" fontColor="#000000" field="Notes_5" transparent="true" compilerOrder="66"/>
